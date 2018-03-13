@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                        
+
+    
+
+               
+                         
+                                                 
+
+
+               
+                     
+                                       
+           
+
+    <RelativeLayout
+        android:id="@+id/sign_in_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_setup_splash_screen_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextureView
+            android:id="@+id/intro_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/canary_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_canarylogo" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="14dp"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:text="@string/live_life_in_the_know"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    app:customFont="Gibson-Light.otf" />
+            </LinearLayout>
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/sign_up_btn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_above="@+id/go_to_sign_in_btn"
+                android:layout_gravity="center"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/large_white_rectangle_green_selected"
+                android:enabled="true"
+                android:text="@string/get_started"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:customFont="Gibson.otf" />
+
+            <Button
+                android:id="@+id/preferecnes_btn"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/change_url"
+                android:textColor="@color/white"
+                android:tag="binding_1"                                   />
+
+            <Button
+                android:id="@+id/go_to_sign_in_btn"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="@string/already_member"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_in_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_fifty"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:visibility="gone" android:tag="binding_2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/header_title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:letterSpacing="0.09"
+                    android:lines="1"
+                    android:text="@string/sign_in"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:customFont="Gibson-SemiBold.otf" />
+
+            </RelativeLayout>
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:gravity="center_vertical"
+                android:inputType="textEmailAddress"
+                android:orientation="vertical"
+                app:hint="@string/email_address"
+                app:label="@string/email_address"
+                app:labelColor="@color/white"
+                app:textColor="@color/white" />
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:orientation="vertical"
+                app:hint="@string/password"
+                app:label="@string/password"
+                app:labelColor="@color/white"
+                app:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/password_show_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="1"
+                    android:text="@string/show_password"
+                    android:textColor="@color/white"
+                    app:customFont="Gibson-Light.otf" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/password_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:duplicateParentState="true"
+                    android:focusable="false"
+                    android:theme="@style/MySwitch" />
+
+            </LinearLayout>
+
+            <include layout="@layout/layout_gray_bar" />
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/sign_in_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/sign_in" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/forgot_password_text_view"
+                style="@style/setup_small_text_view"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:customFont="Gibson.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/forgot_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_fifty"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:letterSpacing="0.09"
+                    android:lines="1"
+                    android:text="@string/forgot_password"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:customFont="Gibson-SemiBold.otf" />
+
+            </RelativeLayout>
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/email_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:gravity="center_vertical"
+                android:inputType="textEmailAddress"
+                android:orientation="vertical"
+                app:hint="@string/email_address"
+                app:label="@string/email_address"
+                app:labelColor="@color/white"
+                app:textColor="@color/white" />
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/forgot_password_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:enabled="false"
+                android:text="@string/reset_password" />
+        </LinearLayout>
+    </RelativeLayout>
+
+         

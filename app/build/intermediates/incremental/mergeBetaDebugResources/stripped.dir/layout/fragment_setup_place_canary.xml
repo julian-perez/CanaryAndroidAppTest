@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" android:tag="layout/fragment_setup_place_canary_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextureView
+            android:id="@+id/textureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/plug_in_text_view"
+                style="@style/large_text_view"
+                android:gravity="center"
+                android:text="@string/plug_in_canary_one" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/next_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginTop="20dp"
+                android:text="@string/next" />
+        </LinearLayout>
+
+    </RelativeLayout>
+         

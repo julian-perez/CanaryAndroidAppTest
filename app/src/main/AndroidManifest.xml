@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="is.yranac.canary">
+
+    <uses-sdk tools:overrideLibrary="com.yahoo.mobile.client.android.util.rangeseekbar, com.hudomju.swipe" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+
+    <!-- Required for Push -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <permission
+        android:name="com.example.permission.ACCESS_CONTENT"
+        android:protectionLevel="signature" />
+
+    <application
+        android:name=".CanaryApplication"
+        android:fullBackupContent="@xml/mybackupscheme"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_canaryandroidapp"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name=".ui.LaunchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.TimelineDayActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.LockActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".ui.EntryDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.SettingsFragmentStackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.WatchLiveActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@style/Watch_Live_Theme" />
+        <activity
+            android:name=".ui.SetupFragmentStackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".ui.WebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/webapp"
+                    android:pathPrefix="/subscription/checkout"
+                    android:scheme="@string/scheme" />
+
+
+                <data
+                    android:host="@string/webapp"
+                    android:pathPrefix="/subscription/select"
+                    android:scheme="@string/scheme" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.MyPreferencesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".ui.MaskingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name=".contentproviders.CanaryLocationContentProvider"
+            android:authorities="${applicationId}.locationprovider"
+            android:exported="false" />
+
+
+        <provider
+            android:name=".contentproviders.CanaryInsurancePolicyContentProvider"
+            android:authorities="${applicationId}.insurancepolicyprovider"
+            android:exported="false" />
+
+
+        <provider
+            android:name=".contentproviders.CanaryInsuranceProviderContentProvider"
+            android:authorities="${applicationId}.insuranceproviderprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.geofence.CacheGeofenceContentProvider"
+            android:authorities="${applicationId}.cachegeofenceprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryDeviceContentProvider"
+            android:authorities="${applicationId}.deviceprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryDeviceSettingsContentProvider"
+            android:authorities="${applicationId}.devicesettingsprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryCustomerContentProvider"
+            android:authorities="${applicationId}.customerprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryCustomerLocationContentProvider"
+            android:authorities="${applicationId}.customerlocationprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryEntryCustomerContentProvider"
+            android:authorities="${applicationId}.entrycustomersprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryAvatarContentProvider"
+            android:authorities="${applicationId}.avatarprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryEntryContentProvider"
+            android:authorities="${applicationId}.entryprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryCommentContentProvider"
+            android:authorities="${applicationId}.commentprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryInvitationContentProvider"
+            android:authorities="${applicationId}.invitationprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryModeContentProvider"
+            android:authorities="${applicationId}.modeprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryThumbnailContentProvider"
+            android:authorities="${applicationId}.thumbnailprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryLabelContentProvider"
+            android:authorities="${applicationId}.labelprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryReadingContentProvider"
+            android:authorities="${applicationId}.readingprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanarySubscriptionContentProvider"
+            android:authorities="${applicationId}.subscriptionprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanarySubscriptionPricesContentProvider"
+            android:authorities="${applicationId}.subscriptionpricesprovider"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryNotifiedContentProvider"
+            android:authorities="${applicationId}.notifiedprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryVideoExportContentProvider"
+            android:authorities="${applicationId}.videoexportprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryEmergencyContactsContentProvider"
+            android:authorities="${applicationId}.emergencycontactsprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryLocationNetworkContentProvider"
+            android:authorities="${applicationId}.locationnetwork"
+            android:exported="false" />
+        <provider
+            android:name=".contentproviders.CanaryDeviceTokenContentProvider"
+            android:authorities="${applicationId}.devicetokenprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryUserTagsContentProvider"
+            android:authorities="${applicationId}.usertagsprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryFeatureFlagsContentProvider"
+            android:authorities="${applicationId}.featureflagsprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryNightModeScheduleContentProvider"
+            android:authorities="${applicationId}.nightmodeprovider"
+            android:exported="false" />
+
+        <provider
+            android:name=".contentproviders.CanaryMembershipContentProvider"
+            android:authorities="${applicationId}.membershipprovider"
+            android:exported="false" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+
+        <service android:name=".services.jobs.APINotificationJobService">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".services.jobs.APIEntryJobService">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".services.jobs.APIReadingJobService">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".services.jobs.APILocationJobService">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+
+
+        <service
+            android:name=".services.intent.GooglePlacesAPIIntentServiceEmergencyNumbers"
+            android:exported="false" />
+
+        <service
+            android:name=".services.intent.APIIntentServiceSettingsInfo"
+            android:exported="false" />
+
+        <receiver
+            android:name=".services.geofence.GeofenceTransitionsIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".services.geofence.LocationUpdatesBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name=".services.intent.APIIntentServiceAppOpen"
+            android:exported="false" />
+
+        <service android:name=".services.wearable.ListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/home_data"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/home_data"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/customer_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/customer_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/entry_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/entry_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/mode_change_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/location_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/location_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/entry_open_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/mode_success"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/error"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:host="*"
+                    android:pathPrefix="/analytics"
+                    android:scheme="wear" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".receiver.PushIntentReceiver"
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="com.urbanairship.push.CHANNEL_UPDATED" />
+                <action android:name="com.urbanairship.push.OPENED" />
+                <action android:name="com.urbanairship.push.RECEIVED" />
+                <action android:name="com.urbanairship.push.DISMISSED" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver
+            android:name=".services.geofence.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="7b6782493cea2134556e4cb19d1ddcb7f7d65315" />
+
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/global_tracker" />
+    </application>
+
+</manifest>

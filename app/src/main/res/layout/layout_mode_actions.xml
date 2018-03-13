@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/location_setting_title"
+            style="@style/setup_medium_text_view_black"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="@string/when_all_members_are_away" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/location_setting_title_two"
+            style="@style/setup_medium_text_view"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="@string/where_do_you_usually_go_to_be"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/mode_action_night_start"
+                style="@style/night_mode_action_button"
+                android:visibility="invisible">
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/i_go_to_bed_at"
+                    app:customFont="Gibson.otf" />
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/night_mode_start_time"
+                    style="@style/large_text_view"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="PM"
+                    android:textColor="@color/dark_gray" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mode_action__night_end"
+                style="@style/night_mode_action_button"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible">
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/i_wake_up_at"
+                    app:customFont="Gibson.otf" />
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/night_mode_end_time"
+                    style="@style/large_text_view"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="PM"
+                    android:textColor="@color/dark_gray" />
+
+            </RelativeLayout>
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/mode_action_night_set"
+                style="@style/mode_action_button"
+                android:background="@drawable/night_mode_selection_fifty"
+                android:text="@string/set_schedule"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical">
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/mode_action_one"
+                style="@style/mode_action_button" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/mode_action_two"
+                style="@style/mode_action_button"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/mode_action_three"
+                style="@style/mode_action_button" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

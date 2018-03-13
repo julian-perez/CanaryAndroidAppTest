@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" android:tag="layout/fragment_web_view_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:visibility="visible" android:tag="binding_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:paddingRight="@dimen/standard_margin">
+
+                <Button
+                    android:id="@+id/x_button"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/close_x"
+                    android:padding="10dp" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/header_title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:letterSpacing="0.09"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    app:customFont="Gibson-SemiBold.otf" />
+            </RelativeLayout>
+
+            <include layout="@layout/layout_gray_bar" />
+
+        </LinearLayout>
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/header"
+            android:fadeScrollbars="false" />
+
+    </RelativeLayout>
+         

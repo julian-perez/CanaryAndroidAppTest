@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/attachment_source_dialog"
+    >
+        <ImageView
+            android:id="@+id/attachment_selector_image"
+            style="@style/attachment_source_dialog_row_image"
+            />
+
+        <TextView
+            android:id="@+id/attachment_selector_text"
+            style="@style/attachment_source_dialog_row_text"
+            android:layout_toRightOf="@id/attachment_selector_image"
+            />
+</RelativeLayout><!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/row_attachment_source_selector.xml -->

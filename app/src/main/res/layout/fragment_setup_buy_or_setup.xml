@@ -1,0 +1,168 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="is.yranac.canary.util.Utils" />
+
+        <import type="android.view.View" />
+
+        <import type="is.yranac.canary.BuildConfig" />
+    </data>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <RelativeLayout
+                android:id="@+id/canary_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/canary_selection_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/device_lifestyle_aio" />
+
+                <LinearLayout
+                    android:id="@+id/canary_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/canary_selection_image"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:minHeight="70dp"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/standard_margin"
+                    android:paddingStart="110dp">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/canary" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/tiny_text_view"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/canary_dsc" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/canary_bottom"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/device_aio_angle" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/flex_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/flex_selection_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/device_lifestyle_flex" />
+
+
+                <LinearLayout
+                    android:id="@+id/canary_flex_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/flex_selection_image"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:minHeight="70dp"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/standard_margin"
+                    android:paddingStart="110dp">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/canary_flex" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/tiny_text_view"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/canary_flex_dsc" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/canary_flex_bottom"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/device_flex_angle" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/canary_view_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/canary_view_selection_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/device_lifestyle_view" />
+
+                <LinearLayout
+                    android:id="@+id/canary_view_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/canary_view_selection_image"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:minHeight="70dp"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/standard_margin"
+                    android:paddingStart="110dp">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/canary_view" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/tiny_text_view"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/canary_view_dsc" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/canary_view_bottom"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/device_view_angle" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

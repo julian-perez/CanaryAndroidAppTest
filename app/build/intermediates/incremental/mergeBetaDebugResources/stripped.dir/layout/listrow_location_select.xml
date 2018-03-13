@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_margin" android:tag="layout/listrow_location_select_0">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/location_name"
+            style="@style/small_bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/location_address"
+            style="@style/large_text_view"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/membership_status"
+            style="@style/small_bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+    </LinearLayout>
+         

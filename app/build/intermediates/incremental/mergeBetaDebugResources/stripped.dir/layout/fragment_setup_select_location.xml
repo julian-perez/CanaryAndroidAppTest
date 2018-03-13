@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/fragment_setup_select_location_0">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/next_btn"
+            android:layout_alignParentTop="true"
+            android:divider="@null" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/next" />
+    </RelativeLayout>
+         

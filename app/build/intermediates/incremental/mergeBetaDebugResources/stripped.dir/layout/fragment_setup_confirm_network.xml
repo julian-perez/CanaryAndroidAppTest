@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_setup_confirm_network_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/wifi_name_text_view"
+                style="@style/large_text_view"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center" />
+
+
+            <include layout="@layout/layout_gray_bar" />
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/wifi_name_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                app:hint="@string/network_name"
+                app:label="@string/network_name" />
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/wifi_password_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:maxLength="64"
+                android:orientation="vertical"
+                app:hint="@string/wifi_password"
+                app:label="@string/wifi_password" />
+
+            <RelativeLayout
+                android:id="@+id/show_password_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_text_view"
+                    android:layout_centerVertical="true"
+                    android:text="@string/show_password"
+                    app:customFont="Gibson-Light.otf" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/show_wifi_password_check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:duplicateParentState="true"
+                    android:focusable="false"
+                    android:theme="@style/MySwitch" />
+            </RelativeLayout>
+
+            <include layout="@layout/layout_gray_bar" />
+        </LinearLayout>
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:enabled="false"
+            android:text="@string/next" />
+
+    </RelativeLayout>
+         

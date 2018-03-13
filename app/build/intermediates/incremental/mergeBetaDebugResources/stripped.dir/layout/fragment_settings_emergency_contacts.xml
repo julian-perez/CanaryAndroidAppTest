@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/sync_btn"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none"
+        android:divider="@null"
+        tools:listitem="@layout/listrow_manage_member" />
+
+    <is.yranac.canary.ui.views.ButtonPlus
+        android:id="@+id/sync_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/gray"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="13sp"
+        android:text="@string/update_emergency_contacts"
+        app:customFont="Gibson-Light.otf" />
+
+</RelativeLayout>

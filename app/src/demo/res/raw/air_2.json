@@ -1,0 +1,1739 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 144
+  },
+  "objects": [
+    {
+      "created": "2015-02-24T21:35:36",
+      "device": "/v1/devices/device1/",
+      "id": 958379,
+      "resource_uri": "/v1/readings/958379/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.464997935295"
+    },
+    {
+      "created": "2015-02-24T21:25:36",
+      "device": "/v1/devices/device1/",
+      "id": 955122,
+      "resource_uri": "/v1/readings/955122/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.464473235607"
+    },
+    {
+      "created": "2015-02-24T21:15:35",
+      "device": "/v1/devices/device1/",
+      "id": 955056,
+      "resource_uri": "/v1/readings/955056/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.463567364216"
+    },
+    {
+      "created": "2015-02-24T21:05:35",
+      "device": "/v1/devices/device1/",
+      "id": 954990,
+      "resource_uri": "/v1/readings/954990/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.464785981178"
+    },
+    {
+      "created": "2015-02-24T20:55:35",
+      "device": "/v1/devices/device1/",
+      "id": 954924,
+      "resource_uri": "/v1/readings/954924/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.462098109722"
+    },
+    {
+      "created": "2015-02-24T20:45:35",
+      "device": "/v1/devices/device1/",
+      "id": 954858,
+      "resource_uri": "/v1/readings/954858/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.470041143894"
+    },
+    {
+      "created": "2015-02-24T20:35:35",
+      "device": "/v1/devices/device1/",
+      "id": 954795,
+      "resource_uri": "/v1/readings/954795/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.475763487816"
+    },
+    {
+      "created": "2015-02-24T20:25:35",
+      "device": "/v1/devices/device1/",
+      "id": 954732,
+      "resource_uri": "/v1/readings/954732/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.482664752007"
+    },
+    {
+      "created": "2015-02-24T20:15:35",
+      "device": "/v1/devices/device1/",
+      "id": 954129,
+      "resource_uri": "/v1/readings/954129/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.47059969902"
+    },
+    {
+      "created": "2015-02-24T20:05:34",
+      "device": "/v1/devices/device1/",
+      "id": 952653,
+      "resource_uri": "/v1/readings/952653/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.468690979481"
+    },
+    {
+      "created": "2015-02-24T19:55:34",
+      "device": "/v1/devices/device1/",
+      "id": 945268,
+      "resource_uri": "/v1/readings/945268/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.45618789196"
+    },
+    {
+      "created": "2015-02-24T19:45:33",
+      "device": "/v1/devices/device1/",
+      "id": 937880,
+      "resource_uri": "/v1/readings/937880/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.45927863121"
+    },
+    {
+      "created": "2015-02-24T19:35:33",
+      "device": "/v1/devices/device1/",
+      "id": 930459,
+      "resource_uri": "/v1/readings/930459/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.446067559719"
+    },
+    {
+      "created": "2015-02-24T19:25:33",
+      "device": "/v1/devices/device1/",
+      "id": 926193,
+      "resource_uri": "/v1/readings/926193/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.446023511887"
+    },
+    {
+      "created": "2015-02-24T19:15:32",
+      "device": "/v1/devices/device1/",
+      "id": 918742,
+      "resource_uri": "/v1/readings/918742/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.44184319973"
+    },
+    {
+      "created": "2015-02-24T19:05:31",
+      "device": "/v1/devices/device1/",
+      "id": 911297,
+      "resource_uri": "/v1/readings/911297/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.44154946804"
+    },
+    {
+      "created": "2015-02-24T18:55:31",
+      "device": "/v1/devices/device1/",
+      "id": 903879,
+      "resource_uri": "/v1/readings/903879/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.455433654785"
+    },
+    {
+      "created": "2015-02-24T18:45:31",
+      "device": "/v1/devices/device1/",
+      "id": 896467,
+      "resource_uri": "/v1/readings/896467/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.480536270142"
+    },
+    {
+      "created": "2015-02-24T18:35:30",
+      "device": "/v1/devices/device1/",
+      "id": 889049,
+      "resource_uri": "/v1/readings/889049/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.484307813644"
+    },
+    {
+      "created": "2015-02-24T18:25:30",
+      "device": "/v1/devices/device1/",
+      "id": 884825,
+      "resource_uri": "/v1/readings/884825/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.492076563835"
+    },
+    {
+      "created": "2015-02-24T18:15:29",
+      "device": "/v1/devices/device1/",
+      "id": 877401,
+      "resource_uri": "/v1/readings/877401/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.495632517338"
+    },
+    {
+      "created": "2015-02-24T18:05:29",
+      "device": "/v1/devices/device1/",
+      "id": 869962,
+      "resource_uri": "/v1/readings/869962/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.4963134408"
+    },
+    {
+      "created": "2015-02-24T17:55:28",
+      "device": "/v1/devices/device1/",
+      "id": 862511,
+      "resource_uri": "/v1/readings/862511/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.500300216675"
+    },
+    {
+      "created": "2015-02-24T17:45:27",
+      "device": "/v1/devices/device1/",
+      "id": 855027,
+      "resource_uri": "/v1/readings/855027/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.501568901539"
+    },
+    {
+      "created": "2015-02-24T17:35:27",
+      "device": "/v1/devices/device1/",
+      "id": 847552,
+      "resource_uri": "/v1/readings/847552/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.509634721279"
+    },
+    {
+      "created": "2015-02-24T17:25:27",
+      "device": "/v1/devices/device1/",
+      "id": 840080,
+      "resource_uri": "/v1/readings/840080/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.532802391052"
+    },
+    {
+      "created": "2015-02-24T17:15:26",
+      "device": "/v1/devices/device1/",
+      "id": 835811,
+      "resource_uri": "/v1/readings/835811/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.541452038288"
+    },
+    {
+      "created": "2015-02-24T17:05:26",
+      "device": "/v1/devices/device1/",
+      "id": 828621,
+      "resource_uri": "/v1/readings/828621/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.550684022903"
+    },
+    {
+      "created": "2015-02-24T16:55:25",
+      "device": "/v1/devices/device1/",
+      "id": 821188,
+      "resource_uri": "/v1/readings/821188/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.53310726881"
+    },
+    {
+      "created": "2015-02-24T16:45:25",
+      "device": "/v1/devices/device1/",
+      "id": 813740,
+      "resource_uri": "/v1/readings/813740/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.550319540501"
+    },
+    {
+      "created": "2015-02-24T16:35:24",
+      "device": "/v1/devices/device1/",
+      "id": 806301,
+      "resource_uri": "/v1/readings/806301/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.543867337704"
+    },
+    {
+      "created": "2015-02-24T16:25:24",
+      "device": "/v1/devices/device1/",
+      "id": 798838,
+      "resource_uri": "/v1/readings/798838/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.547995138168"
+    },
+    {
+      "created": "2015-02-24T16:15:23",
+      "device": "/v1/devices/device1/",
+      "id": 794533,
+      "resource_uri": "/v1/readings/794533/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.54744874239"
+    },
+    {
+      "created": "2015-02-24T16:05:22",
+      "device": "/v1/devices/device1/",
+      "id": 787028,
+      "resource_uri": "/v1/readings/787028/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.558274137974"
+    },
+    {
+      "created": "2015-02-24T15:55:22",
+      "device": "/v1/devices/device1/",
+      "id": 779517,
+      "resource_uri": "/v1/readings/779517/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.539464759827"
+    },
+    {
+      "created": "2015-02-24T15:45:22",
+      "device": "/v1/devices/device1/",
+      "id": 771997,
+      "resource_uri": "/v1/readings/771997/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.586108016968"
+    },
+    {
+      "created": "2015-02-24T15:35:21",
+      "device": "/v1/devices/device1/",
+      "id": 764465,
+      "resource_uri": "/v1/readings/764465/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.580131399632"
+    },
+    {
+      "created": "2015-02-24T15:25:21",
+      "device": "/v1/devices/device1/",
+      "id": 756891,
+      "resource_uri": "/v1/readings/756891/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.598720836639"
+    },
+    {
+      "created": "2015-02-24T15:15:21",
+      "device": "/v1/devices/device1/",
+      "id": 749335,
+      "resource_uri": "/v1/readings/749335/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.620389986038"
+    },
+    {
+      "created": "2015-02-24T15:05:20",
+      "device": "/v1/devices/device1/",
+      "id": 741767,
+      "resource_uri": "/v1/readings/741767/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.634024965763"
+    },
+    {
+      "created": "2015-02-24T14:55:19",
+      "device": "/v1/devices/device1/",
+      "id": 737384,
+      "resource_uri": "/v1/readings/737384/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.652462887764"
+    },
+    {
+      "created": "2015-02-24T14:45:19",
+      "device": "/v1/devices/device1/",
+      "id": 729822,
+      "resource_uri": "/v1/readings/729822/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.654674518108"
+    },
+    {
+      "created": "2015-02-24T14:35:18",
+      "device": "/v1/devices/device1/",
+      "id": 722257,
+      "resource_uri": "/v1/readings/722257/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.66127692461"
+    },
+    {
+      "created": "2015-02-24T14:25:18",
+      "device": "/v1/devices/device1/",
+      "id": 714686,
+      "resource_uri": "/v1/readings/714686/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.667670953274"
+    },
+    {
+      "created": "2015-02-24T14:15:17",
+      "device": "/v1/devices/device1/",
+      "id": 707124,
+      "resource_uri": "/v1/readings/707124/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.660017895699"
+    },
+    {
+      "created": "2015-02-24T14:05:17",
+      "device": "/v1/devices/device1/",
+      "id": 699559,
+      "resource_uri": "/v1/readings/699559/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.687343645096"
+    },
+    {
+      "created": "2015-02-24T13:55:16",
+      "device": "/v1/devices/device1/",
+      "id": 691994,
+      "resource_uri": "/v1/readings/691994/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.689660537243"
+    },
+    {
+      "created": "2015-02-24T13:45:16",
+      "device": "/v1/devices/device1/",
+      "id": 684429,
+      "resource_uri": "/v1/readings/684429/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.693311619759"
+    },
+    {
+      "created": "2015-02-24T13:35:15",
+      "device": "/v1/devices/device1/",
+      "id": 680049,
+      "resource_uri": "/v1/readings/680049/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.701841163635"
+    },
+    {
+      "created": "2015-02-24T13:25:15",
+      "device": "/v1/devices/device1/",
+      "id": 672484,
+      "resource_uri": "/v1/readings/672484/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.70439260006"
+    },
+    {
+      "created": "2015-02-24T13:15:14",
+      "device": "/v1/devices/device1/",
+      "id": 664925,
+      "resource_uri": "/v1/readings/664925/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.703777599335"
+    },
+    {
+      "created": "2015-02-24T13:05:14",
+      "device": "/v1/devices/device1/",
+      "id": 657354,
+      "resource_uri": "/v1/readings/657354/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.711805570126"
+    },
+    {
+      "created": "2015-02-24T12:55:13",
+      "device": "/v1/devices/device1/",
+      "id": 649786,
+      "resource_uri": "/v1/readings/649786/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.705655562878"
+    },
+    {
+      "created": "2015-02-24T12:45:13",
+      "device": "/v1/devices/device1/",
+      "id": 642224,
+      "resource_uri": "/v1/readings/642224/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.716207611561"
+    },
+    {
+      "created": "2015-02-24T12:35:13",
+      "device": "/v1/devices/device1/",
+      "id": 634656,
+      "resource_uri": "/v1/readings/634656/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.716623175144"
+    },
+    {
+      "created": "2015-02-24T12:25:12",
+      "device": "/v1/devices/device1/",
+      "id": 627088,
+      "resource_uri": "/v1/readings/627088/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.724730062485"
+    },
+    {
+      "created": "2015-02-24T12:15:12",
+      "device": "/v1/devices/device1/",
+      "id": 622708,
+      "resource_uri": "/v1/readings/622708/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.724652576447"
+    },
+    {
+      "created": "2015-02-24T12:05:11",
+      "device": "/v1/devices/device1/",
+      "id": 615146,
+      "resource_uri": "/v1/readings/615146/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.72208558321"
+    },
+    {
+      "created": "2015-02-24T11:55:11",
+      "device": "/v1/devices/device1/",
+      "id": 607590,
+      "resource_uri": "/v1/readings/607590/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.726389038563"
+    },
+    {
+      "created": "2015-02-24T11:45:10",
+      "device": "/v1/devices/device1/",
+      "id": 600022,
+      "resource_uri": "/v1/readings/600022/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.73017244339"
+    },
+    {
+      "created": "2015-02-24T11:35:09",
+      "device": "/v1/devices/device1/",
+      "id": 592457,
+      "resource_uri": "/v1/readings/592457/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.719046282768"
+    },
+    {
+      "created": "2015-02-24T11:25:09",
+      "device": "/v1/devices/device1/",
+      "id": 584889,
+      "resource_uri": "/v1/readings/584889/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.757446813583"
+    },
+    {
+      "created": "2015-02-24T11:15:09",
+      "device": "/v1/devices/device1/",
+      "id": 577321,
+      "resource_uri": "/v1/readings/577321/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.769148695469"
+    },
+    {
+      "created": "2015-02-24T11:05:08",
+      "device": "/v1/devices/device1/",
+      "id": 569765,
+      "resource_uri": "/v1/readings/569765/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.784460473061"
+    },
+    {
+      "created": "2015-02-24T10:55:08",
+      "device": "/v1/devices/device1/",
+      "id": 565391,
+      "resource_uri": "/v1/readings/565391/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.786881554127"
+    },
+    {
+      "created": "2015-02-24T10:45:07",
+      "device": "/v1/devices/device1/",
+      "id": 557823,
+      "resource_uri": "/v1/readings/557823/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.776948320866"
+    },
+    {
+      "created": "2015-02-24T10:35:29",
+      "device": "/v1/devices/device1/",
+      "id": 550429,
+      "resource_uri": "/v1/readings/550429/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.771278011799"
+    },
+    {
+      "created": "2015-02-24T10:25:06",
+      "device": "/v1/devices/device1/",
+      "id": 542690,
+      "resource_uri": "/v1/readings/542690/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.782173264027"
+    },
+    {
+      "created": "2015-02-24T10:15:06",
+      "device": "/v1/devices/device1/",
+      "id": 535128,
+      "resource_uri": "/v1/readings/535128/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.77500371933"
+    },
+    {
+      "created": "2015-02-24T10:05:05",
+      "device": "/v1/devices/device1/",
+      "id": 527563,
+      "resource_uri": "/v1/readings/527563/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.759934592247"
+    },
+    {
+      "created": "2015-02-24T09:55:05",
+      "device": "/v1/devices/device1/",
+      "id": 519992,
+      "resource_uri": "/v1/readings/519992/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.767555880547"
+    },
+    {
+      "created": "2015-02-24T09:45:04",
+      "device": "/v1/devices/device1/",
+      "id": 512430,
+      "resource_uri": "/v1/readings/512430/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.767521965504"
+    },
+    {
+      "created": "2015-02-24T09:35:04",
+      "device": "/v1/devices/device1/",
+      "id": 508056,
+      "resource_uri": "/v1/readings/508056/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.754579949379"
+    },
+    {
+      "created": "2015-02-24T09:25:03",
+      "device": "/v1/devices/device1/",
+      "id": 500491,
+      "resource_uri": "/v1/readings/500491/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.751292276382"
+    },
+    {
+      "created": "2015-02-24T09:15:03",
+      "device": "/v1/devices/device1/",
+      "id": 492932,
+      "resource_uri": "/v1/readings/492932/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.747225868702"
+    },
+    {
+      "created": "2015-02-24T09:05:02",
+      "device": "/v1/devices/device1/",
+      "id": 485364,
+      "resource_uri": "/v1/readings/485364/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.746068763733"
+    },
+    {
+      "created": "2015-02-24T08:55:02",
+      "device": "/v1/devices/device1/",
+      "id": 477796,
+      "resource_uri": "/v1/readings/477796/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.732770013809"
+    },
+    {
+      "created": "2015-02-24T08:45:02",
+      "device": "/v1/devices/device1/",
+      "id": 470231,
+      "resource_uri": "/v1/readings/470231/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.722797143459"
+    },
+    {
+      "created": "2015-02-24T08:35:01",
+      "device": "/v1/devices/device1/",
+      "id": 462669,
+      "resource_uri": "/v1/readings/462669/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.722107338905"
+    },
+    {
+      "created": "2015-02-24T08:25:01",
+      "device": "/v1/devices/device1/",
+      "id": 455098,
+      "resource_uri": "/v1/readings/455098/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.73559885025"
+    },
+    {
+      "created": "2015-02-24T08:15:00",
+      "device": "/v1/devices/device1/",
+      "id": 450724,
+      "resource_uri": "/v1/readings/450724/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.763840246201"
+    },
+    {
+      "created": "2015-02-24T08:05:59",
+      "device": "/v1/devices/device1/",
+      "id": 443594,
+      "resource_uri": "/v1/readings/443594/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.779783058167"
+    },
+    {
+      "created": "2015-02-24T07:55:59",
+      "device": "/v1/devices/device1/",
+      "id": 436026,
+      "resource_uri": "/v1/readings/436026/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.780392873287"
+    },
+    {
+      "created": "2015-02-24T07:45:58",
+      "device": "/v1/devices/device1/",
+      "id": 428476,
+      "resource_uri": "/v1/readings/428476/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.784705746174"
+    },
+    {
+      "created": "2015-02-24T07:35:58",
+      "device": "/v1/devices/device1/",
+      "id": 420908,
+      "resource_uri": "/v1/readings/420908/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.783282208443"
+    },
+    {
+      "created": "2015-02-24T07:25:57",
+      "device": "/v1/devices/device1/",
+      "id": 413340,
+      "resource_uri": "/v1/readings/413340/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.781874346733"
+    },
+    {
+      "created": "2015-02-24T07:15:57",
+      "device": "/v1/devices/device1/",
+      "id": 405775,
+      "resource_uri": "/v1/readings/405775/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.778557109833"
+    },
+    {
+      "created": "2015-02-24T07:05:57",
+      "device": "/v1/devices/device1/",
+      "id": 401398,
+      "resource_uri": "/v1/readings/401398/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.780826020241"
+    },
+    {
+      "created": "2015-02-24T06:55:56",
+      "device": "/v1/devices/device1/",
+      "id": 393836,
+      "resource_uri": "/v1/readings/393836/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.79715089798"
+    },
+    {
+      "created": "2015-02-24T06:45:55",
+      "device": "/v1/devices/device1/",
+      "id": 386271,
+      "resource_uri": "/v1/readings/386271/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.779408025742"
+    },
+    {
+      "created": "2015-02-24T06:35:55",
+      "device": "/v1/devices/device1/",
+      "id": 378700,
+      "resource_uri": "/v1/readings/378700/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.781730520725"
+    },
+    {
+      "created": "2015-02-24T06:25:54",
+      "device": "/v1/devices/device1/",
+      "id": 371138,
+      "resource_uri": "/v1/readings/371138/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.787329244614"
+    },
+    {
+      "created": "2015-02-24T06:15:54",
+      "device": "/v1/devices/device1/",
+      "id": 363570,
+      "resource_uri": "/v1/readings/363570/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.799655425549"
+    },
+    {
+      "created": "2015-02-24T06:05:53",
+      "device": "/v1/devices/device1/",
+      "id": 356011,
+      "resource_uri": "/v1/readings/356011/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.787793505192"
+    },
+    {
+      "created": "2015-02-24T05:55:53",
+      "device": "/v1/devices/device1/",
+      "id": 348449,
+      "resource_uri": "/v1/readings/348449/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.781378436089"
+    },
+    {
+      "created": "2015-02-24T05:45:52",
+      "device": "/v1/devices/device1/",
+      "id": 344069,
+      "resource_uri": "/v1/readings/344069/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.793691384792"
+    },
+    {
+      "created": "2015-02-24T05:35:52",
+      "device": "/v1/devices/device1/",
+      "id": 336510,
+      "resource_uri": "/v1/readings/336510/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.786290514469"
+    },
+    {
+      "created": "2015-02-24T05:25:51",
+      "device": "/v1/devices/device1/",
+      "id": 328939,
+      "resource_uri": "/v1/readings/328939/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.784092116356"
+    },
+    {
+      "created": "2015-02-24T05:15:51",
+      "device": "/v1/devices/device1/",
+      "id": 321377,
+      "resource_uri": "/v1/readings/321377/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.780604350567"
+    },
+    {
+      "created": "2015-02-24T05:05:50",
+      "device": "/v1/devices/device1/",
+      "id": 313815,
+      "resource_uri": "/v1/readings/313815/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.785909938812"
+    },
+    {
+      "created": "2015-02-24T04:55:49",
+      "device": "/v1/devices/device1/",
+      "id": 306247,
+      "resource_uri": "/v1/readings/306247/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.785654771328"
+    },
+    {
+      "created": "2015-02-24T04:45:49",
+      "device": "/v1/devices/device1/",
+      "id": 298679,
+      "resource_uri": "/v1/readings/298679/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.785703766346"
+    },
+    {
+      "created": "2015-02-24T04:35:49",
+      "device": "/v1/devices/device1/",
+      "id": 291102,
+      "resource_uri": "/v1/readings/291102/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.788689959049"
+    },
+    {
+      "created": "2015-02-24T04:25:48",
+      "device": "/v1/devices/device1/",
+      "id": 286743,
+      "resource_uri": "/v1/readings/286743/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.774895298481"
+    },
+    {
+      "created": "2015-02-24T04:15:47",
+      "device": "/v1/devices/device1/",
+      "id": 279175,
+      "resource_uri": "/v1/readings/279175/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.779766726494"
+    },
+    {
+      "created": "2015-02-24T04:05:47",
+      "device": "/v1/devices/device1/",
+      "id": 271613,
+      "resource_uri": "/v1/readings/271613/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.791241753101"
+    },
+    {
+      "created": "2015-02-24T03:55:47",
+      "device": "/v1/devices/device1/",
+      "id": 264045,
+      "resource_uri": "/v1/readings/264045/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.790207970142"
+    },
+    {
+      "created": "2015-02-24T03:45:46",
+      "device": "/v1/devices/device1/",
+      "id": 256477,
+      "resource_uri": "/v1/readings/256477/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.772531616688"
+    },
+    {
+      "created": "2015-02-24T03:35:45",
+      "device": "/v1/devices/device1/",
+      "id": 248915,
+      "resource_uri": "/v1/readings/248915/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.775254237652"
+    },
+    {
+      "created": "2015-02-24T03:25:45",
+      "device": "/v1/devices/device1/",
+      "id": 241344,
+      "resource_uri": "/v1/readings/241344/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.789534199238"
+    },
+    {
+      "created": "2015-02-24T03:15:45",
+      "device": "/v1/devices/device1/",
+      "id": 233779,
+      "resource_uri": "/v1/readings/233779/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.778781461716"
+    },
+    {
+      "created": "2015-02-24T03:05:44",
+      "device": "/v1/devices/device1/",
+      "id": 229405,
+      "resource_uri": "/v1/readings/229405/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.775857138634"
+    },
+    {
+      "created": "2015-02-24T02:55:44",
+      "device": "/v1/devices/device1/",
+      "id": 221819,
+      "resource_uri": "/v1/readings/221819/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.764048326015"
+    },
+    {
+      "created": "2015-02-24T02:45:43",
+      "device": "/v1/devices/device1/",
+      "id": 214305,
+      "resource_uri": "/v1/readings/214305/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.750567126274"
+    },
+    {
+      "created": "2015-02-24T02:35:43",
+      "device": "/v1/devices/device1/",
+      "id": 206749,
+      "resource_uri": "/v1/readings/206749/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.750812518597"
+    },
+    {
+      "created": "2015-02-24T02:25:42",
+      "device": "/v1/devices/device1/",
+      "id": 199178,
+      "resource_uri": "/v1/readings/199178/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.746731567383"
+    },
+    {
+      "created": "2015-02-24T02:15:42",
+      "device": "/v1/devices/device1/",
+      "id": 191613,
+      "resource_uri": "/v1/readings/191613/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.731893587112"
+    },
+    {
+      "created": "2015-02-24T02:05:41",
+      "device": "/v1/devices/device1/",
+      "id": 184048,
+      "resource_uri": "/v1/readings/184048/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.729962575436"
+    },
+    {
+      "created": "2015-02-24T01:55:41",
+      "device": "/v1/devices/device1/",
+      "id": 176492,
+      "resource_uri": "/v1/readings/176492/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.742176580429"
+    },
+    {
+      "created": "2015-02-24T01:45:41",
+      "device": "/v1/devices/device1/",
+      "id": 172154,
+      "resource_uri": "/v1/readings/172154/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.73074798584"
+    },
+    {
+      "created": "2015-02-24T01:35:40",
+      "device": "/v1/devices/device1/",
+      "id": 164667,
+      "resource_uri": "/v1/readings/164667/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.72985445261"
+    },
+    {
+      "created": "2015-02-24T01:25:39",
+      "device": "/v1/devices/device1/",
+      "id": 151520,
+      "resource_uri": "/v1/readings/151520/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.718094098568"
+    },
+    {
+      "created": "2015-02-24T01:15:39",
+      "device": "/v1/devices/device1/",
+      "id": 143646,
+      "resource_uri": "/v1/readings/143646/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.70646481514"
+    },
+    {
+      "created": "2015-02-24T01:05:39",
+      "device": "/v1/devices/device1/",
+      "id": 139815,
+      "resource_uri": "/v1/readings/139815/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.700554299355"
+    },
+    {
+      "created": "2015-02-24T00:55:38",
+      "device": "/v1/devices/device1/",
+      "id": 132373,
+      "resource_uri": "/v1/readings/132373/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.698126959801"
+    },
+    {
+      "created": "2015-02-24T00:45:38",
+      "device": "/v1/devices/device1/",
+      "id": 124931,
+      "resource_uri": "/v1/readings/124931/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.683284270763"
+    },
+    {
+      "created": "2015-02-24T00:35:37",
+      "device": "/v1/devices/device1/",
+      "id": 117483,
+      "resource_uri": "/v1/readings/117483/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.667700815201"
+    },
+    {
+      "created": "2015-02-24T00:25:37",
+      "device": "/v1/devices/device1/",
+      "id": 110032,
+      "resource_uri": "/v1/readings/110032/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.667700815201"
+    },
+    {
+      "created": "2015-02-24T00:15:36",
+      "device": "/v1/devices/device1/",
+      "id": 102587,
+      "resource_uri": "/v1/readings/102587/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.66391633749"
+    },
+    {
+      "created": "2015-02-24T00:05:35",
+      "device": "/v1/devices/device1/",
+      "id": 98327,
+      "resource_uri": "/v1/readings/98327/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.6482401371"
+    },
+    {
+      "created": "2015-02-23T23:55:35",
+      "device": "/v1/devices/device1/",
+      "id": 90888,
+      "resource_uri": "/v1/readings/90888/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.636547255516"
+    },
+    {
+      "created": "2015-02-23T23:45:35",
+      "device": "/v1/devices/device1/",
+      "id": 83419,
+      "resource_uri": "/v1/readings/83419/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.626070785522"
+    },
+    {
+      "created": "2015-02-23T23:35:34",
+      "device": "/v1/devices/device1/",
+      "id": 75941,
+      "resource_uri": "/v1/readings/75941/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.625675070286"
+    },
+    {
+      "created": "2015-02-23T23:25:34",
+      "device": "/v1/devices/device1/",
+      "id": 68463,
+      "resource_uri": "/v1/readings/68463/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.612641978264"
+    },
+    {
+      "created": "2015-02-23T23:15:34",
+      "device": "/v1/devices/device1/",
+      "id": 60988,
+      "resource_uri": "/v1/readings/60988/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.596762526035"
+    },
+    {
+      "created": "2015-02-23T23:05:33",
+      "device": "/v1/devices/device1/",
+      "id": 53513,
+      "resource_uri": "/v1/readings/53513/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.598252940178"
+    },
+    {
+      "created": "2015-02-23T21:55:30",
+      "device": "/v1/devices/device1/",
+      "id": 4361,
+      "resource_uri": "/v1/readings/4361/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.532978582382"
+    },
+    {
+      "created": "2015-02-23T22:45:32",
+      "device": "/v1/devices/device1/",
+      "id": 41742,
+      "resource_uri": "/v1/readings/41742/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.518481481075"
+    },
+    {
+      "created": "2015-02-23T22:35:32",
+      "device": "/v1/devices/device1/",
+      "id": 34276,
+      "resource_uri": "/v1/readings/34276/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.574814367294"
+    },
+    {
+      "created": "2015-02-23T22:25:31",
+      "device": "/v1/devices/device1/",
+      "id": 26798,
+      "resource_uri": "/v1/readings/26798/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.570025014877"
+    },
+    {
+      "created": "2015-02-23T22:15:31",
+      "device": "/v1/devices/device1/",
+      "id": 19317,
+      "resource_uri": "/v1/readings/19317/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.540505278111"
+    },
+    {
+      "created": "2015-02-23T22:05:30",
+      "device": "/v1/devices/device1/",
+      "id": 11839,
+      "resource_uri": "/v1/readings/11839/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.545770275593"
+    },
+    {
+      "created": "2015-02-23T21:55:30",
+      "device": "/v1/devices/device1/",
+      "id": 4361,
+      "resource_uri": "/v1/readings/4361/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.532978582382"
+    },
+    {
+      "created": "2015-02-23T21:45:29",
+      "device": "/v1/devices/device1/",
+      "id": 74,
+      "resource_uri": "/v1/readings/74/",
+      "sensor_type": {
+        "id": 3,
+        "name": "air_quality",
+        "resource_uri": "/v1/sensors/3/"
+      },
+      "value": "0.548932123184"
+    }
+  ]
+}

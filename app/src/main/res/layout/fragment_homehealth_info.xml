@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/layout_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:paddingTop="30dp">
+
+            <LinearLayout
+                android:id="@+id/temperature_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_temp_dark" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/indoor_temperature_basics"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black_eighty"
+                        android:textSize="16sp"
+                        app:customFont="Gibson-SemiBold.otf" />
+                </LinearLayout>
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:text="@string/indoor_temperature_verbiage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/humidity_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_humidity_dark" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/indoor_humidity_basics"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:customFont="Gibson-SemiBold.otf" />
+                </LinearLayout>
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:text="@string/indoor_humidity_verbiage" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/air_quality_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/aq_float_icon_normal_dark" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:text="@string/indoor_air_quality_basics"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:customFont="Gibson-SemiBold.otf" />
+                </LinearLayout>
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:text="@string/indoor_air_quality_verbiage"
+                    app:customFont="Gibson-Light.otf" />
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/indoor_air_pollutants"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black_eighty"
+                    android:textSize="14sp"
+                    app:customFont="Gibson-SemiBold.otf" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:text="@string/indoor_air_pollutants_verbiage"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/iso_butane"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/hydrogen"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/methane"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ethanol"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/carbon_monoxide"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/cigarette_smoke"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cooking_odor"
+                            android:textAllCaps="true"
+                            android:textColor="@color/darker_gray"
+                            android:textSize="14sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/calibrating_air_quality"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black_eighty"
+                    android:textSize="14sp"
+                    app:customFont="Gibson-SemiBold.otf" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:text="@string/calibrating_air_quality_verbiage"
+                    app:customFont="Gibson-Light.otf" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

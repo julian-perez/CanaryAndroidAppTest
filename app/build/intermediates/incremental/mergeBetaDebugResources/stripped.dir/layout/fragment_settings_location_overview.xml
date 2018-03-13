@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" android:tag="layout/fragment_settings_location_overview_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <include
+            android:id="@+id/map_header"
+            layout="@layout/map_header"
+            android:layout_width="match_parent"
+            android:layout_height="115dp" />
+
+        <is.yranac.canary.ui.views.CustomViewPager
+            android:id="@+id/location_settings_pager"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+
+         

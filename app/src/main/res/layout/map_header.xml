@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+        <import type="is.yranac.canary.model.location.Location" />
+
+        <import type="is.yranac.canary.model.subscription.Subscription" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="subscription"
+            type="Subscription" />
+
+        <variable
+            name="location"
+            type="Location" />
+
+        <variable
+            name="v"
+            type="View" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/map_container"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_fifty" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/location_address"
+                style="@style/large_text_view"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/membership_status"
+                style="@style/small_bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/selected_view"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/membership_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/membership" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settings_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/settings" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/selected_view"
+            android:layout_width="100dp"
+            android:layout_height="4dp"
+            android:layout_above="@+id/line"
+            android:layout_marginTop="9dp"
+            android:background="@color/bright_blue_sky"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/mostly_white_gray" />
+
+    </RelativeLayout>
+</layout>

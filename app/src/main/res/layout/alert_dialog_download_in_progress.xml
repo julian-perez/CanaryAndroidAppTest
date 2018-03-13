@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        style="@style/large_text_view"
+        android:gravity="center"
+        android:id="@+id/alert_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:layout_marginTop="40dp"
+        android:text="@string/downloading_video" />
+
+
+    <ImageView
+        android:id="@+id/alert_icon"
+        android:layout_below="@+id/alert_header"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_height="130dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="27dp"
+        android:layout_width="175dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/check_mark"
+        android:layout_below="@+id/alert_header"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_height="130dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="27dp"
+        android:layout_width="175dp"
+        android:scaleType="center"
+        android:src="@drawable/complete" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_below="@+id/alert_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/export_file_icon" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/video_size_text_view"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/export_playback_icon" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/video_length_text_view"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+    </LinearLayout>
+
+
+    <View
+        android:background="@color/gray"
+        android:layout_above="@+id/cancel_btn"
+        android:layout_height="3dp"
+        android:layout_width="match_parent" />
+
+    <View
+        android:background="@color/dark_moderate_cyan"
+        android:id="@+id/progress_bar"
+        android:layout_above="@+id/cancel_btn"
+        android:layout_height="3dp"
+        android:layout_width="0dp" />
+
+    <is.yranac.canary.ui.views.ButtonPlus
+        android:background="@color/light_gray"
+        android:id="@+id/cancel_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/cancel"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:customFont="Gibson.otf" />
+</RelativeLayout>

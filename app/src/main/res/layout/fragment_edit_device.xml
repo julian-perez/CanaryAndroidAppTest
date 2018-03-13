@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="is.yranac.canary.util.Utils" />
+
+        <import type="is.yranac.canary.model.device.DeviceType" />
+
+        <variable
+            name="numberOfMasks"
+            type="int" />
+
+        <variable
+            name="device"
+            type="is.yranac.canary.model.device.Device" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_red"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/standard_margin"
+                android:visibility="@{device.failedOTA() ? View.VISIBLE : View.GONE}">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:text="@string/device_setup_failed"
+                    android:textColor="@color/white" />
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/retry_setup_btn"
+                    style="@style/white_transparent_rectangle_btn"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/retry_setup" />
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/remove_device_btn"
+                    style="@style/white_border_rectangle_btn"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/remove_device" />
+
+            </LinearLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/ota_status_back_ground"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@color/dark_moderate_cyan"
+                android:gravity="center"
+                android:text="@string/update_in_progress"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="@{device.otaing ? View.VISIBLE : View.GONE}"
+                app:customFont="@string/gibson_light" />
+
+            <android.support.percent.PercentFrameLayout
+                android:id="@+id/device_details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="@{device.deviceActivated ? View.VISIBLE : View.GONE}">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@color/dark_gray"
+                    app:layout_aspectRatio="178%"
+                    app:layout_widthPercent="100%" />
+
+                <ImageView
+                    android:id="@+id/device_thumbnail_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <View
+                    android:id="@+id/image_gradient"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/black_gradient_reverse"
+                    app:layout_aspectRatio="178%"
+                    app:layout_widthPercent="100%" />
+
+                <is.yranac.canary.ui.views.masking.MaskViewingView
+                    android:id="@+id/masking_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/sensor_data_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/sensor_data_layout"
+                        layout="@layout/layout_homehealth"
+                        android:visibility="gone" />
+
+                    <include
+                        android:id="@+id/sensor_data_flex_layout"
+                        layout="@layout/layout_sensor_flex"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/image_preview_unavailable"
+                    style="@style/light_small_text_view"
+                    android:layout_gravity="center"
+                    android:text="@string/image_preview_unavailable"
+                    android:textColor="@color/black_forty"
+                    android:visibility="gone"
+                    app:customFont="Gibson.otf" />
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/edit_masks_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/white_with_rounded_corners"
+                    android:minWidth="99dp"
+                    android:text="@{numberOfMasks == 0 ?  @string/masking_create_mask : numberOfMasks > 1 ? @string/masking_edit_masks : @string/masking_edit_mask}"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+
+            </android.support.percent.PercentFrameLayout>
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/about_device"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:text="@{String.format(@string/about_option, device.getDeviceTypeName())}"
+                app:editable="false" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/battery_settings"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:text="@string/battery_settings_option"
+                android:visibility="@{device.hasBattery() &amp;&amp; device.deviceActivated? View.VISIBLE : View.GONE}"
+                app:editable="false" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/change_connection"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:text="@string/device_connection"
+                android:visibility="@{device.deviceActivated ? View.VISIBLE : View.GONE}"
+                app:editable="false" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</layout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_setup_placement_suggestions_0">
+
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_header" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/next_btn"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/header"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:scrollbarStyle="insideOverlay">
+
+            <LinearLayout
+                android:id="@+id/placement_guideline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/hero_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:layout_marginBottom="15dp"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+        </ScrollView>
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/next" />
+    </RelativeLayout>
+         

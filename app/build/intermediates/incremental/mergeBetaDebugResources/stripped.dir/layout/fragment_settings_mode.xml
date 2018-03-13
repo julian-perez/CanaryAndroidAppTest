@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_settings_mode_0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <RelativeLayout
+                android:id="@+id/connectivity_settings_toggle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_alignParentStart="true"
+                    android:lines="1"
+                    android:text="@string/auto_mode_switching" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/mode_setting_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:clickable="false"
+                    android:theme="@style/MySwitch" />
+
+            </RelativeLayout>
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/auto_mode_disarm_change_desc"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="22dp"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="14dp"
+                android:text="@string/auto_mode_switching_on_dsc" />
+
+            <include
+                layout="@layout/layout_gray_bar_with_full_margin"
+                android:background="@color/very_light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/home_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:clickable="true"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/home_mode" />
+
+            </RelativeLayout>
+
+            <include
+                layout="@layout/layout_gray_bar_with_full_margin"
+                android:background="@color/very_light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/night_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:clickable="true"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/night_mode" />
+
+            </RelativeLayout>
+
+            <include
+                layout="@layout/layout_gray_bar_with_full_margin"
+                android:background="@color/very_light_gray" />
+
+        </LinearLayout>
+    </RelativeLayout>
+         

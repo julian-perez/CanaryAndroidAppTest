@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/listview_footer_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="27dp"
+        android:paddingLeft="@dimen/standard_margin"
+        android:paddingRight="@dimen/standard_margin"
+        android:paddingTop="38dp" android:tag="layout/listrow_entry_subscription_footer_0">
+
+
+        <ProgressBar
+            android:id="@+id/progress_view"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/dark_gray"
+            android:indeterminateTintMode="src_in" />
+
+        <LinearLayout
+            android:id="@+id/footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/subscription_name_text_view"
+                style="@style/large_text_view"
+                android:gravity="center"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/subscription_dsc_text_view"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="31dp"
+                android:layout_marginTop="11dp"
+                android:gravity="center"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/add_membership_button"
+                style="@style/rectangle_button"
+                android:layout_marginBottom="23dp"
+                android:background="@drawable/blue_button"
+                android:text="@string/activate_membership"
+                android:textColor="@color/white" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/back_to_top_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:padding="3dp"
+                android:text="@string/back_to_top"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_moderate_cyan"
+                android:textSize="13sp"
+                app:customFont="Gibson.otf" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+         

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:id="@+id/date_layout_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_layout_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/day_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="11sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/date_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

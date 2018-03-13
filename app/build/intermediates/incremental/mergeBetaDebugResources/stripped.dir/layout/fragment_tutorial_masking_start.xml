@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                            
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_tutorial_masking_start_0" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/close_x"
+            android:padding="20dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/launch_start" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/large_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:text="@string/did_you_know_canary_tools_customize_notifications" />
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/start_tutorial_btn"
+            style="@style/rectangle_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white_transparent_90"
+            android:text="@string/learn_more_lower"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+         

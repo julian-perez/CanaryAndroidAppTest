@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="nearly_white">#afffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_ten">#33000000</color>
+    <color name="black_fifteen">#3f000000</color>
+    <color name="black_eight">#26000000</color>
+    <color name="black_thirty">#4d000000</color>
+    <color name="black_forty">#66000000</color>
+    <color name="black_fifty">#7f000000</color>
+    <color name="black_eighty">#cd000000</color>
+    <color name="white_thirty">#4Dffffff</color>
+    <color name="white_fifty">#7fffffff</color>
+    <color name="white_sixty">#80ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_moderate_cyan">#48ae85</color>
+    <color name="very_dark_desaturated_cyan">#2d6f54</color>
+    <color name="dark_moderate_cyan_thirty">#4d4aaf86</color>
+    <color name="dark_moderate_cyan_ninety">#E64aaf86</color>
+    <color name="cyan">#4aaf86</color>
+    <color name="gray">#b6b6b6</color>
+    <color name="medium_gray">#818181</color>
+    <color name="very_light_gray">#dfdfdf</color>
+    <color name="very_light_gray_two">#e7e7e7</color>
+    <color name="mostly_white_gray">#f1f1f1</color>
+    <color name="light_gray">#cccccc</color>
+    <color name="darker_gray">#757575</color>
+    <color name="very_dark_gray">#464646</color>
+    <color name="very_light_gray_three">#dbdbdb</color>
+    <color name="very_dark_gray_fifty">#76464646</color>
+    <color name="very_dark_gray_mostly_black_twenty">#cd2e2e2e</color>
+    <color name="vivid_yellow">#ffcc33</color>
+    <color name="selected_state_color">#efefef</color>
+    <color name="light_red">#ff533f</color>
+    <color name="battery_green">#48ae85</color>
+
+    <color name="dark_gray">#999999</color>
+    <color name="lighter_gray_forty">#66cdcccb</color>
+    <color name="darkest_gray">#353535</color>
+
+    <color name="white_transparent_20">#33ffffff</color>
+    <color name="white_transparent_60">#99ffffff</color>
+    <color name="white_transparent_70">#B3ffffff</color>
+    <color name="white_transparent_90">#E6ffffff</color>
+    <color name="lighter_green">#dcefe8</color>
+    <color name="light_green">#bfe2d3</color>
+    <color name="green">#48ae85</color>
+    <color name="bright_blue_sky">#00c1ee</color>
+    <color name="bright_sky_blue_two">#25c8f3</color>
+    <color name="bright_blue_sky_dark">#0089a8</color>
+    <color name="bright_blue_sky_dark_between">#00afee</color>
+    <color name="azure">#0096e6</color>
+    <color name="azure_dark">#006da8</color>
+    <color name="water_blue">#1598e5</color>
+    <color name="vivid_blue">#16b6ec</color>
+    <color name="soft_red">#fd6f65</color>
+</resources>

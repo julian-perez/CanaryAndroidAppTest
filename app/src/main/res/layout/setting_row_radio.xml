@@ -1,0 +1,37 @@
+<is.yranac.canary.ui.views.CustomRadioView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/standard_row_height"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="@dimen/standard_margin"
+    android:paddingRight="@dimen/standard_margin">
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/row_title"
+        style="@style/setting_prompt_title_text"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="30dp"
+        android:textSize="20sp"
+        app:customFont="Gibson-Light.otf"
+        tools:ignore="RelativeOverlap" />
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/check_mark"
+        style="@style/radio_btn_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:paddingRight="4dp" />
+
+    <include
+        layout="@layout/layout_gray_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/very_light_gray" />
+</is.yranac.canary.ui.views.CustomRadioView>

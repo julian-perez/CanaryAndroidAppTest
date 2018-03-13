@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_eighty"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@+id/tag_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="18dp"
+                android:background="@drawable/button_header_selector"
+                android:minHeight="31dp"
+                android:minWidth="55dp"
+                android:text="@string/done"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:customFont="Gibson-SemiBold.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/help_your_canary_text_view"
+                style="@style/setup_large_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="24dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:paddingTop="6dp"
+                android:text="@string/help_your_canary"
+                android:textColor="@color/white"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/this_contains_text_view"
+                style="@style/setup_small_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/this_contains"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                app:customFont="Gibson-SemiBold.otf" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/entrydetail_tag_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/tag_header_layout"
+            android:layout_marginTop="12dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/cv_list_divider"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never" />
+
+    </RelativeLayout>
+
+</layout>

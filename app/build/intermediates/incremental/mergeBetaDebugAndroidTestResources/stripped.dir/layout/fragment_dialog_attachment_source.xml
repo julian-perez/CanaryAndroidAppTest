@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_attachment_source_listview"
+    style="@style/attachment_source_dialog_listview"
+    >
+</ListView>
+<!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/fragment_dialog_attachment_source.xml -->

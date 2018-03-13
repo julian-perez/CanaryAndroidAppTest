@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/create_passcode_text_view"
+        style="@style/setup_large_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:text="@string/create_passcode"
+        app:customFont="Gibson-Light.otf" />
+
+    <EditText
+        android:id="@+id/passcode_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/passcode_layout"
+        android:layout_alignLeft="@+id/passcode_layout"
+        android:layout_alignRight="@+id/passcode_layout"
+        android:layout_alignTop="@+id/passcode_layout"
+        android:digits="1234567890"
+        android:textColor="@color/white"
+        android:background="@color/white"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/passcode_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_passcode_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/passcode_char_one"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circle_black"
+                android:visibility="invisible" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/dash_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/passcode_char_two"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circle_black"
+                android:visibility="invisible" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/dash_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/passcode_char_three"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circle_black"
+                android:visibility="invisible" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/dash_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/passcode_char_four"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circle_black"
+                android:visibility="invisible" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/dash_line" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

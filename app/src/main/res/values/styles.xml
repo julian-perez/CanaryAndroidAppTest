@@ -1,0 +1,520 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="Watch_Live_Theme" parent="AppTheme">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="setup_edit_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="setup_large_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="setup_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="setup_small_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="setup_medium_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="customFont">@string/gibson_light</item>
+    </style>
+
+    <style name="setup_medium_text_view_black" parent="setup_medium_text_view">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="setup_medium_text_view_white" parent="setup_medium_text_view">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="setup_progress_bar">
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_progressbar_grey</item>
+    </style>
+
+    <style name="setting_prompt_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="settings_footer_text">
+        <item name="android:textSize">13sp</item>
+        <item name="customFont">Gibson-Light.otf</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="button_emergency_call">
+        <item name="android:paddingLeft">@dimen/standard_margin</item>
+        <item name="android:paddingRight">@dimen/standard_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/standard_row_height</item>
+        <item name="android:textColor">@color/light_red</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="button_entry_action">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/background_emergency_options_selector</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="button_large_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/standard_row_height</item>
+        <item name="android:paddingLeft">@dimen/standard_margin</item>
+        <item name="android:paddingRight">@dimen/standard_margin</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="button_location_mode">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/very_dark_gray</item>
+        <item name="android:paddingLeft">@dimen/standard_margin</item>
+        <item name="android:paddingRight">@dimen/standard_margin</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:drawablePadding">30dp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="light_small_text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="tiny_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="mode_button_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">105dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="mode_button_des">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">105dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginRight">@dimen/standard_margin</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="single_entry_actions_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="small_bold">
+        <item name="android:padding">0dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.09</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="small_bold_black" parent="small_bold">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="action_btn" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minWidth">55dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="green_action_btn" parent="action_btn">
+        <item name="android:background">@drawable/button_header_selector</item>
+        <item name="android:textColor">@color/green_action_btn_text</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+    </style>
+
+    <style name="green_oval_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">150dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/green_border_background</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/green_oval_text_color</item>
+        <item name="android:textSize">13sp</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+    </style>
+
+
+    <style name="green_filled_oval_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">150dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/green_filled_background</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/green_oval_filled_text_color</item>
+        <item name="android:textSize">13sp</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+    </style>
+
+    <style name="large_text_view">
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/dark_gray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="white_transparent_btn">
+        <item name="android:capitalize">words</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/button_watch_live</item>
+        <item name="customFont">Gibson-Light.otf</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="white_transparent_btn_wrap">
+        <item name="android:capitalize">characters</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/button_selector_white</item>
+        <item name="customFont">Gibson.otf</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="tiny_white_bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="very_tiny_white_regular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">11sp</item>
+        <item name="customFont">Gibson.otf</item>
+    </style>
+
+    <style name="very_very_tiny_white_regular" parent="very_tiny_white_regular">
+        <item name="android:textSize">12sp</item>
+        <item name="customFont">@string/gibson_light</item>
+    </style>
+
+    <style name="terms_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="customFont">Gibson-Light.otf</item>
+        <item name="android:textColor">@color/dark_moderate_cyan</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="setup_bottom_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+
+
+    <style name="alert_bottom_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/very_light_gray_two</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="customFont">Gibson.otf"</item>
+    </style>
+
+    <style name="radio_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/radio_button_tint</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/dark_moderate_cyan</item>
+        <item name="colorSwitchThumbNormal">@color/gray</item>
+        <item name="android:colorForeground">@color/gray</item>
+    </style>
+
+    <style name="settings_header_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:lines">1</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="settings_long_description">
+        <item name="android:lineSpacingExtra">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="customFont">Gibson-Light.otf</item>
+    </style>
+
+    <style name="setting_body_header">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.09</item>
+    </style>
+
+    <style name="data_op_in_btn">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="setting_action_button">
+        <item name="android:background">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+
+    <style name="rectangle_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="customFont">Gibson.otf</item>
+    </style>
+
+    <style name="base_rectangle_button" parent="rectangle_button">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="very_light_gray_button" parent="rectangle_button">
+        <item name="android:background">@drawable/very_light_gray_rect</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="siren_button" parent="rectangle_button">
+        <item name="android:background">@drawable/light_red_filled</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="one_siren_button" parent="rectangle_button">
+
+        <item name="android:background">@drawable/light_red_border</item>
+        <item name="android:textColor">@color/light_red</item>
+    </style>
+
+    <style name="cancel_siren_button" parent="rectangle_button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="mode_action_button" parent="rectangle_button">
+        <item name="android:enabled">false</item>
+        <item name="android:background">@drawable/green_with_rounded_corners</item>
+        <item name="android:textColor">@color/mode_action_btn_text</item>
+    </style>
+
+    <style name="night_mode_action_button" parent="rectangle_button">
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:background">@drawable/night_mode_selection</item>
+        <item name="android:textColor">@color/mode_action_btn_text</item>
+    </style>
+
+    <style name="new_green_rect_action_button" parent="rectangle_button">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/green_filled_background_rect</item>
+        <item name="android:textColor">@color/green_button_text_color</item>
+    </style>
+
+    <style name="blue_button" parent="rectangle_button">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/blue_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="blue_button_invert" parent="rectangle_button">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="gray_rect_button" parent="rectangle_button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/gray_rect_button</item>
+    </style>
+
+    <style name="dark_gray_transparent_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@drawable/dark_gray_oval</item>
+        <item name="customFont">Gibson-SemiBold.otf</item>
+    </style>
+
+
+    <style name="blue_text" parent="setup_medium_text_view">
+        <item name="android:textColor">@color/bright_blue_sky</item>
+    </style>
+
+
+    <style name="white_transparent_rectangle_btn" parent="rectangle_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@drawable/white_ninty_rectangle</item>
+    </style>
+
+    <style name="small_white_rectangle_btn">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:stateListAnimator" tools:targetApi="lollipop">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:background">@drawable/white_rectangle</item>
+    </style>
+
+    <style name="white_border_rectangle_btn" parent="rectangle_button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@drawable/white_border_rectangle</item>
+    </style>
+
+    <style name="transparent_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">59dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+        <item name="customFont">Gibson.otf</item>
+    </style>
+
+
+</resources>

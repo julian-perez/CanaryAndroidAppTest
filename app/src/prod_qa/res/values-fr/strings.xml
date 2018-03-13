@@ -1,0 +1,10 @@
+<resources>
+    <string name="website">https://canary.is/fr/</string>
+    <string name="privacy_link">infos-legales/politique-confidentialite/</string>
+    <string name="terms_link">infos-legales/conditions-generales/</string>
+    <string name="eula_link">infos-legales/cluf/</string>
+    <string name="compliance_link">infos-legales/conformite/</string>
+    <string name="plans_link">offres/</string>
+    <string name="plan_select">plans/select?locationId=%1$d</string>
+    <string name="location_select">location/%1$d/overview</string>
+</resources>

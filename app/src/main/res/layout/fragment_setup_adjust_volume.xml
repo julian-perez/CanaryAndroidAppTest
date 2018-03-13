@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/allow_access_text_view"
+                style="@style/large_text_view"
+                android:layout_marginTop="29dp"
+                android:text="@string/allow_canary_access" />
+
+
+            <FrameLayout
+                android:layout_width="91dp"
+                android:layout_height="73dp"
+                android:layout_marginTop="17dp"
+                android:clipChildren="true"
+                android:foregroundGravity="right">
+
+
+                <ImageView
+                    android:id="@+id/audio_pulse_image"
+                    android:layout_width="182dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/audio_animation" />
+            </FrameLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/allow_access_dsc_text_view"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/your_canary_needs_access" />
+
+            <RelativeLayout
+                android:id="@+id/adjust_volume_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_marginRight="46dp"
+                android:layout_marginTop="38dp"
+                android:visibility="gone">
+
+
+                <ImageView
+                    android:id="@+id/volume_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/audio_down" />
+
+                <SeekBar
+                    android:id="@+id/seek_bar"
+                    android:layout_width="0dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toEndOf="@+id/volume_left"
+                    android:layout_toStartOf="@+id/volume_right"
+                    android:maxHeight="4dp"
+                    android:minHeight="18dp"
+                    android:paddingLeft="9dp"
+                    android:paddingRight="9dp"
+                    android:progressDrawable="@drawable/volume_progress"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/audio_cursor" />
+
+
+                <ImageView
+                    android:id="@+id/volume_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/audio_up" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/allow_access_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/allow_access" />
+    </RelativeLayout>
+</layout>

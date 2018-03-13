@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_setup_ota_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:id="@+id/setup_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_gray">
+
+            <View
+                android:id="@+id/progress_bar"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:background="@color/vivid_yellow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/setup_layout">
+
+            <ImageView
+                android:id="@+id/ota_asset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/update7_aio" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/ota_title_text"
+                    style="@style/large_text_view"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/connected_updating" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/ota_message_text_view"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="@string/your_canary_is_still_updating" />
+
+
+            </LinearLayout>
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/next_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:enabled="false"
+                android:text="@string/next" />
+
+
+            <fragment
+                android:id="@+id/fragment_slide_show"
+                class="is.yranac.canary.fragments.ModeTutorialFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+         

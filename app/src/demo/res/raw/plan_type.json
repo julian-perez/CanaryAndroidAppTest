@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  },
+  "objects": [
+    {
+      "annual_price": "0.00",
+      "base_price": "0.00",
+      "code": "free",
+      "default": false,
+      "id": 1,
+      "max_exported_videos": 3,
+      "max_starred_entries": 5,
+      "name": "Starter",
+      "past_entry_days": 1,
+      "resource_uri": "/v1/plan_types/1/"
+    },
+    {
+      "annual_price": "49.00",
+      "base_price": "4.99",
+      "code": "tier_1",
+      "default": false,
+      "id": 2,
+      "max_exported_videos": -1,
+      "max_starred_entries": 25,
+      "name": "2-Day",
+      "past_entry_days": 2,
+      "resource_uri": "/v1/plan_types/2/"
+    },
+    {
+      "annual_price": "99.00",
+      "base_price": "9.99",
+      "code": "tier_2",
+      "default": true,
+      "id": 3,
+      "max_exported_videos": -1,
+      "max_starred_entries": 100,
+      "name": "7-Day",
+      "past_entry_days": 7,
+      "resource_uri": "/v1/plan_types/3/"
+    },
+    {
+      "annual_price": "299.00",
+      "base_price": "29.99",
+      "code": "tier_3",
+      "default": false,
+      "id": 4,
+      "max_exported_videos": -1,
+      "max_starred_entries": -1,
+      "name": "30-Day",
+      "past_entry_days": 30,
+      "resource_uri": "/v1/plan_types/4/"
+    }
+  ]
+}

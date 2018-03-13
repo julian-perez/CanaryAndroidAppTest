@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Canary Serinus</string>
+    <string name="website">https://website-stage.canaryis.com/</string>
+    <string name="webapp">webapp-stage.canaryis.com</string>
+</resources>

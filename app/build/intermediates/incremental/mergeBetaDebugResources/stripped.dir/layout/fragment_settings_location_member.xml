@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/fragment_settings_location_member_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin">
+
+            <FrameLayout
+                android:id="@+id/member_image_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent">
+
+                <is.yranac.canary.ui.views.CircleView
+                    android:id="@+id/gray_circle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    app:cFillColor="@color/gray"
+                    app:cStrokeColor="@color/gray" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/customer_initials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:customFont="Gibson-Light.otf" />
+
+
+                <is.yranac.canary.ui.views.RoundedImageView
+                    android:id="@+id/member_image_view"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/name_layout"
+                style="@style/large_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_toRightOf="@+id/member_image_container"
+                android:inputType="text"
+                android:maxLength="50"
+                android:saveEnabled="false" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/gray" />
+        </RelativeLayout>
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/phone_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:gravity="center_vertical"
+            android:inputType="textEmailAddress"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:inputType="phone"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/remove_member_btn"
+            style="@style/very_light_gray_button"
+            android:layout_marginTop="20dp"
+            android:background="@color/mostly_white_gray"
+            android:text="@string/remove_member" />
+
+
+    </LinearLayout>
+         

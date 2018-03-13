@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:id="@+id/activity_contact_zendesk_root"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" />
+
+    <include layout="@layout/include_no_network_view" />
+
+    <include layout="@layout/include_retry_view" />
+
+</merge>
+
+
+
+
+<!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/activity_contact_zendesk.xml -->

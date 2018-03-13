@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/row_search_article_container">
+
+    <TextView
+        android:id="@+id/row_search_article_breadcrumb"
+        style="@style/row_search_article_breadcrumb"
+        tools:text="Category * Section"
+        />
+
+    <TextView
+        android:id="@+id/row_search_article_title"
+        android:layout_below="@id/row_search_article_breadcrumb"
+        style="@style/row_search_article_title"
+        tools:text="Test Article"
+    />
+
+</RelativeLayout><!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/row_search_article.xml -->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/set_size_text_view"
+                style="@style/large_text_view"
+                android:layout_marginTop="27dp"
+                android:text="@string/set_size" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/set_size_dsc_text_view"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginTop="16dp"
+                android:text="@string/set_size_dsc" />
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/small_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="33%">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:text="@string/small" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/medium_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginStart="18dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="33%">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:text="@string/medium_cap" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/large_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="33%">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:text="@string/large" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/selected_level"
+                    android:layout_width="0dp"
+                    android:layout_height="4dp"
+                    android:layout_alignStart="@+id/small_layout"
+                    android:layout_below="@+id/small_layout"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/dark_moderate_cyan"
+                    app:layout_widthPercent="33%" />
+
+            </android.support.percent.PercentRelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/top_layout">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/save_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:enabled="false"
+                android:text="@string/save_size" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

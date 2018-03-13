@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.q42:qlassified-0.1.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/qlassified-0.1.1.aar/ef5ae96ed43961507c1e906400f29945/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/qlassified-0.1.1.aar/ef5ae96ed43961507c1e906400f29945/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.q42/qlassified/0.1.1/130b45390e399b0084bdb33a4c8cb91757cf6796/qlassified-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

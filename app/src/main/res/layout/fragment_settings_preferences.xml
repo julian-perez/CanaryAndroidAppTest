@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/temperature_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listrow_light_selector"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/standard_row_height"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setting_prompt_title_text"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_toStartOf="@+id/setting_toggle"
+                android:text="@string/temperature" />
+
+            <LinearLayout
+                android:id="@+id/setting_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fahrenheit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fareneheit_selector" />
+
+                <ImageView
+                    android:id="@+id/celsius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/celcius_selector" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/gray"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/locale_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            app:editable="false"
+            app:label="@string/language" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/sound_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/notification_sound"
+            app:editable="false" />
+    </LinearLayout>
+</layout>

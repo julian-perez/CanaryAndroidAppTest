@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Canary Beta+</string>
+    <string name="website">https://website-dev2.canaryis.com/</string>
+    <string name="webapp">webapp-dev2.canaryis.com</string>
+</resources>

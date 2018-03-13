@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.snowplowanalytics:snowplow-android-tracker-0.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/snowplow-android-tracker-0.6.0.aar/9c15cef22eb1316fc48bf3882bd49e3e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/snowplow-android-tracker-0.6.0.aar/9c15cef22eb1316fc48bf3882bd49e3e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/dark_moderate_cyan"
+        android:descendantFocusability="blocksDescendants">
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/header_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:enabled="false"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <View
+                android:id="@+id/top_pad_terminator"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/very_light_gray_two"
+                android:visibility="invisible" />
+
+            <View
+                android:id="@+id/bottom_pad_terminator"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/very_light_gray_two"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/normal_entry_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/entry_card_margin"
+            android:layout_marginTop="@dimen/entry_card_margin"
+            android:background="@color/white"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/date_text_view"
+                        style="@style/small_bold" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/entry_summary"
+                        style="@style/large_text_view"
+                        android:layout_marginRight="72dp"
+                        android:layout_marginTop="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:customFont="Gibson-Light.otf" />
+
+                    <LinearLayout
+                        android:id="@+id/tag_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/tag_icon_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tag_small" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/entry_labels"
+                            style="@style/small_bold"
+                            android:layout_marginLeft="9dp"
+                            android:layout_marginRight="@dimen/standard_margin"
+                            android:includeFontPadding="false"
+                            android:lineSpacingMultiplier="1.2"
+                            android:minHeight="15dp"
+                            android:padding="0dp"
+                            android:singleLine="true" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right">
+
+                    <ImageView
+                        android:id="@+id/entry_flag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_flag_inactive" />
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/thumbnail_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.PagerContainer
+                    android:id="@+id/pager_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@color/white">
+
+                    <is.yranac.canary.ui.views.CustomViewPager
+                        android:id="@+id/entry_thumbnail_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin" />
+                </is.yranac.canary.ui.views.PagerContainer>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pager_container"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:minHeight="24dp">
+
+
+                    <LinearLayout
+                        android:id="@+id/comment_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:clickable="true"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/comment_bubble"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/timeline_icn_comment" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/comment_number_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:textColor="@color/gray"
+                            android:textSize="10sp"
+                            app:customFont="Gibson-SemiBold.otf" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/notified_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/timeline_icn_activity" />
+
+                        <ImageView
+                            android:id="@+id/processing_image_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="7dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/timeline_icn_process" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                            
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/fragment_settings_account_0" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="@string/profile"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/preferences_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="@string/preferences"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/security_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="@string/password_and_security"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/logout_btn"
+            style="@style/gray_rect_button"
+            android:layout_marginTop="20dp"
+            android:text="@string/logout" />
+
+    </LinearLayout>
+         

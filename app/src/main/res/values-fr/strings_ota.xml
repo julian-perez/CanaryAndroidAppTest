@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="change_url">Changer l\'url</string>
+    <string name="step">Étape</string>
+    <string name="of">sur</string>
+    <string name="device_lights">Voyants de l\'appareil</string>
+    <string name="if_you_have_more_than_one">Lorsqu\'un appareil est branché et actif, une lumière blanche apparaît en bas du boîtier. Si l\'option Privé est activée, la lumière s\'éteint. Aucune lumière ne s\'allume sur la caméra Canary Flex lorsque celle-ci fonctionne sur batterie.</string>
+    <string name="when_monitoring_canary">Lorsqu\'un appareil est actif, une lumière blanche apparaît en bas du boîtier. Si l\'option Privé est activée, la lumière s\'éteint.</string>
+    <string name="when_monitoring_white_light">Un voyant blanc apparaît lorsque Canary détecte\nun mouvement ou enregistre une vidéo. Si l\'option Privé est activée, la lumière s\'éteint.</string>
+    <string name="when_enabled_auto_mode">Canary détecte automatiquement vos allées et venues et change automatiquement de mode.</string>
+    <string name="night_mode_tutorial_dsc">Vous pouvez programmer Canary pour vous prévenir en cas de détection de mouvement quand vous dormez.</string>
+    <string name="your_canary_is_still_updating">Votre Canary est en cours de mise à jour. Ne débranchez pas votre appareil.</string>
+    <string name="your_canary_flex_is_still_updating">Votre Canary Flex est en cours de mise à jour. Ne débranchez pas votre appareil.</string>
+    <string name="your_canary_view_is_still_updating">Votre Canary View est en cours de mise à jour. Ne débranchez pas votre appareil.</string>
+
+    <string name="what_do_you_want_notifications">Voulez-vous être alerté pour tous les mouvements ou seulement en cas de mouvements de personnes et d\'animaux de compagnie ?</string>
+    <string name="i_want_all_notifications">M\'alerter pour tous les mouvements détectés</string>
+    <string name="i_dont_want_subtle_motion">M\'alerter pour les personnes ou animaux</string>
+    <string name="i_will_decide_later">Je déciderai plus tard</string>
+    <string name="when_you_are_home_you_want">Que voulez-vous que Canary fasse quand vous êtes chez vous ?</string>
+    <string name="when_home_record">Enregistrer les mouvements</string>
+    <string name="when_home_dont_record">Ne rien enregistrer</string>
+    <string name="do_you_want_night_mode">Souhaitez-vous programmer le mode Nuit ?</string>
+    <string name="i_want_night_mode">Programmer</string>
+    <string name="i_dont_want_night_mode">Ne pas programmer</string>
+    <string name="i_go_to_bed_at">Je vais me coucher à…</string>
+    <string name="i_wake_up_at">Je me lève à…</string>
+
+    <string name="your_canary_is_set_up">Votre Canary tout-en-un utilise désormais le logiciel le plus récent.</string>
+    <string name="your_canary_view_is_set_up">Votre Canary View utilise désormais le logiciel le plus récent.</string>
+    <string name="your_flex_is_set_up">Votre Canary Flex utilise désormais le logiciel le plus récent. Veuillez recharger complètement la batterie avant de débrancher votre appareil.</string>
+    <string name="questions">Vous avez des questions ?</string>
+    <string name="update_succesful">Mise à jour réussie</string>
+
+    <string name="get_more_with_membership">Simplifiez-vous la vie avec Club Canary.</string>
+    <string name="almost_there">Encore un peu de patience...</string>
+
+    <string name="your_purchase_includes_three_months">Votre achat comprend un abonnement de 3 mois à Club Canary.</string>
+
+</resources>

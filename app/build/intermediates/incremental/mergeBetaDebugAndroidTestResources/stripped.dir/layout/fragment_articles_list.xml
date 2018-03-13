@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             style="@style/articles_list_fragment_container">
+
+    <LinearLayout style="@style/articles_list_fragment_listview_container">
+
+        <ListView
+            android:id="@android:id/list"
+            style="@style/articles_list_fragment_listview">
+        </ListView>
+
+        <TextView
+            android:id="@id/android:empty"
+            android:text="@string/articles_list_fragment_no_articles_found"
+            style="@style/articles_list_fragment_empty_view"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/articles_list_fragment_progress"
+        style="@style/articles_list_fragment_progress"
+    />
+
+</FrameLayout>
+
+<!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/fragment_articles_list.xml -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+
+        <LinearLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/presences_toggle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_width="0dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="@dimen/standard_margin"
+                    android:layout_toStartOf="@+id/presences_checkbox"
+                    android:lines="1"
+                    android:text="@string/people_notifications" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/presences_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:clickable="false"
+                    android:theme="@style/MySwitch" />
+
+            </RelativeLayout>
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/auto_mode_disarm_change_desc"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="14dp"
+                android:text="@string/presence_notifications_dsc" />
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/header_layout"
+            android:divider="@null"
+            tools:listitem="@layout/listrow_manage_member" />
+
+    </RelativeLayout>
+</layout>

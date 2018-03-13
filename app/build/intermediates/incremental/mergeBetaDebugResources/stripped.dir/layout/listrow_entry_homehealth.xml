@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <View
+            android:id="@+id/top_pad_terminator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/very_light_gray_two"
+            android:visibility="invisible"/>
+
+        <View
+            android:id="@+id/bottom_pad_terminator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/very_light_gray_two"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/entry_card_margin"
+        android:layout_marginTop="@dimen/entry_card_margin"
+        android:background="@color/white">
+
+        <!--<View-->
+        <!--android:id="@+id/entry_mode_banner_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dp"/>-->
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/entry_homehealth_date"
+            style="@style/small_bold"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="16dp"
+            android:text="3 :25 PM"/>
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/entry_homehealth_summary"
+            style="@style/large_text_view"
+            android:layout_alignLeft="@+id/entry_homehealth_date"
+            android:layout_below="@+id/entry_homehealth_date"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="72dp"
+            android:layout_marginTop="6dp"
+            android:text="Kitchen humidity is over 95 %"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:customFont="Gibson-Light.otf"/>
+
+        <RelativeLayout
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/entry_homehealth_image"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/timeline_icn_alert_temperature"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

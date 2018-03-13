@@ -1,0 +1,124 @@
+-injars /Users/julian/StudioProjects/android/app/libs/protos.jar(**.class)
+-injars /Users/julian/StudioProjects/android/app/libs/universal-image-loader-1.9.2-with-sources.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.4.201502262128/598f6a57eccac09ae0c586df901afb92d6f8ae6a/org.jacoco.agent-0.7.4.201502262128-runtime.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/aed52696e3e1e465cc81e8abf2f242fc/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/92e4ac6b48eeb8e5385cca997c7f3b76/jars/classes.jar(**.class)
+-injars '/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/3.0.1/baseLibrary-3.0.1.jar'(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5639a442aadad1b6119a4b6a36a1b5b9/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.8.0.aar/b97226ea539f374ecd030b79945ea4c9/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/f5e86ab7a5e1d45bfb339247db9b1624/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/0d19309d50f88a3c498357d4cf97f515/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/urbanairship-sdk-8.8.4.aar/b7b5e74a6b7d8225800296013b1a5394/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/93a10459b76c564cd1c2bec89e43eb9c/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.8.0.aar/0d4cf9845b4615b03d1ef928dc34e0f5/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/sdk-1.1.0.1.aar/4c2e7b9fd06988220a81746da2766e72/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/StickyListHeaders-2.7.1.aar/81352359b3e3e75dec250a633146d3c3/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/library-2.0.4.aar/30616b37e7e8e60a7d6ae46d697b66d3/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.2.0/cb20062e14c523637b7643295418097b48cccec2/okhttp-urlconnection-2.2.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/86535cdf93338e7102608c0cb0ec1742/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/b96db405ec61e358331c895c1c559b1e/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.7.0.aar/4e87b8ce4d0527e460392ea7dbb28ac1/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.8.0.aar/26d2eedccffd024e8667f3fa3a000cea/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.8.0.aar/84f9001f7dc8288cf831b85e6e0ad947/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/c388725e663d0a718523e50622b29896/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/3a0004c1878e7c7b982fc610c23e0d43/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/c806fa7067f511775f44e96902315b09/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/710dc122bb1474a6cbf7f6a3208e1e04/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/2a0bdab0c7e5cde39346c270da2348b8/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/b771dda15583912e59a6cc8358c7e3ec/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/f2d5fa9c556dab0dd90613b8fade6e13/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/af97ba1c7d09585f2557efc7624b2e0c/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/69513975c33e18a05909ed37eff86fbf/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f39a1211e1170043c04d4027f0f61c37/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/percent-26.1.0.aar/58c41059ceb136e2741656bffb587538/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/hellocharts-library-1.5.8.aar/0c3accc7724fb3ad08881fcf7580c799/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/tinybus-3.0.1.aar/49cac42db4c5cb038889ca926f3afb56/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/snowplow-android-tracker-0.6.0.aar/9c15cef22eb1316fc48bf3882bd49e3e/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/android-segmented-1.0.6.aar/85f3064a0781f3379b5cbab060aa11bc/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.2.0.aar/64e1ad1cc41a335c8119a6905c32052a/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/qlassified-0.1.1.aar/ef5ae96ed43961507c1e906400f29945/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/swipe-to-dismiss-undo-1.0.aar/0f1936be6e81accd1fe1e5d0ffcacd6e/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/blurry-2.0.2.aar/b2638b674f2ee5f744f09c41bfe373a7/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0ace050544e99246c50afc072165399c/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-lite/3.0.0/5dd2651003dcaafcdb73ff3c5230104dce215c19/protobuf-lite-3.0.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.8.0.aar/555157cdaf907fcff22c8fff17bfa08a/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/34be10a7b6ad2700549053c794c68fe1/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/87f184208ec9c439357d2edaaa72d908/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/09df95cd71e6091202a3e2abf5245069/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.8.0.aar/8ff0f487b8cc2170951e686a583b8190/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b91a4df3e21d67257048a6620d9f3a96/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f856f9706dee1ee91c7786840e1224f3/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4d260d54baf8d55e088c11d20f06436f/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a8088b743b48d02ff0d1008921901862/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2698e4d7091a795ab0a310dad98e791b/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/7a86a527094eab9560ae221fbd7f855d/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e3c30c542790777af558d348feff9632/jars/classes.jar(**.class)
+-injars /Users/julian/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.54.0.0/2761c67fdffa21ffcd73cfb8c3acd52ca8866694/prov-1.54.0.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.54.0.0/de79c5f8c67234f0d0073e00ed1f3bab0e5d1e67/core-1.54.0.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/9762ce9d2f9cb70662924142e66d4d3a/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/6b3300cdfdf33106e0ba45dd6d301542/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/642c46e707666c4b339dc724c1f309cc/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/28f1f43c69a99c10836b62275e881cde/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.8.0.aar/779e0d6cb979c51ad611f25c3151738f/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/d8c2852bb09c06f4ec2f47dafddce115/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/6e5b72dedfcdfddf0b65c51c108bbd1e/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.8.0.aar/e39684e1cec511a89c369fdab5712bd5/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/dd61f4a08a30445efaf01a45ec36d260/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/36585a18490bb29c162ec1bd95fc63ef/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/de0a4fbd538ca2d4639e3849c7e78b48/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/a878d85c8353a0b495a14b612086eac3/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/608d24f3c79c5f64e0cda7cce5891cf6/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/e777ba89b80746c3205c5113db0dc8d5/jars/classes.jar(**.class)
+-injars /Users/julian/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/fbf1bf6a14728eb5a2996debf09492e1/jars/classes.jar(**.class)
+-injars /Users/julian/StudioProjects/android/app/build/intermediates/transforms/jacoco/beta/debug/0(**.class)
+-outjars /Users/julian/StudioProjects/android/app/build/intermediates/multi-dex/beta/debug/componentClasses.jar
+
+-libraryjars /Users/julian/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/julian/StudioProjects/android/app/build/intermediates/multi-dex/beta/debug/components.flags
+
+
+# Referenced at /Users/julian/StudioProjects/android/app/build/intermediates/manifests/full/beta/debug/x86/AndroidManifest.xml:65
+-keep class is.yranac.canary.CanaryApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

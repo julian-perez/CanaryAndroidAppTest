@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "objects": [
+    {
+      "address": "2-20 Wildwood Rd",
+      "auto_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "city": "",
+      "contacts": [],
+      "country": "",
+      "current_mode": {
+        "id": 2,
+        "name": "armed",
+        "resource_uri": "/v1/modes/2/"
+      },
+      "customers": [
+        {
+          "avatar": {
+            "customer": "/v1/customers/1/",
+            "id": 1,
+            "image": "avatars_kate",
+            "resource_uri": "/v1/avatars/1/",
+            "thumbnail_url": "avatars_kate"
+          },
+          "celsius": false,
+          "created": "2015-01-22T01:19:38",
+          "current_location": null,
+          "date_joined": "2015-01-22T01:19:38",
+          "default_location": null,
+          "email": "kate@canary.is",
+          "first_name": "Kate",
+          "id": 1,
+          "is_active": true,
+          "last_location_change": "2015-02-01T22:14:03",
+          "last_name": "Thompson",
+          "notification_preference": "push",
+          "notifications_enabled": true,
+          "phone": "646-671-8749",
+          "resource_uri": "/v1/customers/1/",
+          "username": "kate@canary.is"
+        },
+        {
+          "avatar": {
+            "customer": "/v1/customers/2/",
+            "id": 2,
+            "image": "avatars_regan",
+            "resource_uri": "/v1/avatars/2/",
+            "thumbnail_url": "avatars_regan"
+          },
+          "celsius": false,
+          "created": "2015-01-22T01:19:38",
+          "current_location": null,
+          "date_joined": "2015-01-22T01:19:38",
+          "default_location": null,
+          "email": "regan@canary.is",
+          "first_name": "Regan",
+          "id": 2,
+          "is_active": true,
+          "last_location_change": "2015-02-01T22:14:03",
+          "last_name": "Thompson",
+          "notification_preference": "push",
+          "notifications_enabled": true,
+          "phone": "646-671-8749",
+          "resource_uri": "/v1/customers/2/",
+          "username": "regan@canary.is"
+        }
+      ],
+      "customers_present": [
+        "/v1/customers/89/"
+      ],
+      "devices": [
+        {
+          "activation_attempts": 1,
+          "activation_status": "activated",
+          "activation_token": null,
+          "application_version": "v1.0.1",
+          "audio_cable_status": "plugged_out",
+          "created": "2015-01-23T19:50:35",
+          "current_ota_download_attempts": 4,
+          "device_activated": true,
+          "firmware_version": "v0.2.24",
+          "id": 136,
+          "image_url": "livingroom_dashboard",
+          "last_video_received": null,
+          "location": "/v1/locations/1/",
+          "mode": "/v1/modes/2/",
+          "name": "Living Room",
+          "online": true,
+          "ota_attempts": 4,
+          "ota_progress": 0,
+          "ota_start_time": "2015-01-26T20:28:28",
+          "ota_status": "complete",
+          "resource_uri": "/v1/devices/device1/",
+          "serial_number": "serial1",
+          "setup_complete": true,
+          "siren_active": false,
+          "uuid": "device1",
+          "video_uploading": true
+        },
+        {
+          "activation_attempts": 1,
+          "activation_status": "activated",
+          "activation_token": null,
+          "application_version": "v1.0.1",
+          "audio_cable_status": "plugged_out",
+          "created": "2015-01-23T19:50:35",
+          "current_ota_download_attempts": 4,
+          "device_activated": true,
+          "firmware_version": "v0.2.24",
+          "id": 137,
+          "image_url": "kitchen_dashboard",
+          "last_video_received": null,
+          "location": "/v1/locations/1/",
+          "mode": "/v1/modes/2/",
+          "name": "Kitchen",
+          "online": true,
+          "ota_attempts": 4,
+          "ota_progress": 0,
+          "ota_start_time": "2015-01-26T20:23:50",
+          "ota_status": "complete",
+          "resource_uri": "/v1/devices/device2/",
+          "serial_number": "serial2",
+          "setup_complete": true,
+          "siren_active": false,
+          "uuid": "device2",
+          "video_uploading": true
+        }
+      ],
+      "geofence_radius": 50,
+      "id": 1,
+      "lat": "41.024200",
+      "lng": "-73.799000",
+      "name": "Home",
+      "resource_uri": "/v1/locations/1/",
+      "service_plan": {
+        "created": "2015-08-25T21:41:33",
+        "expiration": "2030-01-01T00:00:00",
+        "id": 12485,
+        "is_annual": false,
+        "is_expired": false,
+        "is_queued": false,
+        "location": "/v1/locations/1/",
+        "num_exported_videos": 1,
+        "owner": "/v1/customers/96/",
+        "plan_type": "/v1/plan_types/4/",
+        "resource_uri": "/v1/service_plans/12485/",
+        "trial": false,
+        "trial_ending_email_sent_at": "2015-08-10T16:04:01"
+      },
+      "state": ""
+    }
+  ]
+}

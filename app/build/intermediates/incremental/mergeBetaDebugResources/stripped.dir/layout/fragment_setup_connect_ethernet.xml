@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                                   
+
+    
+
+                 
+                             
+                         
+
+               
+                     
+                                       
+
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" android:tag="layout/fragment_setup_connect_ethernet_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:id="@+id/content_image_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:scaleType="centerCrop"
+            android:tag="binding_1"                                      />
+
+        <TextureView
+            android:id="@+id/textureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:tag="binding_2"                                       />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/content_text"
+                style="@style/large_text_view"
+                android:layout_marginBottom="30dp"
+                android:gravity="center" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/next_btn"
+                style="@style/new_green_rect_action_button"
+                android:text="@string/next" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+         

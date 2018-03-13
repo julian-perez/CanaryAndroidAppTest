@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/contact_fragment_container">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/contact_fragment_description"
+                android:hint="@string/contact_fragment_description_hint"
+                style="@style/contact_fragment_description">
+            </EditText>
+
+            <FrameLayout
+                android:id="@+id/contact_fragment_attachments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/contact_fragment_progress"
+        style="@style/contact_fragment_progress"
+    />
+
+</FrameLayout><!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/fragment_contact_zendesk.xml -->

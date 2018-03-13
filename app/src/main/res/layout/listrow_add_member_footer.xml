@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/large_margin"
+        android:paddingEnd="50dp"
+        android:paddingStart="50dp"
+        android:paddingTop="@dimen/large_margin">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/footer_text"
+            style="@style/settings_footer_text"
+            android:gravity="center"
+            android:text="@string/this_person_will_share" />
+    </LinearLayout>
+</layout>

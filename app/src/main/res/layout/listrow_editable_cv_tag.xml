@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/standard_row_height"
+    android:background="@color/transparent"
+    android:paddingLeft="@dimen/standard_margin"
+    android:paddingRight="@dimen/standard_margin">
+
+    <ImageView
+        android:id="@+id/cv_tag_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:src="@drawable/settings_option_checkmark"/>
+
+    <is.yranac.canary.ui.views.EditTextPlus
+        android:id="@+id/cv_tag_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/cv_tag_checkbox"
+        android:background="@color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/other"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions|textCapSentences"
+        android:singleLine="true"
+        android:textColor="@color/dark_moderate_cyan"
+        android:textColorHint="@color/very_light_gray"
+        android:textSize="22sp"
+        app:customFont="Gibson-Light.otf" />
+
+</RelativeLayout>

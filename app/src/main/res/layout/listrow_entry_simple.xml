@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+        <import type="android.view.View" />
+
+
+        <import type="is.yranac.canary.util.DateUtil" />
+
+        <import type="is.yranac.canary.model.entry.Entry" />
+
+
+        <import
+            alias="v"
+            type="View" />
+
+        <import
+            alias="DU"
+            type="DateUtil" />
+
+        <variable
+            name="entry"
+            type="Entry" />
+    </data>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+
+        <FrameLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <View
+                    android:id="@+id/top_pad_terminator"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/very_light_gray_two"
+                    android:visibility="invisible" />
+
+                <View
+                    android:id="@+id/bottom_pad_terminator"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/very_light_gray_two"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/entry_card_margin"
+                android:layout_marginTop="@dimen/entry_card_margin"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/date_text_view"
+                            style="@style/small_bold"
+                            android:text="@{DU.utcDateToDisplayString(entry.startTime)}" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/entry_summary"
+                            style="@style/large_text_view"
+                            android:layout_marginRight="72dp"
+                            android:text="@{entry.description}"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:customFont="Gibson-Light.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/detail_text_view"
+                            style="@style/small_bold"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/view_connectivity_tips"
+                            android:visibility='@{entry.entryType.equalsIgnoreCase("disconnect") ? v.VISIBLE : v.GONE}' />
+
+                    </LinearLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="76dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right">
+
+                        <is.yranac.canary.ui.views.CircleView
+                            android:id="@+id/entry_image_view"
+                            android:layout_width="13dp"
+                            android:layout_height="13dp"
+                            android:layout_gravity="center"
+                            app:cFillColor="@color/white" />
+                    </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="76dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right">
+
+                        <FrameLayout
+                            android:id="@+id/customer_circle_container"
+                            android:layout_width="43dp"
+                            android:layout_height="43dp"
+                            android:layout_gravity="center">
+
+                            <is.yranac.canary.ui.views.CircleView
+                                android:id="@+id/gray_circle"
+                                android:layout_width="43dp"
+                                android:layout_height="43dp"
+                                android:layout_gravity="center"
+                                app:cFillColor="@color/gray"
+                                app:cStrokeColor="@color/gray" />
+
+                            <is.yranac.canary.ui.views.TextViewPlus
+                                android:id="@+id/customer_initials"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/transparent"
+                                android:textAllCaps="true"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                app:customFont="Gibson-Light.otf" />
+
+                            <is.yranac.canary.ui.views.RoundedImageView
+                                android:id="@+id/listrow_icon"
+                                android:layout_width="43dp"
+                                android:layout_height="43dp"
+                                android:layout_gravity="center"
+                                android:scaleType="fitXY" />
+                        </FrameLayout>
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="smart_home_security">Intelligente Sicherheit\nfür jedes Zuhause</string>
+    <string name="already_member">Du hast bereits ein Konto?</string>
+    <string name="watch_live">Live</string>
+    <string name="watch_live_limit">Schaust du noch?</string>
+    <string name="watch_live_limit_button">Ja, ich schaue noch</string>
+    <string name="yesterday">Gestern</string>
+    <string name="settings">Einstellungen</string>
+
+    <string-array name="avatar_selection_array">
+        <item>Foto machen</item>
+        <item>Foto auswählen</item>
+    </string-array>
+
+    <string name="canary_is_offline">Canary ist offline</string>
+    <string name="sound_siren">Sirene auslösen</string>
+    <string name="make_call">Notruf</string>
+    <string name="tap_leave_a_comment">Kommentar hinzufügen ...</string>
+    <string name="sign_in">Anmelden</string>
+    <string name="sign_in_period">Melde dich an.</string>
+    <string name="forgot_password">Du hast dein Passwort vergessen?</string>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachname</string>
+    <string name="password">Passwort</string>
+    <string name="show_password">Passwort anzeigen</string>
+    <string name="email_address">E-Mail-Adresse</string>
+    <string name="email_address_hint">deine@email.com</string>
+    <string name="email">E-Mail</string>
+    <string name="smartphone_number">Mobiltelefon</string>
+    <string name="next">Weiter</string>
+
+    <string name="connect_wifi">Verbinden mit WLAN</string>
+    <string name="connect_with_ethernet">Verbinden mit Ethernet</string>
+    <string name="go_to_settings">Zu Einstellungen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="wifi_password">WLAN-Passwort</string>
+    <string name="enter_password">"Passwort eingeben für \"%1$s\""</string>
+    <string name="prepare_canary">Vorbereitung</string>
+    <string name="location_name">Standortname</string>
+    <string name="loading_homehealth_data">HomeHealth-Daten laden…</string>
+    <string name="invitation_details">Einladung</string>
+    <string name="change_password">Passwort zurücksetzen</string>
+    <string name="change_password_title">Passwort zurücksetzen</string>
+    <string name="change_language">Sprache</string>
+    <string name="location_member">Standortmitglied</string>
+    <string name="location_edit_hint">Canary verwendet deinen Standort, um deine Adresse, sowie -falls möglich- deine Notrufnummern zu ermitteln und um automatisch den Modus zu wechseln.</string>
+    <string name="device_connection">Geräteverbindung</string>
+    <string name="call">Anrufen</string>
+    <string name="text_message">Textnachricht</string>
+    <string name="remove_this_bookmark">Dieses Lesezeichen entfernen?</string>
+    <string name="remove_bookmark">Lesezeichen entfernen</string>
+    <string name="unsave_confirmation_dsc_days">Dieses Ereignis bleibt in der Timeline dieses Standortes bis %1$d Tage nach seinem Eintreten.</string>
+    <string name="unsave_confirmation_dsc_hours">Dieses Ereignis bleibt in der Timeline dieses Standortes bis %1$d Stunden nach seinem Eintreten.</string>
+    <string name="entry_older_than">Dieses Ereignis ist älter als 7 Tage und wird aus deiner Timeline gelöscht wenn du das Lesezeichen entfernst.</string>
+    <string name="entry_older_than_days">Dieses Ereignis ist älter als %1$d Tage und wird aus deiner Timeline gelöscht.</string>
+    <string name="entry_older_than_hours">Dieses Ereignis ist älter als %1$d Stunden und wird aus deiner Timeline gelöscht.</string>
+
+    <string name="connected">Verbunden</string>
+    <string name="you">Du</string>
+    <string name="invalid_login_credentials">Ungültige Anmeldedaten.\nBitte überprüfe E-Mail-Adresse und Passwort.</string>
+    <string name="reset_password">Passwort zurücksetzen</string>
+    <string name="reset_password_follow_up">Befolge zur Fortsetzung die Anleitungen zum Zurücksetzen in deiner E-Mail.</string>
+
+    <string name="today">Heute</string>
+
+
+    <string name="other">Sonstiges</string>
+    <string name="help_your_canary">Hilf mit, Canary zu verbessern\nindem du Ereignisse tagst.</string>
+    <string name="this_contains">Dieser Clip enthält:</string>
+    <string name="sorry">Sorry</string>
+    <string name="connecting_nodots">Verbindung wird hergestellt</string>
+    <string name="no_internet_connection">Keine Internet Verbindung.</string>
+    <string name="continue_text">Weiter</string>
+    <string name="home_health">HomeHealth</string>
+    <string name="temperature">Temperatur</string>
+    <string name="humidity">Luftfeuchtigkeit</string>
+    <string name="air_quality">Luftqualität</string>
+
+    <string name="error_playing_video">Fehler bei der Video-Wiedergabe.</string>
+    <string name="indoor_humidity_basics">Luftfeuchtigkeit</string>
+    <string name="indoor_humidity_verbiage">Canary misst die Luftfeuchtigkeit in deinem Zuhause. Dieser Wert zeigt an, wieviel Wasserdampf die Luft enthält. Die Luftfeuchtigkeit geht Hand in Hand mit der Temperatur und kann verschiedene gesundheitliche und strukturelle Aspekte in deinem Haus bzw. deiner Wohnung beeinflussen.</string>
+
+    <string name="indoor_air_quality_basics">Luftqualität</string>
+    <string name="indoor_air_quality_verbiage">Canary misst die Luftqualität in deinem Zuhause, zeigt den Anteil von Verunreinigungen in der Luft an, und zeigt dir, was in deinem spezifischen Umfeld inner- und außerhalb des Normalbereichs liegt.</string>
+
+    <string name="indoor_air_pollutants">Verunreinigungen</string>
+    <string name="indoor_air_pollutants_verbiage">Canary erkennt Veränderungen der Luftqualität durch Verunreinigungen, einschließlich:</string>
+
+    <string name="calibrating_air_quality">Kalibrieren des Sensors</string>
+    <string name="calibrating_air_quality_verbiage">Sorge dafür, dass der Luftqualitätssensor kalibriert bleibt, indem du dein Zuhause regelmässig lüftest. </string>
+
+    <string name="iso_butane">Iso-Butan</string>
+    <string name="hydrogen">Wasserstoff</string>
+    <string name="methane">Methan</string>
+    <string name="ethanol">Ethanol</string>
+    <string name="carbon_monoxide">Kohlenmonoxid</string>
+    <string name="cigarette_smoke">Zigarettenrauch</string>
+    <string name="cooking_odor">Küchengerüche</string>
+
+    <string name="establishing_connection">Dein Canary All-in-One stellt eine sichere Verbindung her</string>
+    <string name="privacy">Privat</string>
+    <string name="canary_three_modes">Canary hat 3 Modi.</string>
+    <string name="timeline">Timeline</string>
+    <string name="bookmark_events">Gespeicherte Ereignisse</string>
+    <string name="video_all_show_here">Videos, Modusänderungen, &lt;br&gt;Kommen und Gehen &lt;br&gt;- alles wird hier angezeigt</string>
+    <string name="location_at_your_services">Standort - zu deinen Diensten.</string>
+    <string name="canary_connected_updating">Dein Canary All-in-One ist mit dem Internet verbunden. Entferne das gelbe Kabel vollständig, um das Setup abzuschließen.</string>
+    <string name="get_help">Hilfe aufrufen</string>
+    <string name="device_is_offline">Gerät ist offline</string>
+    <string name="time_travel_error">Sensordaten werden vorbereitet.</string>
+    <string name="home_health_explaination">HomeHealth-Grafik und -Verlauf\nfunktionieren am besten nach 24 Stunden.\nSchau morgen nochmal nach-</string>
+    <string name="canary_needs_internet">Wie willst du das Gerät mit dem Internet verbinden? </string>
+    <string name="collecting_homehealth_data">Daten werden erfasst</string>
+    <string name="review_on_play_store">Übersicht im Play Store</string>
+    <string name="visit_canary">Besuche Canary.de</string>
+    <string name="compliance_notices">Hinweise zur Compliance</string>
+    <string name="about_canary">Über Canary</string>
+    <string name="eula">Eula</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="please_accept">Bitte akzeptiere die Bedingungen und Richtlinien von Canary, bevor du fortfährst.</string>
+    <string name="terms_of_service_label">Nutzungsbedingungen</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+    <string name="end_user_agreement">Endbenutzer-Lizenzvereinbarung</string>
+    <string name="logout">Abmelden</string>
+    <string name="continue_without_password">Ohne Passwort fortfahren?</string>
+    <string name="recommend_secure_network">Wir empfehlen dir nachdrücklich, dein Gerät in Verbindung mit einem passwortgeschützten WLAN-Netzwerk zu verwenden.</string>
+    <string name="cannot_select_hidden_network">Canary kann während des Setups keine Verbindung zu unsichtbaren WLAN-Netzwerken (\"hidden networks\") herstellen. </string>
+    <string name="error_occurred_ota">Fehler aufgetreten während der Aktualisierung, bitte erneut versuchen.</string>
+    <string name="air">Luft</string>
+    <string name="save">Sichern</string>
+    <string name="change_internet">Ändern der Verbindung\ndes Canary mit dem Internet</string>
+    <string name="okay">Okay</string>
+    <string name="power_cycle_canary">Entferne das Micro-USB-Netzteil  aus dem Canary und stecke es wieder  ein. Das Gerät blinkt gelb,  sobald es betriebsbereit ist.</string>
+    <string name="call_ems">Rettungsdienst rufen</string>
+    <string name="call_police">Polizei rufen</string>
+    <string name="call_fire">Feuerwehr rufen</string>
+    <string name="sure_call_police">Willst du wirklich die Polizei rufen?</string>
+    <string name="sure_call_fire">Willst du wirklich die Feuerwehr rufen?</string>
+    <string name="sure_call_ems">Willst du wirklich den Rettungsdienst rufen?</string>
+    <string name="yes_call_ems">Ja, Rettungsdienst rufen</string>
+    <string name="yes_call_fire">Ja, Feuerwehr rufen</string>
+    <string name="yes_call_police">Ja, Polizei rufen</string>
+    <string name="retry_setup">Neues Setup</string>
+    <string name="somethings_wrong">Etwas ist schiefgegangen.</string>
+    <string name="your_newest_canary_failed">Dein neuester Canary konnte nicht  aktualisiert werden. Bitte starte den  Setup-Prozess für dieses Gerät erneut, um das Problem zu beheben.</string>
+    <string name="add_passcode_lock">Bildschirmsperre hinzufügen</string>
+    <string name="create_passcode">Passcode erstellen</string>
+    <string name="confirm_passcode">Passcode bestätigen</string>
+    <string name="remove_pass_code">Passcode entfernen</string>
+    <string name="edit_pass_code">Bildschirmsperre ändern </string>
+    <string name="enter_old_passcode">Passcode eingeben</string>
+    <string name="enter_new_passcode">Neuen Passcode eingeben</string>
+    <string name="country_code">Ländercode</string>
+    <string name="privacy_watch_live_disabled">Dieser Standort ist jetzt Privat geschaltet. Live wurde deaktiviert.</string>
+    <string name="indoor_temperature_basics">Grundlagen zur Temperatur</string>
+    <string name="indoor_temperature_verbiage">Canary zeichnet das Klima in deinem Zuhause auf und zeigt Temperaturmessungen in Echtzeit an, zusammen mit den letzten Wärmespitzen oder -abfällen. Diese Messungen helfen dir bei der Kontrolle deines Wohnkomforts, deiner Versorger-Rechnungen und deiner Sicherheit.</string>
+    <string name="sounding_siren">Sirene ertönt</string>
+
+    <string-array name="default_cv_tags">
+        <item>Personen</item>
+        <item>Haustiere</item>
+        <item>Sonnenlicht</item>
+        <item>Schatten</item>
+        <item>Reflektionen</item>
+        <item>Fernsehbilschirm</item>
+        <item>Computerbildschirm</item>
+        <item>Ventilator</item>
+        <item>Bewegungen draußen</item>
+    </string-array>
+
+    <string-array name="testing_cv_tags">
+        <item>Personen</item>
+        <item>Hund</item>
+        <item>Katze</item>
+        <item>Licht, Schatten oder Reflektionen</item>
+        <item>TV- oder Computerbildschirm</item>
+        <item>Laufender Ventilator</item>
+        <item>Bewegungen draußen</item>
+    </string-array>
+    <string name="all_armed_show_here">Hier erscheinen Videos, die bei Bewegung aufgenommen wurden, als alle Standortmitglieder unterwegs waren.</string>
+    <string name="all_events">Alle Ereignisse</string>
+    <string name="away_events">Ereignisse im Unterwegs-Modus</string>
+    <string name="auto_mode_switching">Auto-Modus-Umschaltung</string>
+    <string name="away_btn_dsc">Canary passt auf und meldet Bewegungen, wenn niemand zuhause ist.</string>
+    <string name="home_btn_dsc">Wenn jemand zuhause ist, kann Canary entweder weiter aufpassen oder Privat geschaltet werden. </string>
+    <string name="night_btn_dsc">Du kannst festlegen, ob du auch nachts benachrichtigt werden willst, wenn Bewegung wahrgenommen wird.</string>
+    <string name="to_add_again_send_invite">Zum erneuten Hinzufügen zu diesem Standort sende eine neue Einladung.</string>
+    <string name="delete_from_this_location">%1$s von diesem\nStandort löschen?</string>
+    <string name="delete">Löschen</string>
+
+    <string name="enter_passcode">Passcode eingeben</string>
+    <string name="canary_works_best">Canary funktioniert am besten, wenn jeder\nzuhause als Standortmitglied verbunden ist.</string>
+    <string name="this_person_will_share">Diese Person wird Zugriff auf die  Geräte und Timeline-Einträge  dieses Standorts haben.</string>
+    <string name="add_emergency_numbers">Notrufnummern hinzufügen ...</string>
+    <string name="emergency_numbers">Notrufnummern</string>
+    <string name="emergency_numbers_header">Notrufnummern</string>
+    <string name="delete_activity">Diese Aktivität löschen</string>
+    <string name="are_you_sure_sign_out">Bist du sicher, dass du dich abmelden willst?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="help_center">Hilfe</string>
+    <string name="contact_support">Support kontakieren</string>
+    <string name="my_profile">Mein Profil</string>
+    <string name="edit">Ändern</string>
+    <string name="done">Fertig</string>
+    <string name="entry_deleted">Eintrag gelöscht</string>
+    <string name="entry_deleted_no_longer">Dieser Eintrag wurde vor kurzem gelöscht und kann nicht mehr angezeigt werden.</string>
+    <string name="unsave">Speicherung aufheben</string>
+    <string name="delete_entry_dsc">Dieses Ereignis wird dauerhaft aus deiner Timeline gelöscht und ist für gemeinsame Standortmitglieder nicht mehr sichtbar.</string>
+    <string name="invalid_phone_number">Ungültige Telefonnummer</string>
+    <string name="download_video">Video herunterladen</string>
+    <string name="download_videos">%1$d Videos herunterladen</string>
+    <string name="processing">Video wird verarbeitet…</string>
+    <string name="processings">%1$dVideos werden verarbeitet…</string>
+    <string name="request_video_download">Video Download anfordern</string>
+    <string name="request_video_downloads">Video-Downloads anfordern</string>
+    <string name="ready_for_download">Bereit zum Download!</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="go_to_activity">Aktivität anzeigen</string>
+    <string name="processing_video">Video wird verarbeitet…</string>
+    <string name="processing_video_dsc">Du erhältst eine Benachrichtigung, wenn das Video bereit ist.</string>
+    <string name="processing_share">Deine Videos werden zum Teilen vorbereitet.</string>
+    <string name="processing_share_dsc">Du erhältst eine Benachrichtigung, sobald sie bereit sind.</string>
+    <string name="wifi_recommended">WLAN empfohlen</string>
+    <string name="wifi_recommended_dsc">Canary empfiehlt den Download von Videos über WLAN. Durch den Download größerer Videodateien über das Mobilfunknetz können hohe Datengebühren anfallen.</string>
+    <string name="download">Download</string>
+    <string name="start_over">Erneut starten</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="incorrect_wifi">Falsches WLAN-Passwort.</string>
+    <string name="check_wifi">Überprüfe das WLAN-Passwort für dieses\ndrahtlose Netzwerk und gib es unten erneut ein.</string>
+    <string name="unable_to_connect">Verbindung nicht möglich.</string>
+    <string name="unable_to_connect_dsc">Prüfe die Internetverbindung deines Routers, seine Reichweite und ob er mit 2,4 GHz senden kann.</string>
+    <string name="back_to_wifi">Zurück zum WLAN-Setup</string>
+    <string name="failed_to_start_ota">Dein Gerät konnte die Aktualisierung nicht starten.</string>
+    <string name="confirm_email_address">E-Mail-Adresse bestätigen</string>
+    <string name="confirm_password">Passwort bestätigen</string>
+    <string name="emails_dont_match">Keine E-Mail-Übereinstimmung.</string>
+    <string name="emails_dont_match_dsc">Die E-Mail-Adressen stimmen nicht überein. Bitte versuche es erneut.</string>
+    <string name="passwords_dont_match">Keine Passwort-Übereinstimmung.</string>
+    <string name="passwords_dont_match_dsc">Die Passwörter stimmen nicht überein. Bitte versuche es erneut.</string>
+    <string name="address">Adresse</string>
+    <string name="devices">Geräte</string>
+    <string name="members">Mitglieder</string>
+    <string name="one_device">%1$d Gerät</string>
+    <string name="more_than_one_device">%1$d Geräte</string>
+    <string name="location_accuracy">Standortgenauigkeit.</string>
+    <string name="location_accuracy_dsc">Durch Einschalten des WLAN verbessern sich Standortgenauigkeit und automatische Modus-Umschaltung</string>
+    <string name="address_1">Adresszeile 1</string>
+    <string name="address_2">Adresszeile 2</string>
+    <string name="city">Ort</string>
+    <string name="state_providence">Bundesland/Staat</string>
+    <string name="postal_code">Postleitzahl</string>
+    <string name="country">Land</string>
+    <string name="beach_house_cabin_etc">Strandhaus, Hütte etc.</string>
+    <string name="apartment_unit_floor">Wohnung, Einheit, Etage etc.</string>
+    <string name="deleting">Löschen …</string>
+    <string name="go_to_download">Gehe zu Downloads</string>
+    <string name="download_started">Download gestartet</string>
+    <string name="download_started_dsc">Der Download wurde gestartet. Du kannst ihn in deiner Download-Anwendung anzeigen.</string>
+    <string name="gps_not_enabled">GPS ist nicht aktiviert.</string>
+    <string name="gps_not_enabled_dsc">GPS ist nicht aktiviert. Willst du zu den Einstellungen wechseln, um es zu aktivieren?</string>
+    <string name="em_dash">—</string>
+    <string name="device_location">Wo befindet sich der Canary?</string>
+    <string name="name_custom">Benutzerdefiniert</string>
+    <string name="loading_dialog">Laden</string>
+
+    <string-array name="indoor_device_names">
+        <item>Wohnzimmer</item>
+        <item>Vordertür</item>
+        <item>Hintertür</item>
+        <item>Küche</item>
+        <item>Schlafzimmer</item>
+        <item>Büro</item>
+        <item>Esszimmer</item>
+        <item>Familienzimmer</item>
+        <item>Flur</item>
+        <item>Untergeschoss</item>
+        <item>Garage</item>
+    </string-array>
+
+    <string-array name="outdoor_device_names">
+        <item>Vordertür</item>
+        <item>Hintertür</item>
+        <item>Vor dem Haus</item>
+        <item>Garten</item>
+        <item>Einfahrt</item>
+        <item>Vorgarten</item>
+        <item>Terrasse</item>
+        <item>Dachterrasse</item>
+        <item>Garage</item>
+        <item>Schuppen</item>
+    </string-array>
+
+
+    <string name="whoops_try_again">Hoppla, bitte versuche es erneut.</string>
+    <string name="password_eight_characters">Das Passwort muss mindestens\n8 Zeichen lang sein.</string>
+    <string name="password_special_character">Das Passwort muss mindestens\neine Ziffer oder ein Sonderzeichen\nenthalten.</string>
+    <string name="password_strength">Passwortstärke.</string>
+    <string name="email_password_match">E-Mail-Adresse und Passwort\ndürfen nicht übereinstimmen.</string>
+    <string name="no_timeline">Keine Ereignisse am ausgewählten Datum.</string>
+    <string name="show_timeline">Timeline anzeigen</string>
+    <string name="tag">Tag</string>
+    <string name="before">Vorher</string>
+    <string name="location_is_in_privacy_mode">Dieser Standort ist Privat geschaltet.</string>
+    <string name="edit_tag">Tag bearbeiten</string>
+    <string name="back_to_top">Zurück zum Anfang</string>
+    <string name="accept_untrusted_connections">Alle Verbindungen</string>
+    <string name="bookmark">Lesezeichen</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="modes">Modi</string>
+    <string name="motion_notifications">Bei Bewegung</string>
+    <string name="motion_notifications_header">Bewegung</string>
+    <string name="connection_notifications">Offline-Benachrichtigungen</string>
+    <string name="power_notifications">Benachrichtigungen zu Strom und Akku</string>
+    <string name="connectivity_header">Verbindung</string>
+    <string name="connection_notifications_toggle">Offline-Benachrichtigungen</string>
+    <string name="offline_notifications_dsc">Erhalte Benachrichtigungen, wenn ein Gerät längere Zeit offline ist.</string>
+    <string name="home_health_notifications">HomeHealth-Werte</string>
+    <string name="set_all_devices">KOMBINIERT</string>
+    <string name="set_each_device">EINZELN</string>
+    <string name="home_health_notifications_dsc">Lege Höchst- und Mindestwerte fest, um benachrichtigt zu werden, wenn Temperatur, Luftfeuchtigkeit oder Luftqualität außerhalb dieser Bereiche liegen.</string>
+    <string name="very_abnormal">Sehr abnormal</string>
+    <string name="abnormal">Abnormal</string>
+    <string name="normal">Normal</string>
+    <string name="no_max">Keine Warnung</string>
+    <string name="temperature_range_single">Temperatur: %1$s</string>
+    <string name="temperature_range">Temperatur: %1$s - %2$s</string>
+    <string name="no_alert">KEINE WARNUNGEN</string>
+    <string name="humidity_range_single">Luftfeuchtigkeit: %1$s</string>
+    <string name="humidity_range">Luftfeuchtigkeit: %1$s - %2$s</string>
+    <string name="air_quality_range">LUFTQUALITÄT: %1$s</string>
+    <string name="please_turn_wifi_on">Die Standortgenauigkeit ist\nam besten, wenn das WLAN an ist.</string>
+    <string name="emergency_numbers_missing">Notrufnummern fehlen für %1$s.</string>
+    <string name="turn_on">Einschalten</string>
+    <string name="add_now">Jetzt hinzufügen</string>
+    <string name="please_turn_location_on">Auto-Modus-Umschaltung\nerfordert Ortungsdienste.</string>
+    <string name="explore_the_app">Erkunde die App</string>
+    <string name="take_action">Werde aktiv.</string>
+    <string name="take_action_dsc">Reagiere sofort auf die\nVorgänge in deinem Zuhause. Tippe hier, um die\n90+ dB Sirene auszulösen oder die\nRettungsdienste in der Nähe deines Zuhauses\nzu kontaktieren.</string>
+    <string name="leave_a_comment">Kommentar hinterlassen.</string>
+    <string name="leave_a_comment_dsc">Ein Ereignis kommentieren, um alle Personen\nzuhause über die aktuellen Vorgänge\ninformieren zu können.</string>
+    <string name="save_video">Video speichern.</string>
+    <string name="save_video_dsc">Das Flaggensymbol wird grün, wenn ein Ereignis\nin der Canary Cloud gespeichert wird.</string>
+    <string name="jump_back_in_time">Ein Blick in die Vergangenheit.</string>
+    <string name="jump_back_in_time_dsc">Tippe hier, um über die Datumsauswahl schnell anzuzeigen, was an einem bestimmten Tag passiert ist.</string>
+    <string name="even_more_options">Noch mehr Optionen.</string>
+    <string name="even_more_options_dsc">Über die Taste Weiter kannst du unerwünschte Ereignisse aus der Timeline löschen oder die wichtigsten herunterladen.</string>
+    <string name="my_profile_title">Mein Profil.</string>
+    <string name="my_profile_dsc">In deinem Profil kannst du Einstellungen festlegen und persönliche Daten ändern.</string>
+    <string name="multiple_perspectives">Mehrere Perspektiven.</string>
+    <string name="multiple_perspectives_dsc">Vier Canary-Geräte an deinem Standort hinzufügen. Z. B. eines an der Haustür und weitere im Wohnzimmer, im Kinderzimmer oder in anderen Räumen.</string>
+    <string name="mode_settings_title">Moduseinstellungen.</string>
+    <string name="mode_settings_dsc">Hier steuerst du die Auto-Modus-Umschaltung, mit der der Modus automatisch in Deaktiviert oder Privat geändert wird, wenn du zuhause bist.</string>
+    <string name="help_canary_learn">Hilf Canary, zu lernen.</string>
+    <string name="help_canary_learn_dsc">Kennzeichnne Ereignisse als Kinder, Haustiere oder\nMitbewohner, und bringe eigene\nBezeichnungen an. Deine Rückmeldungen teilen Canary mit,\nwelche Ereignisse normal sind und auf welche\ndu aufmerksam gemacht werden willst. </string>
+    <string name="canary_tip">Canary-Tipp</string>
+    <string name="change_modes">Modus ändern.</string>
+    <string name="change_modes_dsc">Hier steuerst du die Auto-Modus-Umschaltung, mit der der Modus automatisch in Deaktiviert oder Privat geändert wird, wenn du nach Hause kommst.</string>
+    <string name="contact_members">Mitglieder kontaktieren.</string>
+    <string name="contact_members_dsc">Canary funktioniert am besten, wenn alle Personen im Haus damit verbunden sind. Tippe hier, um andere Mitglieder wie deine Familie oder Mitbewohner zu kontaktieren.</string>
+    <string name="service_plans">Service-Abonnements.</string>
+    <string name="service_plans_dsc">Im kostenlosen, standardmäßigen Canary-Abo hast du Zugriff auf die Aktivitäten der letzten 24 Stunden und auf fünf gespeicherte Ereignisse in der Canary-Cloud. Für zusätzlichen Support, mehr Speicherkapazität oder Call-Center-Optionen bietet Canary vertragsfreie, monatliche Service-Abos an.</string>
+    <string name="untrusted">Nicht vertrauenswürdige Verbindungen.</string>
+    <string name="untrusted_dsc">Diese Verbindung wird von Canary als nicht vertrauenswürdig eingestuft und ermöglicht möglicherweise unbefugt Zugriff auf dein Konto.\n\nSollte dies eine sichere Verbindung sein, aktiviere „Unsichere Verbindungen erlauben“ unter „Mein Profil“, oder versuche es mit einer anderen Verbindung erneut.</string>
+    <string name="allow_untrusted">Nicht vertrauenswürdig</string>
+    <string name="update_emergency_contacts">Notrufnummern aktualisieren</string>
+    <string name="update">Aktualisieren</string>
+    <string name="update_emergency_contacts_title">Nummern aktualisieren?</string>
+    <string name="update_emergency_contacts_dsc">Die Aktualisierung ersetzt deine derzeitigen Notrufnummern durch die aktuellsten Nummern für diese Standortadresse.</string>
+    <string name="update_location_contacts">Standort-Notrufnummern für diese Adresse aktualisieren?</string>
+    <string name="syncing">Synchronisierung …</string>
+    <string name="notification_slider_dsc_one">Durch Einstellen der Empfindlichkeit deines Canary kannst du bestimmen, wie viele Benachrichtigungen du erhältst.</string>
+    <string name="high_sensitivity">Hoch</string>
+    <string name="low_sensitivity">Niedrig</string>
+    <string name="kb_format">%1$sKB</string>
+    <string name="mb_format">%1$sMB</string>
+    <string name="time_format">%1$s:%2$s</string>
+    <string name="oops_wifi">Leider ist WLAN ausgeschaltet.</string>
+    <string name="turn_wifi_on_to_connect">Zum Verbinden des Canary mit dem WLAN schalte die WLAN-Funktion deines Smartphones ein.</string>
+    <string name="state">Bundesland/Staat</string>
+    <string name="notification_sent">Benachrichtigung gesendet.</string>
+    <string name="lets_pair_with_canary">Jetzt mit Canary verbinden.</string>
+    <string name="touch_the_top_canary">Berühre die Oberseite deines Gerätes, bis das  blaue Licht blinkt. Sobald es erkannt wurde, erscheint dein Gerät \nzur Bestätigung in der Liste.</string>
+    <string name="touch_the_top_canary_wifi">Berühre leicht die Oberseite des Geräts, \nbis es blau blinkt und automatisch von deinem\nSmartphone erkannt wird.</string>
+    <string name="firmware_version">Firmware-Version</string>
+    <string name="serial_number">Seriennummer</string>
+    <string name="pairing">Kopplung</string>
+    <string name="remove_device_header">Dieses Gerät entfernen?</string>
+    <string name="remove_device_header_incorrect">Passwort falsch.</string>
+    <string name="remove_device_body_last">Dadurch wird das Gerät von dieser Position und diesem Konto getrennt und seine Einstellungen werden zurückgesetzt. Standortmitglieder werden nicht auf vergangene Aktivitäten zugreifen können.</string>
+    <string name="remove_device_body_notlast">Dadurch wird das Gerät von dieser Position und diesem Konto getrennt und seine Einstellungen werden zurückgesetzt. Vergangene Aktivitäten von diesem Gerät bleiben in deiner Timeline.</string>
+    <string name="remove_device_body_incorrect">Überprüfe dein Passwort und gib es erneut ein, um dieses Gerät zu entfernen.</string>
+    <string name="remove_device_hint">Gib dein Passwort ein</string>
+    <string name="remove_device_left_button">Entfernen</string>
+    <string name="remove_device_loading">Entfernen wird durchgeführt</string>
+    <string name="remove_device_not_owner_header">Gerät kann nicht entfernt werden</string>
+    <string name="remove_device_not_owner_body">Nur %1$s kann dieses Gerät entfernen.</string>
+    <string name="dialog_success">Entfernt</string>
+    <string name="cannot_connect_canary">Dein Telefon konnte sich nicht mit Canary verbinden.</string>
+    <string name="cannot_hear_canary_dsc">Entferne alle Kabel von deinem Gerät. Stecke anschließend alle Kabel wieder ein, beginnend mit dem gelben Audiokabel, und versuche es erneut.</string>
+    <string name="view_help">Hilfe anzeigen</string>
+    <string name="device_cant_remove_header">Canary kann nicht entfernt werden.</string>
+    <string name="device_cant_remove_body">Dieses Gerät kann nicht sicher von deinem Standort entfernt werden. Wende dich zum Entfernen dieses Geräts an Canary.</string>
+    <string name="device_cant_remove_tap">Kontakt</string>
+    <string name="location_debug">Standortservices Debugging</string>
+    <string name="location_services_debug_dsc">Debugging aktivieren, um den Standort deines Smartphones regelmäßig an Canary weiterzuleiten, falls dies vom Canary Kunden-Support angefordert wurde.</string>
+    <string name="report_this_entry">Diesen Eintrag melden</string>
+    <string name="get_started">Erste Schritte</string>
+    <string name="activating">Aktivierung</string>
+    <string name="activated">Aktiviert</string>
+    <string name="paired">Kopplung erfolgreich</string>
+    <string name="sending_elpise">Senden …</string>
+    <string name="lets_start_with_basics">Beginnen wir mit den Grundlagen.</string>
+    <string name="welcome_dsc">In diesem kurzen Tutorial wirst du durch die Canary-App geführt und erfährst alles Wissenswerte.</string>
+    <string name="watch_live_dsc">Tippe auf „Live“, um zu sehen, was bei dir zuhause gerade passiert.</string>
+    <string name="sensor_live_dsc">Hier siehst du deine HomeHealth-Daten.\nTippe, um Details zu Temperatur,\nLuftfeuchtigkeit und Luftqualität anzuzeigen.</string>
+    <string name="mode_change_dsc">Tippe hier, um zwischen dem Unterwegs-, Zuhause- und Nacht-Modus zu wechseln.</string>
+    <string name="menu_dsc">Tippe auf das Menü, um einen weiteren Canary hinzuzufügen, die Einstellungen zu ändern oder Hilfe zu erhalten. Das war\'s! Wenn du das Tutorial zu irgendeinem Zeitpunkt erneut starten möchtest, findest du es unter „Hilfe/Kontakt“.</string>
+    <string name="restart_home_tutorial">Dashboard-Tutorial erneut starten</string>
+    <string name="restart_timeline_tutorial">Timeline-Tutorial erneut starten</string>
+    <string name="btle_wifi_bad_password">Canary konnte keine Verbindung zum WLAN-Netzwerk herstellen, da ein falsches Passwort eingegeben wurde.</string>
+    <string name="btle_wifi_bad_ssid">Canary konnte keine Verbindung zum WLAN-Netzwerk herstellen, da das Netzwerk nicht gefunden wurde.</string>
+    <string name="btle_wifi_timeout">Beim Verbindungsaufbau zum WLAN-Netzwerk kam es zum Timeout.</string>
+    <string name="btle_wifi_unknown_error">Canary konnte keine Verbindung zum WLAN-Netzwerk herstellen. Bitte versuche es erneut. Wenn das Problem weiterhin besteht, kontaktiere bitte den Kundensupport.</string>
+    <string name="btle_wifi_error_header">Die WLAN-Verbindung konnte nicht hergestellt werden.</string>
+    <string name="updating">Wird aktualisiert</string>
+    <string name="network_name">Netzwerk Name</string>
+    <string name="enter_wifi_name_and_password">Gib den Netzwerknamen und das Passwort ein.</string>
+    <string name="canary_uses_location">Canary verwendet deine Standortdaten, um den Modus bei deinem Kommen und Gehen automatisch zu wechseln und um deine lokalen Telefonnummern für den Notfall zu ermitteln.</string>
+    <string name="send_invitation">Einladung senden</string>
+    <string name="old_password">Altes Passwort</string>
+    <string name="new_password">Neues Passwort</string>
+    <string name="show_passwords">Passwörter anzeigen</string>
+    <string name="device_placement">Platzierung</string>
+    <string name="police_department">Polizeirevier</string>
+    <string name="emergency_medical_services">Medizinischer Notdienst</string>
+    <string name="fire_department">Feuerwehr</string>
+    <string name="deleted">Gelöscht</string>
+    <string name="undo">Rückgängig</string>
+    <string name="post">Senden</string>
+    <string name="is_not_at">ist nicht am Standort %1$s</string>
+    <string name="is_at">ist am Standort %1$s</string>
+    <string name="are_not_at">bist nicht am Standort %1$s</string>
+    <string name="are_at">bist am Standort %1$s</string>
+    <string name="is_not_at_home">is not at %1$s</string>
+    <string name="is_at_home">is at %1$s</string>
+    <string name="are_not_at_home">bist nicht am Standort %1$s</string>
+    <string name="are_at_home">bist %1$s</string>
+    <string name="at_home_health">%1$s um %2$s Uhr</string>
+    <string name="at_one_home_health">%1$s um %2$s Uhr</string>
+    <string name="language_now_available">%1$s ist jetzt verfügbar.</string>
+    <string name="language_now_available_dsc">Anscheinend sprichst du %1$s. Möchtest du deine Spracheinstellungen aktualisieren?</string>
+    <string name="update_language">Sprache ändern?</string>
+    <string name="this_change_will_update">Mit dieser Änderung werden die App und neue Ereignisse in der Timeline auf %1$s übersetzt.</string>
+    <string name="language_updated">Sprache aktualisiert.</string>
+    <string name="your_language_will_update">Mit dieser Änderung werden die App und neue Ereignisse in der Timeline auf %1$s übersetzt. Danach kehrst du automatisch zum Home-Bildschirm zurück. Du kannst deine Sprache jederzeit in deinem Profil wieder ändern.</string>
+    <string name="tap_the_bookmark">Du hast noch keine Ereignisse gespeichert. Tippe auf das Lesezeichen, um Ereignisse zu speichern</string>
+    <string name="home">Zuhause</string>
+    <string name="cancel_invitation">Einladung an %1$s für diesen Standort löschen?</string>
+    <string name="home_health_title">%1$s</string>
+    <string name="homehealth_label_max">Höchstwert</string>
+    <string name="homehealth_label_min">Mindestwert</string>
+    <string name="add_photo">Foto hinzufügen</string>
+    <string name="change_photo">Foto ändern</string>
+    <string name="view_connectivity_tips">Verbindungstipps anzeigen</string>
+    <string name="share">Teilen</string>
+    <string name="downloading_video">Video herunterladen …</string>
+    <string name="which_video_to_share">Welches Video möchtest du teilen?</string>
+    <string name="share_is_ready">Du kannst dein Video nun teilen.</string>
+    <string name="creating_account">Konto anlegen …</string>
+    <string name="saving">Speichern …</string>
+    <string name="preparing">Vorbereiten</string>
+    <string name="download_complete">Download abgeschlossen.</string>
+    <string name="help_center_site"> http://help.canary.is/hc/de?utm_source=app&amp;utm_medium=android&amp;utm_campaign=us</string>
+    <string name="privacy_link">legal/system-privacy/</string>
+    <string name="terms_link">legal/system-terms/</string>
+    <string name="eula_link">legal/eula/</string>
+    <string name="compliance_link">legal/compliance/</string>
+    <string name="signing_in">Anmelden …</string>
+    <string name="canary_twitter">CanaryDE</string>
+    <string name="insurance">Versicherung</string>
+
+    <string name="view_activity">Aktivität anzeigen</string>
+
+    <string name="edit_mode_preferences">Moduseinstellungen</string>
+    <string name="night_mode_title">Nacht</string>
+    <string name="home_mode_title">Zuhause</string>
+    <string name="away_mode_title">Unterwegs</string>
+    <string name="home_mode">Zuhause-Modus</string>
+    <string name="night_mode">Nacht-Modus</string>
+    <string name="auto_mode_switching_on_dsc">Canary kann für diesen Standort automatisch zwischen dem Zuhause- und dem Unterwegs-Modus wechseln, wenn Mitglieder kommen und gehen. Die automatische Modus-Umschaltung funktioniert noch besser, wenn WLAN eingeschaltet ist. Wenn diese Funktion ausgeschaltet ist, müssen Standortmitglieder den Modus manuell wechseln.</string>
+    <string name="home_mode_dsc">Wenn jemand zuhause ist, kann Canary entweder weiter aufpassen oder Privat geschaltet werden.</string>
+    <string name="in_home_mode">im Zuhause-Modus …</string>
+    <string name="in_night_mode">im Nacht-Modus …</string>
+    <string name="record_video">Video aufnehmen</string>
+    <string name="set_to_private">Privat schalten</string>
+    <string name="set_to_private_period">Privat.</string>
+    <string name="send_motion_notifications">Mitteilungen senden</string>
+    <string name="night_mode_dsc">Lege fest, wann Canary in der Nacht aufpasst, während du schläfst. Bitte beachte Folgendes: </string>
+    <string name="night_mode_bullet_one">Dein Canary schaltet nur in den Nacht-Modus, wenn jemand zuhause ist.</string>
+    <string name="night_mode_bullet_two">Wenn dein Smartphone auf „Nicht stören“ eingestellt ist, werden Benachrichtigungen stummgeschaltet.</string>
+    <string name="schedule_night_mode">Nacht-Modus einstellen</string>
+    <string name="start">Start</string>
+    <string name="end">Ende</string>
+    <string name="select_a_start_time">Wähle einen Startzeitpunkt.</string>
+    <string name="location_to_private">Standort Privat schalten</string>
+
+    <string name="how_mode_works">Wie funktionieren die Modi?</string>
+    <string name="here_a_tutorial"> Hier ist ein kurzes Tutorial.</string>
+    <string name="canary_modes_empower">Mit den Modi kannst du Funktionen deines Canary individuell anpassen. Dies ist eine kurze Anleitung hierzu.</string>
+    <string name="privacy_mode_dsc">Canary kann jederzeit Privat geschaltet werden, um Audio- und Videoaufnahmen vollständig auszuschalten.</string>
+    <string name="swipe_to_start_tutorial">Wische über den Bildschirm, um die Anleitung zu starten</string>
+    <string name="canary_modes_help_you_personalize">Mit den Modi kannst du Canary individuell anpassen. Wie, zeigt dir diese kurze Anleitung.</string>
+    <string name="tutorial_flex_stats_text">Behalte den Überblick über die WLAN-Verbindung und\n den Akkuladestand deines Canary Flex.</string>
+
+    <string name="protect_your_home">Schütze dein Zuhause auf deine Art.</string>
+    <string name="when_all_members_are_away">Canary passt auf und meldet Bewegungen, wenn du nicht zuhause bist.</string>
+    <string name="when_a_member_is_home">Du kannst einstellen, ob du benachrichtigt werden sollst, wenn du zuhause bist.</string>
+    <string name="get_started_with_latest_feature">Los geht’s!</string>
+    <string name="nothing_will_change_automatically">Nichts wird automatisch geändert – deine bisherigen Einstellungen werden übernommen. Du kannst dir auch die neuen Modusoptionen von Canary in den Einstellungen ansehen. Viel Spaß!</string>
+    <string name="canary_is_online">Verbindung hergestellt. \nAktualisierung läuft.</string>
+    <string name="canary_will_update">Die Firmware wir aktualisiert. Bitte trenne währendessen dein Gerät nicht vom Kabel.</string>
+    <string name="canary_flex_will_update">Die Firmware wir aktualisiert. Bitte trenne währendessen dein Gerät nicht vom Kabel.</string>
+    <string name="canary_view_will_update">Die Firmware deines Canary View wird aktualisiert. Dies kann einige Minuten dauern. Trenne dein Gerät nicht vom Kabel.</string>
+    <string name="while_updates_swipe">Erfahre in der Zwischenzeit mehr darüber, \nwie Canary funktioniert.</string>
+    <string name="blank"></string>
+    <string name="set_schedule">Zeitplan festlegen</string>
+    <string name="schudule_night_mode">Nacht-Modus einstellen.</string>
+    <string name="schudule_night_mode_dsc">Der Nacht-Modus funktioniert am besten mit einem Zeitplan. Stelle ein, dass Canary in den Nacht-Modus wechseln soll, wenn du schläfst, damit du immer gut geschützt bist.</string>
+    <string name="view_tips">Tipps anzeigen</string>
+    <string name="schedule_applies_to_timezone_of_location">Der Zeitplan gilt für jeden Wochentag in der Zeitzone des Standorts.</string>
+
+    <!--power and battery notifications-->
+    <string name="power_source_fragment_header">Strom und Akku</string>
+    <string name="power_source_notifications_body">Erhalte eine Benachrichtigung, wenn sich die Stromquelle eines Geräts ändert (zum Beispiel von Ladekabel zu Akku).</string>
+    <string name="power_source_notifications_header">Benachrichtigungen zur Stromquelle</string>
+    <string name="power_source_body_header">Benachrichtigungen erhalten für ...</string>
+    <string name="battery_full_title_text">Akku-Ladezustand</string>
+    <string name="battery_full_desc">Lass dich benachrichtigen, wenn Canary Flex vollständig geladen ist.</string>
+
+    <!--battery settings-->
+    <string name="battery_settings_option">Akku-Einstellungen</string>
+    <string-array name="battery_states">
+        <item>Normale Akkunutzung</item>
+        <item>Akkunutzung im Sparmodus</item>
+    </string-array>
+    <string name="battery_settings_header">Akkuverbrauch</string>
+    <string name="battery_settings_body">Du kannst genau einstellen, wieviele Bewegungen Canary Flex aufnehmen soll, um die Akkulaufzeit zu verlängern.</string>
+    <string name="battery_settings_body_header">%1$s eingestellt auf ...</string>
+    <string name="battery_settings_normal_description">Bei normalem Akkubetrieb nimmt Canary Flex Bewegungen innerhalb eines Radius von 6 Metern auf.</string>
+    <string name="battery_settings_saver_description">Im Akku-Sparmodus schränkt Canary Flex die Aufnahmereichweite etwas ein, sodass kleinere Bewegungen und Bewegungen, die weiter weg sind, ignoriert werden. So wird die Akkulaufzeit verlängert.</string>
+    <string name="about_option">Über %1$s</string>
+    <string name="fine_tune_recording">Aufnahmereichweite einstellen</string>
+    <string name="battery_status_pwr">STROM</string>
+    <string name="battery_status_batt">AKKU</string>
+
+    <!--recording range-->
+    <string name="recording_settings_header">Aufnahmereichweite</string>
+    <string name="recording_settings_body">Wenn du den Bildausschnitt nahe deines Canary wählst, schonst du den Akku.  Bei großer Reichweite und Bildauschnitt wird der Akku entsprechend stärker beansprucht.</string>
+    <string name="recording_settings_body_header">Bewegung aufnehmen in …</string>
+    <string name="range_comment_more">Mehr Akkulaufzeit</string>
+    <string name="range_comment_less">Weniger Akkulaufzeit</string>
+    <string-array name="range_states">
+        <item>Nahdistanz</item>
+        <item>Mittlere Reichweite</item>
+        <item>Große Reichweite</item>
+    </string-array>
+
+    <!--insurance -->
+
+    <string name="canary_makes_insurance_smarter">Mit Canary wird Versichern intelligenter und günstiger.</string>
+    <string name="see_if_youre_eligible">Wähle hier deinen Anbieter aus, um zu erfahren, ob du einen Rabatt auf deine Versicherungsprämie erhalten kannst.</string>
+    <string name="other_insurance"><u>Andere Versicherungen</u></string>
+    <string name="more_about_insurance"><u>Mehr über Versicherungsrabatte</u></string>
+    <string name="more_about_data_sharing_underline"><u>Mehr über das Teilen von Daten</u></string>
+    <string name="trademark">®</string>
+
+    <string name="insurance_state_farm_dsc">Kontaktiere deinen State Farm-Agenten und frage nach dem \"Local Burglar Alarm level discount under the State Farm Home Alert Protection Discount\".</string>
+    <string name="insurance_liberty_dsc">"Rufe (800) 699–3739 an und wähle die 2, um mit dem Kundenservice zu sprechen und den Rabatt für „self-monitored Theft Protection\" anzufordern."</string>
+
+    <string name="insurance_small">Du musst die Installation nicht dokumentieren. Rabatte und Rabattstufen variieren je nach Staat. Der Rabatt gilt momentan nicht für Flex-Geräte.</string>
+    <string name="discount_eligibility">VERSICHERUNGSRABATT</string>
+
+    <string name="work_with_insurance_provider">Wir arbeiten mit Versicherungen in den USA zusammen, um dir Rabatte auf deine Versicherungsprämie anbieten zu können und um zu helfen, Versicherungen für die Zukunft intelligenter zu gestalten.</string>
+    <string name="more_about_savings">MEHR ÜBER VERSICHERUNGSRABATTE</string>
+    <string name="help_canary_insurance_smarter">Intelligentere Versicherung mit Canary.</string>
+    <string name="provider">Anbieter</string>
+    <string name="policy_number">Policy-Nummer (optional)</string>
+    <string name="policy_number_placeholder">12-A3-B456-7 C</string>
+    <string name="share_with_provider">Mit Anbieter teilen</string>
+    <string name="by_share_data">Wenn du Daten von deinem Canary mit deiner Versicherung teilst (z.B. Sensordaten und die Häufigkeit von Benachrichtungen), kann es sein dass du in Zukunft noch bessere Rabatte erhalten wirst. Du kannst deine Erlaubnis natürlich jederzeit widerrufen, und Video und Audio werden niemals geteilt. </string>
+    <string name="more_about_data_sharing">MEHR ÜBER DAS TEILEN VON DATEN</string>
+
+    <!--about device-->
+    <string name="about_device_header">Über %1$s</string>
+    <string name="canary_insurance_url">https://canary.is/insurance/</string>
+    <string name="canary_insurance_url_header">Versicherung</string>
+    <string name="other_insurance_url">https://canary.is/insurance/#other-provider</string>
+    <string name="skip">Überspringen</string>
+    <!-- add a device-->
+    <string name="select_a_device">Gerät auswählen</string>
+    <string name="canary_flex">Canary Flex</string>
+    <string name="canary_flex_dsc">Kabellose HD-Kamera für drinnen und draußen</string>
+    <string name="canary">Canary All-in-One</string>
+    <string name="canary_dsc">All-in-One Sicherheit für Innenbereiche</string>
+    <string name="canary_view">Canary View</string>
+    <string name="canary_view_dsc">HD-Kamera für drinnen</string>
+
+    <!-- placement guidelines -->
+    <string name="placement_guidelines">PLATZIERUNGSRICHTLINIEN</string>
+    <string name="canary_flex_tips">Canary Flex Tipps</string>
+    <string name="field_of_view">SICHTFELD FREIRÄUMEN</string>
+    <string name="outdoor_use">NUTZUNG IM AUSSENBEREICH</string>
+    <string name="strong_internet">STARKE INTERNETVERBINDUNG</string>
+    <string name="avoid_direct_sunlight">DIREKTES SONNENLICHT VERMEIDEN</string>
+    <string name="position_device_flex">Kabellos stets verwendbar. Wenn der Netzstecker einen grünen Punkt als Kennzeichnung hat, schließe Canary Flex nur dann an Strom an wenn die Steckdose wetterfest und komplett geschützt ist. </string>
+    <string name="position_device_traffic">Stelle dein Gerät auf eine ebene Stelle mit freiem Sichtfeld, ca. 90 bis 150 cm über dem Boden.</string>
+    <string name="keep_in_range_of_wifi">Um eine stabile Internetverbindung zu gewährleisten, muss sich dein Gerät innerhalb der Reichweite deines WLAN-Routers befinden.</string>
+    <string name="if_outdoor_protect_sunlight">Schütze dein Gerät bei Verwendung im Außenbereich vor direkter Sonneneinstrahlung, indem du es an einer überdachten oder schattigen Stelle aufstellst.</string>
+    <string name="keep_in_range_of_wifi_or_ethernet">Falls du WLAN verwenden möchtest, muss sich dein Gerät innerhalb der Reichweite deines Routers befinden, um eine stabile Internetverbindung aufrechterhalten zu können.</string>
+    <string name="view_flex_tips">Siehe %1$s Tipps.</string>
+
+    <!--- pair canary -->
+    <string name="pair_canary">Kopple deinen Canary All-in-One</string>
+    <string name="pair_canary_view">Kopple deinen Canary View</string>
+    <string name="pair_canary_flex">Kopple deinen Canary Flex.</string>
+    <string name="press_button_on_back">Sobald das Licht blau leuchtet, drücke den Knopf auf der Rückseite deines Geräts, um die Kopplung zu starten.</string>
+    <string name="press_button_on_back_wifi">Tippe auf den Knopf auf der Rückseite deines Geräts, um die Kopplung zu starten.</string>
+    <string name="confirm_device">Bestätige das Gerät, das du gerade aktivierst.</string>
+    <string name="name">Name</string>
+    <string name="where_will_flex">Wo willst du deinen Canary Flex nutzen?</string>
+    <string name="indoor">Drinnen</string>
+    <string name="outdoor">Draußen</string>
+    <string name="give_your_flex_a_name">Gib deinem Canary Flex einen selbst gewählten Namen oder benenne das Gerät nach seinem Standort.</string>
+    <string name="give_your_plus_a_name">Gib deinem Canary Plus einen selbst gewählten Namen oder benenne das Gerät nach seinem Standort.</string>
+    <string name="give_your_canary_a_name">Wähle einen passenden Namen für deinen Canary All-in-One oder benenne das Gerät nach seinem Standort.</string>
+    <string name="give_your_canary_view_a_name">Gib deinem Canary View einen selbst gewählten Namen oder benenne das Gerät nach seinem Standort</string>
+    <string name="connect">Verbinden</string>
+    <string name="plug_an_ethernet_cable">Schließe ein Ethernet-Kabel an deinen Canary an,  und verbinde das andere Ende mit dem Router.</string>
+    <string name="plug_yellow_audio_cable">Schließe das gelbe Audiokabel an der Rückseite deines Gerätes an. Verbinde das andere Ende des Kabels mit der Audiobuchse deines Mobiltelefons.</string>
+    <string name="get_help_peroid">Hilfe/Kontakt.</string>
+    <string name="allow_canary_access">Zugriff gewähren.</string>
+    <string name="your_canary_needs_access">Dein Canary muss Audiosignale verwenden, um eine sichere Verbindung herzustellen. Bitte gestatte Canary den Zugriff auf das Mikrofon deines Telefons.</string>
+    <string name="your_phones_volume_to_low">Die Lautstärke deines Telefons ist zu niedrig eingestellt. Stelle sie auf Maximum, damit dein Telefon mit deinem Gerät kommunizieren kann.</string>
+    <string name="allow_access">ZUGRIFF GEWÄHREN</string>
+    <string name="activate">Aktivieren</string>
+    <string name="choose_a_wifi_network">WLAN auswählen</string>
+    <string name="why_cant_I_pair">Warum kann ich mein Gerät nicht über Bluetooth verbinden?</string>
+    <string name="why_is_my_device_activate">Warum ist mein Gerät bereits aktiviert?</string>
+    <string name="visi_help_center">Zum Help Center.</string>
+    <string name="contact_customer_support">Wende dich an den Kundenservice.</string>
+    <string name="i_cant_increase_volume">Warum kann ich die Lautstärke nicht erhöhen?</string>
+    <string name="enter_network_manually">Gib das Netzwerk manuell ein.</string>
+    <string name="choose_a_two_four_network">Wähle ein WLAN-Netzwerk, das mit 2,4 GHz sendet</string>
+    <string name="device_activation_failed">Das Gerät konnte nicht aktiviert werden.</string>
+    <string name="try_again">Versuche es erneut.</string>
+    <string name="please_try_again_contact_support">Versuche es bitte erneut. Falls das Problem weiterhin besteht, wende dich bitte an den Kundensupport.</string>
+    <string name="please_contact_support_for_further_assistance">Wende dich bitte an den Kundenservice für weitere Unterstützung.</string>
+    <string name="unable_to_connect_check_internet">Bitte vergewissere dich, dass du mit dem Internet verbunden bist, und versuche es erneut.</string>
+    <string name="please_dont_close_app">Die App darf während der Einrichtung nicht geschlossen werden.</string>
+    <string name="unable_to_pair">Die Kopplung war nicht erfolgreich.</string>
+    <string name="check_bluetooth_try_again">Bitte überprüfe deine Bluetooth-Einstellungen und versuche es erneut. Falls das Problem weiterhin besteht, wende dich bitte an den Kundensupport.</string>
+    <string name="try_again_or_contact_support">Versuche es bitte erneut. Falls das Problem weiterhin besteht, wende dich bitte an den Kundensupport.</string>
+    <string name="device_disconnected">Die Verbindung zum Gerät ist getrennt.</string>
+    <string name="unable_to_connect_wifi">Die Verbindung zum WLAN-Netzwerk konnte nicht hergestellt werden.</string>
+    <string name="how_long_should_this_take">Wie lange dauert dieser Schritt?</string>
+    <string name="cannot_hear_canary">Warum kann Canary mein Gerät nicht hören?</string>
+    <string name="why_wont_canary_accept_wifi">Warum bekomme ich die Meldung, dass mein WLAN-Passwort nicht stimmt?</string>
+    <string name="should_use_ethernet_wifi">Soll ich WLAN oder Ethernet verwenden?</string>
+    <string name="how_can_we_help">Wie können wir helfen?</string>
+    <string name="invite_sent">Einladung versandt</string>
+    <string name="location">Standort</string>
+    <string name="new_address">Neue Adresse</string>
+    <string name="select_address_for_device">Wähle die Adresse für dieses Gerät aus.</string>
+    <string name="live_life_in_the_know">Immer im Bild.</string>
+    <!--Timeline Tutorial Fragment-->
+    <string name="timeline_tutorial_desc1">Tippe oder streiche auf dem Bildschirm nach oben, um die Timeline zu öffnen, dir Videoclips anzuschauen, zu sehen wer gekommen oder gegangen ist, und vieles mehr.</string>
+    <string name="timeline_tutorial_desc2">Verwende die Tabs um dir alle Ereignisse, Ereignisse im Unterwegs-Modus, oder mit Lesezeichen markierte Ereignisse anzeigen zu lassen.</string>
+    <string name="timeline_tutorial_desc3">Tippe hier, um ein Video von der Timeline dieses Standorts herunterzuladen oder zu löschen.</string>
+    <string name="timeline_tutorial_desc4">Wische nach links, um deinen neuen Canary zu sehen.</string>
+    <string name="help">Hilfe</string>
+    <string name="go">Los</string>
+    <string name="or_skip">Oder überspringe diesen Schritt</string>
+    <string name="enable_location_services">Ortungsdienste aktivieren?</string>
+    <string name="allow">Erlauben</string>
+    <string name="account">Konto</string>
+    <string name="profile">Profil</string>
+    <string name="preferences">Einstellungen</string>
+    <string name="where_do_you_usually_go_to_be">Wann gehst du normalerweise ins Bett und wann stehst du auf?</string>
+    <string name="adjust_volume">Stelle dein Telefon lauter.</string>
+    <string name="canary_cannot_detect_cable">Canary kann dein Audiokabel nicht erkennen.</string>
+    <string name="confirm_audio_cable_is_in">Bestätige bitte, dass dein Audiokabel angeschlossen ist.</string>
+    <string name="low">Niedrig</string>
+    <string name="med">mittel</string>
+    <string name="medium">Mittel</string>
+    <string name="high">hoch</string>
+
+    <!--masking-->
+    <string name="masking_create_mask">Maske hinzufügen</string>
+    <string name="masking_edit_mask">Maske bearbeiten</string>
+    <string name="masking_edit_masks">Masken bearbeiten</string>
+    <string name="masking_delete_mask">Maske löschen</string>
+    <string name="masking_save_mask">Maske speichern</string>
+    <string name="masking_save_masks">Masken speichern</string>
+    <string name="masking_max_masks_reached">Maskengrenze erreicht</string>
+    <string name="masking_default_message">Maskiere Bereiche, die Canary ignorieren soll.</string>
+
+    <!--Membership Preview-->
+    <string name="setup_complete">Setup abgeschlossen</string>
+    <string name="add_membership">Mitgliedschaft hinzufügen</string>
+    <string name="device_already_activated">Das Gerät wurde bereits aktiviert.</string>
+    <string name="your_phone_is_not_bluetooth_capable">Dein Mobiltelefon ist nicht Bluetooth-fähig.</string>
+    <string name="canary_uses_bluetooth">Canary verwendet Bluetooth zur Aktivierung deines Geräts. Benutze bitte ein Bluetooth-fähiges Mobiltelefon, um das Setup durchzuführen.</string>
+
+    <string name="you_ve_been_logged_out">Du wurdest von deinem Konto abgemeldet. Bitte melde dich erneut an, um fortzufahren.</string>
+    <string name="password_and_security">Passwort und Sicherheit</string>
+
+    <string name="toggle_geofence">Geofencing umschalten</string>
+    <string name="device_cant_make_call">Mit diesem Gerät sind keine Anrufe möglich.</string>
+    <string name="update_in_progress">Aktualisierung läuft</string>
+    <string name="connected_updating">Verbindung hergestellt. Aktualisierung läuft.</string>
+    <string name="membership">Mitgliedschaft</string>
+    <string name="twelve_days_left">NOCH %1$d TAGE</string>
+    <string name="days_left_membership_preview">Deine Mitgliedschaft endet in %1$d Tagen</string>
+    <string name="events_from_over_24">Eine Timeline von %1$d Stunden ist inklusive. Mit einer Mitgliedschaft kannst du daraus 30 Tage machen.</string>
+    <string name="see_events_24_hours">Hol dir mit der Mitgliedschaft Zugriff auf Ereignisse, die länger als %1$d Stunden zurückliegen. </string>
+    <string name="learn_more">MEHR ERFAHREN</string>
+    <string name="manage_my_membership">Mitgliedschaft bearbeiten</string>
+    <string name="incident_support">Support im Schadensfall</string>
+    <string name="incident_support_dsc">Unser Incident-Support-Team unterstützt dich bei Schadensfällen an US-Standorten.</string>
+    <string name="extended_warranty">Zwei Jahre Garantie</string>
+    <string name="extended_warranty_dsc">Deine Gerätegarantie wird auf zwei Jahre ab Kaufdatum verlängert.</string>
+
+    <string name="you_reach_end_timeline">Deine 30-tägige Video-Timeline endet hier.</string>
+    <string name="book_import_events_or_download">Speichere wichtige Ereignisse mit einem Lesezeichen oder lade sie auf dein Mobilgerät herunter. </string>
+    <string name="add_membership_to_add_devices">Füge eine Mitgliedschaft zu deinem Standort hinzu, um mehr als vier Geräte hinzufügen zu können. Sichere dir für Standorte in den USA außerdem eine 30-tägige Video-Timeline, Rückerstattung des Selbstbehalts der Hausratversicherung und weitere attraktive Vorteile.</string>
+    <string name="your_preview_ended">Deine 14-tägige Probemitgliedschaft ist abgelaufen.</string>
+    <string name="twenty_four_shared_video">24-STÜNDIGE GEMEINSAME TIMELINE</string>
+    <string name="hours">%1$d STD.</string>
+    <string name="membership_active">MITGLIEDSCHAFT AKTIV</string>
+    <string name="membership_inactive">MITGLIEDSCHAFT INAKTIV</string>
+    <string name="continue_without_membership">Ohne Mitgliedschaft fortfahren</string>
+    <string name="your_preview_ended_dsc">Sichere dir eine 30-tägige Video-Timeline mit der Canary-Mitgliedschaft. Oder nutze Canary weiterhin ohne Mitgliedschaft, mit kostenlosem Zugriff auf eine 24-stündige gemeinsame Timeline.</string>
+    <string name="your_preview_ended_dsc_international">Sichere dir eine 30-tägige Video-Timeline mit der Canary-Mitgliedschaft. Oder nutze Canary weiterhin ohne Mitgliedschaft, mit kostenlosem Zugriff auf eine 24-stündige gemeinsame Timeline.</string>
+    <string name="hours_per_device"> Bei %1$d Geräten am Standort %2$s ergibt das je %3$d Stunden pro Gerät.  </string>
+    <string name="canary_view_will_update_second">Die Firmware deines Canary View wird aktualisiert. Dies kann einige Minuten dauern. Kehre zur App zurück, während die Aktualisierung läuft.</string>
+    <string name="canary_flex_will_update_second">Die Firmware wird aktualisiert.  Dies kann einige Minuten dauern.  Kehre zur App zurück, während die Aktualisierung läuft.</string>
+    <string name="canary_will_update_second">Die Firmware wird aktualisiert. Dies kann einige Minuten dauern. Kehre zur App zurück, während die Aktualisierung läuft.</string>
+    <string name="sound_all_sirens">Alle Sirenen am Standort auslösen</string>
+    <string name="sound_this_siren">Nur diese Sirene auslösen</string>
+    <string name="flex_doesnt_have_siren">Dein Canary Flex enthält keine Sirene. Du kannst aber die Sirenen anderer Geräte an diesem Standort auslösen.</string>
+    <string name="view_doesnt_have_siren">Dein Canary View enthält keine Sirene. Du kannst aber die Sirenen anderer Geräte an diesem Standort auslösen.</string>
+    <string name="contact_incident_support">Incident Support kontaktieren</string>
+    <string name="notification_sound">Benachrichtigungston</string>
+    <string name="last_day">LETZTER TAG</string>
+    <string name="waking_from_sleep">Canary Flex wird aus dem Akkumodus aufgeweckt</string>
+    <string name="establishing_your_connection">Verbindung wird hergestellt</string>
+    <string name="loading_live_stream">Livestream lädt</string>
+    <string name="sounds">Töne</string>
+
+    <string-array name="sound_names">
+        <item>Standardton</item>
+        <item>Canary-Ton</item>
+    </string-array>
+
+    <string name="device_offline_dsc">Damit die Sirene ertönen kann, muss das Gerät online sein. Bitte vergewissere dich, dass dein Gerät mit dem Internet verbunden ist.</string>
+    <string name="devices_offline">Geräte offline.</string>
+    <string name="device_offline">Gerät offline</string>
+    <string name="select_a_end_time">Wähle einen Endzeitpunkt.</string>
+    <string name="please_fill_in_before_continuing">Bitte fülle alle Pflichtfelder aus.</string>
+
+    <string name="location_services">Ortungsdienste</string>
+    <string name="location_services_btle">Die Ortungsdienste deines Telefons müssen aktiviert sein, damit die Bluetooth-Kopplung erfolgen kann.</string>
+    <string name="activate_with_yelow_cable">Mit dem gelben Audio-Kabel aktivieren</string>
+
+    <!--Masking Help -->
+    <string name="what_are_masks">Wie erstelle ich eine Maske?</string>
+    <string name="most_out_of_masks">Wie setze ich Masken am Besten ein?</string>
+    <string name="masks_notifications">Weshalb erhalte ich keine Benachrichtigungen von Canary?</string>
+
+    <string name="question_mark">\?</string>
+    <string name="you_will_receive_fewer_notifications">Du erhältst weniger Benachrichtigungen.</string>
+    <string name="you_will_receive_more_notifications">Du erhältst mehr Benachrichtigungen.</string>
+    <string name="your_current_setting">Deine aktuellen Einstellungen.</string>
+    <string name="did_you_know_canary_tools_customize_notifications">Wusstest du, dass es bei Canary ein paar Tools gibt, mit denen du deine Bewegungsbenachrichtigungen individuell anpassen kannst?</string>
+    <string name="learn_more_lower">Mehr erfahren</string>
+
+    <string name="why_notifications_from_canary">Weshalb erhalte ich keine Benachrichtigungen  von Canary?</string>
+    <string name="how_does_motion_sensitivity_work">Wie stelle ich die Bewegungssensor-Empfindlichkeit ein? </string>
+
+    <string name="mask_areas_that_canary_should_ignore">Lege Bereiche fest, die Canary ignorieren soll, um unerwünschte Benachrichtigungen zu vermeiden.</string>
+    <string name="mask_applied">%1$d Maske hinzugefügt</string>
+    <string name="masks_applied">%1$d Masken hinzugefügt</string>
+    <string name="masks_reduce_notifications">Masken sind eine gute Möglichkeit, um unerwünschte Benachrichtigungen zu vermeiden. Canary ignoriert Bewegung innerhalb einer Maske.</string>
+    <string name="keep_in_mind_if_device_moved">Denk daran, dass du deine Maske möglicherweise anpassen musst, wenn dein Gerät umgestellt wird.</string>
+    <string name="preferences_saved_adjust_anytime">Einstellungen wurden gespeichert! Du kannst sie im Einstellungsmenü jederzeit anpassen.</string>
+
+    <string name="allow_camera_access">Gewähre der App in den Berechtigungen Zugriff auf diese Kamera.</string>
+    <string name="allow_permission_access">Gewähre der App in den Berechtigungen Zugriff auf %1$s.</string>
+    <string name="open_settings_app">Einstellungen aufrufen</string>
+    <string name="select_apps">Apps auswählen</string>
+    <string name="select_canary">Canary auswählen</string>
+    <string name="allow_canary_access_no_period">Zugriff gewähren</string>
+    <string name="_1">1.</string>
+    <string name="_2">2.</string>
+    <string name="_3">3.</string>
+    <string name="_4">4.</string>
+    <string name="go_to_permissions">Berechtigungen</string>
+
+    <string name="image_preview_unavailable">Bildvorschau nicht verfügbar.</string>
+    <string name="remove_location">Standort entfernen</string>
+    <string name="are_you_sure">Bist du sicher?</string>
+    <string name="are_you_sure_remove">Bist du sicher, dass du %1$s entfernen möchtest?</string>
+    <string name="are_you_sure_remove_location">Bist du sicher, dass du %1$s entfernen möchtest? Alle Lesezeichen und Timeline-Einträge werden gelöscht.</string>
+    <string name="remove">Entfernen</string>
+    <string name="removing">Wird entfernt</string>
+    <string name="at">bei</string>
+    <string name="on"> am </string>
+    <string name="invite_a_person">Eine Person einladen</string>
+    <string name="remove_member">Mitglied entfernen</string>
+    <string name="unavailable_for_flex">Nicht für Canary Flex verfügbar</string>
+    <string name="do_you_want_to_save_changes">Möchtest du deine Änderungen speichern?</string>
+    <string name="dont_save">Nicht speichern</string>
+
+    <string name="data_saver_enabled">Der Datensparmodus ist aktiviert. Für problemlose Auto-Modus-Umschaltung, erlaube Canary bitte steten Zugriff.</string>
+
+    <string name="customize_device_behavior">Geräteverhalten anpassen</string>
+    <string name="manage_devices">Geräte verwalten</string>
+
+    <string name="about">Info</string>
+    <string name="home_settings">%1$s-Einstellungen</string>
+    <string name="one_customer">%1$d Mitglied</string>
+    <string name="more_than_one_customer">%1$d Mitglieder</string>
+    <string name="mobile_phone">Mobiltelefon</string>
+    <string name="language">Sprache</string>
+
+    <string name="edit_geofence">Geofence bearbeiten</string>
+    <string name="edit_address">Adresse bearbeiten</string>
+
+    <string name="geofence">Geofence</string>
+    <string name="geofence_size">UMFANG DES GEOFENCE</string>
+    <string name="geofence_position">POSITION DES GEOFENCE</string>
+    <string name="control_your_geofence">Geofence anpassen</string>
+    <string name="geofence_look_right">Sieht dein Geofence richtig aus?</string>
+    <string name="control_your_geofence_dsc">Dein Geofence bildet eine Grenze um deinen Standort herum. So kann Canary erkennen, wann Standortmitglieder zuhause oder unterwegs sind. Anhand des Geofence wird z. B. die Auto-Modus-Umschaltung gesteuert.</string>
+    <string name="geofence_look_right_dsc">Dein Geofence bildet eine Grenze um deinen Standort herum. So kann Canary erkennen, wann Standortmitglieder zuhause oder unterwegs sind. Du kannst ihn jederzeit bearbeiten.</string>
+    <string name="edit_position">Position bearbeiten</string>
+    <string name="edit_size">Umfang bearbeiten</string>
+    <string name="set_size">Umfang festlegen</string>
+    <string name="set_size_dsc">Ein Geofence mit geringerem Umfang ist akkurater. Ein erweiterter Umfang kann hingegen bei der Fehlerbehebung helfen.</string>
+    <string name="small">Klein</string>
+    <string name="medium_cap">mittel</string>
+    <string name="large">Groß</string>
+    <string name="set_position">Position festlegen</string>
+    <string name="set_position_dsc">Bewege die Karte unten, um die genaue Position des Geofence an deinem Standort anzupassen.</string>
+    <string name="save_position">Position speichern</string>
+    <string name="save_size">Umfang speichern</string>
+    <string name="your_exclusive_benefits">DEINE EXKLUSIVEN MITGLIEDSCHAFTSVORTEILE:</string>
+    <string name="thirty_day_history_with_downloads">30 Tage Verlauf mit Videos in voller Länge</string>
+    <string name="two_year_warrenty">Gerätegarantie verlängert auf zwei Jahre</string>
+    <string name="incident_support_for_theft">Support im Schadensfall an US-Standorten</string>
+    <string name="deductible_learn_more">Mehr erfahren</string>
+
+    <string name="what_comes_with_membership">Vorteile der Canary-Mitgliedschaft</string>
+    <string name="how_do_i_update_my_payment">Wie aktualisiere ich meine Zahlungsmethode?</string>
+    <string name="what_is_a_location">Was ist ein Standort?</string>
+    <string name="what_is_canary_membership">Was ist eine Canary-Mitgliedschaft?</string>
+    <string name="how_can_i_remove_a_location">Wie kann ich einen Standort entfernen?</string>
+
+    <string name="what_is_a_member">Wann ist man ein Mitglied?</string>
+    <string name="how_can_i_add_or_remove_members">Wie kann ich Mitglieder zu meinem Standort hinzufügen oder davon entfernen?</string>
+
+    <string name="how_does_canary_knwow_when_home">Woher weiß Canary, wann ich zuhause bin und wann nicht?</string>
+    <string name="why_dont_canary_detect_home">Warum erkennt Canary nicht, wann ich zuhause bin und wann nicht?</string>
+    <string name="how_can_i_troubleshoot_locaition_settings">Wie behebe ich Probleme mit den Standorteinstellungen?</string>
+    <string name="tap_this_card_add_a_location">Tippe auf diese Karte, um ein neues Gerät an einer neuen Adresse einzurichten.</string>
+    <string name="add_more_people_question">Weitere Personen hinzufügen?</string>
+    <string name="add_a_person">Eine Person hinzufügen</string>
+    <string name="device_private">Gerät ist im Privat-Modus.</string>
+    <string name="device_private_talk">Canary Talk ist im Privat-Modus nicht möglich. Wechsle den Modus, um Canary Talk zu aktivieren.</string>
+    <string name="device_offline_talk">Geräte müssen online sein, um Canary Talk zu nutzen. Bitte vergewissere dich, dass dein Gerät mit dem Internet verbunden ist.</string>
+
+    <string name="add_more_people_dsc">Canary funktioniert am besten, wenn alle Personen im Haus mit Canary verbunden sind. Verwende diese Kombination zum schnellen Hinzufügen von Personen zu Canary.</string>
+    <string name="membership_includes">Die Canary-Mitgliedschaft umfasst:</string>
+    <string name="start_your_free_trail">Gratis-Testmitgliedschaft starten</string>
+    <string name="for_next_month_membership">Starte in die 1-monatige Gratis-Testmitgliedschaft und greife in diesem Monat auf Videos in voller Länge zu. Ausserdem verlängert sich die Timeline von 24 Stunden auf 30 Tage.</string>
+    <string name="start_free_trail">Gratis-Testmitgliedschaft jetzt starten</string>
+    <string name="skip_free_trail">Gratis-Testmitgliedschaft überspringen</string>
+    <string name="reset_password_dsc">Durch Zurücksetzen deines Passworts wirst du automatisch auf allen Geräten abgemeldet, einschliesslich der Integrationen von Drittanbietern.</string>
+    <string name="add_canary_device">Canary-Gerät hinzufügen</string>
+
+    <string name="siren">Sirene</string>
+    <string name="talk">Canary Talk</string>
+    <string name="emergency">Notruf</string>
+    <string name="use_two_way_talk_read_time">Mit 2-Weg-Audio via Canary Talk kannst du Unterhaltungen in Echtzeit führen</string>
+    <string name="access_full_videos">Erhalte vollständige Videos.</string>
+    <string name="activate_membership">Aktiviere die Mitgliedschaft</string>
+    <string name="replay">Wiederholen</string>
+    <string name="enable_microphone_access">Zugriff auf Mikrofon aktivieren?</string>
+    <string name="canary_talk_uses_microphone">Canary Talk nutzt das Mikrofon deines Gerätes, damit du über den Lautsprecher deines Canary gehört werden kannst.</string>
+    <string name="someone_else_is_speaking">Jemand spricht</string>
+    <string name="person_is_speaking">%1$s spricht</string>
+
+    <string name="see_more_events_beyond">Mehr als 24 Stunden.</string>
+    <string name="with_membership_unlimited_access">Erhalte unbegrenzten Zugang zu Videos in voller Länge aus den letzten 30 Tagen, 2-Weg-Audio und mehr - mit der Canary-Mitgliedschaft.</string>
+
+    <string name="download_share_full_videos">Videos herunterladen und teilen.</string>
+    <string name="with_canary_membership_full_videos">Erhalte unbegrenzten Zugang zu Videos in voller Länge aus den letzten 30 Tagen, 2-Weg-Audio und mehr mit der Canary-Mitgliedschaft.</string>
+    <string name="two_way_talk">Canary Talk (2-Weg-Audio)</string>
+    <string name="two_way_talk_dsc">Mit 2-Weg-Audio via Canary Talk kannst du dich in Echtzeit mit deinen Lieben zuhause unterhalten – auch mit den vierbeinigen.</string>
+    <string name="web_app_access">Web-App für Streaming auf dem Desktop</string>
+    <string name="get_the_most_with_membership">Profitiere von den Vorzügen der Canary-Mitgliedschaft.</string>
+    <string name="web_app">Web-App</string>
+    <string name="web_app_dsc">Sieh dir über die Web-App Live-Video-Streams von zuhause oder deinen Video-Verlauf der letzten 30 Tage an – von überall aus.</string>
+    <string name="thirty_day_full_video_history">30 Tage Verlauf mit Videos in voller Länge</string>
+    <string name="thirty_day_full_video_history_dsc">Canary-Mitglieder erhalten unbegrenzten Zugang zu Videos in voller Länge aus den letzten 30 Tagen.</string>
+    <string name="youre_all_set_thanks_for_trusting">Es kann losgehen. Vielen Dank, dass du für deine Sicherheit auf Canary vertraust.</string>
+    <string name="youre_all_set_with_membership_thanks_for_trusting">Deine Mitgliedschaft ist startklar. Vielen Dank, dass du für deine Sicherheit auf Canary vertraust.</string>
+    <string name="membership_upsell_home">Den Zuhause-Modus kannst du mit der Mitgliedschaft konfigurieren.</string>
+    <string name="membership_upsell_night">Exklusiv für Mitglieder: Dein ganz persönlicher Nacht-Modus</string>
+    <string name="canary_flex_needs_update">Die Firmware wir aktualisiert. Bitte trenne währendessen dein Gerät nicht vom Kabel.</string>
+    <string name="canary_view_needs_update">Die Firmware deines Canary View wird aktualisiert. Dies kann einige Minuten dauern. Trenne dein Gerät nicht vom Kabel.</string>
+    <string name="canary_membership_includes">Die Canary-Mitgliedschaft umfasst:</string>
+    <string name="device_setup_failed">Das Gerät konnte nicht eingerichtet werden</string>
+    <string name="remove_device">Gerät entfernen</string>
+    <string name="why_did_the_update_fail">Warum ist das Update fehlgeschlagen?</string>
+    <string name="setup_failed">Setup fehlgeschlagen</string>
+    <string name="view_device">Gerät anzeigen</string>
+    <string name="setup_failed_dsc_canary">Die Firmware deines Canary All-in-One konnte nicht aktualisiert werden.</string>
+    <string name="setup_failed_dsc_canary_flex">Die Firmware deines Canary Flex konnte nicht aktualisiert werden.</string>
+    <string name="setup_failed_dsc_canary_view">Die Firmware deines Canary View konnte nicht aktualisiert werden.</string>
+    <string name="checking_dots">Wird geprüft …</string>
+    <string name="no_thanks">Nein danke</string>
+    <string name="no_thanks_period">Nein, danke.</string>
+    <string name="your_one_month_trial_includes">Mit der einmonatigen Testversion erhältst du unbegrenzten Zugang zu Videos in voller Länge aus den letzten 30 Tagen, 2-Weg-Audio und mehr.</string>
+    <string name="your_three_month_trial_includes">Während deiner 3-monatigen Canary-Mitgliedschaft kannst du Videos in voller Länge ansehen und deine Timeline verlängert sich von 24 Stunden auf 30 Tage.</string>
+    <string name="yes_looks_good">Ja, sieht richtig aus</string>
+    <string name="no_needs_editing">Nein, er muss bearbeitet werden</string>
+    <string name="locating">Standortbestimmung läuft …</string>
+    <string name="plug_in_canary_one">Schließe deinen Canary All-in-One an das Stromnetz an</string>
+    <string name="plug_in_flex">Schließe deinen Canary Flex an das Stromnetz an</string>
+    <string name="plug_in_canary_view">Schließe deinen Canary View an das Stromnetz an</string>
+    <string name="all_devices">Alle Geräte</string>
+    <string name="dont_record_video">Video nicht aufnehmen</string>
+    <string name="watch_live_available">Live-Stream kann angezeigt werden</string>
+    <string name="what_are_modes">Was sind Modi?</string>
+    <string name="what_is_night_modes">Was ist der Nacht-Modus?</string>
+    <string name="why_does_it_say_watch_live_is_off">Warum steht auf meinem Home-Bildschirm „Live ist deaktiviert.“?</string>
+    <string name="how_does_canary_know_home_awy">Woher weiß Canary, wann ich zuhause bin und wann nicht?</string>
+    <string name="why_dont_i_receive_notifications">Weshalb erhalte ich keine Benachrichtigungen von Canary?</string>
+    <string name="location_notification">Standort-Benachrichtigung</string>
+    <string name="recording_is_off">Aufnahme\nist deaktiviert.</string>
+    <string name="watch_live_off">Live ist deaktiviert</string>
+    <string name="location_in_privacy">Standort im Privat-Modus</string>
+    <string name="select_address">Adresse auswählen</string>
+    <string name="wifi_signal">WLAN-SIGNAL:</string>
+    <string name="offline">Offline</string>
+    <string name="wifi_low_dsc">Das WLAN-Signal ist schwach. Das kann sich negativ auf die Aufnahme und das Streaming von Videos auswirken.</string>
+    <string name="wifi_med_dsc">Aktuell sollte die Signalstärke für die Wiedergabe und das Streaming von Videos ausreichend sein.</string>
+    <string name="wifi_high_dsc">Alles in Ordnung. Die Signalstärke ist hervorragend.</string>
+    <string name="wifi_offline_dsc">Dein Gerät ist scheinbar offline. In den Verbindungstipps findest du Informationen dazu, wie du dein Gerät wieder online schalten kannst.</string>
+    <string name="battery_level">AKKUSTAND:</string>
+    <string name="view_battery_tips">Akkutipps anzeigen</string>
+    <string name="battery_full_dsc">Canary Flex ist jetzt vollständig aufgeladen. Du kannst dein Gerät vom Strom trennen.</string>
+    <string name="battery_charging_dsc">Der Akku lädt. Das Aufladen kann bis zu 12 Stunden dauern.</string>
+    <string name="battery_level_low_dsc">Der Akku ist fast leer. Er muss bald neu aufgeladen werden.</string>
+    <string name="battery_level_critical_dsc">Der Akku muss aufgeladen werden. Schließe deinen Canary Flex so bald wie möglich an eine Stromquelle an.</string>
+    <string name="battery_level_good_dsc">Der Akku muss noch nicht aufgeladen werden. Dein Gerät kann noch eine Weile im Akkubetrieb genutzt werden.</string>
+    <string name="battery_not_charging">AKKU LÄDT NICHT</string>
+    <string name="battery_not_charging_dsc">Möglicherweise ist dein Canary Flex direkter Sonneneinstrahlung ausgesetzt oder das Ladekabel ist nicht mehr richtig angeschlossen.</string>
+    <string name="battery_offline_dsc">Sobald dein Gerät wieder mit dem Internet verbunden ist, wird hier der Akkuladestand angezeigt.</string>
+    <string name="device_status">Status für: %1$s</string>
+    <string name="how_do_i_adjust_recording_range">Wie kann ich den Aufnahmebereich meines Canary Flex anpassen?</string>
+    <string name="how_do_i_improve_battery_life">Wie optimiere ich die Akkulaufzeit meines Canary Flex?</string>
+    <string name="how_is_your_canary_expierence">Wie würdest du dein bisheriges Benutzer-Erlebnis mit Canary einstufen?</string>
+    <string name="will_your_help_spread_the_word_on_amazon">Würdest du Amazon-Kunden von Canary erzählen?</string>
+    <string name="not_great">Nicht so toll.</string>
+    <string name="excellent">Ausgezeichnet.</string>
+    <string name="write_a_review">Bewertung schreiben.</string>
+    <string name="would_you_like_to_give_us_feedback">Möchtest du uns Feedback geben?</string>
+    <string name="yes_sure">Ja, klar.</string>
+    <string name="thanks_for_letting_us_know">Danke.</string>
+    <string name="send_feedback">Feeback senden</string>
+    <string name="view_entry">Eintrag ansehen</string>
+    <string name="presence_notifications">Anwesenheits-Benachrichtigungen</string>
+    <string name="people_notifications">Benachrichtigungen zu Personen</string>
+    <string name="presence_notifications_dsc">Erhalte eine Benachrichtigung, wenn Mitglieder an diesem Standort ankommen oder ihn verlassen.</string>
+    <string name="presence">Anwesenheit</string>
+    <string name="how_do_presence_notifications_work">Wie funktionieren Anwesenheits-Benachrichtigungen?</string>
+    <string name="why_dont_i_receive_notifcations">Weshalb erhalte ich keine Benachrichtigungen von Canary?</string>
+    <string name="why_doesnt_canary_know_if_home_away">Woher weiß Canary, wann ich zuhause bin und wann nicht?</string>
+    <string name="why_wont_canary_know_if_home_away">Warum erkennt Canary nicht, wann ich zuhause bin und wann nicht?</string>
+    <string name="how_canary_i_troubleshoot_location_settings">Wie behebe ich Probleme mit den Standorteinstellungen?</string>
+    <string name="only_you_wil_recieve_notifcations_presence">Nur du wirst diese Benachrichtigungen erhalten. Andere Standortmitglieder müssen ihre Präferenzen individuell einstellen.</string>
+
+</resources>

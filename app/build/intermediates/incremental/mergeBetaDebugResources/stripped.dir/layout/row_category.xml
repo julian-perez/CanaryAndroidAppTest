@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/category_row_container">
+
+    <TextView
+        android:id="@+id/support_category_title"
+        style="@style/category_row_title"
+        tools:text="Test Category"
+        />
+
+</RelativeLayout><!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/row_category.xml -->

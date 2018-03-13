@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_settings_geofence_position_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/set_postion_text_view"
+                style="@style/large_text_view"
+                android:layout_marginTop="27dp"
+                android:text="@string/set_position" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/set_postion_dsc_text_view"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginTop="16dp"
+                android:text="@string/set_position_dsc" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/top_layout"
+            android:layout_marginTop="51dp">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/map_locate_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/map_locate" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/map_style_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/map_terrain" />
+
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/save_btn"
+                    style="@style/new_green_rect_action_button"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="20dp"
+                    android:enabled="false"
+                    android:text="@string/save_position" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:paddingBottom="35dp"
+                app:srcCompat="@drawable/ic_combined_shape"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+         

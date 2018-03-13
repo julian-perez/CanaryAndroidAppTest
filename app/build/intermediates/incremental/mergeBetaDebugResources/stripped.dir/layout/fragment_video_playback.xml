@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_video_playback_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <FrameLayout
+            android:id="@+id/offline_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/text_canary_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                app:customFont="Gibson-Light.otf" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/event_device_thumbnail_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="false">
+
+                <ImageView
+                    android:id="@+id/event_device_thumbnail_cropped"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <is.yranac.canary.ui.views.ThumbnailImageView
+                android:id="@+id/event_device_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_videoplay" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/video_loading_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ProgressBar
+                    android:id="@+id/flex_loading_progress_bar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:indeterminateTint="@color/white"
+                    android:indeterminateTintMode="src_in" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/flex_loading_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:gravity="center"
+                    android:minHeight="40dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    app:customFont="Gibson-Light.otf" />
+            </LinearLayout>
+        </FrameLayout>
+
+
+    </FrameLayout>
+         

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setting_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listrow_light_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_row_height"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/setting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                app:customFont="Gibson.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/setting_edit_text"
+                style="@style/setting_prompt_title_text"
+                android:focusable="false"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_gray_bar_with_full_margin"
+        android:background="@color/very_light_gray" />
+
+</LinearLayout>

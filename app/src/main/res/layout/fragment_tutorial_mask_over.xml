@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/launch_end" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/large_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:text="@string/preferences_saved_adjust_anytime" />
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/end_tutorial_btn"
+            style="@style/rectangle_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white_transparent_90"
+            android:text="@string/done"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+</layout>

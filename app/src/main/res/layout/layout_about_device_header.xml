@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="device"
+            type="is.yranac.canary.model.device.Device" />
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/standard_margin"
+        android:paddingStart="@dimen/standard_margin">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@+id/device_layout"
+            android:layout_alignTop="@+id/device_layout"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/gray_rect_background" />
+
+        <LinearLayout
+            android:id="@+id/device_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="17dp">
+
+            <ImageView
+                android:id="@+id/device_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/header_title_text_view"
+                style="@style/light_small_text_view"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                app:customFont="Gibson-SemiBold.otf" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/remove_device_btn"
+                style="@style/white_transparent_rectangle_btn"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:alpha="@{device.deviceActivated ? 1.0f : 0.5f}"
+                android:enabled="@{device.deviceActivated}"
+                android:text="@string/remove_device"
+                android:visibility="@{device.failedOTA() ? View.GONE : View.VISIBLE}" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

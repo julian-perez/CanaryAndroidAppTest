@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <FrameLayout
+            android:id="@+id/video_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/video_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:id="@+id/textureView_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:clipChildren="false"
+                android:visibility="gone">
+
+                <is.yranac.canary.ui.views.ZoomTextureView
+                    android:id="@+id/texture_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+                <ImageView
+                    android:id="@+id/watermark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="30dp"
+                    android:alpha="0"
+                    android:src="@drawable/watermark"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/watch_live_underlay_grade" />
+
+        <RelativeLayout
+            android:id="@+id/top_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/device_name"
+                style="@style/tiny_white_bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="@dimen/mode_text_padding"
+                android:gravity="center" />
+
+            <is.yranac.canary.ui.views.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/watch_live_indicator"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/device_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                app:centered="true"
+                app:fillColor="@color/white"
+                app:pageColor="@color/light_gray"
+                app:radius="5dp"
+                app:strokeWidth="0px"
+                app:threeRadiusRadius="3.5px" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/membership_top_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:visibility="invisible">
+
+            <FrameLayout
+                android:layout_width="295dp"
+                android:layout_height="79dp"
+                android:background="@drawable/blue_button"
+                android:minHeight="70dp">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/talk_membership_copy"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/white" />
+            </FrameLayout>
+
+            <is.yranac.canary.ui.views.TriangleView
+                android:id="@+id/triangle"
+                android:layout_width="18dp"
+                android:layout_height="9dp"
+                app:triangle_color="@color/bright_blue_sky_dark_between" />
+
+        </LinearLayout>
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/someone_else_speaking_text_view"
+            style="@style/very_tiny_white_regular"
+            android:layout_marginBottom="23dp"
+            android:alpha="0"
+            android:lines="1"
+            android:text="@string/someone_else_is_speaking"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/bottom_btns_layout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:layoutDirection="rtl">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:clipChildren="false"
+                android:gravity="center"
+                android:layoutDirection="ltr">
+
+
+                <LinearLayout
+                    android:id="@+id/talk_layout"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="25dp"
+                    android:clipChildren="false"
+                    android:gravity="center|bottom"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/talk_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:animateLayoutChanges="true"
+                        android:clipChildren="false"
+                        android:gravity="center">
+
+                        <is.yranac.canary.ui.views.Pulsator
+                            android:id="@+id/pulsator"
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+                            app:pulse_color="@color/light_gray"
+                            app:pulse_count="1"
+                            app:pulse_duration="500"
+                            app:pulse_repeat="0"
+                            app:pulse_startFromScratch="true" />
+
+                        <is.yranac.canary.ui.views.ArcView
+                            android:id="@+id/arc_animation"
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_gravity="center"
+                            android:alpha="0" />
+
+                        <is.yranac.canary.ui.views.CircleView
+                            android:id="@+id/talk_background"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            app:cFillColor="@color/very_dark_gray_mostly_black_twenty" />
+
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/ic_microphone" />
+
+                        <FrameLayout
+                            android:id="@+id/customer_talking_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:animateLayoutChanges="true"
+                            android:clipChildren="false"
+                            android:gravity="center"
+                            android:visibility="invisible">
+
+                            <include
+                                android:id="@+id/avatar_layout"
+                                layout="@layout/avatar_layout"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center" />
+
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/talk_label"
+                        style="@style/very_tiny_white_regular"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/talk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/emergency_call_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/emergency_call_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center">
+
+                        <is.yranac.canary.ui.views.CircleView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            app:cFillColor="@color/very_dark_gray_mostly_black_twenty" />
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/ic_call_watch_live" />
+
+                    </FrameLayout>
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/emergency_label"
+                        style="@style/very_tiny_white_regular"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/emergency" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/siren_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/siren_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center">
+
+                    <FrameLayout
+                        android:id="@+id/siren_click_able"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <is.yranac.canary.ui.views.CircleView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            app:cFillColor="@color/very_dark_gray_mostly_black_twenty" />
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/ic_siren" />
+                    </FrameLayout>
+
+
+                    <is.yranac.canary.ui.views.ProgressWheel
+                        android:id="@+id/siren_countdown_progress_wheel"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:alpha="0.0"
+                        android:visibility="gone"
+                        app:barColor="@color/soft_red"
+                        app:bar_width="5dp"
+                        app:circleColor="@color/light_red"
+                        app:contourColor="@color/light_red"
+                        app:rimColor="@color/white"
+                        app:rimWidth="5dp"
+                        app:textColor="@color/white"
+                        app:textSize="16sp" />
+                </FrameLayout>
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/siren_label"
+                    style="@style/very_tiny_white_regular"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/siren" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

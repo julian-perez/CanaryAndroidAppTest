@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/very_light_gray">
+
+
+        <RelativeLayout
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/header">
+
+
+            <FrameLayout
+                android:id="@+id/loading_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black_thirty" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/empty_view_no_entries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/empty_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.30"
+                    android:src="@drawable/timeline_empty_list" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/empty_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="@string/no_timeline"
+                    android:textColor="@color/black_thirty"
+                    android:textSize="18sp"
+                    app:customFont="Gibson-Light.otf" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/timeline_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/header"
+            android:background="@color/white"
+            android:horizontalSpacing="4dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="2"
+            android:verticalSpacing="4dp" />
+
+        <View
+            android:id="@+id/black_overlay_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/header"
+            android:background="@color/black_fifty"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/calender_background"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/header"
+            android:background="@color/white"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/calender_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:animateLayoutChanges="true"
+            android:background="@color/white"
+            android:visibility="gone">
+
+            <include layout="@layout/layout_gray_bar" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/month_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="12dp"
+                android:textAllCaps="true"
+                android:textColor="@color/darker_gray"
+                android:textSize="12sp"
+                app:customFont="Gibson-SemiBold.otf" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/calender_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/month_label"
+                android:layout_marginBottom="10dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp">
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/header_title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:customFont="Gibson-Light.otf" />
+
+
+                <is.yranac.canary.ui.views.TriangleView
+                    android:id="@+id/triangle_view"
+                    android:layout_width="12dp"
+                    android:layout_height="7dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/header_title_text_view"
+                    app:triangle_color="@color/light_gray" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/layout_gray_bar" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

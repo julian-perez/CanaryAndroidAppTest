@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" android:tag="layout/fragment_settings_edit_location_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <FrameLayout
+            android:id="@+id/map_container"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:paddingBottom="25dp"
+                android:src="@drawable/pin" />
+
+
+            <ImageButton
+                android:id="@+id/myLocationButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="left|top"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_with_light_gray_border"
+                android:src="@drawable/map_button_geolocation" />
+
+            <ImageButton
+                android:id="@+id/hint_button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right|top"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_with_light_gray_border"
+                android:src="@drawable/map_button_info" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/very_light_gray" />
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/edit_location_textarea"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/map_container"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:isScrollContainer="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.EditTextWithLabel
+                    android:id="@+id/location_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/standard_row_height"
+                    android:gravity="center_vertical"
+                    app:hint="@string/beach_house_cabin_etc"
+                    app:label="@string/location_name" />
+
+                <is.yranac.canary.ui.views.EditTextWithLabel
+                    android:id="@+id/location_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/standard_row_height"
+                    android:gravity="center_vertical"
+                    app:label="@string/address_1" />
+
+
+                <is.yranac.canary.ui.views.EditTextWithLabel
+                    android:id="@+id/location_address_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/standard_row_height"
+                    android:gravity="center_vertical"
+                    app:hint="@string/apartment_unit_floor"
+                    app:label="@string/address_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <is.yranac.canary.ui.views.EditTextWithLabel
+                        android:id="@+id/location_city"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/standard_row_height"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        app:label="@string/city" />
+
+                    <is.yranac.canary.ui.views.EditTextWithLabel
+                        android:id="@+id/location_state"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/standard_row_height"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        app:label="@string/state_providence" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <is.yranac.canary.ui.views.EditTextWithLabel
+                        android:id="@+id/location_postal_code"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/standard_row_height"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        app:label="@string/postal_code" />
+
+
+                    <is.yranac.canary.ui.views.EditTextWithLabel
+                        android:id="@+id/location_country"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/standard_row_height"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        app:editable="false"
+                        app:label="@string/country" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+         

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/standard_margin"
+        android:paddingRight="@dimen/standard_margin">
+
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="106.5dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/insurance_illustration" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/large_text_view"
+            android:layout_marginTop="53.5dp"
+            android:gravity="center"
+            android:text="@string/help_canary_insurance_smarter" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/by_share_data" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view"
+            android:layout_marginTop="40dp"
+            android:id="@+id/more_about_date_sharing_text_view"
+            android:gravity="center"
+            android:text="@string/more_about_data_sharing_underline"
+            android:textColor="@color/dark_gray"
+            app:customFont="Gibson.otf" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp">
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/not_now_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/light_gray"
+            android:text="@string/not_now"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/okay_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/light_gray"
+            android:text="@string/okay"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </LinearLayout>
+</RelativeLayout>

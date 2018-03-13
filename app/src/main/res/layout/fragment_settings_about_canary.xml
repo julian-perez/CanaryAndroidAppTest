@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="59dp"
+            android:src="@drawable/canary_logo_med" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <is.yranac.canary.ui.views.CustomImageButton
+                android:id="@+id/twitter_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.2"
+                android:background="@color/white"
+                android:src="@drawable/button_twitter_logo" />
+
+            <is.yranac.canary.ui.views.CustomImageButton
+                android:id="@+id/facebook_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:alpha="0.2"
+                android:background="@color/white"
+                android:src="@drawable/button_facebook_logo" />
+
+            <is.yranac.canary.ui.views.CustomImageButton
+                android:id="@+id/instagram_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.2"
+                android:background="@color/white"
+                android:src="@drawable/button_instagram_logo" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/review_btn"
+                    style="@style/button_large_text"
+                    android:text="@string/review_on_play_store"
+                    app:customFont="Gibson-Light.otf" />
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/app_version_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="13sp"
+                    android:textColor="@color/light_gray"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    app:customFont="Gibson-SemiBold.otf" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/website_btn"
+                style="@style/button_large_text"
+                android:text="@string/visit_canary"
+                app:customFont="Gibson-Light.otf" />
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/privacy_policy_btn"
+                style="@style/button_large_text"
+                android:text="@string/privacy_policy"
+                app:customFont="Gibson-Light.otf" />
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/terms_and_conditions_btn"
+                style="@style/button_large_text"
+                android:text="@string/terms_of_service_label"
+                app:customFont="Gibson-Light.otf" />
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/end_user_btn"
+                style="@style/button_large_text"
+                android:text="@string/end_user_agreement"
+                app:customFont="Gibson-Light.otf" />
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/compliance_btn"
+                style="@style/button_large_text"
+                android:text="@string/compliance_notices"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

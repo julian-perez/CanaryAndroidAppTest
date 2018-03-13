@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="tutorialType"
+            type="int" />
+
+        <import
+            alias="v"
+            type="android.view.View" />
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/customize_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/privacy_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/auto_arm_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/night_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/home_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/away_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/device_armed_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:scaleX="2.0"
+                android:scaleY="2.0" />
+
+            <ImageView
+                android:id="@+id/blur_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0" />
+
+            <LinearLayout
+                android:id="@+id/night_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_large"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_mode_onboardin"
+                android:paddingTop="@dimen/margin_top_mode_small"
+                android:visibility="invisible">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/night_icon_60" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/night_text_view"
+                    style="@style/small_bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/night_mode_title"
+                    android:textColor="@color/black" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/night_dsc_text_view"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.0"
+                    android:gravity="center"
+                    android:text="@string/night_mode_tutorial_dsc"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/privacy_mode_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_small"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/privacy_header_view"
+                    style="@style/large_text_view"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/privacy" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/privacy_dsc_text_view"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="@string/privacy_mode_dsc" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/customize_modes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_small"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/small_bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/get_started_with_latest_feature"
+                    android:textColor="@color/black" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="@string/nothing_will_change_automatically" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personalize_modes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_small"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/device_lights" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/device_lights_dsc"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="@string/if_you_have_more_than_one" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/auto_arm_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_small"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/auto_mode_switching" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/auto_arm_dsc_text_vew"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="@string/when_enabled_auto_mode" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_large"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/margin_top_mode_small"
+                android:visibility="invisible">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/home_icon_60" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/home_text_view"
+                    style="@style/small_bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/home_mode_title"
+                    android:textColor="@color/black" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/home_dsc_text_view"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.0"
+                    android:gravity="center"
+                    android:text="@string/when_a_member_is_home" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/away_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top_mode_large"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/padding_mode_onboardin"
+                android:paddingTop="@dimen/margin_top_mode_small"
+                android:visibility="invisible">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/away_icon_60" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/away_text_view"
+                    style="@style/small_bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/away_mode_title"
+                    android:textColor="@color/black" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/away_dsc_text_view"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.0"
+                    android:gravity="center"
+                    android:text="@string/when_all_members_are_away" />
+
+            </LinearLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/canary_three_modes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:alpha="1.0"
+                android:text="@string/canary_three_modes"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:customFont="Gibson-Light.otf" />
+
+
+        </RelativeLayout>
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/establishing_connection_text_view"
+            style="@style/large_text_view"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            android:text="@string/protect_your_home" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/downloading_latest_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/establishing_connection_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/canary_modes_empower"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:customFont="Gibson-Light.otf" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.5"
+            android:background="@drawable/black_gradient" />
+
+        <RelativeLayout
+            android:id="@+id/ota_finish_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/ota_title_text"
+                    style="@style/setup_large_text"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/almost_there"
+                    app:customFont="Gibson-Light.otf" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/ota_message_text_view"
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="@string/your_canary_is_still_updating" />
+
+
+            </LinearLayout>
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/next_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:enabled="false"
+                android:text="@string/next" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/first_slide_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:clipChildren="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/canary_mode_text_view"
+                style="@style/setup_medium_text_view"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="@string/swipe_to_start_tutorial"
+                android:textColor="@color/white" />
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/start_tutorial"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/continue_text"
+                android:visibility="@{tutorialType == 1 ? v.VISIBLE : v.GONE}" />
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/mode_action_layout"
+            layout="@layout/layout_mode_actions" />
+
+
+        <is.yranac.canary.ui.views.ViewPagerCustomDuration
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <is.yranac.canary.ui.views.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pager"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:padding="6dp"
+            app:centered="true"
+            app:fillColor="@color/vivid_yellow"
+            app:pageColor="@color/white_fifty"
+            app:radius="3.5dp"
+            app:strokeWidth="0px"
+            app:threeRadiusRadius="3.5px" />
+
+        <LinearLayout
+            android:id="@+id/setup_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:clipChildren="false">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/left_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/caret_left" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/small_bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/step"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:customFont="Gibson.otf" />
+
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:gravity="center">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/current_step"
+                    style="@style/small_bold"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    app:customFont="Gibson.otf" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/next_step"
+                    style="@style/small_bold"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    app:customFont="Gibson.otf" />
+            </FrameLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/small_bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/of"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:customFont="Gibson.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/small_bold"
+                android:layout_marginRight="5dp"
+                android:text="8"
+                android:textColor="@color/white"
+                app:customFont="Gibson.otf" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/right_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/caret_right" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

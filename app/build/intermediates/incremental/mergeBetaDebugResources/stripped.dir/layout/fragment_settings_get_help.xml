@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                                           
+
+                                                     
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/fragment_settings_get_help_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/help_center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@string/help_center"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/contact_support"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@string/contact_support"
+            android:tag="binding_1"                                      
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/restart_home_tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@string/restart_home_tutorial"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/restart_timeline_tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@string/restart_timeline_tutorial"
+            app:editable="false" />
+
+
+    </LinearLayout>
+         

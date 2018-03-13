@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/avatar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listrow_light_selector"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/standard_row_height"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/avatar_image_layout"
+                        layout="@layout/settings_listrow_avatar_layout" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/add_photo_label"
+                        style="@style/setting_prompt_title_text"
+                        android:layout_marginStart="@dimen/standard_margin"
+                        android:text="@string/add_photo" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="bottom"
+                    android:background="@color/gray" />
+            </LinearLayout>
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/firstname_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/first_name"
+                app:label="@string/first_name" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/last_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/last_name"
+                app:label="@string/last_name" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/language_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:editable="false"
+                app:hint="@string/language"
+                app:label="@string/language" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/country_code_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:editable="false"
+                app:hint="@string/country"
+                app:label="@string/country" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/mobile_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:inputType="phone"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/mobile_phone"
+                app:label="@string/mobile_phone" />
+
+
+        </LinearLayout>
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_above="@+id/sign_in_btn"
+            android:enabled="false"
+            android:text="@string/next" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/sign_in_btn"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:stateListAnimator="@null"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </RelativeLayout>
+
+
+</layout>

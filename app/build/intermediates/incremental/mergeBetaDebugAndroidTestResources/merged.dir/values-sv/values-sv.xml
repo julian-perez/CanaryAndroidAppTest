@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ua_selected_count">
+    <item quantity="one">
+      <ns1:g example="1" id="count">%1$d</ns1:g> valt</item>
+    <item quantity="other">
+      <ns1:g example="3" id="count">%1$d</ns1:g> valda</item>
+  </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Visa startsidan"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Klart"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Dela med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="articles_list_fragment_error_message">Det gick inte att hämta artiklar</string>
+    <string name="articles_list_fragment_no_articles_found">Inga artiklar hittades</string>
+    <string name="articles_search_results_list_fragment_contact_us">Kontakta support</string>
+    <string name="articles_search_results_list_fragment_error_message">Ett fel inträffade</string>
+    <string name="articles_search_results_list_fragment_no_articles_found">Inga resultat hittades</string>
+    <string name="asdk_attachment_add_menu">Bilagor</string>
+    <string name="asdk_attachment_select_source_choose_existing">Välj befintlig</string>
+    <string name="asdk_attachment_select_source_new_photo">Ta en bild</string>
+    <string name="asdk_attachment_upload_error_cancel">Avbryt</string>
+    <string name="asdk_attachment_upload_error_file_already_added">Filen har redan bifogats</string>
+    <string name="asdk_attachment_upload_error_file_not_found">Det gick inte att hitta filen</string>
+    <string name="asdk_attachment_upload_error_file_too_big">Maxstorlek för bilagan är %s</string>
+    <string name="asdk_attachment_upload_error_try_again">Försök igen</string>
+    <string name="asdk_attachment_upload_error_upload_failed">Det gick inte att överföra bilagan</string>
+    <string name="categories_list_fragment_error_message">Det gick inte att hämta kategorier</string>
+    <string name="categories_list_fragment_no_categories_found">Inga kategorier hittades</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivera"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte om du inte aktiverar Google Play-tjänster."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivera Google Play-tjänster"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installera"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänsterna, som saknas på enheten."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Hämta Google Play-tjänster"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Tillgänglighet för Google Plays tjänster"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fel på Google Play-tjänster"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Det har uppstått ett fel mellan <ns1:g id="APP_NAME">%1$s</ns1:g> och Google Play-tjänsterna. Försök igen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Uppdatera"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras om du inte uppdaterar Google Play-tjänsterna."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Uppdatera Google Play-tjänster"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Öppna på mobilen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Logga in"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <string name="contact_fragment_description_hint">Beskrivning</string>
+    <string name="contact_fragment_email_hint">E-postadress</string>
+    <string name="contact_fragment_email_validation_error">Felaktig e-postadress</string>
+    <string name="contact_fragment_send_button_label">Skicka</string>
+    <string name="contact_fragment_title">Kontakta oss</string>
+    <string name="exo_controls_fastforward_description">"Snabbspola framåt"</string>
+    <string name="exo_controls_next_description">"Nästa spår"</string>
+    <string name="exo_controls_pause_description">"Pausa"</string>
+    <string name="exo_controls_play_description">"Spela upp"</string>
+    <string name="exo_controls_previous_description">"Föregående spår"</string>
+    <string name="exo_controls_rewind_description">"Spola tillbaka"</string>
+    <string name="exo_controls_stop_description">"Avbryt"</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Diverse"</string>
+    <string name="network_activity_no_connectivity">Ingen anslutning</string>
+    <string name="rate_my_app_dialog_dismiss_action_label">Fråga inte igen</string>
+    <string name="rate_my_app_dialog_feedback_description_label">Vi vill göra den bättre. Berätta om eventuella problem du har.</string>
+    <string name="rate_my_app_dialog_feedback_device_api_version">OS-API: %1$d</string>
+    <string name="rate_my_app_dialog_feedback_device_memory">Minne: %1$s MB/%2$s MB</string>
+    <string name="rate_my_app_dialog_feedback_device_model">Modell: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_name">Enhet; %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_os_version">OS-version: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_request_subject">Appfeedback</string>
+    <string name="rate_my_app_dialog_feedback_send_error_no_connectivity_toast">Ingen anslutning</string>
+    <string name="rate_my_app_dialog_feedback_send_error_toast">Ett fel inträffade. Försök igen.</string>
+    <string name="rate_my_app_dialog_feedback_send_success_toast">Tack för att du kontaktade oss.</string>
+    <string name="rate_my_app_dialog_feedback_title_label">Det var tråkigt att höra.</string>
+    <string name="rate_my_app_dialog_negative_action_label">Nej, jag vill skicka feedback</string>
+    <string name="rate_my_app_dialog_positive_action_label">Ja, bedöm vår app</string>
+    <string name="rate_my_app_dialog_title_label">Är du nöjd med vår app?</string>
+    <string name="rate_my_app_dialogue_feedback_cancel_button_label">Avbryt</string>
+    <string name="rate_my_app_dialogue_feedback_issue_hint">Beskriv ditt problem</string>
+    <string name="rate_my_app_dialogue_feedback_send_button_label">Skicka feedback</string>
+    <string name="request_list_activity_title">Mina ärenden</string>
+    <string name="request_list_fragment_error_message">Det gick inte att hämta ärenden</string>
+    <string name="request_list_fragment_no_requests">Inga ärenden öppna</string>
+    <string name="request_view_comment_entry_hint">Kommentar</string>
+    <string name="retry_view_button_label">Försök igen</string>
+    <string name="row_request_unread_indicator_alt">Symbol som ange att det finns olästa kommentarer</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Sök"</string>
+    <string name="sections_list_fragment_error_message">Det gick inte att hämta avsnitt</string>
+    <string name="sections_list_fragment_no_sections_found">Inga avsnitt hittades</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_activity_unable_to_contact_support">Det gick inte att kontakta support</string>
+    <string name="support_contact_menu">Kontakt</string>
+    <string name="support_conversations_menu">Konversationer</string>
+    <string name="support_list_search_hint">Hur kan vi hjälpa till?</string>
+    <string name="ua_cancel">Avbryt</string>
+    <string name="ua_channel_copy_toast">Kanal kopierad till Urklipp!</string>
+    <string name="ua_channel_notification_ticker">Urban Airship Channel</string>
+    <string name="ua_connection_error">Anslutningsfel</string>
+    <string name="ua_delete">Radera</string>
+    <string name="ua_empty_message_list">Inga meddelanden</string>
+    <string name="ua_mark_read">Markera som läst</string>
+    <string name="ua_mc_failed_to_load">Det går inte att läsa in meddelande. Försök igen senare.</string>
+    <string name="ua_message_center_title">Meddelandecenter</string>
+    <string name="ua_message_not_selected">Inget meddelande har valts</string>
+    <string name="ua_notification_button_accept">Acceptera</string>
+    <string name="ua_notification_button_add">Lägg till</string>
+    <string name="ua_notification_button_add_to_calendar">Lägg till i kalender</string>
+    <string name="ua_notification_button_book_now">Boka nu</string>
+    <string name="ua_notification_button_buy_now">Köp nu</string>
+    <string name="ua_notification_button_copy">Kopiera</string>
+    <string name="ua_notification_button_decline">Neka</string>
+    <string name="ua_notification_button_dislike">Ogilla</string>
+    <string name="ua_notification_button_download">Ladda ner</string>
+    <string name="ua_notification_button_follow">Följ</string>
+    <string name="ua_notification_button_less_like">Mindre som detta</string>
+    <string name="ua_notification_button_like">Gilla</string>
+    <string name="ua_notification_button_more_like">Mer som detta</string>
+    <string name="ua_notification_button_no">Nej</string>
+    <string name="ua_notification_button_opt_in">Anmäl dig</string>
+    <string name="ua_notification_button_opt_out">Avanmäl dig</string>
+    <string name="ua_notification_button_rate_now">Betygsätt nu</string>
+    <string name="ua_notification_button_remind">Påminn mig senare</string>
+    <string name="ua_notification_button_save">Spara</string>
+    <string name="ua_notification_button_search">Sök</string>
+    <string name="ua_notification_button_send_info">Skicka info</string>
+    <string name="ua_notification_button_share">Dela</string>
+    <string name="ua_notification_button_shop_now">Handla nu</string>
+    <string name="ua_notification_button_tell_me_more">Berätta mer</string>
+    <string name="ua_notification_button_unfollow">Sluta följa</string>
+    <string name="ua_notification_button_yes">Ja</string>
+    <string name="ua_ok">OK</string>
+    <string name="ua_retry_button">Försök igen</string>
+    <string name="ua_select_all">Välj alla</string>
+    <string name="ua_select_none">Välj inget</string>
+    <string name="ua_share_dialog_title">Dela</string>
+    <string name="view_article_attachments_error">Det gick inte att hämta bilagor</string>
+    <string name="view_article_seperator">\u2022</string>
+    <string name="view_request_agent_avatar_imageview_alt">Agentens avatar</string>
+    <string name="view_request_load_comments_error">Det gick inte att läsa in kommentarer</string>
+    <string name="view_request_send_comment_error">Det gick inte att skicka kommentaren</string>
+</resources>

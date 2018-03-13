@@ -1,0 +1,66 @@
+        
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" android:tag="layout/fragment_motion_notificaions_settings_0">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/connectivity_settings_toggle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:clickable="true"
+                android:gravity="center_vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setting_prompt_title_text"
+                    android:layout_alignParentLeft="true"
+                    android:lines="1"
+                    android:text="@string/motion_notifications"
+                    app:customFont="Gibson-Light.otf" />
+
+            </RelativeLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="22dp"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:text="@string/notification_slider_dsc_one" />
+
+            <android.support.percent.PercentFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:tag="binding_1">
+
+                <include
+                    android:id="@+id/segmented_layout"
+                    layout="@layout/layout_segmented"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:layout_widthPercent="70%" />
+
+            </android.support.percent.PercentFrameLayout>
+
+            <LinearLayout
+                android:id="@+id/notification_settings_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/standard_margin"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:paddingTop="@dimen/standard_margin" />
+        </LinearLayout>
+    </ScrollView>
+         

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_setup_check_geofence_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/large_text_view"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="27dp"
+                android:gravity="center"
+                android:text="@string/geofence_look_right" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/geofence_look_right_dsc" />
+        </LinearLayout>
+
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/top_layout"
+            android:layout_marginTop="30dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/looks_good_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginBottom="14dp"
+                android:text="@string/yes_looks_good" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/needs_editing_btn"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginBottom="30dp"
+                android:text="@string/no_needs_editing" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+         

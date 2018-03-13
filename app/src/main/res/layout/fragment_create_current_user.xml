@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/email_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/email_address"
+                app:label="@string/email_address" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/confirm_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/email_address"
+                app:label="@string/confirm_email_address" />
+
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/password"
+                app:label="@string/password" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:background="@drawable/listrow_light_selector"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:hint="@string/password"
+                app:label="@string/confirm_password" />
+
+        </LinearLayout>
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_above="@+id/sign_in_btn"
+            android:enabled="false"
+            android:text="@string/next" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/sign_in_btn"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:stateListAnimator="@null"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </RelativeLayout>
+
+
+</layout>

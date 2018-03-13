@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingEnd="9dp"
+        android:paddingStart="18dp">
+
+        <is.yranac.canary.ui.views.TriangleView
+            android:id="@+id/triangle"
+            android:layout_width="24dp"
+            android:layout_height="14dp"
+            android:visibility="invisible" />
+
+        <FrameLayout
+            android:id="@+id/avatar_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp">
+
+            <is.yranac.canary.ui.views.CircleView
+                android:id="@+id/mode_background_color"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:strokeColor="@color/transparent" />
+
+            <ImageView
+                android:id="@+id/location_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,78 @@
+
+                                                        
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_add_a_member_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/large_text_view"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="@string/this_person_will_share" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/first_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:inputType="textPersonName|textCapWords"
+                app:hint="@string/first_name"
+                app:label="@string/first_name" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/last_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:inputType="textPersonName|textCapWords"
+                app:hint="@string/last_name"
+                app:label="@string/last_name" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:gravity="center_vertical"
+                android:inputType="textEmailAddress"
+                app:hint="@string/email_address"
+                app:label="@string/email_address" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/confirm_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:inputType="textEmailAddress"
+                app:hint="@string/confirm_email_address"
+                app:label="@string/confirm_email_address" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/invite_button"
+                style="@style/new_green_rect_action_button"
+                android:layout_marginTop="20dp"
+                android:text="@string/send_invitation" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+         

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    
+
+
+                                                                  
+
+                                                                          
+
+                                           
+
+                 
+                               
+                                  
+
+                 
+                           
+                              
+
+                 
+                    
+                          
+
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_settings_membership_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <is.yranac.canary.ui.views.VerticalViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="115dp"
+            android:tag="binding_1"                                                 />
+
+        <RelativeLayout
+            android:id="@+id/scroll_transition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="115dp"
+            android:tag="binding_2"                                                >
+
+
+            <RelativeLayout
+                android:id="@+id/page_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/page_1_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/location_membership1" />
+
+                <LinearLayout
+                    android:id="@+id/page_1_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:layout_marginTop="@dimen/large_margin"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="@dimen/large_margin"
+                        android:layout_marginStart="@dimen/large_margin"
+                        android:gravity="center"
+                        android:text="@string/get_the_most_with_membership" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/page_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0">
+
+                <ImageView
+                    android:id="@+id/page_2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location_membership2" />
+
+
+                <LinearLayout
+                    android:id="@+id/page_2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:layout_marginEnd="@dimen/large_margin"
+                    android:layout_marginStart="@dimen/large_margin"
+                    android:layout_marginTop="56dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:text="@string/thirty_day_full_video_history" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:gravity="center"
+                        android:text="@string/thirty_day_full_video_history_dsc" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/page_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0">
+
+                <ImageView
+                    android:id="@+id/page_3_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location_membership3" />
+
+
+                <LinearLayout
+                    android:id="@+id/page_3_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:layout_marginEnd="@dimen/large_margin"
+                    android:layout_marginStart="@dimen/large_margin"
+                    android:layout_marginTop="56dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:text="@string/two_way_talk" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:gravity="center"
+                        android:text="@string/two_way_talk_dsc" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/page_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0">
+
+                <ImageView
+                    android:id="@+id/page_4_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location_membership4" />
+
+
+                <LinearLayout
+                    android:id="@+id/page_4_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:layout_marginEnd="@dimen/large_margin"
+                    android:layout_marginStart="@dimen/large_margin"
+                    android:layout_marginTop="56dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:text="@string/web_app" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:gravity="center"
+                        android:text="@string/web_app_dsc" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/page_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/page_6_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location_membership6" />
+
+                <LinearLayout
+                    android:id="@+id/page_6_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:layout_marginEnd="@dimen/large_margin"
+                    android:layout_marginStart="@dimen/large_margin"
+                    android:layout_marginTop="56dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginEnd="@dimen/slightly_bigger_margin"
+                        android:layout_marginStart="@dimen/slightly_bigger_margin"
+                        android:gravity="center"
+                        android:text="@string/incident_support" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginEnd="@dimen/slightly_bigger_margin"
+                        android:layout_marginStart="@dimen/slightly_bigger_margin"
+                        android:gravity="center"
+                        android:text="@string/incident_support_dsc" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/page_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.0">
+
+
+                <ImageView
+                    android:id="@+id/page_7_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/location_membership7" />
+
+                <LinearLayout
+                    android:id="@+id/page_7_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:layout_marginEnd="@dimen/large_margin"
+                    android:layout_marginStart="@dimen/large_margin"
+                    android:layout_marginTop="56dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/large_text_view"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:text="@string/extended_warranty" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/extended_warranty_dsc_text_view"
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_marginBottom="21dp"
+                        android:layout_marginEnd="@dimen/slightly_bigger_margin"
+                        android:layout_marginStart="@dimen/slightly_bigger_margin"
+                        android:gravity="center"
+                        android:text="@string/extended_warranty_dsc"
+                        android:textColorLink="@color/bright_blue_sky" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/add_member_button"
+            android:layout_width="264dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/blue_gradient_oval"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="@string/activate_membership"
+            android:textColor="@color/white"
+            android:tag="binding_3"                                                
+            app:customFont="@string/gibson_regular" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/incident_support_btn"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:paddingTop="115dp"
+            android:tag="binding_4"                                                 >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="true"
+                android:clipToPadding="true"
+                android:scrollbars="none">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:layout_marginEnd="45dp"
+                    android:layout_marginStart="45dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/blue_checkmark" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/small_bold_black"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_marginStart="7dp"
+                        android:gravity="center"
+                        android:text="@string/your_exclusive_benefits" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginStart="7dp"
+                            android:gravity="center"
+                            android:text="@string/thirty_day_history_with_downloads" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginStart="7dp"
+                            android:gravity="center"
+                            android:text="@string/two_way_talk" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginStart="7dp"
+                            android:gravity="center"
+                            android:text="@string/web_app_access" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/extended_warranty_text_view"
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginStart="7dp"
+                            android:gravity="center"
+                            android:text="@string/two_year_warrenty"
+                            android:textColorLink="@color/bright_blue_sky"
+                            android:tag="binding_5"                                           />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="7dp"
+                            android:layout_marginStart="7dp"
+                            android:gravity="center"
+                            android:text="@string/incident_support_for_theft"
+                            android:tag="binding_6"                                           />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_gradient"
+            android:tag="binding_7"                                                  />
+
+        <LinearLayout
+            android:id="@+id/incident_support_btn"
+            style="@style/blue_button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:tag="binding_8"                                                                                  >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:clickable="false"
+                app:srcCompat="@drawable/white_call" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_white"
+                android:text="@string/contact_incident_support"
+                app:customFont="@string/gibson_regular" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/bottom_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:tag="binding_9"                                                
+            app:srcCompat="@drawable/path_copy_2" />
+
+
+        <LinearLayout
+            android:id="@+id/back_to_top_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:alpha="0.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="binding_10"                                               >
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/blue_text"
+                android:layout_marginBottom="8dp"
+                android:text="@string/back_to_top" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/bottom_arrow_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="180"
+                app:srcCompat="@drawable/path_copy_2" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+         

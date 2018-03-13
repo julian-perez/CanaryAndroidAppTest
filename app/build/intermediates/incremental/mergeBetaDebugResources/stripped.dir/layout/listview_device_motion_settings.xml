@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" android:tag="layout/listview_device_motion_settings_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gray_rect_background"
+            android:clipChildren="false"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/disarm_text_view"
+                style="@style/setting_prompt_title_text"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                app:customFont="Gibson-SemiBold.otf" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/low_sensitivity" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/high_sensitivity" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp">
+
+                <is.yranac.canary.ui.views.TickSeekBar
+                    android:id="@+id/notification_progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@null"
+                    android:max="100"
+                    android:maxHeight="1dp"
+                    android:minHeight="1dp"
+                    android:progressDrawable="@drawable/seek_bar_custom_progress"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/slider_activity_head"
+                    android:thumbOffset="20dp" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/slider_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/dark_moderate_cyan"
+                    android:textSize="13sp"
+                    app:customFont="Gibson-SemiBold.otf" />
+            </RelativeLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/motion_notification_dsc_text_view"
+                style="@style/light_small_text_view"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:text="@string/your_current_setting"
+                app:customFont="Gibson.otf" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+         

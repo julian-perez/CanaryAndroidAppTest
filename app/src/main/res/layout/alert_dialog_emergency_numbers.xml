@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/call_police_btn"
+                style="@style/siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/call_police" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/call_medical_btn"
+                style="@style/siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/call_ems" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/call_fire_btn"
+                style="@style/siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/call_fire" />
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/add_more_numbers_btn"
+                style="@style/one_siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/add_emergency_numbers"
+                android:visibility="gone" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/cancel_btn"
+                style="@style/cancel_siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</layout>

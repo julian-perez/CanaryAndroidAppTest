@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/standard_margin"
+    android:paddingRight="@dimen/standard_margin"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:layout_marginTop="18dp"
+            android:text="@string/work_with_insurance_provider" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/more_about_insurance_text_view"
+            style="@style/small_bold"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/more_about_savings"
+            android:textColor="@color/dark_moderate_cyan" />
+
+        <include layout="@layout/layout_gray_bar" />
+
+
+        <LinearLayout
+            android:id="@+id/insure_provider_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view"
+                android:enabled="false"
+                android:singleLine="true"
+                android:text="@string/provider"
+                app:customFont="Gibson.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/provider"
+                style="@style/setup_large_text"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_gray_bar" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/policy_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:inputType="textNoSuggestions|textVisiblePassword"
+            app:hint="@string/policy_number_placeholder"
+            app:label="@string/policy_number" />
+
+
+        <RelativeLayout
+            android:id="@+id/insure_optin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="10dp">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_large_text"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/share_with_provider"
+                app:customFont="Gibson-Light.otf" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/insurance_optin_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="false"
+                android:theme="@style/MySwitch" />
+
+        </RelativeLayout>
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:text="@string/by_share_data" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/more_about_date_sharing_text_view"
+            style="@style/small_bold"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginTop="18dp"
+            android:text="@string/more_about_data_sharing"
+            android:textColor="@color/dark_moderate_cyan" />
+    </LinearLayout>
+
+
+</ScrollView>

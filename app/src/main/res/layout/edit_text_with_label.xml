@@ -1,0 +1,40 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/label"
+                style="@style/setup_medium_text_view"
+                android:layout_marginBottom="2dp"
+                android:textSize="13sp"
+                app:customFont="Gibson.otf" />
+
+            <is.yranac.canary.ui.views.EditTextPlus
+                android:id="@+id/edit_text"
+                style="@style/large_text_view"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:maxLength="50"
+                android:saveEnabled="false"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/gray" />
+    </FrameLayout>
+
+</layout>

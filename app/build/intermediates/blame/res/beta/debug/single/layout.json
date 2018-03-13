@@ -1,0 +1,962 @@
+[
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_mode_actions.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_mode_actions.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_membership_benefits.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_membership_benefits.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_about_device_header.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_about_device_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/footer_remove_location.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/footer_remove_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_notifcations.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_notifcations.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_membership.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_membership.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_watch_live.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/activity_watch_live.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_connection_type.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_connection_type.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_geofence.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_geofence.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_location_services_debugging.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_location_services_debugging.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_header.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_about_device.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_about_device.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_send_feedback.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listrow_send_feedback.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_membership_modes_upsell.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_membership_modes_upsell.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_member_trail.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listrow_member_trail.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_check_geofence.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_check_geofence.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_add_member_footer.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listrow_add_member_footer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_timeline_grid.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_timeline_grid.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_timeline_overlay.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_timeline_overlay.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_terms_and_conditions.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_terms_and_conditions.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listview_device_mode_settings.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listview_device_mode_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_homehealth.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_homehealth.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_entry_detail.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/activity_entry_detail.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_add_member_footer.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listrow_add_member_footer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_recording_range.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_recording_range.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_device.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_device.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_wifi_networks.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_wifi_networks.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_location.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/map_header.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/map_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_start_membership.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_start_membership.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/settings_listrow_avatar_layout.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/settings_listrow_avatar_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/lte_level_view.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/lte_level_view.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_indoor_outdoor_flex.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_indoor_outdoor_flex.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_confirm_network.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_confirm_network.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_location_overview.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_location_overview.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_splash_screen.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/edit_text_with_label.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/edit_text_with_label.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_buy_or_setup.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_buy_or_setup.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_preferences.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_preferences.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_geofence_radius.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_geofence_radius.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_health_graph.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_health_graph.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_placement_suggestions.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_placement_suggestions.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_membership_modes_upsell.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_membership_modes_upsell.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_location.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_setup_fragment_stack.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/activity_setup_fragment_stack.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_home_mode.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_home_mode.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_select_location.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_select_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_location_list.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_location_list.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_confirm_network.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_confirm_network.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_new_generic.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_new_generic.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_membership_preview.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_membership_preview.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/select_device_location_header.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/select_device_location_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_masking.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/activity_masking.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_add_a_location.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_add_a_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_video_playback.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_video_playback.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/avatar_layout.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/avatar_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_edit_device.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_edit_device.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_membership.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_membership.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_adjust_volume.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_adjust_volume.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/footer_manage_devices.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/footer_manage_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_place_canary.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_place_canary.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_get_help.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_get_help.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_add_person.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_add_person.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_flex_connectivity.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_flex_connectivity.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_mode_slide_show.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_mode_slide_show.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_masking_start.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_tutorial_masking_start.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_single_entry_upsell.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_single_entry_upsell.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_web_view.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_web_view.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_edit_location.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_edit_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_main_layout.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_main_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_simple_list.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_simple_list.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_device_statatics.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_device_statatics.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_failed_device_ota.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_failed_device_ota.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/new_layout_video_playback.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/new_layout_video_playback.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_main_layout.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_main_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_ota.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_ota.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_homehealth_header.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_homehealth_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_membership.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_membership.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_power_battery_notif.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_power_battery_notif.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_location_overview.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_location_overview.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_mode.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_mode.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_forgot_password.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_edit_device.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_edit_device.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_recording_range.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_recording_range.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_permission.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_permission.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_entrydetail_tag.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_entrydetail_tag.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_device_naming.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_device_naming.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_entrydetail_tag.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_entrydetail_tag.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_setup_masks.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_tutorial_setup_masks.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_ota.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_ota.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_location.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_create_current_user.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_create_current_user.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragmentsettings_country_code_select.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragmentsettings_country_code_select.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_wifi_networks.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_wifi_networks.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_mask_over.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_tutorial_mask_over.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/new_layout_video_playback.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/new_layout_video_playback.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_homehealth.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_homehealth.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_forgot_password.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_siren_light.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_siren_light.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_connection_type.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_connection_type.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_homehealth_header.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_homehealth_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_location_primer.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_location_primer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_device_statatics.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_device_statatics.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_adjust_volume.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_adjust_volume.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/menu_icon.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/menu_icon.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_failed_device_ota.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_failed_device_ota.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_mask_over.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_tutorial_mask_over.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/header_manage_devices.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/header_manage_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/header_manage_devices.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/header_manage_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_notifcations.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_notifcations.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listview_device_motion_settings.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listview_device_motion_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_placement_suggestions.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_placement_suggestions.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_entry_subscription_footer.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listrow_entry_subscription_footer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_sound_siren.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_sound_siren.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_location_select.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listrow_location_select.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_sound_siren.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_sound_siren.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_location_select.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listrow_location_select.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_mode_actions.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_mode_actions.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_add_person.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_add_person.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragmentsettings_country_code_select.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragmentsettings_country_code_select.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_edit_location.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_edit_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_main_settings.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_main_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_terms_and_conditions.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_terms_and_conditions.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_place_canary.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_place_canary.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_masking_start.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_tutorial_masking_start.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_header.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_check_geofence.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_check_geofence.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/select_device_location_header.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/select_device_location_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_splash_screen.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_motion_notificaions_settings.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_motion_notificaions_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_presence_notifications.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_presence_notifications.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_mode.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_mode.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/change_password_fragment.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/change_password_fragment.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_connect_ethernet.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_connect_ethernet.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/footer_manage_devices.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/footer_manage_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_geofence_position.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_geofence_position.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_location.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_permission.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_permission.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_send_feedback.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listrow_send_feedback.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_setup_fragment_stack.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/activity_setup_fragment_stack.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listview_device_motion_settings.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listview_device_motion_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_connect_cable.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_connect_cable.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_location_primer.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_location_primer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_member_trail.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listrow_member_trail.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/menu_icon.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/menu_icon.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listview_device_mode_settings.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listview_device_mode_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_preferences.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_preferences.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/avatar_layout.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/avatar_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_location_services_debugging.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_location_services_debugging.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_indoor_outdoor_flex.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_indoor_outdoor_flex.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_watch_live.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/activity_watch_live.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_about_device.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_about_device.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_find_bluetooth_devices.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_find_bluetooth_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_entry_detail.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/activity_entry_detail.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_initialize_motion.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_tutorial_initialize_motion.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_entry_subscription_footer.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listrow_entry_subscription_footer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/avatar_location_mode.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/avatar_location_mode.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_membership.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_membership.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listraw_device_naming_footer.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listraw_device_naming_footer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_buy_or_setup.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_buy_or_setup.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/edit_text_with_label.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/edit_text_with_label.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_simple_list.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_simple_list.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_siren_light.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_siren_light.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_segmented.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_segmented.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_about_device_header.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_about_device_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_membership_benefits.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_membership_benefits.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_single_entry_upsell.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_single_entry_upsell.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/map_header.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/map_header.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_new_generic.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_new_generic.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_geofence.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_geofence.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_tutorial.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_mode_slide_show.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_mode_slide_show.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_find_bluetooth_devices.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_find_bluetooth_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_account.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_account.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_entry_simple.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listrow_entry_simple.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_main_settings.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_main_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_flex_connectivity.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_flex_connectivity.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_membership_preview_over.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_membership_preview_over.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_remove_layout.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_remove_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_video_playback.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_video_playback.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_health_graph.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_health_graph.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_edit_address.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_edit_address.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_motion_notificaions_settings.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_motion_notificaions_settings.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_device.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_device.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_location_member.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_location_member.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_connect_ethernet.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_connect_ethernet.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/settings_listrow_avatar_layout.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/settings_listrow_avatar_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_profile.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_profile.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/footer_remove_location.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/footer_remove_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_connect_cable.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_connect_cable.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_edit_address.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_edit_address.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_create_current_user.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_create_current_user.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_add_a_location.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_add_a_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_select_location.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_select_location.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_start_membership.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_start_membership.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listraw_device_naming_footer.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/listraw_device_naming_footer.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_segmented.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_segmented.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_get_help.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_get_help.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_edit_current_user.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_edit_current_user.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_device_audio.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_device_audio.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_add_a_member.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_add_a_member.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_presence_notifications.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_presence_notifications.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_sensor_flex.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/layout_sensor_flex.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_add_a_member.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_add_a_member.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_profile.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_profile.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/activity_masking.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/activity_masking.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/listrow_entry_simple.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/listrow_entry_simple.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/change_password_fragment.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/change_password_fragment.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/view_battery_indicator.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/view_battery_indicator.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/lte_level_view.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/lte_level_view.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_membership_preview_over.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_membership_preview_over.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_membership_preview.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_membership_preview.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_remove_layout.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_remove_layout.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_initialize_motion.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_tutorial_initialize_motion.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial_setup_masks.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_tutorial_setup_masks.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/layout_sensor_flex.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/layout_sensor_flex.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_emergency_numbers.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_emergency_numbers.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_geofence_position.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_geofence_position.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_home_mode.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_home_mode.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_location_member.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_location_member.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_web_view.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_web_view.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_edit_current_user.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_edit_current_user.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_timeline_grid.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_timeline_grid.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_geofence_radius.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_geofence_radius.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_free_trial.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_free_trial.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_manage_devices.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_manage_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/avatar_location_mode.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/avatar_location_mode.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_timeline_overlay.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_timeline_overlay.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_get_help.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_setup_get_help.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_device_naming.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_device_naming.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_account.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_settings_account.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_location_list.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_location_list.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_manage_devices.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_manage_devices.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/view_battery_indicator.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/view_battery_indicator.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_settings_get_help.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_settings_get_help.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_free_trial.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/alert_dialog_free_trial.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/android/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_tutorial.xml",
+        "source": "/Users/julian/StudioProjects/android/app/src/main/res/layout/fragment_tutorial.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_setup_device_audio.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_setup_device_audio.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/fragment_power_battery_notif.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/fragment_power_battery_notif.xml"
+    },
+    {
+        "merged": "/Users/julian/StudioProjects/canaryandroid/app/build/intermediates/incremental/mergeBetaDebugResources/stripped.dir/layout/alert_dialog_emergency_numbers.xml",
+        "source": "/Users/julian/StudioProjects/canaryandroid/app/src/main/res/layout/alert_dialog_emergency_numbers.xml"
+    }
+]

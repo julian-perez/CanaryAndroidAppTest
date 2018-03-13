@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="5dp">
+
+
+    <RelativeLayout
+        android:id="@+id/demo_tip_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/canary_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/canary_tip"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_moderate_cyan"
+            android:textSize="13sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@+id/canary_tip_text"
+            android:layout_alignRight="@+id/canary_tip_text"
+            android:layout_below="@+id/canary_tip_text"
+            android:background="@color/dark_moderate_cyan" />
+    </RelativeLayout>
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/alert_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        android:lineSpacingMultiplier="1.2"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:customFont="Gibson-Light.otf" />
+
+    <FrameLayout
+        android:id="@+id/icon_frame_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/alert_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/alert_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:customFont="Gibson-Light.otf" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/alert_button_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/very_light_gray_two"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/alert_button_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/very_light_gray_two"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </LinearLayout>
+</LinearLayout>

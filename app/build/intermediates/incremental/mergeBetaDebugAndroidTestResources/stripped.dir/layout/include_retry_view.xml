@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/retry_view_container"
+    style="@style/retry_view_container">
+
+    <View style="@style/retry_view_separator"/>
+
+    <TextView
+        android:id="@+id/retry_view_text"
+        tools:text="Unable to contact help center"
+        tools:showIn="@layout/activity_network_test"
+        style="@style/retry_view_text"/>
+
+    <Button
+        android:id="@+id/retry_view_button"
+        android:text="@string/retry_view_button_label"
+        style="@style/retry_view_button"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/include_retry_view.xml -->

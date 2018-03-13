@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/content_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/not_sure_btn"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/pair_canary"
+                style="@style/large_text_view"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="@string/pair_canary" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="@string/plug_yellow_audio_cable" />
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/next_btn"
+                style="@style/new_green_rect_action_button"
+                android:enabled="false"
+                android:text="@string/next" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ua_selected_count">
+    <item quantity="one">
+      <ns1:g example="1" id="count">%1$d</ns1:g> geselecteerd</item>
+    <item quantity="other">
+      <ns1:g example="3" id="count">%1$d</ns1:g> geselecteerd</item>
+  </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"UIT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AAN"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="articles_list_fragment_error_message">Kan artikelen niet opvragen</string>
+    <string name="articles_list_fragment_no_articles_found">Geen artikelen gevonden</string>
+    <string name="articles_search_results_list_fragment_contact_us">Neem contact op met support</string>
+    <string name="articles_search_results_list_fragment_error_message">Er is iets fout gegaan</string>
+    <string name="articles_search_results_list_fragment_no_articles_found">Geen resultaten gevonden</string>
+    <string name="asdk_attachment_add_menu">Bijlagen</string>
+    <string name="asdk_attachment_select_source_choose_existing">Kies bestaande afbeelding</string>
+    <string name="asdk_attachment_select_source_new_photo">Een foto maken</string>
+    <string name="asdk_attachment_upload_error_cancel">Annuleren</string>
+    <string name="asdk_attachment_upload_error_file_already_added">Bestand al toegevoegd</string>
+    <string name="asdk_attachment_upload_error_file_not_found">Bestand niet gevonden</string>
+    <string name="asdk_attachment_upload_error_file_too_big">Maximumgrootte voor bijlagen is %s</string>
+    <string name="asdk_attachment_upload_error_try_again">Probeer het opnieuw</string>
+    <string name="asdk_attachment_upload_error_upload_failed">Uploaden van bijlage is mislukt</string>
+    <string name="categories_list_fragment_error_message">Kan categorieën niet opvragen</string>
+    <string name="categories_list_fragment_no_categories_found">Geen categorieën gevonden</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Inschakelen"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> werkt niet, tenzij je Google Play-services inschakelt."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installeren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Beschikbaarheid van Google Play-services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ondervindt problemen met Google Play-services. Probeer het opnieuw."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Updaten"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd, tenzij je Google Play-services updatet."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Openen op telefoon"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Inloggen"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Inloggen met Google"</string>
+    <string name="contact_fragment_description_hint">Beschrijving</string>
+    <string name="contact_fragment_email_hint">E-mail</string>
+    <string name="contact_fragment_email_validation_error">Onjuist e-mailadres</string>
+    <string name="contact_fragment_send_button_label">Verzenden</string>
+    <string name="contact_fragment_title">Contact</string>
+    <string name="exo_controls_fastforward_description">"Vooruitspoelen"</string>
+    <string name="exo_controls_next_description">"Volgend nummer"</string>
+    <string name="exo_controls_pause_description">"Onderbreken"</string>
+    <string name="exo_controls_play_description">"Afspelen"</string>
+    <string name="exo_controls_previous_description">"Vorig nummer"</string>
+    <string name="exo_controls_rewind_description">"Terugspoelen"</string>
+    <string name="exo_controls_stop_description">"Stoppen"</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Overige"</string>
+    <string name="network_activity_no_connectivity">Geen verbinding</string>
+    <string name="rate_my_app_dialog_dismiss_action_label">Niet opnieuw vragen</string>
+    <string name="rate_my_app_dialog_feedback_description_label">Wij willen graag verbeteringen doorvoeren in de app. Vertel ons over eventuele problemen die u ervaart.</string>
+    <string name="rate_my_app_dialog_feedback_device_api_version">OS-API: %1$d</string>
+    <string name="rate_my_app_dialog_feedback_device_memory">Geheugen: %1$s MB / %2$s MB</string>
+    <string name="rate_my_app_dialog_feedback_device_model">Model: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_name">Apparaat: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_os_version">OS-versie: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_request_subject">Feedback vanuit app</string>
+    <string name="rate_my_app_dialog_feedback_send_error_no_connectivity_toast">Geen verbinding</string>
+    <string name="rate_my_app_dialog_feedback_send_error_toast">Er is een fout opgetreden. Probeer het opnieuw.</string>
+    <string name="rate_my_app_dialog_feedback_send_success_toast">Hartelijk dank dat u contact met ons hebt opgenomen.</string>
+    <string name="rate_my_app_dialog_feedback_title_label">Dat is vervelend.</string>
+    <string name="rate_my_app_dialog_negative_action_label">Nee, feedback verzenden</string>
+    <string name="rate_my_app_dialog_positive_action_label">Ja, onze app beoordelen</string>
+    <string name="rate_my_app_dialog_title_label">Bent u tevreden over onze app?</string>
+    <string name="rate_my_app_dialogue_feedback_cancel_button_label">Annuleren</string>
+    <string name="rate_my_app_dialogue_feedback_issue_hint">Geef een beschrijving van uw probleem</string>
+    <string name="rate_my_app_dialogue_feedback_send_button_label">Feedback verzenden</string>
+    <string name="request_list_activity_title">Mijn tickets</string>
+    <string name="request_list_fragment_error_message">Kan tickets niet opvragen</string>
+    <string name="request_list_fragment_no_requests">Geen tickets open op dit moment</string>
+    <string name="request_view_comment_entry_hint">Opmerking</string>
+    <string name="retry_view_button_label">Opnieuw</string>
+    <string name="row_request_unread_indicator_alt">Pictogram dat aangeeft dat er ongelezen opmerkingen zijn</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Zoeken"</string>
+    <string name="sections_list_fragment_error_message">Kan secties niet opvragen</string>
+    <string name="sections_list_fragment_no_sections_found">Geen secties gevonden</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_activity_unable_to_contact_support">Kan geen contact opnemen met support</string>
+    <string name="support_contact_menu">Contact</string>
+    <string name="support_conversations_menu">Gesprekken</string>
+    <string name="support_list_search_hint">Hoe kunnen wij van dienst zijn?</string>
+    <string name="ua_cancel">Annuleer</string>
+    <string name="ua_channel_copy_toast">Kanaal gekopieerd naar het klembord!</string>
+    <string name="ua_channel_notification_ticker">Urban Airship Kanaal</string>
+    <string name="ua_connection_error">Verbindingsfout</string>
+    <string name="ua_delete">Verwijder</string>
+    <string name="ua_empty_message_list">Geen Berichten</string>
+    <string name="ua_mark_read">Markeer als Gelezen</string>
+    <string name="ua_mc_failed_to_load">Kan bericht niet laden. Probeer het later opnieuw.</string>
+    <string name="ua_message_center_title">Berichtencentrum</string>
+    <string name="ua_message_not_selected">Geen Bericht Geselecteerd</string>
+    <string name="ua_notification_button_accept">Accepteer</string>
+    <string name="ua_notification_button_add">Voeg toe</string>
+    <string name="ua_notification_button_add_to_calendar">Voeg toe aan kalender</string>
+    <string name="ua_notification_button_book_now">Boek Nu</string>
+    <string name="ua_notification_button_buy_now">Koop nu</string>
+    <string name="ua_notification_button_copy">Kopieer</string>
+    <string name="ua_notification_button_decline">Wijs af</string>
+    <string name="ua_notification_button_dislike">Vind ik niet leuk</string>
+    <string name="ua_notification_button_download">Download</string>
+    <string name="ua_notification_button_follow">Volg</string>
+    <string name="ua_notification_button_less_like">Minder \"Vind Dit Leuk\"</string>
+    <string name="ua_notification_button_like">Vind ik leuk</string>
+    <string name="ua_notification_button_more_like">Meer \"Vind Dit Leuk\"</string>
+    <string name="ua_notification_button_no">Nee</string>
+    <string name="ua_notification_button_opt_in">Aanmelden</string>
+    <string name="ua_notification_button_opt_out">Afmelden</string>
+    <string name="ua_notification_button_rate_now">Beoordeel Nu</string>
+    <string name="ua_notification_button_remind">Herinner mij later</string>
+    <string name="ua_notification_button_save">Sla op</string>
+    <string name="ua_notification_button_search">Zoek</string>
+    <string name="ua_notification_button_send_info">Stuur Info</string>
+    <string name="ua_notification_button_share">Deel</string>
+    <string name="ua_notification_button_shop_now">Winkel nu</string>
+    <string name="ua_notification_button_tell_me_more">Vertel Mij Neer</string>
+    <string name="ua_notification_button_unfollow">Ontvolg</string>
+    <string name="ua_notification_button_yes">Ja</string>
+    <string name="ua_ok">OK</string>
+    <string name="ua_retry_button">Probeer opnieuw</string>
+    <string name="ua_select_all">Selecteer Alle</string>
+    <string name="ua_select_none">Selecteer Geen</string>
+    <string name="ua_share_dialog_title">Deel</string>
+    <string name="view_article_attachments_error">Kan bijlagen niet ophalen</string>
+    <string name="view_article_seperator">\u2022</string>
+    <string name="view_request_agent_avatar_imageview_alt">Avatar van agent</string>
+    <string name="view_request_load_comments_error">Kan opmerkingen niet laden</string>
+    <string name="view_request_send_comment_error">Kan opmerking niet verzenden</string>
+</resources>

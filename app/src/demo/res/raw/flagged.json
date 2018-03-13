@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "objects": [
+    {
+      "comments": [],
+      "description": "Activity detected",
+      "device_mode": {
+        "id": 2,
+        "name": "armed",
+        "resource_uri": "/v1/modes/2/"
+      },
+      "duration": 1043,
+      "end_time": "2015-01-26T23:39:00",
+      "entry_type": "motion",
+      "id": 12159,
+      "labels": [],
+      "last_modified": "2015-01-27T21:49:18",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/12159/",
+      "starred": true,
+      "start_time": "2015-01-26T23:35:14",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device2/",
+          "image_url": "https://cnry-stage-videos.s3.amazonaws.com/device2/1422315314-445x250.png?Signature=pF4A6Hb2nKr2CrTAxpSgCTsHmGo%3D&Expires=1810314002&AWSAccessKeyId=ASIAIBEJWLI2IZB3SSAA&x-amz-security-token=AQoDYXdzEKj//////////wEa4APbB9ddJataHjB7suApmo2wp%2BFOKCVZNUcxOJb6GB%2Bt6MEhaVcQous3wb0ymaS3HMet0064Er7ZktImCz95VcLnCIt3NeXBGiOSre2fCgHjP2ae1A53txiVop6sJpYyJW6qhxJkz6C3oDvXVorEt%2BCbU7RASI0kjnbQ4JDE0uQfjk2wUScWHKY0Mn81x2u2CzCmwDunLHAVI8%2BJI1AqsvrlvVpGRgEwtOjI1%2B4sdoFu7nfEWiWsTTV1MTTIXJydCk1KkroJHQghSX1k%2BHhZtLUhdoh%2BtinvRNLCFKTNK7UID90B7xSq/Za8eVHJ0SPWS0U/i/HitehlvspH/QWvpQ5PW1HEhpcM%2BEGzmfblLoc48Ot9ECDAyUwkAEyvbo9URCR3kqq/wJBSlPTrNv0pREI1XprlyFUAHSEjI906OMX5npRuF5V9yOPahscYruhxLStlAmp7SYAHT9cLBzQlsh4lRfv9jYEH0h4YKH8Z%2BdrZ/ZjnoJuoSG%2BpznMIgv94XhY1yLhX4sWMkPxrEmkvr/8DNoH1uaN7XAWOhKE%2BGDlPVUlFNUAQpNGUyF2DLgEYkhFo1hiwWMzNVXKIikV60zKDsK6baTtzUXYMqbDx4dw5X1DoktegzsxoMDZpIpfAeHEg/6e%2BpgU%3D"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device2",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/12159/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    }
+  ]
+}

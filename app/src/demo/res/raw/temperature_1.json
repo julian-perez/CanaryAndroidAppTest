@@ -1,0 +1,1739 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 144
+  },
+  "objects": [
+    {
+      "created": "2015-02-24T21:35:36",
+      "device": "/v1/devices/device2/",
+      "id": 958377,
+      "resource_uri": "/v1/readings/958377/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.930872345"
+    },
+    {
+      "created": "2015-02-24T21:25:36",
+      "device": "/v1/devices/device2/",
+      "id": 955120,
+      "resource_uri": "/v1/readings/955120/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.9080631256"
+    },
+    {
+      "created": "2015-02-24T21:15:35",
+      "device": "/v1/devices/device2/",
+      "id": 955054,
+      "resource_uri": "/v1/readings/955054/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.9618087769"
+    },
+    {
+      "created": "2015-02-24T21:05:35",
+      "device": "/v1/devices/device2/",
+      "id": 954988,
+      "resource_uri": "/v1/readings/954988/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.9717964172"
+    },
+    {
+      "created": "2015-02-24T20:55:35",
+      "device": "/v1/devices/device2/",
+      "id": 954922,
+      "resource_uri": "/v1/readings/954922/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.9836551666"
+    },
+    {
+      "created": "2015-02-24T20:45:35",
+      "device": "/v1/devices/device2/",
+      "id": 954856,
+      "resource_uri": "/v1/readings/954856/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.9524593353"
+    },
+    {
+      "created": "2015-02-24T20:35:35",
+      "device": "/v1/devices/device2/",
+      "id": 954793,
+      "resource_uri": "/v1/readings/954793/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.0338230133"
+    },
+    {
+      "created": "2015-02-24T20:25:35",
+      "device": "/v1/devices/device2/",
+      "id": 954730,
+      "resource_uri": "/v1/readings/954730/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.0781196594"
+    },
+    {
+      "created": "2015-02-24T20:15:35",
+      "device": "/v1/devices/device2/",
+      "id": 954127,
+      "resource_uri": "/v1/readings/954127/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.3999340057"
+    },
+    {
+      "created": "2015-02-24T20:05:34",
+      "device": "/v1/devices/device2/",
+      "id": 952651,
+      "resource_uri": "/v1/readings/952651/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.5960067749"
+    },
+    {
+      "created": "2015-02-24T19:55:34",
+      "device": "/v1/devices/device2/",
+      "id": 945266,
+      "resource_uri": "/v1/readings/945266/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.5886764526"
+    },
+    {
+      "created": "2015-02-24T19:45:33",
+      "device": "/v1/devices/device2/",
+      "id": 937878,
+      "resource_uri": "/v1/readings/937878/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.8555877686"
+    },
+    {
+      "created": "2015-02-24T19:35:33",
+      "device": "/v1/devices/device2/",
+      "id": 930457,
+      "resource_uri": "/v1/readings/930457/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.0784538269"
+    },
+    {
+      "created": "2015-02-24T19:25:33",
+      "device": "/v1/devices/device2/",
+      "id": 926191,
+      "resource_uri": "/v1/readings/926191/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.1655670166"
+    },
+    {
+      "created": "2015-02-24T19:15:32",
+      "device": "/v1/devices/device2/",
+      "id": 918740,
+      "resource_uri": "/v1/readings/918740/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.2052764893"
+    },
+    {
+      "created": "2015-02-24T19:05:31",
+      "device": "/v1/devices/device2/",
+      "id": 911295,
+      "resource_uri": "/v1/readings/911295/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.7513313293"
+    },
+    {
+      "created": "2015-02-24T18:55:31",
+      "device": "/v1/devices/device2/",
+      "id": 903877,
+      "resource_uri": "/v1/readings/903877/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.9778030396"
+    },
+    {
+      "created": "2015-02-24T18:45:31",
+      "device": "/v1/devices/device2/",
+      "id": 896465,
+      "resource_uri": "/v1/readings/896465/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.223324585"
+    },
+    {
+      "created": "2015-02-24T18:35:30",
+      "device": "/v1/devices/device2/",
+      "id": 889047,
+      "resource_uri": "/v1/readings/889047/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.4040298462"
+    },
+    {
+      "created": "2015-02-24T18:25:30",
+      "device": "/v1/devices/device2/",
+      "id": 884823,
+      "resource_uri": "/v1/readings/884823/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.5062995911"
+    },
+    {
+      "created": "2015-02-24T18:15:29",
+      "device": "/v1/devices/device2/",
+      "id": 877399,
+      "resource_uri": "/v1/readings/877399/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.7316055298"
+    },
+    {
+      "created": "2015-02-24T18:05:29",
+      "device": "/v1/devices/device2/",
+      "id": 869960,
+      "resource_uri": "/v1/readings/869960/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.9965782166"
+    },
+    {
+      "created": "2015-02-24T17:55:28",
+      "device": "/v1/devices/device2/",
+      "id": 862509,
+      "resource_uri": "/v1/readings/862509/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.0624328613"
+    },
+    {
+      "created": "2015-02-24T17:45:27",
+      "device": "/v1/devices/device2/",
+      "id": 855025,
+      "resource_uri": "/v1/readings/855025/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.1555664062"
+    },
+    {
+      "created": "2015-02-24T17:35:27",
+      "device": "/v1/devices/device2/",
+      "id": 847550,
+      "resource_uri": "/v1/readings/847550/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.287310791"
+    },
+    {
+      "created": "2015-02-24T17:25:27",
+      "device": "/v1/devices/device2/",
+      "id": 840078,
+      "resource_uri": "/v1/readings/840078/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.3663383484"
+    },
+    {
+      "created": "2015-02-24T17:15:26",
+      "device": "/v1/devices/device2/",
+      "id": 835809,
+      "resource_uri": "/v1/readings/835809/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.369770813"
+    },
+    {
+      "created": "2015-02-24T17:05:26",
+      "device": "/v1/devices/device2/",
+      "id": 828619,
+      "resource_uri": "/v1/readings/828619/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.3194244385"
+    },
+    {
+      "created": "2015-02-24T16:55:25",
+      "device": "/v1/devices/device2/",
+      "id": 821186,
+      "resource_uri": "/v1/readings/821186/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.305809021"
+    },
+    {
+      "created": "2015-02-24T16:45:25",
+      "device": "/v1/devices/device2/",
+      "id": 813738,
+      "resource_uri": "/v1/readings/813738/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.3781257629"
+    },
+    {
+      "created": "2015-02-24T16:35:24",
+      "device": "/v1/devices/device2/",
+      "id": 806299,
+      "resource_uri": "/v1/readings/806299/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.9938621521"
+    },
+    {
+      "created": "2015-02-24T16:25:24",
+      "device": "/v1/devices/device2/",
+      "id": 798836,
+      "resource_uri": "/v1/readings/798836/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.5115699768"
+    },
+    {
+      "created": "2015-02-24T16:15:23",
+      "device": "/v1/devices/device2/",
+      "id": 794531,
+      "resource_uri": "/v1/readings/794531/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.2938079834"
+    },
+    {
+      "created": "2015-02-24T16:05:22",
+      "device": "/v1/devices/device2/",
+      "id": 787026,
+      "resource_uri": "/v1/readings/787026/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.0724639893"
+    },
+    {
+      "created": "2015-02-24T15:55:22",
+      "device": "/v1/devices/device2/",
+      "id": 779515,
+      "resource_uri": "/v1/readings/779515/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "25.151404953"
+    },
+    {
+      "created": "2015-02-24T15:45:22",
+      "device": "/v1/devices/device2/",
+      "id": 771995,
+      "resource_uri": "/v1/readings/771995/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.9913993835"
+    },
+    {
+      "created": "2015-02-24T15:35:21",
+      "device": "/v1/devices/device2/",
+      "id": 764463,
+      "resource_uri": "/v1/readings/764463/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.9023223877"
+    },
+    {
+      "created": "2015-02-24T15:25:21",
+      "device": "/v1/devices/device2/",
+      "id": 756889,
+      "resource_uri": "/v1/readings/756889/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.8314208984"
+    },
+    {
+      "created": "2015-02-24T15:15:21",
+      "device": "/v1/devices/device2/",
+      "id": 749333,
+      "resource_uri": "/v1/readings/749333/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.6282546997"
+    },
+    {
+      "created": "2015-02-24T15:05:20",
+      "device": "/v1/devices/device2/",
+      "id": 741765,
+      "resource_uri": "/v1/readings/741765/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.6520313263"
+    },
+    {
+      "created": "2015-02-24T14:55:19",
+      "device": "/v1/devices/device2/",
+      "id": 737382,
+      "resource_uri": "/v1/readings/737382/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "24.3548866272"
+    },
+    {
+      "created": "2015-02-24T14:45:19",
+      "device": "/v1/devices/device2/",
+      "id": 729820,
+      "resource_uri": "/v1/readings/729820/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.6524635315"
+    },
+    {
+      "created": "2015-02-24T14:35:18",
+      "device": "/v1/devices/device2/",
+      "id": 722255,
+      "resource_uri": "/v1/readings/722255/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.3980560303"
+    },
+    {
+      "created": "2015-02-24T14:25:18",
+      "device": "/v1/devices/device2/",
+      "id": 714684,
+      "resource_uri": "/v1/readings/714684/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "23.2452713013"
+    },
+    {
+      "created": "2015-02-24T14:15:17",
+      "device": "/v1/devices/device2/",
+      "id": 707122,
+      "resource_uri": "/v1/readings/707122/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.9937469482"
+    },
+    {
+      "created": "2015-02-24T14:05:17",
+      "device": "/v1/devices/device2/",
+      "id": 699557,
+      "resource_uri": "/v1/readings/699557/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.8343105316"
+    },
+    {
+      "created": "2015-02-24T13:55:16",
+      "device": "/v1/devices/device2/",
+      "id": 691992,
+      "resource_uri": "/v1/readings/691992/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.4465629578"
+    },
+    {
+      "created": "2015-02-24T13:45:16",
+      "device": "/v1/devices/device2/",
+      "id": 684427,
+      "resource_uri": "/v1/readings/684427/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.1726993561"
+    },
+    {
+      "created": "2015-02-24T13:35:15",
+      "device": "/v1/devices/device2/",
+      "id": 680047,
+      "resource_uri": "/v1/readings/680047/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.7598884583"
+    },
+    {
+      "created": "2015-02-24T13:25:15",
+      "device": "/v1/devices/device2/",
+      "id": 672482,
+      "resource_uri": "/v1/readings/672482/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.5109758377"
+    },
+    {
+      "created": "2015-02-24T13:15:14",
+      "device": "/v1/devices/device2/",
+      "id": 664923,
+      "resource_uri": "/v1/readings/664923/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.3859081268"
+    },
+    {
+      "created": "2015-02-24T13:05:14",
+      "device": "/v1/devices/device2/",
+      "id": 657352,
+      "resource_uri": "/v1/readings/657352/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.5778980255"
+    },
+    {
+      "created": "2015-02-24T12:55:13",
+      "device": "/v1/devices/device2/",
+      "id": 649784,
+      "resource_uri": "/v1/readings/649784/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.8263988495"
+    },
+    {
+      "created": "2015-02-24T12:45:13",
+      "device": "/v1/devices/device2/",
+      "id": 642222,
+      "resource_uri": "/v1/readings/642222/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.2925014496"
+    },
+    {
+      "created": "2015-02-24T12:35:13",
+      "device": "/v1/devices/device2/",
+      "id": 634654,
+      "resource_uri": "/v1/readings/634654/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.8073949814"
+    },
+    {
+      "created": "2015-02-24T12:25:12",
+      "device": "/v1/devices/device2/",
+      "id": 627086,
+      "resource_uri": "/v1/readings/627086/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.2260055542"
+    },
+    {
+      "created": "2015-02-24T12:15:12",
+      "device": "/v1/devices/device2/",
+      "id": 622706,
+      "resource_uri": "/v1/readings/622706/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.1941843033"
+    },
+    {
+      "created": "2015-02-24T12:05:11",
+      "device": "/v1/devices/device2/",
+      "id": 615144,
+      "resource_uri": "/v1/readings/615144/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.6946973801"
+    },
+    {
+      "created": "2015-02-24T11:55:11",
+      "device": "/v1/devices/device2/",
+      "id": 607588,
+      "resource_uri": "/v1/readings/607588/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.688911438"
+    },
+    {
+      "created": "2015-02-24T11:45:10",
+      "device": "/v1/devices/device2/",
+      "id": 600020,
+      "resource_uri": "/v1/readings/600020/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.84461784363"
+    },
+    {
+      "created": "2015-02-24T11:35:09",
+      "device": "/v1/devices/device2/",
+      "id": 592455,
+      "resource_uri": "/v1/readings/592455/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.57342720032"
+    },
+    {
+      "created": "2015-02-24T11:25:09",
+      "device": "/v1/devices/device2/",
+      "id": 584887,
+      "resource_uri": "/v1/readings/584887/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.42167758942"
+    },
+    {
+      "created": "2015-02-24T11:15:09",
+      "device": "/v1/devices/device2/",
+      "id": 577319,
+      "resource_uri": "/v1/readings/577319/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.90485954285"
+    },
+    {
+      "created": "2015-02-24T11:05:08",
+      "device": "/v1/devices/device2/",
+      "id": 569763,
+      "resource_uri": "/v1/readings/569763/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.81636714935"
+    },
+    {
+      "created": "2015-02-24T10:55:08",
+      "device": "/v1/devices/device2/",
+      "id": 565389,
+      "resource_uri": "/v1/readings/565389/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.04348659515"
+    },
+    {
+      "created": "2015-02-24T10:45:07",
+      "device": "/v1/devices/device2/",
+      "id": 557821,
+      "resource_uri": "/v1/readings/557821/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.97897052765"
+    },
+    {
+      "created": "2015-02-24T10:35:29",
+      "device": "/v1/devices/device2/",
+      "id": 550427,
+      "resource_uri": "/v1/readings/550427/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.76643562317"
+    },
+    {
+      "created": "2015-02-24T10:25:06",
+      "device": "/v1/devices/device2/",
+      "id": 542688,
+      "resource_uri": "/v1/readings/542688/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.18389034271"
+    },
+    {
+      "created": "2015-02-24T10:15:06",
+      "device": "/v1/devices/device2/",
+      "id": 535126,
+      "resource_uri": "/v1/readings/535126/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.9595708847"
+    },
+    {
+      "created": "2015-02-24T10:05:05",
+      "device": "/v1/devices/device2/",
+      "id": 527561,
+      "resource_uri": "/v1/readings/527561/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.74073219299"
+    },
+    {
+      "created": "2015-02-24T09:55:05",
+      "device": "/v1/devices/device2/",
+      "id": 519990,
+      "resource_uri": "/v1/readings/519990/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.20651340485"
+    },
+    {
+      "created": "2015-02-24T09:45:04",
+      "device": "/v1/devices/device2/",
+      "id": 512428,
+      "resource_uri": "/v1/readings/512428/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.18991851807"
+    },
+    {
+      "created": "2015-02-24T09:35:04",
+      "device": "/v1/devices/device2/",
+      "id": 508054,
+      "resource_uri": "/v1/readings/508054/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.09216976166"
+    },
+    {
+      "created": "2015-02-24T09:25:03",
+      "device": "/v1/devices/device2/",
+      "id": 500489,
+      "resource_uri": "/v1/readings/500489/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.65601062775"
+    },
+    {
+      "created": "2015-02-24T09:15:03",
+      "device": "/v1/devices/device2/",
+      "id": 492930,
+      "resource_uri": "/v1/readings/492930/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.63740825653"
+    },
+    {
+      "created": "2015-02-24T09:05:02",
+      "device": "/v1/devices/device2/",
+      "id": 485362,
+      "resource_uri": "/v1/readings/485362/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.17224311829"
+    },
+    {
+      "created": "2015-02-24T08:55:02",
+      "device": "/v1/devices/device2/",
+      "id": 477794,
+      "resource_uri": "/v1/readings/477794/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.87729263306"
+    },
+    {
+      "created": "2015-02-24T08:45:02",
+      "device": "/v1/devices/device2/",
+      "id": 470229,
+      "resource_uri": "/v1/readings/470229/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.89491271973"
+    },
+    {
+      "created": "2015-02-24T08:35:01",
+      "device": "/v1/devices/device2/",
+      "id": 462667,
+      "resource_uri": "/v1/readings/462667/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.82678604126"
+    },
+    {
+      "created": "2015-02-24T08:25:01",
+      "device": "/v1/devices/device2/",
+      "id": 455096,
+      "resource_uri": "/v1/readings/455096/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.88714122772"
+    },
+    {
+      "created": "2015-02-24T08:15:00",
+      "device": "/v1/devices/device2/",
+      "id": 450722,
+      "resource_uri": "/v1/readings/450722/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.7416229248"
+    },
+    {
+      "created": "2015-02-24T08:05:59",
+      "device": "/v1/devices/device2/",
+      "id": 443592,
+      "resource_uri": "/v1/readings/443592/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.56980419159"
+    },
+    {
+      "created": "2015-02-24T07:55:59",
+      "device": "/v1/devices/device2/",
+      "id": 436024,
+      "resource_uri": "/v1/readings/436024/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.76065254211"
+    },
+    {
+      "created": "2015-02-24T07:45:58",
+      "device": "/v1/devices/device2/",
+      "id": 428474,
+      "resource_uri": "/v1/readings/428474/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.0410451889"
+    },
+    {
+      "created": "2015-02-24T07:35:58",
+      "device": "/v1/devices/device2/",
+      "id": 420906,
+      "resource_uri": "/v1/readings/420906/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.87073898315"
+    },
+    {
+      "created": "2015-02-24T07:25:57",
+      "device": "/v1/devices/device2/",
+      "id": 413338,
+      "resource_uri": "/v1/readings/413338/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.64577865601"
+    },
+    {
+      "created": "2015-02-24T07:15:57",
+      "device": "/v1/devices/device2/",
+      "id": 405773,
+      "resource_uri": "/v1/readings/405773/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.08373260498"
+    },
+    {
+      "created": "2015-02-24T07:05:57",
+      "device": "/v1/devices/device2/",
+      "id": 401396,
+      "resource_uri": "/v1/readings/401396/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.76790904999"
+    },
+    {
+      "created": "2015-02-24T06:55:56",
+      "device": "/v1/devices/device2/",
+      "id": 393834,
+      "resource_uri": "/v1/readings/393834/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.11586475372"
+    },
+    {
+      "created": "2015-02-24T06:45:55",
+      "device": "/v1/devices/device2/",
+      "id": 386269,
+      "resource_uri": "/v1/readings/386269/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.43754577637"
+    },
+    {
+      "created": "2015-02-24T06:35:55",
+      "device": "/v1/devices/device2/",
+      "id": 378698,
+      "resource_uri": "/v1/readings/378698/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.85924339294"
+    },
+    {
+      "created": "2015-02-24T06:25:54",
+      "device": "/v1/devices/device2/",
+      "id": 371136,
+      "resource_uri": "/v1/readings/371136/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.13466453552"
+    },
+    {
+      "created": "2015-02-24T06:15:54",
+      "device": "/v1/devices/device2/",
+      "id": 363568,
+      "resource_uri": "/v1/readings/363568/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.07688713074"
+    },
+    {
+      "created": "2015-02-24T06:05:53",
+      "device": "/v1/devices/device2/",
+      "id": 356009,
+      "resource_uri": "/v1/readings/356009/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.18609046936"
+    },
+    {
+      "created": "2015-02-24T05:55:53",
+      "device": "/v1/devices/device2/",
+      "id": 348447,
+      "resource_uri": "/v1/readings/348447/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.39887142181"
+    },
+    {
+      "created": "2015-02-24T05:45:52",
+      "device": "/v1/devices/device2/",
+      "id": 344067,
+      "resource_uri": "/v1/readings/344067/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.13516426086"
+    },
+    {
+      "created": "2015-02-24T05:35:52",
+      "device": "/v1/devices/device2/",
+      "id": 336508,
+      "resource_uri": "/v1/readings/336508/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.29835987091"
+    },
+    {
+      "created": "2015-02-24T05:25:51",
+      "device": "/v1/devices/device2/",
+      "id": 328937,
+      "resource_uri": "/v1/readings/328937/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.36547374725"
+    },
+    {
+      "created": "2015-02-24T05:15:51",
+      "device": "/v1/devices/device2/",
+      "id": 321375,
+      "resource_uri": "/v1/readings/321375/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.15671920776"
+    },
+    {
+      "created": "2015-02-24T05:05:50",
+      "device": "/v1/devices/device2/",
+      "id": 313813,
+      "resource_uri": "/v1/readings/313813/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.35404777527"
+    },
+    {
+      "created": "2015-02-24T04:55:49",
+      "device": "/v1/devices/device2/",
+      "id": 306245,
+      "resource_uri": "/v1/readings/306245/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.58345603943"
+    },
+    {
+      "created": "2015-02-24T04:45:49",
+      "device": "/v1/devices/device2/",
+      "id": 298677,
+      "resource_uri": "/v1/readings/298677/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.59175682068"
+    },
+    {
+      "created": "2015-02-24T04:35:49",
+      "device": "/v1/devices/device2/",
+      "id": 291100,
+      "resource_uri": "/v1/readings/291100/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.58202838898"
+    },
+    {
+      "created": "2015-02-24T04:25:48",
+      "device": "/v1/devices/device2/",
+      "id": 286741,
+      "resource_uri": "/v1/readings/286741/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.74177742004"
+    },
+    {
+      "created": "2015-02-24T04:15:47",
+      "device": "/v1/devices/device2/",
+      "id": 279173,
+      "resource_uri": "/v1/readings/279173/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.18138313293"
+    },
+    {
+      "created": "2015-02-24T04:05:47",
+      "device": "/v1/devices/device2/",
+      "id": 271611,
+      "resource_uri": "/v1/readings/271611/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.63144111633"
+    },
+    {
+      "created": "2015-02-24T03:55:47",
+      "device": "/v1/devices/device2/",
+      "id": 264043,
+      "resource_uri": "/v1/readings/264043/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.14982795715"
+    },
+    {
+      "created": "2015-02-24T03:45:46",
+      "device": "/v1/devices/device2/",
+      "id": 256475,
+      "resource_uri": "/v1/readings/256475/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.27786827087"
+    },
+    {
+      "created": "2015-02-24T03:35:45",
+      "device": "/v1/devices/device2/",
+      "id": 248913,
+      "resource_uri": "/v1/readings/248913/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "15.81509017944"
+    },
+    {
+      "created": "2015-02-24T03:25:45",
+      "device": "/v1/devices/device2/",
+      "id": 241342,
+      "resource_uri": "/v1/readings/241342/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.53706169128"
+    },
+    {
+      "created": "2015-02-24T03:15:45",
+      "device": "/v1/devices/device2/",
+      "id": 233777,
+      "resource_uri": "/v1/readings/233777/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "16.99833202362"
+    },
+    {
+      "created": "2015-02-24T03:05:44",
+      "device": "/v1/devices/device2/",
+      "id": 229403,
+      "resource_uri": "/v1/readings/229403/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.316488266"
+    },
+    {
+      "created": "2015-02-24T02:55:44",
+      "device": "/v1/devices/device2/",
+      "id": 221817,
+      "resource_uri": "/v1/readings/221817/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.4815130234"
+    },
+    {
+      "created": "2015-02-24T02:45:43",
+      "device": "/v1/devices/device2/",
+      "id": 214303,
+      "resource_uri": "/v1/readings/214303/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.8549499512"
+    },
+    {
+      "created": "2015-02-24T02:35:43",
+      "device": "/v1/devices/device2/",
+      "id": 206747,
+      "resource_uri": "/v1/readings/206747/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.9212007523"
+    },
+    {
+      "created": "2015-02-24T02:25:42",
+      "device": "/v1/devices/device2/",
+      "id": 199176,
+      "resource_uri": "/v1/readings/199176/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.8685922623"
+    },
+    {
+      "created": "2015-02-24T02:15:42",
+      "device": "/v1/devices/device2/",
+      "id": 191611,
+      "resource_uri": "/v1/readings/191611/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.8002262115"
+    },
+    {
+      "created": "2015-02-24T02:05:41",
+      "device": "/v1/devices/device2/",
+      "id": 184046,
+      "resource_uri": "/v1/readings/184046/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.0962543488"
+    },
+    {
+      "created": "2015-02-24T01:55:41",
+      "device": "/v1/devices/device2/",
+      "id": 176490,
+      "resource_uri": "/v1/readings/176490/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.1175384521"
+    },
+    {
+      "created": "2015-02-24T01:45:41",
+      "device": "/v1/devices/device2/",
+      "id": 172152,
+      "resource_uri": "/v1/readings/172152/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "17.9423809052"
+    },
+    {
+      "created": "2015-02-24T01:35:40",
+      "device": "/v1/devices/device2/",
+      "id": 164665,
+      "resource_uri": "/v1/readings/164665/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.0955562592"
+    },
+    {
+      "created": "2015-02-24T01:25:39",
+      "device": "/v1/devices/device2/",
+      "id": 151518,
+      "resource_uri": "/v1/readings/151518/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.4991792679"
+    },
+    {
+      "created": "2015-02-24T01:15:39",
+      "device": "/v1/devices/device2/",
+      "id": 143644,
+      "resource_uri": "/v1/readings/143644/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.196726799"
+    },
+    {
+      "created": "2015-02-24T01:05:39",
+      "device": "/v1/devices/device2/",
+      "id": 139813,
+      "resource_uri": "/v1/readings/139813/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.0495166779"
+    },
+    {
+      "created": "2015-02-24T00:55:38",
+      "device": "/v1/devices/device2/",
+      "id": 132371,
+      "resource_uri": "/v1/readings/132371/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.4122232437"
+    },
+    {
+      "created": "2015-02-24T00:45:38",
+      "device": "/v1/devices/device2/",
+      "id": 124929,
+      "resource_uri": "/v1/readings/124929/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.1642313004"
+    },
+    {
+      "created": "2015-02-24T00:35:37",
+      "device": "/v1/devices/device2/",
+      "id": 117481,
+      "resource_uri": "/v1/readings/117481/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.538284111"
+    },
+    {
+      "created": "2015-02-24T00:25:37",
+      "device": "/v1/devices/device2/",
+      "id": 110030,
+      "resource_uri": "/v1/readings/110030/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.816620636"
+    },
+    {
+      "created": "2015-02-24T00:15:36",
+      "device": "/v1/devices/device2/",
+      "id": 102585,
+      "resource_uri": "/v1/readings/102585/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.5404996872"
+    },
+    {
+      "created": "2015-02-24T00:05:35",
+      "device": "/v1/devices/device2/",
+      "id": 98325,
+      "resource_uri": "/v1/readings/98325/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.9526464462"
+    },
+    {
+      "created": "2015-02-23T23:55:35",
+      "device": "/v1/devices/device2/",
+      "id": 90886,
+      "resource_uri": "/v1/readings/90886/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.8971910477"
+    },
+    {
+      "created": "2015-02-23T23:45:35",
+      "device": "/v1/devices/device2/",
+      "id": 83417,
+      "resource_uri": "/v1/readings/83417/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.7813062668"
+    },
+    {
+      "created": "2015-02-23T23:35:34",
+      "device": "/v1/devices/device2/",
+      "id": 75939,
+      "resource_uri": "/v1/readings/75939/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "18.9077711105"
+    },
+    {
+      "created": "2015-02-23T23:25:34",
+      "device": "/v1/devices/device2/",
+      "id": 68461,
+      "resource_uri": "/v1/readings/68461/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.1484966278"
+    },
+    {
+      "created": "2015-02-23T23:15:34",
+      "device": "/v1/devices/device2/",
+      "id": 60986,
+      "resource_uri": "/v1/readings/60986/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.4306592941"
+    },
+    {
+      "created": "2015-02-23T23:05:33",
+      "device": "/v1/devices/device2/",
+      "id": 53511,
+      "resource_uri": "/v1/readings/53511/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "19.7764358521"
+    },
+    {
+      "created": "2015-02-23T22:56:33",
+      "device": "/v1/devices/device2/",
+      "id": 49656,
+      "resource_uri": "/v1/readings/49656/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.229429245"
+    },
+    {
+      "created": "2015-02-23T22:45:32",
+      "device": "/v1/devices/device2/",
+      "id": 41740,
+      "resource_uri": "/v1/readings/41740/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "20.9094152451"
+    },
+    {
+      "created": "2015-02-23T22:35:32",
+      "device": "/v1/devices/device2/",
+      "id": 34274,
+      "resource_uri": "/v1/readings/34274/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.5810012817"
+    },
+    {
+      "created": "2015-02-23T22:25:31",
+      "device": "/v1/devices/device2/",
+      "id": 26796,
+      "resource_uri": "/v1/readings/26796/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.8195295334"
+    },
+    {
+      "created": "2015-02-23T22:15:31",
+      "device": "/v1/devices/device2/",
+      "id": 19315,
+      "resource_uri": "/v1/readings/19315/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.8385295868"
+    },
+    {
+      "created": "2015-02-23T22:05:30",
+      "device": "/v1/devices/device2/",
+      "id": 11837,
+      "resource_uri": "/v1/readings/11837/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "21.5657835007"
+    },
+    {
+      "created": "2015-02-23T21:55:30",
+      "device": "/v1/devices/device2/",
+      "id": 4359,
+      "resource_uri": "/v1/readings/4359/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.0412492752"
+    },
+    {
+      "created": "2015-02-23T21:45:29",
+      "device": "/v1/devices/device2/",
+      "id": 72,
+      "resource_uri": "/v1/readings/72/",
+      "sensor_type": {
+        "id": 2,
+        "name": "temperature",
+        "resource_uri": "/v1/sensors/2/"
+      },
+      "value": "22.3896436691"
+    }
+  ]
+}

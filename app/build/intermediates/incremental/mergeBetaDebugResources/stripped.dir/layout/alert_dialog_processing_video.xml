@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/alert_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="@string/processing_video"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:customFont="Gibson-Light.otf" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/export_file_icon" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:text="25MB"
+            android:id="@+id/video_size_text_view"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/export_playback_icon" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="00:48"
+            android:id="@+id/video_length_text_view"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+    </LinearLayout>
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/alert_desc"
+        android:layout_width="wrap_content"
+        android:text="@string/processing_video_dsc"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/black"
+        app:customFont="Gibson-Light.otf" />
+
+
+    <is.yranac.canary.ui.views.ButtonPlus
+        android:id="@+id/okay_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/light_gray"
+        android:text="@string/okay"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:customFont="Gibson.otf" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="285dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/alert_header"
+        style="@style/large_text_view"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/select_a_start_time" />
+
+
+    <is.yranac.canary.ui.widget.StyledTimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:timePickerMode="spinner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/alert_button_left"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@color/light_gray"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/alert_button_right"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/light_gray"
+            android:text="@string/okay"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </LinearLayout>
+</LinearLayout>

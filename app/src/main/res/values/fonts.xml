@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gibson_light">Gibson-Light.otf</string>
+    <string name="gibson_regular">Gibson.otf</string>
+    <string name="gibson_semi_bold">Gibson-SemiBold.otf</string>
+</resources>

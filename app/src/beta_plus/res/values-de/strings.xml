@@ -1,0 +1,8 @@
+<resources>
+    <string name="website">https://canary.is/de/</string>
+    <string name="privacy_link">rechtliches/datenschutzbestimmungen/</string>
+    <string name="terms_link">rechtliches/nutzungsbedingungen/</string>
+    <string name="eula_link">rechtliches/eula/</string>
+    <string name="compliance_link">rechtliches/compliance/</string>
+    <string name="plans_link">abonnements</string>
+</resources>

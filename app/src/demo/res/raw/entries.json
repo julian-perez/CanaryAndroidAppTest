@@ -1,0 +1,908 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 24
+  },
+  "objects": [
+    {
+      "comments": [
+      ],
+      "deleted": false,
+      "description": "Rocky detected while armed",
+      "device_mode": {
+        "id": 2,
+        "name": "armed",
+        "resource_uri": "/v1/modes/2/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23638,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23638/",
+      "starred": false,
+      "start_time": "2015-02-24T20:34:14",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "fourteen_panda",
+          "length": "24"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23638/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Canary auto-armed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-24T06:05:10",
+      "entry_type": "mode",
+      "id": 23628,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23628/",
+      "starred": false,
+      "start_time": "2015-02-24T18:03:50",
+      "thumbnails": []
+    },
+    {
+      "comments": [],
+      "customers": [
+        "/v1/customers/1/"
+      ],
+      "deleted": false,
+      "description": "Kate left home",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-24T22:14:03",
+      "entry_type": "location",
+      "image_url": "Kate",
+      "id": 23582,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:10",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23582/",
+      "starred": false,
+      "start_time": "2015-02-24T18:03:30",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "customers": [
+        "/v1/customers/2/"
+      ],
+      "deleted": false,
+      "description": "Reagan left home",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-24T22:14:02",
+      "entry_type": "location",
+      "image_url": "james",
+      "id": 23571,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:03",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23571/",
+      "starred": false,
+      "start_time": "2015-02-24T18:03:20",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 93638,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/93638/",
+      "starred": false,
+      "start_time": "2015-02-24T18:03:04",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "thirteen_family_leaves",
+          "length": "52"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/93638/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23637,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23637/",
+      "starred": false,
+      "start_time": "2015-02-24T17:46:22",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "twleve_regan_two",
+          "length": "13"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23637/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Home temperature: 71°F",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-24T22:14:03",
+      "entry_type": "temperature",
+      "id": 23581,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:10",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23581/",
+      "starred": false,
+      "start_time": "2015-02-24T17:00:03",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23635,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23635/",
+      "starred": false,
+      "start_time": "2015-02-24T16:41:21",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "eleven_family_playtime",
+          "length": "157"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23635/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [
+        {
+          "body": "Emma loves that new stroller",
+          "created": "2015-02-24T18:08:05",
+          "customer": "/v1/customers/2/",
+          "entry": "/v1/entries/23634/",
+          "id": 20,
+          "modified": "2015-02-24T18:08:05",
+          "resource_uri": "/v1/comments/20/"
+        },
+        {
+          "body": "I know! It's perfect",
+          "created": "2015-02-24T19:23:05",
+          "customer": "/v1/customers/1/",
+          "entry": "/v1/entries/23634/",
+          "id": 21,
+          "modified": "2015-02-24T19:23:05",
+          "resource_uri": "/v1/comments/21/"
+        },
+        {
+          "body": "We need to send a thank you note to your Mom!",
+          "created": "2015-02-24T19:23:15",
+          "customer": "/v1/customers/1/",
+          "entry": "/v1/entries/23634/",
+          "id": 22,
+          "modified": "2015-02-24T19:23:15",
+          "resource_uri": "/v1/comments/22/"
+        }
+      ],
+      "description": "Emma detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23634,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23634/",
+      "starred": true,
+      "start_time": "2015-02-24T16:19:05",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "ten_gwen_stroller_fro",
+          "length": "14"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23634/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23633,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23633/",
+      "starred": false,
+      "start_time": "2015-02-24T16:13:27",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "nine_gwen_one",
+          "length": "35"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23633/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23632,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23632/",
+      "starred": false,
+      "start_time": "2015-02-24T15:25:43",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "eight_regan_mail",
+          "length": "21"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23632/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Kate turned off privacy mode",
+      "device_mode": {
+        "id": 3,
+        "name": "privacy",
+        "resource_uri": "/v1/modes/3/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-23T22:14:03",
+      "entry_type": "mode",
+      "id": 23583,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:10",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23583/",
+      "starred": false,
+      "start_time": "2015-02-24T15:21:03",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Kate turned on privacy mode",
+      "device_mode": {
+        "id": 3,
+        "name": "privacy",
+        "resource_uri": "/v1/modes/3/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-23T22:14:03",
+      "entry_type": "mode",
+      "id": 23580,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:10",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23580/",
+      "starred": false,
+      "start_time": "2015-02-24T07:08:03",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Kate detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23533,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23533/",
+      "starred": false,
+      "start_time": "2015-02-24T06:54:18",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "seven_kate_baby",
+          "length": "63"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23533/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23532,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23532/",
+      "starred": false,
+      "start_time": "2015-02-24T01:27:04",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "six_a_family_moving",
+          "length": "183"
+        },
+        {
+          "device": "/v1/devices/device2/",
+          "image_url": "six_b_regan_water",
+          "length": "12"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23532/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        },
+        {
+          "device_uuid": "device2",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23532/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Home humidity: 36%",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-24T22:14:03",
+      "entry_type": "humidity",
+      "id": 23481,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:10",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23481/",
+      "starred": false,
+      "start_time": "2015-02-24T01:00:03",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23132,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23132/",
+      "starred": false,
+      "start_time": "2015-02-24T00:50:58",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "four_family_storytime",
+          "length": "239"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23132/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "customers": [
+        "/v1/customers/1/"
+      ],
+      "deleted": false,
+      "description": "Kate arrived home",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-24T22:14:03",
+      "entry_type": "location",
+      "image_url": "Kate",
+      "id": 23282,
+      "labels": [],
+      "last_modified": "2015-02-24T04:05:10",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23282/",
+      "starred": false,
+      "start_time": "2015-02-24T00:49:00",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [
+        {
+          "body": "Emma is raiding the kitchen again?",
+          "created": "2015-02-24T00:14:02",
+          "customer": "/v1/customers/1/",
+          "entry": "/v1/entries/23232/",
+          "id": 3,
+          "modified": "2015-02-24T00:14:02",
+          "resource_uri": "/v1/comments/3/"
+        },
+        {
+          "body": "Yeah, she's looking for the cookies that I hid in there...",
+          "created": "2015-02-24T00:21:02",
+          "customer": "/v1/customers/2/",
+          "entry": "/v1/entries/23232/",
+          "id": 4,
+          "modified": "2015-02-24T00:21:02",
+          "resource_uri": "/v1/comments/4/"
+        },
+        {
+          "body": "Haha. Okay. Well, I'm headed home, I'll see you in a bit!",
+          "created": "2015-02-24T00:22:02",
+          "customer": "/v1/customers/1/",
+          "entry": "/v1/entries/23232/",
+          "id": 5,
+          "modified": "2015-02-24T00:22:02",
+          "resource_uri": "/v1/comments/5/"
+        }
+      ],
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23232,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23232/",
+      "starred": false,
+      "start_time": "2015-02-24T00:13:02",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "five_a_gwen_running",
+          "length": "14"
+        },
+        {
+          "device": "/v1/devices/device2/",
+          "image_url": "five_b_gwen_fridge",
+          "length": "16"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23232/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        },
+        {
+          "device_uuid": "device2",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23232/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "customers": [
+        "/v1/customers/1/"
+      ],
+      "deleted": false,
+      "description": "Kate left home",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 844,
+      "end_time": "2015-02-23T21:59:59",
+      "entry_type": "location",
+      "image_url": "Kate",
+      "id": 23578,
+      "labels": [],
+      "last_modified": "2015-02-23T22:14:03",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23578/",
+      "starred": false,
+      "start_time": "2015-02-23T22:06:44",
+      "thumbnails": [],
+      "video_exports": []
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Activity detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 23032,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/23032/",
+      "starred": false,
+      "start_time": "2015-02-23T22:06:43",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "thirteen_family_leaves",
+          "length": "22"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/23032/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "deleted": false,
+      "description": "Kate detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 13032,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/13032/",
+      "starred": false,
+      "start_time": "2015-02-23T21:22:18",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "two_kate_dishes",
+          "length": "19"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/13032/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [
+        {
+          "body": "She was so excited for you to get home!",
+          "created": "2015-02-24T03:07:24",
+          "customer": "/v1/customers/1/",
+          "entry": "/v1/entries/12032/",
+          "id": 1,
+          "modified": "2015-02-23T21:14:17",
+          "resource_uri": "/v1/comments/1/"
+        },
+        {
+          "body": ":)",
+          "created": "2015-02-24T03:12:24",
+          "customer": "/v1/customers/2/",
+          "entry": "/v1/entries/12032/",
+          "id": 2,
+          "modified": "2015-02-23T21:16:17",
+          "resource_uri": "/v1/comments/2/"
+        }
+      ],
+      "deleted": false,
+      "description": "James detected while disarmed",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": null,
+      "entry_type": "motion",
+      "id": 12032,
+      "labels": [],
+      "last_modified": "2015-02-24T06:47:26",
+      "location": "/v1/locations/1/",
+      "ongoing": true,
+      "resource_uri": "/v1/entries/12032/",
+      "starred": true,
+      "start_time": "2015-02-23T20:14:24",
+      "thumbnails": [
+        {
+          "device": "/v1/devices/device1/",
+          "image_url": "one_regan_arriving",
+          "length": "42"
+        }
+      ],
+      "video_exports": [
+        {
+          "device_uuid": "device1",
+          "download_url": "",
+          "duration": 0,
+          "entry": "/v1/entries/12032/",
+          "processing": false,
+          "requested_at": null,
+          "size": 0
+        }
+      ]
+    },
+    {
+      "comments": [],
+      "customers": [
+        "/v1/customers/2/"
+      ],
+      "deleted": false,
+      "description": "Regan arrived home",
+      "device_mode": {
+        "id": 1,
+        "name": "disarmed",
+        "resource_uri": "/v1/modes/1/"
+      },
+      "duration": 1800,
+      "end_time": "2015-02-23T20:29:17",
+      "entry_type": "location",
+      "image_url": "james",
+      "id": 23575,
+      "labels": [],
+      "last_modified": "2015-02-23T21:59:59",
+      "location": "/v1/locations/1/",
+      "ongoing": false,
+      "resource_uri": "/v1/entries/23575/",
+      "starred": false,
+      "start_time": "2015-02-23T20:14:17",
+      "thumbnails": [],
+      "video_exports": []
+    }
+  ]
+}

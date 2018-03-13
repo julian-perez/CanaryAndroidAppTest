@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<is.yranac.canary.ui.views.TextViewPlus xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/large_text_view"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:textColor="@color/white" />

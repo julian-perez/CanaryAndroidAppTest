@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listrow_light_selector"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_row_height"
+        android:layout_marginEnd="@dimen/standard_margin"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <is.yranac.canary.ui.views.CircleView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:cFillColor="@color/very_light_gray_two"
+                app:cStrokeColor="@color/very_light_gray_two" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/setting_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:singleLine="true"
+                android:text="@string/serial_number"
+                android:textColor="@color/black_fifty"
+                android:textSize="13sp"
+                app:customFont="Gibson.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/device_name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+</LinearLayout>

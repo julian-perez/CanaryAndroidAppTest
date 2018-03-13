@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="115dp" android:tag="layout/fragment_settings_location_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/manage_membership"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/manage_my_membership"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/edit_address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/edit_address"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/edit_geofence"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/edit_geofence"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/emergency_numbers"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/emergency_numbers"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/insurance"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/insurance"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/remove_location_btn"
+            style="@style/very_light_gray_button"
+            android:layout_margin="@dimen/standard_margin"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:text="@string/remove_location"
+            android:visibility="gone" />
+
+    </LinearLayout>
+         

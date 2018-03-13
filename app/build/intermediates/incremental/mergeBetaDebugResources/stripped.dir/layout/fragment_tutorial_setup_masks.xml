@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_tutorial_setup_masks_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/header_layout_text_view"
+            style="@style/large_text_view"
+            android:layout_marginBottom="28dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_above="@+id/device_mask_list"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:background="@color/gray" />
+
+        <ListView
+            android:id="@+id/device_mask_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/next_btn"
+            android:layout_below="@+id/header_layout_text_view"
+            android:divider="@null" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_gradient" />
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/next" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/help_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white_circle_gray_ring"
+            android:text="@string/question_mark"
+            android:textColor="@color/dark_gray"
+            app:customFont="Gibson-SemiBold.otf" />
+    </RelativeLayout>
+         

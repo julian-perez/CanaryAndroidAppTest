@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="is.yranac.canary.production_beta"
+    android:versionCode="90482"
+    android:versionName="2.13.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" /> <!-- Required for Push -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <permission
+        android:name="com.example.permission.ACCESS_CONTENT"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="is.yranac.canary.production_beta.permission.UA_DATA"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="is.yranac.canary.production_beta.permission.UA_DATA" /> <!-- GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="is.yranac.canary.production_beta.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="is.yranac.canary.production_beta.permission.C2D_MESSAGE" /> <!-- ADM -->
+    <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE" />
+
+    <permission
+        android:name="is.yranac.canary.production_beta.permission.RECEIVE_ADM_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="is.yranac.canary.production_beta.permission.RECEIVE_ADM_MESSAGE" />
+
+    <application
+        android:name="is.yranac.canary.CanaryApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/mybackupscheme"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_canaryandroidapp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/ZendeskSdkTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBVarz9oULuO8s8aaSAQByUCnI0K4JFYL8" />
+
+        <activity
+            android:name="is.yranac.canary.ui.LaunchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="is.yranac.canary.ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="is.yranac.canary.ui.TimelineDayActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="is.yranac.canary.ui.LockActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="is.yranac.canary.ui.EntryDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
+        <activity
+            android:name="is.yranac.canary.ui.SettingsFragmentStackActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="is.yranac.canary.ui.WatchLiveActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@style/Watch_Live_Theme" />
+        <activity
+            android:name="is.yranac.canary.ui.SetupFragmentStackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="is.yranac.canary.ui.WebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter android:autoVerify="true" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/webapp"
+                    android:pathPrefix="/subscription/checkout"
+                    android:scheme="@string/scheme" />
+                <data
+                    android:host="@string/webapp"
+                    android:pathPrefix="/subscription/select"
+                    android:scheme="@string/scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="is.yranac.canary.ui.MyPreferencesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="is.yranac.canary.ui.MaskingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryLocationContentProvider"
+            android:authorities="is.yranac.canary.production_beta.locationprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryInsurancePolicyContentProvider"
+            android:authorities="is.yranac.canary.production_beta.insurancepolicyprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryInsuranceProviderContentProvider"
+            android:authorities="is.yranac.canary.production_beta.insuranceproviderprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.geofence.CacheGeofenceContentProvider"
+            android:authorities="is.yranac.canary.production_beta.cachegeofenceprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryDeviceContentProvider"
+            android:authorities="is.yranac.canary.production_beta.deviceprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryDeviceSettingsContentProvider"
+            android:authorities="is.yranac.canary.production_beta.devicesettingsprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryCustomerContentProvider"
+            android:authorities="is.yranac.canary.production_beta.customerprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryCustomerLocationContentProvider"
+            android:authorities="is.yranac.canary.production_beta.customerlocationprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryEntryCustomerContentProvider"
+            android:authorities="is.yranac.canary.production_beta.entrycustomersprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryAvatarContentProvider"
+            android:authorities="is.yranac.canary.production_beta.avatarprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryEntryContentProvider"
+            android:authorities="is.yranac.canary.production_beta.entryprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryCommentContentProvider"
+            android:authorities="is.yranac.canary.production_beta.commentprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryInvitationContentProvider"
+            android:authorities="is.yranac.canary.production_beta.invitationprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryModeContentProvider"
+            android:authorities="is.yranac.canary.production_beta.modeprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryThumbnailContentProvider"
+            android:authorities="is.yranac.canary.production_beta.thumbnailprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryLabelContentProvider"
+            android:authorities="is.yranac.canary.production_beta.labelprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryReadingContentProvider"
+            android:authorities="is.yranac.canary.production_beta.readingprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanarySubscriptionContentProvider"
+            android:authorities="is.yranac.canary.production_beta.subscriptionprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanarySubscriptionPricesContentProvider"
+            android:authorities="is.yranac.canary.production_beta.subscriptionpricesprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryNotifiedContentProvider"
+            android:authorities="is.yranac.canary.production_beta.notifiedprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryVideoExportContentProvider"
+            android:authorities="is.yranac.canary.production_beta.videoexportprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryEmergencyContactsContentProvider"
+            android:authorities="is.yranac.canary.production_beta.emergencycontactsprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryLocationNetworkContentProvider"
+            android:authorities="is.yranac.canary.production_beta.locationnetwork"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryDeviceTokenContentProvider"
+            android:authorities="is.yranac.canary.production_beta.devicetokenprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryUserTagsContentProvider"
+            android:authorities="is.yranac.canary.production_beta.usertagsprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryFeatureFlagsContentProvider"
+            android:authorities="is.yranac.canary.production_beta.featureflagsprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryNightModeScheduleContentProvider"
+            android:authorities="is.yranac.canary.production_beta.nightmodeprovider"
+            android:exported="false" />
+        <provider
+            android:name="is.yranac.canary.contentproviders.CanaryMembershipContentProvider"
+            android:authorities="is.yranac.canary.production_beta.membershipprovider"
+            android:exported="false" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="is.yranac.canary.production_beta.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <service android:name="is.yranac.canary.services.jobs.APINotificationJobService" >
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service android:name="is.yranac.canary.services.jobs.APIEntryJobService" >
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service android:name="is.yranac.canary.services.jobs.APIReadingJobService" >
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service android:name="is.yranac.canary.services.jobs.APILocationJobService" >
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="is.yranac.canary.services.intent.GooglePlacesAPIIntentServiceEmergencyNumbers"
+            android:exported="false" />
+        <service
+            android:name="is.yranac.canary.services.intent.APIIntentServiceSettingsInfo"
+            android:exported="false" />
+
+        <receiver
+            android:name="is.yranac.canary.services.geofence.GeofenceTransitionsIntentService"
+            android:exported="false" />
+        <receiver
+            android:name="is.yranac.canary.services.geofence.LocationUpdatesBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="is.yranac.canary.services.intent.APIIntentServiceAppOpen"
+            android:exported="false" />
+        <service android:name="is.yranac.canary.services.wearable.ListenerService" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/home_data"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/home_data"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/customer_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/customer_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/entry_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/entry_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/mode_change_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/location_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/location_data_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/entry_open_path"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/mode_success"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/error"
+                    android:scheme="wear" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:pathPrefix="/analytics"
+                    android:scheme="wear" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="is.yranac.canary.receiver.PushIntentReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.urbanairship.push.CHANNEL_UPDATED" />
+                <action android:name="com.urbanairship.push.OPENED" />
+                <action android:name="com.urbanairship.push.RECEIVED" />
+                <action android:name="com.urbanairship.push.DISMISSED" />
+
+                <category android:name="is.yranac.canary.production_beta" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="is.yranac.canary.services.geofence.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="7b6782493cea2134556e4cb19d1ddcb7f7d65315" />
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/global_tracker" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- ADM -->
+        <amazon:enable-feature
+            android:name="com.amazon.device.messaging"
+            android:required="false" />
+
+        <activity
+            android:name="com.urbanairship.util.HelperActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.urbanairship.CoreActivity" />
+        <activity
+            android:name="com.urbanairship.google.PlayServicesErrorActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.urbanairship.messagecenter.MessageActivity" />
+        <activity
+            android:name="com.urbanairship.messagecenter.MessageCenterActivity"
+            android:label="@string/ua_message_center_title" />
+        <activity
+            android:name="com.urbanairship.actions.LandingPageActivity"
+            android:exported="false"
+            android:theme="@style/LandingPageStyle" >
+            <meta-data
+                android:name="com.urbanairship.action.LANDING_PAGE_VIEW"
+                android:resource="@layout/ua_activity_landing_page" />
+            <meta-data
+                android:name="com.urbanairship.push.iam.EXCLUDE_FROM_AUTO_SHOW"
+                android:value="true" />
+
+            <intent-filter>
+                <action android:name="com.urbanairship.actions.SHOW_LANDING_PAGE_INTENT_ACTION" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.urbanairship.ChannelCaptureActivity" />
+
+        <service android:name="com.urbanairship.job.AirshipService" />
+        <service android:name="com.urbanairship.actions.ActionService" />
+        <service
+            android:name="com.urbanairship.location.LocationService"
+            android:label="Segments Service" />
+        <service android:name="com.urbanairship.push.PushService" />
+        <service
+            android:name="com.urbanairship.job.AirshipGcmTaskService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.urbanairship.job.AndroidJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.urbanairship.push.UAInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter android:priority="-999" >
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.urbanairship.CoreReceiver"
+            android:exported="false" >
+            <intent-filter android:priority="-999" >
+                <action android:name="com.urbanairship.push.OPENED" />
+
+                <category android:name="is.yranac.canary.production_beta" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.urbanairship.push.GcmPushReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter android:priority="-999" >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="is.yranac.canary.production_beta" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.urbanairship.push.AdmPushReceiver"
+            android:permission="com.amazon.device.messaging.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.amazon.device.messaging.intent.RECEIVE" />
+
+                <category android:name="is.yranac.canary.production_beta" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.urbanairship.UrbanAirshipProvider"
+            android:authorities="is.yranac.canary.production_beta.urbanairship.provider"
+            android:exported="true"
+            android:permission="is.yranac.canary.production_beta.permission.UA_DATA" />
+
+        <service
+            android:name="com.zendesk.sdk.network.impl.ConfigurationIntentService"
+            android:exported="false" />
+
+        <receiver android:name="com.zendesk.sdk.power.BatteryStateBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/contact_fragment_title"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.zendesk.sdk.requests.ViewRequestActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/contact_fragment_title"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zendesk.sdk.requests.RequestActivity"
+            android:label="@string/request_list_activity_title" />
+        <activity
+            android:name="com.zendesk.sdk.support.SupportActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/support_activity_title" />
+        <activity
+            android:name="com.zendesk.sdk.support.ViewArticleActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <!--
+             Receives GooglePlay execution requests and forwards them to the
+             appropriate internal service.
+        -->
+        <service
+            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="is.yranac.canary.production_beta" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="is.yranac.canary.production_beta.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="is.yranac.canary.production_beta.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/icon_one"
+            android:layout_width="8dp"
+            android:layout_height="8dp" />
+
+        <View
+            android:id="@+id/icon_two"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <View
+            android:id="@+id/icon_three"
+            android:layout_width="8dp"
+            android:layout_height="8dp" />
+
+        <View
+            android:id="@+id/icon_four"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <View
+            android:id="@+id/icon_five"
+            android:layout_width="8dp"
+            android:layout_height="8dp" />
+
+
+    </LinearLayout>
+</layout>

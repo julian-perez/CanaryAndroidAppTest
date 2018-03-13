@@ -1,0 +1,111 @@
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:gravity="center"
+        android:orientation="vertical" android:tag="layout/layout_device_statatics_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/blank"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:customFont="Gibson-SemiBold.otf" />
+
+        <FrameLayout
+            android:id="@+id/device_status_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="30dp">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/watch_live_button"
+                style="@style/white_transparent_btn"
+                android:layout_gravity="center"
+                android:text="@string/watch_live"
+                android:textSize="28sp"
+                android:visibility="visible" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/device_offine_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/white_border_oval"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingTop="7dp"
+                android:text="@string/device_offline"
+                android:textColor="@color/white_fifty"
+                android:textSize="28sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/device_privacy_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/white_border_oval"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingTop="7dp"
+                android:textColor="@color/white_fifty"
+                android:textSize="28sp"
+                app:customFont="Gibson-Light.otf" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/sensor_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <is.yranac.canary.ui.views.spotlightview.SpotlightTextView
+                android:id="@+id/spotlight_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/loading_homehealth_data"
+                android:textColor="@color/nearly_white"
+                android:textSize="20sp"
+                app:customFont="Gibson-Light.otf" />
+
+            <LinearLayout
+                android:id="@+id/sensor_data_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" android:tag="binding_1">
+
+                <include
+                    android:id="@+id/sensor_data_layout"
+                    layout="@layout/layout_homehealth" />
+
+
+                <include
+                    android:id="@+id/statistics_flex_container"
+                    layout="@layout/layout_sensor_flex" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+         

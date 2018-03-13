@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <is.yranac.canary.ui.views.DraggableHeightLayout
+        android:id="@+id/draggable_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/triangle_view"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/customer_dialog_shape"
+        android:clipChildren="true"
+        android:descendantFocusability="afterDescendants">
+
+        <FrameLayout
+            android:id="@+id/mode_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false">
+
+            <RelativeLayout
+                android:id="@+id/mode_info_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/mode_edit_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:paddingLeft="@dimen/standard_margin">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setting_prompt_title_text"
+                        android:layout_gravity="left|center_vertical"
+                        android:text="@string/edit_mode_preferences"
+                        app:customFont="Gibson-Light.otf" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/mode_settings_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@color/transparent"
+                        android:padding="20dp"
+                        android:text="@string/edit"
+                        android:textAllCaps="true"
+                        android:textColor="@color/medium_gray"
+                        app:customFont="Gibson-SemiBold.otf" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mode_edit_layout"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/layout_gray_bar" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/armed_text_view"
+                            style="@style/mode_button_title"
+                            android:text="@string/away_mode_title"
+                            app:customFont="Gibson-Light.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/armed_dsc_text_vew"
+                            style="@style/mode_button_des"
+                            android:layout_below="@+id/armed_text_view"
+                            android:text="@string/away_btn_dsc"
+                            app:customFont="Gibson-Light.otf" />
+
+                        <ImageView
+                            android:id="@+id/away_mode_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="25dp"
+                            android:src="@drawable/button_mode_away" />
+
+                        <is.yranac.canary.ui.views.ButtonPlus
+                            android:id="@+id/state_away_btn"
+                            style="@style/button_location_mode"
+                            app:customFont="Gibson-Light.otf" />
+
+                    </RelativeLayout>
+
+                    <include layout="@layout/button_divider" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/disarmed_text_view"
+                            style="@style/mode_button_title"
+                            android:text="@string/home_mode_title"
+                            app:customFont="Gibson-Light.otf" />
+
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/disarmed_dsc_text_vew"
+                            style="@style/mode_button_des"
+                            android:layout_below="@+id/disarmed_text_view"
+                            android:text="@string/home_btn_dsc"
+                            app:customFont="Gibson-Light.otf" />
+
+
+                        <ImageView
+                            android:id="@+id/home_mode_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="25dp"
+                            android:src="@drawable/button_mode_home" />
+
+                        <is.yranac.canary.ui.views.ButtonPlus
+                            android:id="@+id/state_home_btn"
+                            style="@style/button_location_mode"
+                            app:customFont="Gibson-Light.otf" />
+                    </RelativeLayout>
+
+                    <include layout="@layout/button_divider" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/privacy_text_view"
+                            style="@style/mode_button_title"
+                            android:text="@string/night_mode_title"
+                            app:customFont="Gibson-Light.otf" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/privacy_dsc_text_view"
+                            style="@style/mode_button_des"
+                            android:layout_below="@+id/privacy_text_view"
+                            android:text="@string/night_btn_dsc"
+                            app:customFont="Gibson-Light.otf" />
+
+                        <ImageView
+                            android:id="@+id/night_mode_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="25dp"
+                            android:src="@drawable/button_mode_night" />
+
+                        <is.yranac.canary.ui.views.ButtonPlus
+                            android:id="@+id/state_night_btn"
+                            style="@style/button_location_mode"
+                            app:customFont="Gibson-Light.otf" />
+                    </RelativeLayout>
+
+                    <include layout="@layout/button_divider" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="26dp"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/location_to_private" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/privacy_mode_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/MySwitch" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/customer_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="18dp"
+            android:visibility="gone">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/customer_name_text_view"
+                style="@style/setting_prompt_title_text"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/customer_sub_text_view"
+                style="@style/setup_text_view"
+                android:layout_below="@+id/customer_name_text_view"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                app:customFont="Gibson-Light.otf" />
+
+            <FrameLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/customer_sub_text_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.CircleView
+                    android:id="@+id/gray_circle"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    app:cFillColor="@color/gray" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/customer_initials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    app:customFont="Gibson-Light.otf" />
+
+                <is.yranac.canary.ui.views.RoundedImageView
+                    android:id="@+id/avatar_image_view"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/home_flag_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:src="@drawable/home_large"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/current_user_btn_actions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginTop="80dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <include layout="@layout/button_divider" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/edit_profile_btn"
+                        style="@style/button_large_text"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/account"
+                        app:customFont="Gibson-Light.otf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/customer_btn_actions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/customer_call_btn"
+                        style="@style/button_large_text"
+                        android:drawableLeft="@drawable/ic_call"
+                        android:drawablePadding="15dp"
+                        android:text="@string/call"
+                        app:customFont="Gibson-Light.otf" />
+
+                    <include layout="@layout/button_divider" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/customer_text_btn"
+                        style="@style/button_large_text"
+                        android:drawableLeft="@drawable/ic_text_message"
+                        android:drawablePadding="15dp"
+                        android:text="@string/text_message"
+                        app:customFont="Gibson-Light.otf" />
+
+                    <include layout="@layout/button_divider" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/customer_email"
+                        style="@style/button_large_text"
+                        android:drawableLeft="@drawable/ic_email"
+                        android:drawablePadding="15dp"
+                        android:text="@string/email"
+                        app:customFont="Gibson-Light.otf" />
+
+                    <include layout="@layout/button_divider" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/presence_notifications"
+                        style="@style/button_large_text"
+                        android:text="@string/presence_notifications"
+                        app:customFont="Gibson-Light.otf" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </is.yranac.canary.ui.views.DraggableHeightLayout>
+
+    <is.yranac.canary.ui.views.TriangleView
+        android:id="@+id/triangle_view"
+        android:layout_width="24dp"
+        android:layout_height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-2dp" />
+
+</RelativeLayout>

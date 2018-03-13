@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_settings_single_entry_upsell_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <is.yranac.canary.ui.views.CustomProgressView
+            android:id="@+id/progress_indication"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/root_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/page_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_marginTop="60dp"
+                    android:gravity="center"
+                    android:text="@string/download_share_full_videos" />
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/with_canary_membership_full_videos" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/page_text"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fpc_download_pixel" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/activate_membership_btn"
+                style="@style/blue_button"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:gravity="center"
+                android:text="@string/activate_membership" />
+        </RelativeLayout>
+    </RelativeLayout>
+         

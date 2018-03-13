@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <!-- Default Parallax ImageView Height  -->
+    <dimen name="video_playback_height">365dp</dimen>
+    <dimen name="video_border_mask_top">45dp</dimen>
+    <dimen name="video_border_mask_bottom">65dp</dimen>
+
+    <dimen name="alert_view_width">325dp</dimen>
+
+    <dimen name="video_playback_timewidth">110dp</dimen>
+
+    <!-- layout elements  -->
+    <dimen name="customer_list_height">80dp</dimen>
+
+    <!-- setup and signin elements  -->
+    <dimen name="standard_row_height">64dp</dimen>
+
+    <!-- Entry list view header height  -->
+    <!-- Main layout border height  -->
+    <dimen name="sliding_up_panel_height">68dp</dimen>
+    <dimen name="entry_card_margin">15dp</dimen>
+    <dimen name="slightly_bigger_margin">20dp</dimen>
+    <dimen name="standard_margin">20dp</dimen>
+    <dimen name="large_margin">30dp</dimen>
+    <dimen name="loading_dialog_width">200dp</dimen>
+    <dimen name="padding_mode_onboardin">200dp</dimen>
+    <dimen name="margin_top_mode_small">36dp</dimen>
+    <dimen name="margin_top_mode_large">90dp</dimen>
+
+    <dimen name="alert_view_height">385dp</dimen>
+
+    //region MainLayout
+    <dimen name="timeline_view_height">45dp</dimen>
+    <dimen name="mode_text_padding">30dp</dimen>
+    //endregion
+
+    //region Battery Indicator
+    <dimen name="battery_indicator_initial_width">19dp</dimen>
+    //endregion
+
+    //region Playbar Notificaiton Indicator
+    //endregion
+
+    //region Mask Drawing
+    <dimen name="masking_border_width">1dp</dimen>
+    <dimen name="masking_point_radius_large">11dp</dimen>
+    <dimen name="masking_point_radius_small">7dp</dimen>
+    <dimen name="masking_border_trigger">50dp</dimen>
+    //endregion
+
+
+</resources>

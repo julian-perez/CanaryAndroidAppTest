@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/standard_margin"
+        android:paddingRight="@dimen/standard_margin">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/large_text_view"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:text="@string/recording_settings_header" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:layout_marginTop="14dp"
+            android:text="@string/recording_settings_body" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setting_body_header"
+            android:layout_marginTop="20dp"
+            android:text="@string/recording_settings_body_header" />
+
+        <include layout="@layout/layout_gray_bar" />
+    </LinearLayout>
+</layout>

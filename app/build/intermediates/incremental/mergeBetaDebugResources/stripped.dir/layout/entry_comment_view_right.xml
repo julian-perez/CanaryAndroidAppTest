@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignBottom="@+id/comment"
+                android:layout_alignTop="@+id/comment"
+                android:layout_alignRight="@+id/comment"
+                android:layout_alignLeft="@+id/comment"
+                android:scaleType="fitXY"
+                android:background="@drawable/comment_bubble_green" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:gravity="center_vertical|right"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="17dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:customFont="Gibson.otf" />
+        </RelativeLayout>
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/comment_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/gray"
+            android:layout_marginRight="12dp"
+            android:textSize="11sp"
+            app:customFont="Gibson.otf" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/avatar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <is.yranac.canary.ui.views.CircleView
+            android:id="@+id/gray_circle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:cFillColor="@color/gray"
+            app:cStrokeColor="@color/gray" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/customer_initials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:customFont="Gibson-Light.otf" />
+
+        <is.yranac.canary.ui.views.RoundedImageView
+            android:id="@+id/avatar_image_layout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</LinearLayout>

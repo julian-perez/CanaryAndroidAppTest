@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/standard_margin"
+        android:paddingStart="@dimen/standard_margin">
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/small_bold"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/manage_devices"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_gray"
+            app:customFont="Gibson.otf" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/gray" />
+
+    </LinearLayout>
+
+
+</layout>

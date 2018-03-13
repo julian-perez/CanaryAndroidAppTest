@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/motion_notifications_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/motion_notifications"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/home_health_notifications_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/home_health_notifications"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/connection_notifications_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/connection_notifications"
+            app:editable="false" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/power_notifications_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/power_notifications"
+            app:editable="false" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/presence_notifications_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:text="@string/presence_notifications"
+            app:editable="false" />
+
+    </LinearLayout>
+</layout>

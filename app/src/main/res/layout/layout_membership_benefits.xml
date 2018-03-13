@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="is.yranac.canary.model.location.Location" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="location"
+            type="Location" />
+
+        <variable
+            name="v"
+            type="View" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/blue_checkmark" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/header_text_view"
+            style="@style/small_bold_black"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:gravity="center"
+            android:text="@string/your_exclusive_benefits" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:gravity="center"
+                android:text="@string/thirty_day_history_with_downloads" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:gravity="center"
+                android:text="@string/two_way_talk" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:gravity="center"
+                android:text="@string/web_app_access" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/extended_warranty_text_view"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:gravity="center"
+                android:text="@string/two_year_warrenty"
+                android:textColorLink="@color/bright_blue_sky"
+                android:visibility="@{location.unitedStates? v.VISIBLE : v.GONE}" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginStart="7dp"
+                android:gravity="center"
+                android:text="@string/incident_support_for_theft"
+                android:visibility="@{location.unitedStates? v.VISIBLE : v.GONE}" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

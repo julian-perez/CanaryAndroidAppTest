@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" android:tag="layout/select_device_location_header_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/header_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/create_location" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:text="@string/select_address_for_device" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:background="@color/very_light_gray" />
+
+    </LinearLayout>
+         

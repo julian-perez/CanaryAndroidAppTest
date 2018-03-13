@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="is.yranac.canary.model.location.Location" />
+
+        <import type="is.yranac.canary.model.device.Device" />
+
+        <import type="is.yranac.canary.model.subscription.Subscription" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="location"
+            type="Location" />
+
+
+        <variable
+            name="subscription"
+            type="Subscription" />
+
+        <variable
+            name="v"
+            type="View" />
+
+        <variable
+            name="device"
+            type="Device" />
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/bottom_btns"
+            android:layout_alignParentTop="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/large_margin"
+                android:layout_marginStart="@dimen/large_margin"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/header_text_view"
+                    android:gravity="center"
+                    android:text="@string/get_the_most_with_membership" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/blue_checkmark" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/small_bold_black"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="@string/membership_includes" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="@string/thirty_day_history_with_downloads" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="@string/two_way_talk" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="@string/web_app_access" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="@string/two_year_warrenty"
+                            android:visibility="@{location.unitedStates? v.VISIBLE : v.GONE}" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/setup_medium_text_view_black"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="@string/incident_support_for_theft"
+                            android:visibility="@{location.unitedStates? v.VISIBLE : v.GONE}" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/add_membership_btn"
+                style="@style/blue_button"
+                android:gravity="center"
+                android:text="@string/activate_membership" />
+
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/no_thanks_btn"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@color/transparent"
+                android:text="@string/no_thanks"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:visibility="@{device.HSNDevice? View.GONE : View.VISIBLE}"
+                app:customFont="Gibson.otf" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,3 @@
+# Referenced at /Users/julian/StudioProjects/android/app/build/intermediates/manifests/full/beta/debug/x86/AndroidManifest.xml:65
+-keep class is.yranac.canary.CanaryApplication { <init>(...); }
+

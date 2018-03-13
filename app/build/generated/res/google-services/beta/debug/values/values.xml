@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">996512258821-0poq8f8ontmh1r27roa8k0ogakakvfc0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://loyal-throne-736.firebaseio.com</string>
+    <string name="ga_trackingId" translatable="false">UA-54907729-4</string>
+    <string name="gcm_defaultSenderId" translatable="false">996512258821</string>
+    <string name="google_api_key" translatable="false">AIzaSyCSs-dIxV19wYtHdoltTGftAf4a6y6XxLA</string>
+    <string name="google_app_id" translatable="false">1:996512258821:android:3527481a1a61283f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCSs-dIxV19wYtHdoltTGftAf4a6y6XxLA</string>
+    <string name="google_storage_bucket" translatable="false">loyal-throne-736.appspot.com</string>
+    <string name="project_id" translatable="false">loyal-throne-736</string>
+</resources>

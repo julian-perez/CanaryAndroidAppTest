@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.urbanairship.android:urbanairship-sdk-8.8.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/urbanairship-sdk-8.8.4.aar/b7b5e74a6b7d8225800296013b1a5394/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/urbanairship-sdk-8.8.4.aar/b7b5e74a6b7d8225800296013b1a5394/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

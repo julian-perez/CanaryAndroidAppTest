@@ -1,0 +1,1739 @@
+{
+  "meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 144
+  },
+  "objects": [
+    {
+      "created": "2015-02-24T21:35:36",
+      "device": "/v1/devices/device2/",
+      "id": 958378,
+      "resource_uri": "/v1/readings/958378/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "29.4826402664"
+    },
+    {
+      "created": "2015-02-24T21:25:36",
+      "device": "/v1/devices/device2/",
+      "id": 955121,
+      "resource_uri": "/v1/readings/955121/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "29.3667802811"
+    },
+    {
+      "created": "2015-02-24T21:15:35",
+      "device": "/v1/devices/device2/",
+      "id": 955055,
+      "resource_uri": "/v1/readings/955055/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "29.218454361"
+    },
+    {
+      "created": "2015-02-24T21:05:35",
+      "device": "/v1/devices/device2/",
+      "id": 954989,
+      "resource_uri": "/v1/readings/954989/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "29.1049413681"
+    },
+    {
+      "created": "2015-02-24T20:55:35",
+      "device": "/v1/devices/device2/",
+      "id": 954923,
+      "resource_uri": "/v1/readings/954923/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "28.8798208237"
+    },
+    {
+      "created": "2015-02-24T20:45:35",
+      "device": "/v1/devices/device2/",
+      "id": 954857,
+      "resource_uri": "/v1/readings/954857/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "28.7515926361"
+    },
+    {
+      "created": "2015-02-24T20:35:35",
+      "device": "/v1/devices/device2/",
+      "id": 954794,
+      "resource_uri": "/v1/readings/954794/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "28.7485752106"
+    },
+    {
+      "created": "2015-02-24T20:25:35",
+      "device": "/v1/devices/device2/",
+      "id": 954731,
+      "resource_uri": "/v1/readings/954731/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "28.5083618164"
+    },
+    {
+      "created": "2015-02-24T20:15:35",
+      "device": "/v1/devices/device2/",
+      "id": 954128,
+      "resource_uri": "/v1/readings/954128/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "27.5144786835"
+    },
+    {
+      "created": "2015-02-24T20:05:34",
+      "device": "/v1/devices/device2/",
+      "id": 952652,
+      "resource_uri": "/v1/readings/952652/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "27.0270328522"
+    },
+    {
+      "created": "2015-02-24T19:55:34",
+      "device": "/v1/devices/device2/",
+      "id": 945267,
+      "resource_uri": "/v1/readings/945267/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "25.75293445587"
+    },
+    {
+      "created": "2015-02-24T19:45:33",
+      "device": "/v1/devices/device2/",
+      "id": 937879,
+      "resource_uri": "/v1/readings/937879/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "25.39283180237"
+    },
+    {
+      "created": "2015-02-24T19:35:33",
+      "device": "/v1/devices/device2/",
+      "id": 930458,
+      "resource_uri": "/v1/readings/930458/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "24.73709106445"
+    },
+    {
+      "created": "2015-02-24T19:25:33",
+      "device": "/v1/devices/device2/",
+      "id": 926192,
+      "resource_uri": "/v1/readings/926192/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "24.55994415283"
+    },
+    {
+      "created": "2015-02-24T19:15:32",
+      "device": "/v1/devices/device2/",
+      "id": 918741,
+      "resource_uri": "/v1/readings/918741/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.74866771698"
+    },
+    {
+      "created": "2015-02-24T19:05:31",
+      "device": "/v1/devices/device2/",
+      "id": 911296,
+      "resource_uri": "/v1/readings/911296/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.63470649719"
+    },
+    {
+      "created": "2015-02-24T18:55:31",
+      "device": "/v1/devices/device2/",
+      "id": 903878,
+      "resource_uri": "/v1/readings/903878/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.34809303284"
+    },
+    {
+      "created": "2015-02-24T18:45:31",
+      "device": "/v1/devices/device2/",
+      "id": 896466,
+      "resource_uri": "/v1/readings/896466/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.3238401413"
+    },
+    {
+      "created": "2015-02-24T18:35:30",
+      "device": "/v1/devices/device2/",
+      "id": 889048,
+      "resource_uri": "/v1/readings/889048/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.30659723282"
+    },
+    {
+      "created": "2015-02-24T18:25:30",
+      "device": "/v1/devices/device2/",
+      "id": 884824,
+      "resource_uri": "/v1/readings/884824/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.19767093658"
+    },
+    {
+      "created": "2015-02-24T18:15:29",
+      "device": "/v1/devices/device2/",
+      "id": 877400,
+      "resource_uri": "/v1/readings/877400/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.21306228638"
+    },
+    {
+      "created": "2015-02-24T18:05:29",
+      "device": "/v1/devices/device2/",
+      "id": 869961,
+      "resource_uri": "/v1/readings/869961/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.50801086426"
+    },
+    {
+      "created": "2015-02-24T17:55:28",
+      "device": "/v1/devices/device2/",
+      "id": 862510,
+      "resource_uri": "/v1/readings/862510/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.71750164032"
+    },
+    {
+      "created": "2015-02-24T17:45:27",
+      "device": "/v1/devices/device2/",
+      "id": 855026,
+      "resource_uri": "/v1/readings/855026/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.72411298752"
+    },
+    {
+      "created": "2015-02-24T17:35:27",
+      "device": "/v1/devices/device2/",
+      "id": 847551,
+      "resource_uri": "/v1/readings/847551/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.67046737671"
+    },
+    {
+      "created": "2015-02-24T17:25:27",
+      "device": "/v1/devices/device2/",
+      "id": 840079,
+      "resource_uri": "/v1/readings/840079/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.2317814827"
+    },
+    {
+      "created": "2015-02-24T17:15:26",
+      "device": "/v1/devices/device2/",
+      "id": 835810,
+      "resource_uri": "/v1/readings/835810/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.17189979553"
+    },
+    {
+      "created": "2015-02-24T17:05:26",
+      "device": "/v1/devices/device2/",
+      "id": 828620,
+      "resource_uri": "/v1/readings/828620/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.02610445023"
+    },
+    {
+      "created": "2015-02-24T16:55:25",
+      "device": "/v1/devices/device2/",
+      "id": 821187,
+      "resource_uri": "/v1/readings/821187/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.51439762115"
+    },
+    {
+      "created": "2015-02-24T16:45:25",
+      "device": "/v1/devices/device2/",
+      "id": 813739,
+      "resource_uri": "/v1/readings/813739/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.67414426804"
+    },
+    {
+      "created": "2015-02-24T16:35:24",
+      "device": "/v1/devices/device2/",
+      "id": 806300,
+      "resource_uri": "/v1/readings/806300/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.74716758728"
+    },
+    {
+      "created": "2015-02-24T16:25:24",
+      "device": "/v1/devices/device2/",
+      "id": 798837,
+      "resource_uri": "/v1/readings/798837/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "23.74075889587"
+    },
+    {
+      "created": "2015-02-24T16:15:23",
+      "device": "/v1/devices/device2/",
+      "id": 794532,
+      "resource_uri": "/v1/readings/794532/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "24.00365447998"
+    },
+    {
+      "created": "2015-02-24T16:05:22",
+      "device": "/v1/devices/device2/",
+      "id": 787027,
+      "resource_uri": "/v1/readings/787027/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "24.17736053467"
+    },
+    {
+      "created": "2015-02-24T15:55:22",
+      "device": "/v1/devices/device2/",
+      "id": 779516,
+      "resource_uri": "/v1/readings/779516/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "24.80342817307"
+    },
+    {
+      "created": "2015-02-24T15:45:22",
+      "device": "/v1/devices/device2/",
+      "id": 771996,
+      "resource_uri": "/v1/readings/771996/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "25.31184673309"
+    },
+    {
+      "created": "2015-02-24T15:35:21",
+      "device": "/v1/devices/device2/",
+      "id": 764464,
+      "resource_uri": "/v1/readings/764464/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "25.81885814667"
+    },
+    {
+      "created": "2015-02-24T15:25:21",
+      "device": "/v1/devices/device2/",
+      "id": 756890,
+      "resource_uri": "/v1/readings/756890/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "25.85286426544"
+    },
+    {
+      "created": "2015-02-24T15:15:21",
+      "device": "/v1/devices/device2/",
+      "id": 749334,
+      "resource_uri": "/v1/readings/749334/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "26.19660758972"
+    },
+    {
+      "created": "2015-02-24T15:05:20",
+      "device": "/v1/devices/device2/",
+      "id": 741766,
+      "resource_uri": "/v1/readings/741766/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "26.7119884491"
+    },
+    {
+      "created": "2015-02-24T14:55:19",
+      "device": "/v1/devices/device2/",
+      "id": 737383,
+      "resource_uri": "/v1/readings/737383/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "27.1453304291"
+    },
+    {
+      "created": "2015-02-24T14:45:19",
+      "device": "/v1/devices/device2/",
+      "id": 729821,
+      "resource_uri": "/v1/readings/729821/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "27.6993293762"
+    },
+    {
+      "created": "2015-02-24T14:35:18",
+      "device": "/v1/devices/device2/",
+      "id": 722256,
+      "resource_uri": "/v1/readings/722256/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "28.3765192032"
+    },
+    {
+      "created": "2015-02-24T14:25:18",
+      "device": "/v1/devices/device2/",
+      "id": 714685,
+      "resource_uri": "/v1/readings/714685/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "29.0801181793"
+    },
+    {
+      "created": "2015-02-24T14:15:17",
+      "device": "/v1/devices/device2/",
+      "id": 707123,
+      "resource_uri": "/v1/readings/707123/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "29.9143886566"
+    },
+    {
+      "created": "2015-02-24T14:05:17",
+      "device": "/v1/devices/device2/",
+      "id": 699558,
+      "resource_uri": "/v1/readings/699558/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "30.6189870834"
+    },
+    {
+      "created": "2015-02-24T13:55:16",
+      "device": "/v1/devices/device2/",
+      "id": 691993,
+      "resource_uri": "/v1/readings/691993/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "31.3948135376"
+    },
+    {
+      "created": "2015-02-24T13:45:16",
+      "device": "/v1/devices/device2/",
+      "id": 684428,
+      "resource_uri": "/v1/readings/684428/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "32.2636375427"
+    },
+    {
+      "created": "2015-02-24T13:35:15",
+      "device": "/v1/devices/device2/",
+      "id": 680048,
+      "resource_uri": "/v1/readings/680048/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "33.0862216949"
+    },
+    {
+      "created": "2015-02-24T13:25:15",
+      "device": "/v1/devices/device2/",
+      "id": 672483,
+      "resource_uri": "/v1/readings/672483/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "34.403421402"
+    },
+    {
+      "created": "2015-02-24T13:15:14",
+      "device": "/v1/devices/device2/",
+      "id": 664924,
+      "resource_uri": "/v1/readings/664924/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "35.5152664185"
+    },
+    {
+      "created": "2015-02-24T13:05:14",
+      "device": "/v1/devices/device2/",
+      "id": 657353,
+      "resource_uri": "/v1/readings/657353/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "36.2606697083"
+    },
+    {
+      "created": "2015-02-24T12:55:13",
+      "device": "/v1/devices/device2/",
+      "id": 649785,
+      "resource_uri": "/v1/readings/649785/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "36.9195384979"
+    },
+    {
+      "created": "2015-02-24T12:45:13",
+      "device": "/v1/devices/device2/",
+      "id": 642223,
+      "resource_uri": "/v1/readings/642223/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "37.4138832092"
+    },
+    {
+      "created": "2015-02-24T12:35:13",
+      "device": "/v1/devices/device2/",
+      "id": 634655,
+      "resource_uri": "/v1/readings/634655/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "37.8377590179"
+    },
+    {
+      "created": "2015-02-24T12:25:12",
+      "device": "/v1/devices/device2/",
+      "id": 627087,
+      "resource_uri": "/v1/readings/627087/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "38.6074390411"
+    },
+    {
+      "created": "2015-02-24T12:15:12",
+      "device": "/v1/devices/device2/",
+      "id": 622707,
+      "resource_uri": "/v1/readings/622707/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "38.5652770996"
+    },
+    {
+      "created": "2015-02-24T12:05:11",
+      "device": "/v1/devices/device2/",
+      "id": 615145,
+      "resource_uri": "/v1/readings/615145/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "39.2435626984"
+    },
+    {
+      "created": "2015-02-24T11:55:11",
+      "device": "/v1/devices/device2/",
+      "id": 607589,
+      "resource_uri": "/v1/readings/607589/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "39.3483467102"
+    },
+    {
+      "created": "2015-02-24T11:45:10",
+      "device": "/v1/devices/device2/",
+      "id": 600021,
+      "resource_uri": "/v1/readings/600021/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "40.3713874817"
+    },
+    {
+      "created": "2015-02-24T11:35:09",
+      "device": "/v1/devices/device2/",
+      "id": 592456,
+      "resource_uri": "/v1/readings/592456/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "40.8815155029"
+    },
+    {
+      "created": "2015-02-24T11:25:09",
+      "device": "/v1/devices/device2/",
+      "id": 584888,
+      "resource_uri": "/v1/readings/584888/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "40.6609745026"
+    },
+    {
+      "created": "2015-02-24T11:15:09",
+      "device": "/v1/devices/device2/",
+      "id": 577320,
+      "resource_uri": "/v1/readings/577320/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.4916706085"
+    },
+    {
+      "created": "2015-02-24T11:05:08",
+      "device": "/v1/devices/device2/",
+      "id": 569764,
+      "resource_uri": "/v1/readings/569764/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.4996891022"
+    },
+    {
+      "created": "2015-02-24T10:55:08",
+      "device": "/v1/devices/device2/",
+      "id": 565390,
+      "resource_uri": "/v1/readings/565390/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.315290451"
+    },
+    {
+      "created": "2015-02-24T10:45:07",
+      "device": "/v1/devices/device2/",
+      "id": 557822,
+      "resource_uri": "/v1/readings/557822/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.2543430328"
+    },
+    {
+      "created": "2015-02-24T10:35:29",
+      "device": "/v1/devices/device2/",
+      "id": 550428,
+      "resource_uri": "/v1/readings/550428/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.7531585693"
+    },
+    {
+      "created": "2015-02-24T10:25:06",
+      "device": "/v1/devices/device2/",
+      "id": 542689,
+      "resource_uri": "/v1/readings/542689/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.4029941559"
+    },
+    {
+      "created": "2015-02-24T10:15:06",
+      "device": "/v1/devices/device2/",
+      "id": 535127,
+      "resource_uri": "/v1/readings/535127/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.4881134033"
+    },
+    {
+      "created": "2015-02-24T10:05:05",
+      "device": "/v1/devices/device2/",
+      "id": 527562,
+      "resource_uri": "/v1/readings/527562/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.9819049835"
+    },
+    {
+      "created": "2015-02-24T09:55:05",
+      "device": "/v1/devices/device2/",
+      "id": 519991,
+      "resource_uri": "/v1/readings/519991/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.5058040619"
+    },
+    {
+      "created": "2015-02-24T09:45:04",
+      "device": "/v1/devices/device2/",
+      "id": 512429,
+      "resource_uri": "/v1/readings/512429/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.5656051636"
+    },
+    {
+      "created": "2015-02-24T09:35:04",
+      "device": "/v1/devices/device2/",
+      "id": 508055,
+      "resource_uri": "/v1/readings/508055/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.7582302094"
+    },
+    {
+      "created": "2015-02-24T09:25:03",
+      "device": "/v1/devices/device2/",
+      "id": 500490,
+      "resource_uri": "/v1/readings/500490/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.4766159058"
+    },
+    {
+      "created": "2015-02-24T09:15:03",
+      "device": "/v1/devices/device2/",
+      "id": 492931,
+      "resource_uri": "/v1/readings/492931/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.6264343262"
+    },
+    {
+      "created": "2015-02-24T09:05:02",
+      "device": "/v1/devices/device2/",
+      "id": 485363,
+      "resource_uri": "/v1/readings/485363/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.0395374298"
+    },
+    {
+      "created": "2015-02-24T08:55:02",
+      "device": "/v1/devices/device2/",
+      "id": 477795,
+      "resource_uri": "/v1/readings/477795/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.3196468353"
+    },
+    {
+      "created": "2015-02-24T08:45:02",
+      "device": "/v1/devices/device2/",
+      "id": 470230,
+      "resource_uri": "/v1/readings/470230/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.2935562134"
+    },
+    {
+      "created": "2015-02-24T08:35:01",
+      "device": "/v1/devices/device2/",
+      "id": 462668,
+      "resource_uri": "/v1/readings/462668/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.5135974884"
+    },
+    {
+      "created": "2015-02-24T08:25:01",
+      "device": "/v1/devices/device2/",
+      "id": 455097,
+      "resource_uri": "/v1/readings/455097/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.5911769867"
+    },
+    {
+      "created": "2015-02-24T08:15:00",
+      "device": "/v1/devices/device2/",
+      "id": 450723,
+      "resource_uri": "/v1/readings/450723/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.8221912384"
+    },
+    {
+      "created": "2015-02-24T08:05:59",
+      "device": "/v1/devices/device2/",
+      "id": 443593,
+      "resource_uri": "/v1/readings/443593/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.260602951"
+    },
+    {
+      "created": "2015-02-24T07:55:59",
+      "device": "/v1/devices/device2/",
+      "id": 436025,
+      "resource_uri": "/v1/readings/436025/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.9525680542"
+    },
+    {
+      "created": "2015-02-24T07:45:58",
+      "device": "/v1/devices/device2/",
+      "id": 428475,
+      "resource_uri": "/v1/readings/428475/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.5811920166"
+    },
+    {
+      "created": "2015-02-24T07:35:58",
+      "device": "/v1/devices/device2/",
+      "id": 420907,
+      "resource_uri": "/v1/readings/420907/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.0727214813"
+    },
+    {
+      "created": "2015-02-24T07:25:57",
+      "device": "/v1/devices/device2/",
+      "id": 413339,
+      "resource_uri": "/v1/readings/413339/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.458065033"
+    },
+    {
+      "created": "2015-02-24T07:15:57",
+      "device": "/v1/devices/device2/",
+      "id": 405774,
+      "resource_uri": "/v1/readings/405774/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.7667312622"
+    },
+    {
+      "created": "2015-02-24T07:05:57",
+      "device": "/v1/devices/device2/",
+      "id": 401397,
+      "resource_uri": "/v1/readings/401397/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.3601818085"
+    },
+    {
+      "created": "2015-02-24T06:55:56",
+      "device": "/v1/devices/device2/",
+      "id": 393835,
+      "resource_uri": "/v1/readings/393835/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.9756584167"
+    },
+    {
+      "created": "2015-02-24T06:45:55",
+      "device": "/v1/devices/device2/",
+      "id": 386270,
+      "resource_uri": "/v1/readings/386270/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.8549251556"
+    },
+    {
+      "created": "2015-02-24T06:35:55",
+      "device": "/v1/devices/device2/",
+      "id": 378699,
+      "resource_uri": "/v1/readings/378699/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.6115818024"
+    },
+    {
+      "created": "2015-02-24T06:25:54",
+      "device": "/v1/devices/device2/",
+      "id": 371137,
+      "resource_uri": "/v1/readings/371137/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.4371070862"
+    },
+    {
+      "created": "2015-02-24T06:15:54",
+      "device": "/v1/devices/device2/",
+      "id": 363569,
+      "resource_uri": "/v1/readings/363569/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.0772895813"
+    },
+    {
+      "created": "2015-02-24T06:05:53",
+      "device": "/v1/devices/device2/",
+      "id": 356010,
+      "resource_uri": "/v1/readings/356010/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.7975120544"
+    },
+    {
+      "created": "2015-02-24T05:55:53",
+      "device": "/v1/devices/device2/",
+      "id": 348448,
+      "resource_uri": "/v1/readings/348448/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.4697685242"
+    },
+    {
+      "created": "2015-02-24T05:45:52",
+      "device": "/v1/devices/device2/",
+      "id": 344068,
+      "resource_uri": "/v1/readings/344068/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.2430820465"
+    },
+    {
+      "created": "2015-02-24T05:35:52",
+      "device": "/v1/devices/device2/",
+      "id": 336509,
+      "resource_uri": "/v1/readings/336509/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.4442214966"
+    },
+    {
+      "created": "2015-02-24T05:25:10",
+      "device": "/v1/devices/device2/",
+      "id": 328644,
+      "resource_uri": "/v1/readings/328644/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.441652298"
+    },
+    {
+      "created": "2015-02-24T05:15:51",
+      "device": "/v1/devices/device2/",
+      "id": 321376,
+      "resource_uri": "/v1/readings/321376/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7417430878"
+    },
+    {
+      "created": "2015-02-24T05:05:50",
+      "device": "/v1/devices/device2/",
+      "id": 313814,
+      "resource_uri": "/v1/readings/313814/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7017059326"
+    },
+    {
+      "created": "2015-02-24T04:55:49",
+      "device": "/v1/devices/device2/",
+      "id": 306246,
+      "resource_uri": "/v1/readings/306246/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.5299091339"
+    },
+    {
+      "created": "2015-02-24T04:45:49",
+      "device": "/v1/devices/device2/",
+      "id": 298678,
+      "resource_uri": "/v1/readings/298678/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7136592865"
+    },
+    {
+      "created": "2015-02-24T04:35:49",
+      "device": "/v1/devices/device2/",
+      "id": 291101,
+      "resource_uri": "/v1/readings/291101/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.9423980713"
+    },
+    {
+      "created": "2015-02-24T04:25:48",
+      "device": "/v1/devices/device2/",
+      "id": 286742,
+      "resource_uri": "/v1/readings/286742/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7992038727"
+    },
+    {
+      "created": "2015-02-24T04:15:47",
+      "device": "/v1/devices/device2/",
+      "id": 279174,
+      "resource_uri": "/v1/readings/279174/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.6985359192"
+    },
+    {
+      "created": "2015-02-24T04:05:47",
+      "device": "/v1/devices/device2/",
+      "id": 271612,
+      "resource_uri": "/v1/readings/271612/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.2113342285"
+    },
+    {
+      "created": "2015-02-24T03:55:47",
+      "device": "/v1/devices/device2/",
+      "id": 264044,
+      "resource_uri": "/v1/readings/264044/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.0065193176"
+    },
+    {
+      "created": "2015-02-24T03:45:46",
+      "device": "/v1/devices/device2/",
+      "id": 256476,
+      "resource_uri": "/v1/readings/256476/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.0868968964"
+    },
+    {
+      "created": "2015-02-24T03:35:45",
+      "device": "/v1/devices/device2/",
+      "id": 248914,
+      "resource_uri": "/v1/readings/248914/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.8892421722"
+    },
+    {
+      "created": "2015-02-24T03:25:45",
+      "device": "/v1/devices/device2/",
+      "id": 241343,
+      "resource_uri": "/v1/readings/241343/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.2092704773"
+    },
+    {
+      "created": "2015-02-24T03:15:45",
+      "device": "/v1/devices/device2/",
+      "id": 233778,
+      "resource_uri": "/v1/readings/233778/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.6056003571"
+    },
+    {
+      "created": "2015-02-24T03:05:44",
+      "device": "/v1/devices/device2/",
+      "id": 229404,
+      "resource_uri": "/v1/readings/229404/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.4247379303"
+    },
+    {
+      "created": "2015-02-24T02:55:44",
+      "device": "/v1/devices/device2/",
+      "id": 221818,
+      "resource_uri": "/v1/readings/221818/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.0072631836"
+    },
+    {
+      "created": "2015-02-24T02:45:43",
+      "device": "/v1/devices/device2/",
+      "id": 214304,
+      "resource_uri": "/v1/readings/214304/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.547794342"
+    },
+    {
+      "created": "2015-02-24T02:35:43",
+      "device": "/v1/devices/device2/",
+      "id": 206748,
+      "resource_uri": "/v1/readings/206748/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7569179535"
+    },
+    {
+      "created": "2015-02-24T02:25:42",
+      "device": "/v1/devices/device2/",
+      "id": 199177,
+      "resource_uri": "/v1/readings/199177/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.0806694031"
+    },
+    {
+      "created": "2015-02-24T02:15:42",
+      "device": "/v1/devices/device2/",
+      "id": 191612,
+      "resource_uri": "/v1/readings/191612/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.6898670197"
+    },
+    {
+      "created": "2015-02-24T02:05:41",
+      "device": "/v1/devices/device2/",
+      "id": 184047,
+      "resource_uri": "/v1/readings/184047/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.9592990875"
+    },
+    {
+      "created": "2015-02-24T01:55:41",
+      "device": "/v1/devices/device2/",
+      "id": 176491,
+      "resource_uri": "/v1/readings/176491/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.0918636322"
+    },
+    {
+      "created": "2015-02-24T01:45:41",
+      "device": "/v1/devices/device2/",
+      "id": 172153,
+      "resource_uri": "/v1/readings/172153/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.5453929901"
+    },
+    {
+      "created": "2015-02-24T01:35:40",
+      "device": "/v1/devices/device2/",
+      "id": 164666,
+      "resource_uri": "/v1/readings/164666/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.4481067657"
+    },
+    {
+      "created": "2015-02-24T01:25:39",
+      "device": "/v1/devices/device2/",
+      "id": 151519,
+      "resource_uri": "/v1/readings/151519/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.4893100739"
+    },
+    {
+      "created": "2015-02-24T01:15:39",
+      "device": "/v1/devices/device2/",
+      "id": 143645,
+      "resource_uri": "/v1/readings/143645/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7186336517"
+    },
+    {
+      "created": "2015-02-24T01:05:39",
+      "device": "/v1/devices/device2/",
+      "id": 139814,
+      "resource_uri": "/v1/readings/139814/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.3692436218"
+    },
+    {
+      "created": "2015-02-24T00:55:38",
+      "device": "/v1/devices/device2/",
+      "id": 132372,
+      "resource_uri": "/v1/readings/132372/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "41.6294116974"
+    },
+    {
+      "created": "2015-02-24T00:45:38",
+      "device": "/v1/devices/device2/",
+      "id": 124930,
+      "resource_uri": "/v1/readings/124930/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.6748142242"
+    },
+    {
+      "created": "2015-02-24T00:35:37",
+      "device": "/v1/devices/device2/",
+      "id": 117482,
+      "resource_uri": "/v1/readings/117482/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "42.9009838104"
+    },
+    {
+      "created": "2015-02-24T00:25:37",
+      "device": "/v1/devices/device2/",
+      "id": 110031,
+      "resource_uri": "/v1/readings/110031/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.6757011414"
+    },
+    {
+      "created": "2015-02-24T00:15:36",
+      "device": "/v1/devices/device2/",
+      "id": 102586,
+      "resource_uri": "/v1/readings/102586/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.9057216644"
+    },
+    {
+      "created": "2015-02-24T00:05:35",
+      "device": "/v1/devices/device2/",
+      "id": 98326,
+      "resource_uri": "/v1/readings/98326/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.9185619354"
+    },
+    {
+      "created": "2015-02-23T23:55:35",
+      "device": "/v1/devices/device2/",
+      "id": 90887,
+      "resource_uri": "/v1/readings/90887/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.9416027069"
+    },
+    {
+      "created": "2015-02-23T23:45:35",
+      "device": "/v1/devices/device2/",
+      "id": 83418,
+      "resource_uri": "/v1/readings/83418/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "47.4546909332"
+    },
+    {
+      "created": "2015-02-23T23:35:34",
+      "device": "/v1/devices/device2/",
+      "id": 75940,
+      "resource_uri": "/v1/readings/75940/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "47.2769145966"
+    },
+    {
+      "created": "2015-02-23T23:25:34",
+      "device": "/v1/devices/device2/",
+      "id": 68462,
+      "resource_uri": "/v1/readings/68462/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "47.1576595306"
+    },
+    {
+      "created": "2015-02-23T23:15:34",
+      "device": "/v1/devices/device2/",
+      "id": 60987,
+      "resource_uri": "/v1/readings/60987/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.8765087128"
+    },
+    {
+      "created": "2015-02-23T23:05:33",
+      "device": "/v1/devices/device2/",
+      "id": 53512,
+      "resource_uri": "/v1/readings/53512/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "46.3434104919"
+    },
+    {
+      "created": "2015-02-23T22:56:33",
+      "device": "/v1/devices/device2/",
+      "id": 49657,
+      "resource_uri": "/v1/readings/49657/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.840637207"
+    },
+    {
+      "created": "2015-02-23T22:45:32",
+      "device": "/v1/devices/device2/",
+      "id": 41741,
+      "resource_uri": "/v1/readings/41741/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "45.2431774139"
+    },
+    {
+      "created": "2015-02-23T22:35:32",
+      "device": "/v1/devices/device2/",
+      "id": 34275,
+      "resource_uri": "/v1/readings/34275/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.5674915314"
+    },
+    {
+      "created": "2015-02-23T22:25:31",
+      "device": "/v1/devices/device2/",
+      "id": 26797,
+      "resource_uri": "/v1/readings/26797/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.1457042694"
+    },
+    {
+      "created": "2015-02-23T22:15:31",
+      "device": "/v1/devices/device2/",
+      "id": 19316,
+      "resource_uri": "/v1/readings/19316/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.2460479736"
+    },
+    {
+      "created": "2015-02-23T22:05:30",
+      "device": "/v1/devices/device2/",
+      "id": 11838,
+      "resource_uri": "/v1/readings/11838/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.7511291504"
+    },
+    {
+      "created": "2015-02-23T21:55:30",
+      "device": "/v1/devices/device2/",
+      "id": 4360,
+      "resource_uri": "/v1/readings/4360/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "44.1869106293"
+    },
+    {
+      "created": "2015-02-23T21:45:29",
+      "device": "/v1/devices/device2/",
+      "id": 73,
+      "resource_uri": "/v1/readings/73/",
+      "sensor_type": {
+        "id": 1,
+        "name": "humidity",
+        "resource_uri": "/v1/sensors/1/"
+      },
+      "value": "43.6370182037"
+    }
+  ]
+}

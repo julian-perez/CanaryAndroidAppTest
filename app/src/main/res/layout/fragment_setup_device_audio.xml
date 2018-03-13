@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/device_armed_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/setup_layout"
+            android:scaleType="centerCrop"
+            android:scaleX="2.0"
+            android:scaleY="2.0"
+            android:src="@drawable/update1_aio" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/establishing_connection_text_view"
+            style="@style/large_text_view"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="52dp"
+            android:gravity="center"
+            android:text="@string/establishing_connection" />
+
+        <RelativeLayout
+            android:id="@+id/setup_layout"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/light_gray">
+
+            <View
+                android:id="@+id/progress_bar"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:background="@color/vivid_yellow" />
+        </RelativeLayout>
+
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/next_btn"
+            style="@style/new_green_rect_action_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:enabled="false"
+            android:text="@string/next" />
+
+    </RelativeLayout>
+</layout>

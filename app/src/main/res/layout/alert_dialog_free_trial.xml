@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/white_rectangle"
+        android:orientation="vertical">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/large_text_view"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/are_you_sure" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/promo_dsc_text_view"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="@string/your_one_month_trial_includes" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/start_free_trial_btn"
+            style="@style/rectangle_button"
+            android:background="@drawable/blue_filled"
+            android:text="@string/start_free_trail"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/skip_free_trial_btn"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="@color/transparent"
+            android:stateListAnimator="@null"
+            android:text="@string/skip_free_trail"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </LinearLayout>
+</layout>

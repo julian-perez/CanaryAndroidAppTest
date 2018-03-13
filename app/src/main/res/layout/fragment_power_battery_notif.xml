@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <RelativeLayout
+            android:id="@+id/power_source_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:clickable="true"
+            android:gravity="center_vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/settings_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/power_source_notifications_header" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/power_source_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:theme="@style/MySwitch" />
+        </RelativeLayout>
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/power_source_desc"
+            style="@style/settings_long_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/power_source_header"
+            android:text="@string/power_source_notifications_body" />
+
+        <RelativeLayout
+            android:id="@+id/power_source_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/power_source_desc">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/power_source_body_header"
+                style="@style/setting_body_header"
+                android:layout_alignParentLeft="true"
+                android:lines="1"
+                android:text="@string/power_source_body_header" />
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/power_source_body_header"
+                android:divider="@null"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/battery_full_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:layout_below="@+id/power_source_body"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:gravity="center_vertical">
+
+            <View
+                android:id="@+id/divider_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="18dp"
+                android:background="@color/gray" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/full_battery_body_header"
+                style="@style/settings_header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/divider_bottom"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/divider_bottom"
+                android:text="@string/battery_full_title_text" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/full_battery_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/full_battery_body_header"
+                android:clickable="false"
+                android:theme="@style/MySwitch" />
+        </RelativeLayout>
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/battery_full_desc"
+            style="@style/settings_long_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/battery_full_header"
+            android:text="@string/battery_full_desc" />
+
+        <View
+            android:id="@+id/divider_tail"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/battery_full_desc"
+            android:layout_marginTop="18dp"
+            android:background="@color/gray" />
+
+    </RelativeLayout>
+</layout>

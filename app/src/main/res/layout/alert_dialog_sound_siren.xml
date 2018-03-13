@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/doesnt_have_siren_label"
+            style="@style/setup_medium_text_view"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/flex_doesnt_have_siren"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:customFont="Gibson.otf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/sound_siren_btn"
+                style="@style/siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/sound_all_sirens" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/sound_one_siren_btn"
+                style="@style/one_siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/sound_this_siren"
+                android:visibility="gone" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/cancel_btn"
+                style="@style/cancel_siren_button"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>

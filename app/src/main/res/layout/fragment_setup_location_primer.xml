@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/create_location" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/large_text_view"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="@string/enable_location_services" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:layout_marginTop="29dp"
+                android:gravity="center"
+                android:text="@string/canary_uses_location"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:customFont="Gibson-Light.otf" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/allow_btn"
+                style="@style/new_green_rect_action_button"
+                android:text="@string/allow" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/not_now_btn"
+                style="@style/transparent_btn"
+                android:text="@string/not_now" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>

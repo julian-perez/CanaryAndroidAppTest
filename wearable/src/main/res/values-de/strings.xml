@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="air">Luft</string>
+    <string name="em_dash">–</string>
+    <string name="mode_image">Mode Image</string>
+    <string name="entry_thumbnail">Entry thumbnail</string>
+    <string name="mode_1">mode_1</string>
+    <string name="mode_2">mode_2</string>
+    <string name="mode_3">mode_3</string>
+    <string name="mode_4">mode_4</string>
+    <string name="loading_homescreen_data">HomeHealth-Daten laden …</string>
+    <string name="no_data_available">Keine Daten verfügbar</string>
+
+    <string name="low">Niedrig</string>
+    <string name="med">mittel</string>
+    <string name="high">laut</string>
+</resources>

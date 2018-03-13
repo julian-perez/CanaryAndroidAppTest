@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_setup_start_membership_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/setup_membership1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/large_text_view"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/start_your_free_trail" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/for_next_month_membership" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_gradient" />
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/add_membership_btn"
+            style="@style/blue_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/start_free_trail" />
+
+    </RelativeLayout>
+         

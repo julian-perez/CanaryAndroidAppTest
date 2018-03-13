@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="is.yranac.canary.util.Utils" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/location_debug_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/large_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lines="1"
+                android:text="@string/location_debug" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/setting_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:clickable="false"
+                android:duplicateParentState="true"
+                android:focusable="false"
+                android:theme="@style/MySwitch" />
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_gray_bar_with_full_margin"
+            android:background="@color/very_light_gray" />
+
+        <LinearLayout
+            android:id="@+id/location_notification_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:visibility="@{Utils.forInternalTestingAndDevelopment? View.VISIBLE : View.GONE}">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/large_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lines="1"
+                android:text="@string/location_notification" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/location_notification_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:clickable="false"
+                android:duplicateParentState="true"
+                android:focusable="false"
+                android:theme="@style/MySwitch" />
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_gray_bar_with_full_margin"
+            android:background="@color/very_light_gray"
+            android:visibility="@{Utils.forInternalTestingAndDevelopment? View.VISIBLE : View.GONE}" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="10dp"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@string/location_services_debug_dsc"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:customFont="Gibson-Light.otf"
+            tools:ignore="RelativeOverlap" />
+
+    </LinearLayout>
+</layout>

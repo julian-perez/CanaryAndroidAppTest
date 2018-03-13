@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/standard_margin"
+        android:paddingRight="@dimen/standard_margin">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="155.5dp"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:id="@+id/insurance_logo_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/insurance_optin_dsc_large"
+            style="@style/large_text_view"
+            android:gravity="center" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            style="@style/setup_medium_text_view_black"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/insurance_small" />
+
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/more_about_insurance_text_view"
+            style="@style/setup_medium_text_view_black"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/more_about_insurance"
+            android:textColor="@color/dark_gray"
+            app:customFont="Gibson.otf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/done_button"
+            style="@style/alert_bottom_btn"
+            android:layout_width="0dp"
+            android:text="@string/okay" />
+
+    </LinearLayout>
+
+</RelativeLayout>

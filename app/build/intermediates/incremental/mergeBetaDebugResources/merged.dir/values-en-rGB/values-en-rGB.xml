@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigate home"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigate up"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"More options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Done"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"See all"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Choose an app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Search…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Clear query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Search query"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Search"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Submit query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Voice search"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Share with"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Share with %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Collapse"</string>
+    <string name="articles_list_fragment_error_message">Failed to get articles</string>
+    <string name="articles_list_fragment_no_articles_found">No articles found</string>
+    <string name="articles_search_results_list_fragment_contact_us">Contact support</string>
+    <string name="articles_search_results_list_fragment_error_message">Something went wrong</string>
+    <string name="articles_search_results_list_fragment_no_articles_found">No results found</string>
+    <string name="asdk_attachment_add_menu">Attachments</string>
+    <string name="asdk_attachment_select_source_choose_existing">Choose existing</string>
+    <string name="asdk_attachment_select_source_new_photo">Take a photo</string>
+    <string name="asdk_attachment_upload_error_cancel">Cancel</string>
+    <string name="asdk_attachment_upload_error_file_already_added">File already added</string>
+    <string name="asdk_attachment_upload_error_file_not_found">File not found</string>
+    <string name="asdk_attachment_upload_error_file_too_big">Max attachment size is %s</string>
+    <string name="asdk_attachment_upload_error_try_again">Try again</string>
+    <string name="asdk_attachment_upload_error_upload_failed">Attachment failed to upload</string>
+    <string name="categories_list_fragment_error_message">Failed to get categories</string>
+    <string name="categories_list_fragment_no_categories_found">No categories found</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Enable"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t work unless you enable Google Play services."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Enable Google Play services"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Install"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Get Google Play services"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play services availability"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play services error"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> is having trouble with Google Play services. Please try again."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Update"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run unless you update Google Play services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Update Google Play services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"New version of Google Play services needed. It will update itself shortly."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Open on phone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Sign In"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Sign in with Google"</string>
+    <string name="contact_fragment_description_hint">Describe the issue you are having</string>
+    <string name="contact_fragment_email_hint">Email</string>
+    <string name="contact_fragment_email_validation_error">Incorrect email address</string>
+    <string name="contact_fragment_send_button_label">Done</string>
+    <string name="contact_fragment_title">Contact Zendesk</string>
+    <string name="exo_controls_fastforward_description">"Fast-forward"</string>
+    <string name="exo_controls_next_description">"Next track"</string>
+    <string name="exo_controls_pause_description">"Pause"</string>
+    <string name="exo_controls_play_description">"Play"</string>
+    <string name="exo_controls_previous_description">"Previous track"</string>
+    <string name="exo_controls_rewind_description">"Rewind"</string>
+    <string name="exo_controls_stop_description">"Stop"</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Miscellaneous"</string>
+    <string name="network_activity_no_connectivity">No connection</string>
+    <string name="rate_my_app_dialog_dismiss_action_label">Don\'t ask me again</string>
+    <string name="rate_my_app_dialog_feedback_description_label">We want to make it better. Please tell us about any issues you\'re having.</string>
+    <string name="rate_my_app_dialog_feedback_device_api_version">OS API: %1$d</string>
+    <string name="rate_my_app_dialog_feedback_device_memory">Memory: %1$sMB / %2$sMB</string>
+    <string name="rate_my_app_dialog_feedback_device_model">Model: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_name">Device: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_os_version">OS version: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_request_subject">App feedback</string>
+    <string name="rate_my_app_dialog_feedback_send_error_no_connectivity_toast">No connection</string>
+    <string name="rate_my_app_dialog_feedback_send_error_toast">There was an error. Please try again.</string>
+    <string name="rate_my_app_dialog_feedback_send_success_toast">Thank you for contacting Zendesk</string>
+    <string name="rate_my_app_dialog_feedback_title_label">Sorry about that.</string>
+    <string name="rate_my_app_dialog_negative_action_label">No, send feedback</string>
+    <string name="rate_my_app_dialog_positive_action_label">Yes, rate Zendesk</string>
+    <string name="rate_my_app_dialog_title_label">Are you happy with Zendesk?</string>
+    <string name="rate_my_app_dialogue_feedback_cancel_button_label">Cancel</string>
+    <string name="rate_my_app_dialogue_feedback_issue_hint">Describe your issue</string>
+    <string name="rate_my_app_dialogue_feedback_send_button_label">Send feedback</string>
+    <string name="request_list_activity_title">My tickets</string>
+    <string name="request_list_fragment_error_message">Failed to get tickets</string>
+    <string name="request_list_fragment_no_requests">No tickets currently open</string>
+    <string name="request_view_comment_entry_hint">Comment</string>
+    <string name="retry_view_button_label">Retry</string>
+    <string name="row_request_unread_indicator_alt">Icon indicating that there are unread comments</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Search"</string>
+    <string name="sections_list_fragment_error_message">Failed to get sections</string>
+    <string name="sections_list_fragment_no_sections_found">No sections found</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_activity_unable_to_contact_support">Unable to contact support</string>
+    <string name="support_contact_menu">Contact</string>
+    <string name="support_conversations_menu">Conversations</string>
+    <string name="support_list_search_hint">How can we help?</string>
+    <string name="view_article_attachments_error">Failed to fetch attachments</string>
+    <string name="view_article_seperator">\u2022</string>
+    <string name="view_request_agent_avatar_imageview_alt">Agent\'s avatar</string>
+    <string name="view_request_load_comments_error">Failed to load comments</string>
+    <string name="view_request_send_comment_error">Failed to send comment</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <is.yranac.canary.ui.views.CircleView
+            android:id="@+id/gray_circle"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            app:cFillColor="@color/gray"
+            app:cStrokeColor="@color/gray" />
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/customer_initials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:customFont="Gibson-Light.otf" />
+
+        <is.yranac.canary.ui.views.RoundedImageView
+            android:id="@+id/avatar_image_layout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/home_flag_small"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/home_flag_small"
+            android:visibility="invisible" />
+    </FrameLayout>
+</layout>

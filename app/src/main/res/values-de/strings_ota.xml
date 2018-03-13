@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="change_url">URL ändern</string>
+    <string name="step">Schritt </string>
+    <string name="of">von</string>
+    <string name="device_lights">GERÄTE-LICHTER</string>
+    <string name="if_you_have_more_than_one">Wenn dein Gerät angeschlossen ist und den Standort überwacht, leuchtet unten ein weißes Licht. Das Licht ist aus, wenn das Gerät Privat geschaltet ist. Wenn Canary Flex über den Akku mit Strom versorgt wird, leuchtet ebenfalls kein Licht. </string>
+    <string name="when_monitoring_canary">Wenn das Gerät den Standort überwacht, leuchtet an seiner Unterseite ein weißes Licht. In der Einstellung Privat leuchtet das Licht nicht.</string>
+    <string name="when_monitoring_white_light">Wenn Canary Bewegung aufnimmt oder jemand sich den  Live-Stream ansieht, leuchtet ein weißes Licht auf. In der Einstellung „Privat“ leuchtet das Licht nicht.</string>
+    <string name="when_enabled_auto_mode">Canary kann automatisch den Modus wechseln, wenn du kommst oder gehst.</string>
+    <string name="night_mode_tutorial_dsc">Du kannst festlegen, ob du auch nachts benachrichtigt werden willst, wenn Bewegung wahrgenommen wird.</string>
+    <string name="your_canary_is_still_updating">Die Aktualisierung deines Canary läuft noch. Bitte trenne dein Gerät währenddessen nicht vom Kabel.</string>
+    <string name="your_canary_flex_is_still_updating">Die Aktualisierung deines Canary Flex läuft noch. Bitte trenne währenddessen dein Gerät nicht vom Kabel.</string>
+    <string name="your_canary_view_is_still_updating">Die Aktualisierung deines Canary View läuft noch. Bitte trenne währenddessen dein Gerät nicht vom Kabel.</string>
+
+    <string name="what_do_you_want_notifications">Möchtest du bei jeglicher Art von Bewegung benachrichtigt werden oder nur, wenn Menschen und Tiere wahrgenommen werden?</string>
+    <string name="i_want_all_notifications">Bei jeglicher Bewegung benachrichtigt werden</string>
+    <string name="i_dont_want_subtle_motion">Nur bei Menschen oder Tieren benachrichtigen</string>
+    <string name="i_will_decide_later">Ich möchte das später entscheiden.</string>
+    <string name="when_you_are_home_you_want">Was soll Canary tun, wenn du zuhause bist?</string>
+    <string name="when_home_record">Bewegung aufnehmen</string>
+    <string name="when_home_dont_record">Nichts aufnehmen</string>
+    <string name="do_you_want_night_mode">Möchtest du einen Zeitplan für den Nacht-Modus einstellen?</string>
+    <string name="i_want_night_mode">Zeitplan festlegen</string>
+    <string name="i_dont_want_night_mode">Keinen Zeitplan festlegen</string>
+    <string name="i_go_to_bed_at">Ich gehe ins Bett um ...</string>
+    <string name="i_wake_up_at">Ich stehe auf um ...</string>
+
+    <string name="your_canary_is_set_up">Dein Canary All-in-One verwendet nun die aktuellste Firmware.</string>
+    <string name="your_canary_view_is_set_up">Dein Canary View verwendet nun die aktuellste Firmware.</string>
+    <string name="your_flex_is_set_up">Dein Canary Flex verwendet nun die aktuellste Firmware. Lade den Akku bitte vollständig auf, bevor du das Gerät vom Strom trennst.</string>
+    <string name="questions">Fragen?</string>
+    <string name="update_succesful">Update erfolgreich</string>
+
+    <string name="get_more_with_membership">Bleib sorgenfrei. Werde Mitglied.</string>
+    <string name="almost_there">Fast geschafft …</string>
+
+    <string name="your_purchase_includes_three_months">Dein Kauf umfasst 3 Monate Canary-Mitgliedschaft.</string>
+
+</resources>

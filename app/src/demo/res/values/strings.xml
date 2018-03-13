@@ -1,0 +1,4 @@
+<resources>
+    <string name="website">https://webapp.stage.canaryis.com/</string>
+    <string name="webapp">website.stage.canaryis.com/</string>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" android:tag="layout/listview_device_mode_settings_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_rect_background"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin"
+            android:paddingTop="@dimen/standard_margin" android:tag="binding_1">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/disarm_text_view"
+                style="@style/small_bold_black"
+                android:layout_marginBottom="5dp" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/in_mode_text_view"
+                style="@style/setup_medium_text_view_black"
+                android:layout_marginBottom="10dp"
+                android:text="@string/in_home_mode" />
+
+            <include
+                layout="@layout/layout_gray_bar"
+                android:background="@color/light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/record_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:clickable="true">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/record_video" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_record"
+                    style="@style/radio_btn_style"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/notification_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/standard_margin" android:tag="binding_2">
+
+                <include
+                    layout="@layout/layout_gray_bar"
+                    android:background="@color/light_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/standard_row_height"
+                    android:clickable="false"
+                    android:paddingEnd="@dimen/standard_margin"
+                    android:paddingStart="@dimen/standard_margin">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/send_motion_notifications" />
+
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/notification_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:buttonTint="@color/radio_button_tint"
+                        android:clickable="false"
+                        android:theme="@style/MySwitch" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/layout_gray_bar"
+                android:background="@color/light_gray" />
+
+            <RelativeLayout
+                android:id="@+id/private_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:clickable="true">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/dont_record_video" />
+
+                <RadioButton
+                    android:id="@+id/radio_private"
+                    style="@style/radio_btn_style"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/watch_live_mode_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/standard_margin" android:tag="binding_3">
+
+                <include
+                    layout="@layout/layout_gray_bar"
+                    android:background="@color/light_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/standard_row_height"
+                    android:clickable="false">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/watch_live_available" />
+
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/watch_live_toggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:buttonTint="@color/radio_button_tint"
+                        android:clickable="false"
+                        android:theme="@style/MySwitch" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+         

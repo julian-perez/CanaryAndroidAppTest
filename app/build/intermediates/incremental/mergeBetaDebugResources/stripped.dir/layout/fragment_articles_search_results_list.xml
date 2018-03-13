@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             style="@style/articles_search_results_list_fragment_container">
+
+    <LinearLayout style="@style/articles_search_results_list_fragment_listview_container">
+
+        <ListView
+            android:id="@android:id/list"
+            style="@style/articles_search_results_list_fragment_listview">
+        </ListView>
+
+        <LinearLayout
+            android:id="@id/android:empty"
+            style="@style/articles_search_results_list_fragment_empty_container">
+
+            <TextView
+                android:text="@string/articles_search_results_list_fragment_no_articles_found"
+                android:id="@+id/articles_search_results_list_fragment_empty_view"
+                style="@style/articles_search_results_list_fragment_empty_view"/>
+
+            <Button
+                android:text="@string/articles_search_results_list_fragment_contact_us"
+                android:id="@+id/articles_search_results_list_fragment_contact_us"
+                style="@style/articles_search_results_list_fragment_contact_us"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/articles_search_results_list_fragment_progress"
+        style="@style/articles_search_results_list_fragment_progress"
+    />
+
+</FrameLayout>
+
+<!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/fragment_articles_search_results_list.xml -->

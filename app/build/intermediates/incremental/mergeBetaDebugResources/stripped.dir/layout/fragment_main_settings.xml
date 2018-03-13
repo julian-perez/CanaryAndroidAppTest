@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" android:tag="layout/fragment_main_settings_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/banner_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/light_red_filled"
+                android:minHeight="65dp"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/alert_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toStartOf="@+id/action_text_view"
+                    android:maxLines="2"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:customFont="Gibson-Light.otf" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/action_text_view"
+                    style="@style/small_bold"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/turn_on"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/about_button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/ic_canary_icon" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/small_bold"
+                        android:text="@string/about"
+                        android:textAllCaps="false"
+                        android:textColor="@color/dark_gray"
+                        app:customFont="Gibson.otf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/help_button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/ic_help_icon" />
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/small_bold"
+                        android:text="@string/help"
+                        android:textAllCaps="false"
+                        android:textColor="@color/dark_gray"
+                        app:customFont="Gibson.otf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/account_button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/appCompatImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        app:srcCompat="@drawable/account" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/small_bold"
+                        android:text="@string/account"
+                        android:textAllCaps="false"
+                        android:textColor="@color/dark_gray"
+                        app:customFont="Gibson.otf" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <is.yranac.canary.ui.views.CustomViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/indicator"
+            android:layout_below="@+id/top_layout" />
+
+        <is.yranac.canary.ui.views.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="69dp"
+            android:layout_marginTop="15dp"
+            app:centered="true"
+            app:fillColor="@color/dark_gray"
+            app:pageColor="@color/light_gray"
+            app:strokeWidth="0px"
+            app:threeRadiusRadius="3.5px" />
+    </RelativeLayout>
+         

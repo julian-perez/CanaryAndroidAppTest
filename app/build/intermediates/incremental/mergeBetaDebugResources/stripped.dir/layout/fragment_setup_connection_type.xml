@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_setup_connection_type_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/internet_connection_text_view"
+                style="@style/large_text_view"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/canary_needs_internet" />
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/connect_wifi_btn"
+                style="@style/setup_large_text"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/listrow_light_selector"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:stateListAnimator="@null"
+                android:text="@string/connect_wifi"
+                app:customFont="Gibson-Light.otf" />
+
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+
+                android:id="@+id/connect_ethernet_btn"
+                style="@style/setup_large_text"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/listrow_light_selector"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/standard_margin"
+                android:paddingRight="@dimen/standard_margin"
+                android:stateListAnimator="@null"
+                android:text="@string/connect_with_ethernet"
+                app:customFont="Gibson-Light.otf" />
+
+            <include layout="@layout/layout_gray_bar_with_full_margin" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+         

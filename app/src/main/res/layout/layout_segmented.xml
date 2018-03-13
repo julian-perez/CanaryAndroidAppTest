@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <info.hoang8f.android.segmented.SegmentedGroup
+        android:id="@+id/segmented_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:sc_border_width="1dp"
+        app:sc_checked_text_color="@color/white"
+        app:sc_corner_radius="5dp"
+        app:sc_tint_color="@color/dark_moderate_cyan">
+
+        <is.yranac.canary.ui.views.RadioButtonPlus
+            android:id="@+id/set_all_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/set_all_devices"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+        <is.yranac.canary.ui.views.RadioButtonPlus
+            android:id="@+id/set_each_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="@string/set_each_device"
+            android:textSize="13sp"
+            app:customFont="Gibson.otf" />
+
+    </info.hoang8f.android.segmented.SegmentedGroup>
+</layout>

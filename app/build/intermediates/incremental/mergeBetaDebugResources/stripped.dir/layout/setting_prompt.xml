@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listrow_light_selector"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <is.yranac.canary.ui.views.TextViewPlus
+        android:id="@+id/setting_title"
+        style="@style/large_text_view"
+        android:layout_height="@dimen/standard_row_height"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:gravity="center_vertical"
+        android:lines="1" />
+
+    <include
+        layout="@layout/layout_gray_bar_with_full_margin"
+        android:background="@color/very_light_gray" />
+
+</LinearLayout>

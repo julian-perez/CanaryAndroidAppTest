@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone" android:tag="layout/layout_siren_light_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:id="@+id/siren_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/sound_siren_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/siren_sounding_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <is.yranac.canary.ui.views.ProgressWheel
+                    android:id="@+id/siren_countdown_progress_wheel"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:padding="12dp"
+                    app:barColor="@color/soft_red"
+                    app:bar_width="3dp"
+                    app:contourColor="@color/transparent"
+                    app:rimColor="@color/white"
+                    app:rimWidth="3dp"
+                    app:textColor="@color/white"
+                    app:textSize="13sp" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:text="@string/sounding_siren"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:customFont="Gibson.otf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sound_siren_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_siren_event" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/sound_siren"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    app:customFont="Gibson.otf" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/emergency_call_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/emergency_call_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/very_light_gray" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/emergency_phone_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_call_event" />
+                </FrameLayout>
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/emergency_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/make_call"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    app:customFont="Gibson.otf" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+         

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="change_url">Change url</string>
+    <string name="step">Step</string>
+    <string name="of">of</string>
+    <string name="device_lights">Device Lights</string>
+    <string name="if_you_have_more_than_one">When plugged in and monitoring for activity a white light will appear at the bottom of your devices. It’s off when set to private. The Canary Flex does not display a light on battery power.</string>
+    <string name="when_monitoring_canary">When monitoring for activity a white light will appear at the bottom of the device. It’s off when set to private.</string>
+    <string name="when_monitoring_white_light">A white light will appear when Canary records  motion or someone is watching live. It’s off when set to private.</string>
+    <string name="when_enabled_auto_mode">Canary can detect when you come and go and automatically switch modes.</string>
+    <string name="night_mode_tutorial_dsc">You can schedule Canary to notify you when motion is detected while you sleep.</string>
+    <string name="your_canary_is_still_updating">Your Canary is still updating. Do not  unplug your device.</string>
+    <string name="your_canary_flex_is_still_updating">Your Canary Flex is still updating. Do not unplug your device.</string>
+    <string name="your_canary_view_is_still_updating">Your Canary View is still updating. Do not unplug your device.</string>
+
+    <string name="what_do_you_want_notifications">Would you like to be notified of all motion or only people or pets?</string>
+    <string name="i_want_all_notifications">Notify me of all motion</string>
+    <string name="i_dont_want_subtle_motion">Notify me of people or pets</string>
+    <string name="i_will_decide_later">I will decide later</string>
+    <string name="when_you_are_home_you_want">What do you want Canary to do when you are home?</string>
+    <string name="when_home_record">Record motion</string>
+    <string name="when_home_dont_record">Don’t record anything</string>
+    <string name="do_you_want_night_mode">Do you want to set a schedule for night mode?</string>
+    <string name="i_want_night_mode">Set a schedule</string>
+    <string name="i_dont_want_night_mode">Don’t set a schedule</string>
+    <string name="i_go_to_bed_at">I go to bed at…</string>
+    <string name="i_wake_up_at">I wake up at…</string>
+
+    <string name="your_canary_is_set_up">Your Canary All-in-One is now using the latest firmware.</string>
+    <string name="your_canary_view_is_set_up">Your Canary View is now using the latest firmware.</string>
+    <string name="your_flex_is_set_up">Your Canary Flex is now using the latest firmware. Please fully charge the battery before unplugging it.</string>
+    <string name="questions">Questions?</string>
+    <string name="update_succesful">Update successful</string>
+
+    <string name="get_more_with_membership">Get Membership. Be worry-free.</string>
+    <string name="almost_there">Almost there…</string>
+
+    <string name="your_purchase_includes_three_months">Your purchase includes 3 months of Canary Membership.</string>
+</resources>

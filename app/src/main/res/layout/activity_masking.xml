@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="numberOfMasks"
+            type="int" />
+
+        <variable
+            name="controlListener"
+            type="is.yranac.canary.model.MaskingViewController" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <is.yranac.canary.ui.views.ThumbnailImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@+id/background_image"
+            android:layout_alignEnd="@+id/background_image"
+            android:layout_alignStart="@id/background_image"
+            android:layout_alignTop="@+id/background_image"
+            android:background="@color/black_ten" />
+
+        <FrameLayout
+            android:id="@+id/no_preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_gray"
+            android:visibility="gone">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                style="@style/light_small_text_view"
+                android:id="@+id/image_preview_text"
+                android:layout_gravity="center"
+                android:text="@string/image_preview_unavailable"
+                android:textColor="@color/black_forty"
+                app:customFont="Gibson.otf" />
+        </FrameLayout>
+
+
+        <is.yranac.canary.ui.views.masking.MaskDrawingView
+            android:id="@+id/mask_draw_view"
+            android:layout_width="0dp"
+            android:layout_centerInParent="true"
+            android:layout_height="0dp"/>
+
+        <RelativeLayout
+            android:id="@+id/masking_top_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/gradient_black_fourty"
+            app:slideVisible="@{controlListener.showOptions}">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/masking_top_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="18dp"
+                android:text="@{controlListener.topMessage}"
+                android:textColor="@android:color/white"
+                app:customFont="Gibson.otf" />
+
+            <TextView
+                android:id="@+id/get_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/help_circle"
+                android:gravity="center"
+                android:onClick="@{(view) -> controlListener.getHelp(view)}"
+                android:text="@string/question_mark"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_options"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/masking_border_trigger"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            app:slideVisible="@{controlListener.showOptions}">
+
+            <RelativeLayout
+                android:id="@+id/bottom_options_add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/black_fifty"
+                android:onClick="@{(view) -> controlListener.optionsClicked(view)}">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="13dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="6dp"
+                        android:src="@{controlListener.addEnabled ? @drawable/add_icon : @drawable/add_icon_disabled}" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/add_masks_button_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/masking_create_mask"
+                        android:textColor="@{controlListener.addEnabled ? @color/white : @color/white_thirty}" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bottom_options_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/black_fifty"
+                android:onClick="@{(view) -> controlListener.optionsClicked(view)}">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="13dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="6dp"
+                        android:src="@{controlListener.deleteEnabled ? @drawable/delete_icon : @drawable/delete_icon_disabled}" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/delete_mask_button_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/masking_delete_mask"
+                        android:textColor="@{controlListener.deleteEnabled ? @color/white : @color/white_thirty}" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bottom_options_save"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.3"
+                android:background="@color/black_fifty"
+                android:onClick="@{(view) -> controlListener.optionsClicked(view)}">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="13dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="6dp"
+                        android:src="@{controlListener.saveEnabled ? @drawable/save_icon : @drawable/save_icon_disabled}" />
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@{controlListener.multipleMasks ? @string/masking_save_masks : @string/masking_save_mask}"
+                        android:textColor="@{controlListener.saveEnabled ? @color/white : @color/white_thirty}" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/tutorial_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/large_text_view"
+                    android:layout_width="315dp"
+                    android:id="@+id/tutorial_text"
+                    android:layout_marginBottom="28dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/masks_reduce_notifications"
+                    android:textColor="@color/white" />
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/next_btn"
+                    style="@style/white_transparent_btn"
+                    android:layout_gravity="center"
+                    android:text="@string/next"
+                    android:textSize="16sp"
+                    android:visibility="visible"
+                    app:customFont="Gibson.otf" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

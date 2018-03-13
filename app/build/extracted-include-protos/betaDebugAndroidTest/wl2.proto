@@ -1,0 +1,82 @@
+syntax = "proto2";
+package WL;
+
+// This is used for our header before our protobuf when sending messages over the wire
+enum Channel {
+    CMD        = 0;
+    AUDIO      = 1;
+    AUDIO_CTRL = 2;
+    VIDEO      = 3;
+    VIDEO_CTRL = 4;
+}
+
+// this is used for the byte in the header after the channel
+// these enums will provide Context based on the CMD channel
+enum CommandContext {
+    FIN       = 1;
+}
+
+enum CommandType {
+    AUTHORIZATION         = 1;
+    STATUS_BROADCAST      = 2;
+    SPEAKING_LOCK_REQUEST = 3;
+    REPLY                 = 4;
+    SHUTDOWN_REQUEST      = 5;
+}
+
+// Only one of the messages would be in the command message, dictated by the command type enum
+// Reply in the future may include the first message type also
+message CommandMessage {
+    optional int32 sequence_id                          = 1;
+    optional CommandType command_type                   = 2;
+    optional AuthorizationRequest authorization_request = 3;
+    optional SpeakingLockRequest speaking_lock_request  = 4;
+    optional StatusBroadcast status_broadcast           = 5;
+    optional Reply reply                                = 6;
+    optional Shutdown shutdown                          = 7;
+}
+
+
+// Any device connection will pack in a command message to verify who they are
+message AuthorizationRequest {
+    optional string BroadcasterUUID  = 1;
+    optional string SessionKey       = 2;
+    optional int32 user_id           = 3; // only used for clients
+}
+
+// When a user would like to start or stop speaking , they will send this message.
+// They most likely will get a reply signaling if they can actually send audio or someone
+// else has already obtained the floor for speaking.
+message SpeakingLockRequest {
+    enum State {
+        ACQUIRE   = 1 ;
+        RELEASE   = 2 ;
+    }
+
+    optional State state = 1;
+}
+
+// Every client connect/disconnect and speakinglock aquire/release will update all
+// clients with this information to show who is speaking and who is connected.
+message StatusBroadcast {
+    optional int32 current_speaking_user_id  = 1;
+    repeated int32 connected_user_ids        = 2;
+}
+
+
+message Reply  {
+    optional int32 reply_sequence_id     = 1;
+    optional bool success                = 2;
+    optional string message              = 3;
+}
+
+// When the service is shutting down we will send this, with the SERVER_CLOSE
+// If a client is purposely ending its viewing it should send a CLIENT_CLOSE
+message Shutdown {
+    enum Reason {
+        CLIENT_CLOSE  = 1;
+        SERVER_CLOSE  = 2;
+    }
+
+    optional Reason reason  = 1;
+}

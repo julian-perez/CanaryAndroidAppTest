@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="is.yranac.canary.util.TutorialUtil.TutorialType" />
+
+        <variable
+            name="tutorialType"
+            type="is.yranac.canary.util.TutorialUtil.TutorialType" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/tutorial_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:visibility="@{(tutorialType == TutorialType.SECOND_DEVICE || tutorialType == TutorialType.TIMELINE) ? View.VISIBLE : View.GONE }" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_eighty"
+            android:visibility="@{tutorialType == TutorialType.SECOND_DEVICE? View.VISIBLE : View.GONE}">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/timeline_tutorial_desc4"
+                    android:textColor="@color/white"
+                    app:customFont="Gibson-Light.otf" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/second_device_arrow"
+                    android:layout_marginBottom="14dp"
+                    android:src="@drawable/swipe_tutorial_icon" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="@{tutorialType == TutorialType.TIMELINE? View.VISIBLE : View.GONE}">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_eighty">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/timeline_tutorial_desc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/timeline_tutorial_arrow1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="52dp"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/timeline_tutorial_desc1"
+                    android:textColor="@color/white"
+                    app:customFont="Gibson-Light.otf" />
+
+                <ImageView
+                    android:id="@+id/timeline_tutorial_arrow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="14dp"
+                    android:src="@drawable/tutorial_leader" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_eighty"
+            android:visibility="@{tutorialType == TutorialType.TIMELINE_FILTER ? View.VISIBLE : View.GONE}">
+
+            <ImageView
+                android:id="@+id/timeline_tutorial_arrow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="78dp"
+                android:layout_marginTop="14dp"
+                android:rotation="180"
+                android:src="@drawable/tutorial_leader" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/timeline_tutorial_desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timeline_tutorial_arrow2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="72dp"
+                android:layout_marginRight="72dp"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/timeline_tutorial_desc2"
+                android:textColor="@color/white"
+                app:customFont="Gibson-Light.otf" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_eighty"
+            android:visibility="@{tutorialType == TutorialType.ENTRY_MORE_OPTIONS ? View.VISIBLE : View.GONE}">
+
+            <ImageView
+                android:id="@+id/timeline_tutorial_arrow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="14dp"
+                android:rotation="180"
+                android:src="@drawable/tutorial_leader" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/timeline_tutorial_desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/timeline_tutorial_arrow3"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/timeline_tutorial_desc3"
+                android:textColor="@color/white"
+                app:customFont="Gibson-Light.otf" />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

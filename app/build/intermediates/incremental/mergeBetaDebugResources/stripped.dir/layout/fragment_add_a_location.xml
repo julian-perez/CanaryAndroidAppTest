@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="@dimen/standard_margin"
+        android:paddingStart="@dimen/standard_margin" android:tag="layout/fragment_add_a_location_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <is.yranac.canary.ui.views.RoundedCornerRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mostly_white_gray"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingEnd="60dp"
+                android:paddingStart="60dp">
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    app:srcCompat="@drawable/ic_add_icon_copy" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:gravity="center"
+                    android:text="@string/tap_this_card_add_a_location" />
+
+
+            </LinearLayout>
+        </is.yranac.canary.ui.views.RoundedCornerRelativeLayout>
+    </FrameLayout>
+         

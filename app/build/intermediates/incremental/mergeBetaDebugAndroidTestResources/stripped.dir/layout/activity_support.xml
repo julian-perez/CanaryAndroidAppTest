@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/support_search_input_container"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/support_search_input"
+                style="@style/support_list_search_editor"
+                tools:hint="@string/support_list_search_hint" />
+
+            <LinearLayout
+                style="@style/support_list_seperator_container"
+                android:orientation="vertical">
+                <View
+                    style="@style/support_list_seperator_border" />
+                <View
+                    style="@style/support_list_seperator_body" />
+                <View
+                    style="@style/support_list_seperator_border" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/support_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <ProgressBar
+                android:id="@+id/support_activity_progress"
+                style="@style/support_activity_progress" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/include_no_network_view"/>
+    <include layout="@layout/include_retry_view" />
+
+</merge>
+
+<!-- From: file:/Users/barry/git/zendesk_sdk_android/ZendeskSDK/src/main/res/layout/activity_support.xml -->

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "985786538410",
+    "firebase_url": "https://linen-fuze-670.firebaseio.com",
+    "project_id": "linen-fuze-670",
+    "storage_bucket": "linen-fuze-670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985786538410:android:dfdc2da5e35c8f53",
+        "android_client_info": {
+          "package_name": "is.yranac.canary.dev_two"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985786538410-ltmpm04ueib85irlnka69uof85sduv8l.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "985786538410-m3mqjg8u1ku8972n9a9ofd8qalv94cuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjAFcg0fgyrk6A7vSbZiKGnkJ_c2hiIn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-54907729-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

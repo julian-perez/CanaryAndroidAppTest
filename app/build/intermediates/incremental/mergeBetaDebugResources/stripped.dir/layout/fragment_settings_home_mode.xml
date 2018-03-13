@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" android:tag="layout/fragment_settings_home_mode_0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/mode_dsc_text_view"
+                style="@style/large_text_view"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/home_mode_dsc" />
+
+
+            <LinearLayout
+                android:id="@+id/night_mode_schedule_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gray_rect_background"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/night_mode_toggle_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/standard_row_height"
+                        android:clickable="false"
+                        android:paddingEnd="@dimen/standard_margin"
+                        android:paddingStart="@dimen/standard_margin">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/large_text_view"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/schedule_night_mode" />
+
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/night_mode_schedule_toggle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:clickable="false"
+                            android:theme="@style/MySwitch" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/night_mode_time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" android:tag="binding_2">
+
+                        <include
+                            layout="@layout/layout_gray_bar_with_full_margin"
+                            android:background="@color/very_light_gray" />
+
+                        <RelativeLayout
+                            android:id="@+id/start_night_mode"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/standard_row_height"
+                            android:clickable="false"
+                            android:paddingEnd="@dimen/standard_margin"
+                            android:paddingStart="@dimen/standard_margin">
+
+
+                            <is.yranac.canary.ui.views.TextViewPlus
+                                style="@style/large_text_view"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/start" />
+
+
+                            <is.yranac.canary.ui.views.TextViewPlus
+                                android:id="@+id/night_mode_start_time"
+                                style="@style/large_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="PM"
+                                android:textColor="@color/dark_gray" />
+
+                        </RelativeLayout>
+
+                        <include
+                            layout="@layout/layout_gray_bar_with_full_margin"
+                            android:background="@color/very_light_gray" />
+
+                        <RelativeLayout
+                            android:id="@+id/end_night_mode"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/standard_row_height"
+                            android:clickable="false"
+                            android:paddingEnd="@dimen/standard_margin"
+                            android:paddingStart="@dimen/standard_margin">
+
+                            <is.yranac.canary.ui.views.TextViewPlus
+                                style="@style/large_text_view"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/end" />
+
+
+                            <is.yranac.canary.ui.views.TextViewPlus
+                                android:id="@+id/night_mode_end_time"
+                                style="@style/large_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:text="AM"
+                                android:textColor="@color/dark_gray" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/light_small_text_view"
+                    android:layout_marginEnd="@dimen/standard_margin"
+                    android:layout_marginStart="@dimen/standard_margin"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/schedule_applies_to_timezone_of_location" />
+
+            </LinearLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:id="@+id/segmented_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/set_all_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="50%">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:text="@string/set_all_devices" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/set_each_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginStart="18dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="50%">
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        style="@style/setup_medium_text_view_black"
+                        android:text="@string/set_each_device" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/selected_level"
+                    android:layout_width="0dp"
+                    android:layout_height="4dp"
+                    android:layout_alignStart="@+id/set_all_layout"
+                    android:layout_below="@+id/set_all_layout"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/dark_moderate_cyan"
+                    app:layout_widthPercent="33%" />
+
+            </android.support.percent.PercentRelativeLayout>
+
+
+            <include
+                layout="@layout/layout_gray_bar"
+                android:background="@color/very_light_gray_two" />
+
+
+            <LinearLayout
+                android:id="@+id/notification_settings_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingEnd="@dimen/standard_margin"
+                android:paddingStart="@dimen/standard_margin"
+                android:paddingTop="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+         

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="25dp">
+
+    <RelativeLayout
+        android:id="@+id/notification_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <is.yranac.canary.ui.views.TextViewPlus
+            android:id="@+id/disarm_text_view"
+            style="@style/setting_prompt_title_text"
+            android:layout_marginBottom="14dp"
+            android:paddingRight="45dp"
+            android:textSize="16sp"
+            app:customFont="Gibson-Light.otf"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/notification_enable_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:checked="false"
+            android:clickable="false"
+            android:theme="@style/MySwitch"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/temp_min_max_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textAllCaps="true"
+                android:textColor="@color/dark_gray"
+                android:textSize="13sp"
+                app:customFont="Gibson-SemiBold.otf"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/temp_range_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/humidity_min_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textAllCaps="true"
+                android:textColor="@color/dark_gray"
+                android:textSize="13sp"
+                app:customFont="Gibson-SemiBold.otf"/>
+
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/humidity_range_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/air_quality_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textAllCaps="true"
+                android:textColor="@color/dark_gray"
+                android:textSize="13sp"
+                app:customFont="Gibson-SemiBold.otf"/>
+
+
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/air_quality_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:max="100"
+            android:maxHeight="3dp"
+            android:minHeight="3dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:progressDrawable="@drawable/seek_bar_custom_progress"
+            android:thumb="@drawable/slider_knob"
+            android:thumbOffset="0dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="device"
+            type="is.yranac.canary.model.device.Device" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/header_layout"
+            layout="@layout/layout_about_device_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/device_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:background="@drawable/listrow_light_selector"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@{device.name}"
+            app:editable="false"
+            app:label="@string/device_placement" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/device_serial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@{device.serialNumber}"
+            app:editable="false"
+            app:label="@string/serial_number" />
+
+
+        <is.yranac.canary.ui.views.EditTextWithLabel
+            android:id="@+id/device_firmware"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_row_height"
+            android:paddingLeft="@dimen/standard_margin"
+            android:paddingRight="@dimen/standard_margin"
+            android:text="@{device.applicationVersion}"
+            android:visibility="@{device.deviceActivated ? View.VISIBLE : View.GONE}"
+            app:editable="false"
+            app:label="@string/firmware_version" />
+
+    </LinearLayout>
+</layout>

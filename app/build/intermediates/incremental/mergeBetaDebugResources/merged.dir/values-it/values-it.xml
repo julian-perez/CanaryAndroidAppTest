@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="ua_selected_count">
+    <item quantity="one">
+      <ns1:g example="1" id="count">%1$d</ns1:g> selezionato</item>
+    <item quantity="other">
+      <ns1:g example="3" id="count">%1$d</ns1:g> selezionati</item>
+  </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="articles_list_fragment_error_message">Impossibile reperire gli articoli.</string>
+    <string name="articles_list_fragment_no_articles_found">Nessun articolo trovato.</string>
+    <string name="articles_search_results_list_fragment_contact_us">Contatta l’assistenza</string>
+    <string name="articles_search_results_list_fragment_error_message">Si è verificato un problema</string>
+    <string name="articles_search_results_list_fragment_no_articles_found">Nessun risultato trovato.</string>
+    <string name="asdk_attachment_add_menu">Allegati</string>
+    <string name="asdk_attachment_select_source_choose_existing">Scegli esistente</string>
+    <string name="asdk_attachment_select_source_new_photo">Scatta foto</string>
+    <string name="asdk_attachment_upload_error_cancel">Annulla</string>
+    <string name="asdk_attachment_upload_error_file_already_added">File già aggiunto.</string>
+    <string name="asdk_attachment_upload_error_file_not_found">File non trovato</string>
+    <string name="asdk_attachment_upload_error_file_too_big">Dimensione massima dell’allegato: %s</string>
+    <string name="asdk_attachment_upload_error_try_again">Riprova</string>
+    <string name="asdk_attachment_upload_error_upload_failed">Caricamento allegato non riuscito.</string>
+    <string name="categories_list_fragment_error_message">Impossibile reperire le categorie.</string>
+    <string name="categories_list_fragment_no_categories_found">Nessuna categoria trovata.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Attiva"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installa"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"L\'app <ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, non presente sul tuo dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilità di Google Play Services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> sta riscontrando problemi con Google Play Services. Riprova."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, non supportati dal tuo dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, attualmente in fase di aggiornamento."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"È richiesta una nuova versione di Google Play Services. L\'aggiornamento automatico verrà eseguito a breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <string name="contact_fragment_description_hint">Descrizione</string>
+    <string name="contact_fragment_email_hint">Indirizzo email</string>
+    <string name="contact_fragment_email_validation_error">Indirizzo email errato</string>
+    <string name="contact_fragment_send_button_label">Invia</string>
+    <string name="contact_fragment_title">Contattaci</string>
+    <string name="exo_controls_fastforward_description">"Avanti veloce"</string>
+    <string name="exo_controls_next_description">"Traccia successiva"</string>
+    <string name="exo_controls_pause_description">"Metti in pausa"</string>
+    <string name="exo_controls_play_description">"Riproduci"</string>
+    <string name="exo_controls_previous_description">"Traccia precedente"</string>
+    <string name="exo_controls_rewind_description">"Riavvolgi"</string>
+    <string name="exo_controls_stop_description">"Interrompi"</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Varie"</string>
+    <string name="network_activity_no_connectivity">Nessuna connessione.</string>
+    <string name="rate_my_app_dialog_dismiss_action_label">Non chiedermelo più</string>
+    <string name="rate_my_app_dialog_feedback_description_label">Vogliamo rendere l’app ancora migliore. Facci sapere se hai dei problemi.</string>
+    <string name="rate_my_app_dialog_feedback_device_api_version">API sistema operativo: %1$d</string>
+    <string name="rate_my_app_dialog_feedback_device_memory">Memoria: %1$s MB / %2$s MB</string>
+    <string name="rate_my_app_dialog_feedback_device_model">Modello: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_name">Dispositivo: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_os_version">Versione sistema operativo: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_request_subject">Feedback via app</string>
+    <string name="rate_my_app_dialog_feedback_send_error_no_connectivity_toast">Nessuna connessione.</string>
+    <string name="rate_my_app_dialog_feedback_send_error_toast">Si è verificato un errore. Riprova.</string>
+    <string name="rate_my_app_dialog_feedback_send_success_toast">Grazie per averci contattato.</string>
+    <string name="rate_my_app_dialog_feedback_title_label">Siamo spiacenti.</string>
+    <string name="rate_my_app_dialog_negative_action_label">No, invia il feedback</string>
+    <string name="rate_my_app_dialog_positive_action_label">Valuta la nostra app.</string>
+    <string name="rate_my_app_dialog_title_label">La nostra app ti soddisfa?</string>
+    <string name="rate_my_app_dialogue_feedback_cancel_button_label">Annulla</string>
+    <string name="rate_my_app_dialogue_feedback_issue_hint">Descrivi il problema</string>
+    <string name="rate_my_app_dialogue_feedback_send_button_label">Invia opinione</string>
+    <string name="request_list_activity_title">I miei ticket</string>
+    <string name="request_list_fragment_error_message">Impossibile reperire i ticket.</string>
+    <string name="request_list_fragment_no_requests">Nessun ticket aperto al momento.</string>
+    <string name="request_view_comment_entry_hint">Commento</string>
+    <string name="retry_view_button_label">Riprova</string>
+    <string name="row_request_unread_indicator_alt">Icona che indica la presenza di commenti non letti.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="sections_list_fragment_error_message">Impossibile reperire le sezioni.</string>
+    <string name="sections_list_fragment_no_sections_found">Nessuna sezione trovata.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="support_activity_title">Assistenza</string>
+    <string name="support_activity_unable_to_contact_support">Impossibile contattare l’assistenza.</string>
+    <string name="support_contact_menu">Contatta</string>
+    <string name="support_conversations_menu">Conversazioni</string>
+    <string name="support_list_search_hint">Come possiamo aiutarti?</string>
+    <string name="ua_cancel">Annulla</string>
+    <string name="ua_channel_copy_toast">Canale copiato negli appunti</string>
+    <string name="ua_channel_notification_ticker">\nCanale Urban Airship</string>
+    <string name="ua_connection_error">Errore di connessione</string>
+    <string name="ua_delete">Elimina</string>
+    <string name="ua_empty_message_list">Nessun messaggio</string>
+    <string name="ua_mark_read">Segna come letto</string>
+    <string name="ua_mc_failed_to_load">Impossibile caricare i messaggi. Riprovare più tardi</string>
+    <string name="ua_message_center_title">Centro messaggi</string>
+    <string name="ua_message_not_selected">Nessun messaggio selezionato</string>
+    <string name="ua_notification_button_accept">Accetta</string>
+    <string name="ua_notification_button_add">Aggiungi</string>
+    <string name="ua_notification_button_add_to_calendar">Aggiungi al calendario</string>
+    <string name="ua_notification_button_book_now">Prenota adesso</string>
+    <string name="ua_notification_button_buy_now">Acquista ora</string>
+    <string name="ua_notification_button_copy">Copia</string>
+    <string name="ua_notification_button_decline">Rifiuta</string>
+    <string name="ua_notification_button_dislike">Non mi piace</string>
+    <string name="ua_notification_button_download">Scarica</string>
+    <string name="ua_notification_button_follow">Segui</string>
+    <string name="ua_notification_button_less_like">Di meno come questo</string>
+    <string name="ua_notification_button_like">Mi piace</string>
+    <string name="ua_notification_button_more_like">Di più come questo</string>
+    <string name="ua_notification_button_no">No</string>
+    <string name="ua_notification_button_opt_in">Opt-in</string>
+    <string name="ua_notification_button_opt_out">Opt-out</string>
+    <string name="ua_notification_button_rate_now">Valuta adesso</string>
+    <string name="ua_notification_button_remind">Ricordamelo più tardi</string>
+    <string name="ua_notification_button_save">Salva</string>
+    <string name="ua_notification_button_search">Cerca</string>
+    <string name="ua_notification_button_send_info">Invia informazioni</string>
+    <string name="ua_notification_button_share">Condividi</string>
+    <string name="ua_notification_button_shop_now">Fai shopping ora</string>
+    <string name="ua_notification_button_tell_me_more">Più informazioni</string>
+    <string name="ua_notification_button_unfollow">Smetti di seguire</string>
+    <string name="ua_notification_button_yes">Sì</string>
+    <string name="ua_ok">OK</string>
+    <string name="ua_retry_button">Riprovare</string>
+    <string name="ua_select_all">Seleziona tutti</string>
+    <string name="ua_select_none">Non selezionare</string>
+    <string name="ua_share_dialog_title">Condividi</string>
+    <string name="view_article_attachments_error">Impossibile reperire gli allegati.</string>
+    <string name="view_article_seperator">\u2022</string>
+    <string name="view_request_agent_avatar_imageview_alt">L’avatar dell’agente.</string>
+    <string name="view_request_load_comments_error">Impossibile caricare i commenti.</string>
+    <string name="view_request_send_comment_error">Impossibile inviare il commento.</string>
+</resources>

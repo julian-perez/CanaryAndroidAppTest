@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/connectivity_settings_toggle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:clickable="true"
+                android:gravity="center_vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/settings_header_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:lines="1"
+                    android:text="@string/connection_notifications_toggle"
+                    app:customFont="Gibson-Light.otf" />
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/mode_setting_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:clickable="false"
+                    android:theme="@style/MySwitch" />
+
+            </RelativeLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/auto_mode_disarm_change_desc"
+                style="@style/settings_long_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/offline_notifications_dsc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/device_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top_layout"
+            android:orientation="vertical">
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/power_source_body_header"
+                style="@style/setting_body_header"
+                android:lines="1"
+                android:text="@string/power_source_body_header" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:id="@+id/mode_settings_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

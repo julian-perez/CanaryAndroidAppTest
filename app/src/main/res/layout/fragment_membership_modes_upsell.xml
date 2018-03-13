@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <is.yranac.canary.ui.views.CustomProgressView
+            android:id="@+id/progress_indication"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/root_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_above="@+id/add_membership_btn"
+                android:layout_alignParentTop="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="40dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/mode_type_upsell"
+                        style="@style/large_text_view"
+                        android:layout_marginTop="60dp"
+                        android:gravity="center"
+                        android:text="@string/get_the_most_with_membership" />
+
+                    <include
+                        android:id="@+id/membership_details_layout"
+                        layout="@layout/layout_membership_benefits" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/add_membership_btn"
+                style="@style/blue_button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:gravity="center"
+                android:text="@string/activate_membership" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</layout>

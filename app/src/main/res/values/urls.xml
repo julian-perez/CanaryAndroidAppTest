@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="scheme" translatable="false">https</string>
+    <string name="bluetooth_help_link">http://help.canary.is/hc/en-us/articles/222793128</string>
+    <string name="device_activated_help_link">http://help.canary.is/hc/en-us/articles/222644628</string>
+    <string name="wifi_password_help_link">http://help.canary.is/hc/en-us/articles/222643808</string>
+    <string name="wifi_or_ethernet_help_link">http://help.canary.is/hc/en-us/articles/222586227</string>
+    <string name="canary_cannot_hear_help_help_link">http://help.canary.is/hc/en-us/articles/204772717</string>
+    <string name="setup_length_help_link">http://help.canary.is/hc/en-us/articles/223209848</string>
+    <string name="volume_increase_help_link">http://help.canary.is/hc/en-us/articles/223209728</string>
+    <string name="canary_data_share_url">http://help.canary.is/hc/en-us/articles/219571668</string>
+    <string name="help_center_site_motion">http://help.canary.is/hc/en-us/articles/213236808</string>
+    <string name="help_center_motion_notifications">https://help.canary.is/hc/en-us/articles/204773927</string>
+    <!--masking-->
+    <string name="what_are_masks_url">https://help.canary.is/hc/en-us/articles/115002717447</string>
+    <string name="most_out_of_masks_url">https://help.canary.is/hc/en-us/articles/115002703107</string>
+    <string name="masks_notifications_url">https://help.canary.is/hc/en-us/articles/204773927</string>
+
+    <!--member-->
+    <string name="what_is_a_member_url">https://help.canary.is/hc/en-us/articles/204372627</string>
+    <string name="how_can_i_add_members_url">https://help.canary.is/hc/en-us/articles/204372717</string>
+
+    <!--membership-->
+    <string name="what_comes_with_membership_url">https://help.canary.is/hc/en-us/articles/227195347</string>
+    <string name="what_is_home_deducible_url">https://help.canary.is/hc/en-us/articles/115004499768</string>
+    <string name="how_do_i_update_my_payment_method_url">https://help.canary.is/hc/en-us/articles/216591157</string>
+    <string name="what_is_a_location_url">https://help.canary.is/hc/en-us/articles/226118907</string>
+
+    <!--no membership-->
+    <string name="what_is_canary_membership_url">https://help.canary.is/hc/en-us/articles/227195347</string>
+    <string name="how_can_i_remove_a_location_url">https://help.canary.is/hc/en-us/articles/206841607</string>
+
+    <!--geofence-->
+    <string name="how_does_canary_know_im_away_url">https://help.canary.is/hc/en-us/articles/203620318</string>
+    <string name="why_wont_canary_know_home_or_away_url">https://help.canary.is/hc/en-us/articles/204077828</string>
+    <string name="how_can_i_trouble_shoot_location_settings_url">https://help.canary.is/hc/en-us/articles/115004982027</string>
+
+    <!--setup_failed-->
+    <string name="setup_failed_canary">https://help.canary.is/hc/en-us/articles/223209848</string>
+    <string name="setup_failed_flex">https://help.canary.is/hc/en-us/articles/115006549307</string>
+    <string name="setup_failed_view">https://help.canary.is/hc/en-us/articles/115015432128</string>
+    <string name="help_center_privacy_mode">https://help.canary.is/hc/en-us/articles/220136728</string>
+
+    <!--modes -->
+    <string name="what_are_modes_url">https://help.canary.is/hc/en-us/articles/220136468</string>
+    <string name="what_is_night_mode_url">https://help.canary.is/hc/en-us/articles/115005594448</string>
+    <string name="why_does_it_say_private_url"> https://help.canary.is/hc/en-us/articles/220136728</string>
+    <string name="how_does_canary_know_if_home_url">https://help.canary.is/hc/en-us/articles/203620318</string>
+    <string name="why_dont_i_receive_notifications_url">https://help.canary.is/hc/en-us/articles/204773927</string>
+
+    <!--- battery -->
+    <string name="connectivity_url">http://help.canary.is/hc/en-us/articles/214437977</string>
+    <string name="adjust_recording_range_url">https://help.canary.is/hc/en-us/articles/115005254328</string>
+    <string name="impove_battery_life_url">https://help.canary.is/hc/en-us/articles/115005315607</string>
+
+    <!-- amazon urls -->
+    <string name="aio_amazon_url">https://www.amazon.com/review/create-review?asin=B00NW31YVQ</string>
+    <string name="flex_amazon_url">https://www.amazon.com/review/create-review?asin=B01L1F9SLO</string>
+
+    <!-- pressence_url -->
+    <string name="how_do_presence_notifications_work_url">https://help.canary.is/hc/en-us/articles/115010258007</string>
+</resources>

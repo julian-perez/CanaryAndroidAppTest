@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" android:tag="layout/fragment_settings_profile_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/avatar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" android:tag="binding_1">
+
+                <include
+                    android:id="@+id/avatar_image_layout"
+                    layout="@layout/settings_listrow_avatar_layout" />
+
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/add_photo_label"
+                    style="@style/setting_prompt_title_text"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:text="@string/add_photo" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="@color/gray" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/first_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                app:hint="@string/first_name"
+                app:label="@string/first_name" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/last_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                app:hint="@string/last_name"
+                app:label="@string/last_name" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/email_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                app:editable="false"
+                app:label="@string/email_address" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/country_code_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                app:editable="false"
+                app:label="@string/country_code" />
+
+            <is.yranac.canary.ui.views.EditTextWithLabel
+                android:id="@+id/mobile_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_row_height"
+                android:inputType="phone"
+                app:label="@string/mobile_phone" />
+        </LinearLayout>
+
+    </ScrollView>
+         

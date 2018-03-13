@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_margin" android:tag="layout/footer_remove_location_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <is.yranac.canary.ui.views.ButtonPlus
+            android:id="@+id/remove_location_btn"
+            style="@style/very_light_gray_button"
+            android:text="@string/remove_location" />
+
+    </FrameLayout>
+
+         

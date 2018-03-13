@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <is.yranac.canary.ui.views.RoundedCornerRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_location_list_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ListView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/list_divider"
+            android:dividerHeight="1dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_gradient" />
+    </is.yranac.canary.ui.views.RoundedCornerRelativeLayout>
+         

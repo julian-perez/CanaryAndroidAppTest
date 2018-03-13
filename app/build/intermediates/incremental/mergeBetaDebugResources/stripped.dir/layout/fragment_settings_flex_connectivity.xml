@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" android:tag="layout/fragment_settings_flex_connectivity_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/standard_margin"
+            android:paddingStart="@dimen/standard_margin">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/gray_rect_background"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/standard_margin"
+                    android:paddingStart="@dimen/standard_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            style="@style/small_bold_black"
+                            android:text="@string/wifi_signal" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/wifi_level_text_view"
+                            style="@style/small_bold_black"
+                            android:layout_marginStart="3dp"
+                            android:textColor="@color/dark_moderate_cyan" />
+                    </LinearLayout>
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/wifi_description_text_view"
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/flex_connectivity_btn"
+                        style="@style/white_transparent_rectangle_btn"
+                        android:layout_marginBottom="23dp"
+                        android:layout_marginTop="35dp"
+                        android:text="@string/view_connectivity_tips" />
+                </LinearLayout>
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/wifi_notification_settings_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/store_icn_apple_watch" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center">
+
+                    <is.yranac.canary.ui.views.CircleView
+                        android:id="@+id/wifi_icon_background"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        app:cFillColor="@color/dark_moderate_cyan" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/wifi_icon_image_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_wifi_high_large" />
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/gray_rect_background"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/standard_margin"
+                    android:paddingStart="@dimen/standard_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/battery_level_label_text_view"
+                            style="@style/small_bold_black"
+                            android:text="@string/battery_level" />
+
+                        <is.yranac.canary.ui.views.TextViewPlus
+                            android:id="@+id/battery_level_text_view"
+                            style="@style/small_bold_black"
+                            android:layout_marginStart="3dp"
+                            android:textColor="@color/dark_moderate_cyan" />
+                    </LinearLayout>
+
+                    <is.yranac.canary.ui.views.TextViewPlus
+                        android:id="@+id/battery_description_text_view"
+                        style="@style/setup_medium_text_view_black"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" />
+
+                    <is.yranac.canary.ui.views.ButtonPlus
+                        android:id="@+id/flex_battery_btn"
+                        style="@style/white_transparent_rectangle_btn"
+                        android:layout_marginBottom="23dp"
+                        android:layout_marginTop="35dp"
+                        android:text="@string/view_battery_tips" />
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/battery_notification_settings_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:padding="10dp"
+                    android:layout_alignParentEnd="true"
+                    app:srcCompat="@drawable/store_icn_apple_watch" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center">
+
+                    <is.yranac.canary.ui.views.CircleView
+                        android:id="@+id/battery_icon_background"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        app:cFillColor="@color/dark_moderate_cyan" />
+
+                    <is.yranac.canary.ui.views.BatteryIndicator
+                        android:id="@+id/statistics_battery_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:ColorScheme="white" />
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+         

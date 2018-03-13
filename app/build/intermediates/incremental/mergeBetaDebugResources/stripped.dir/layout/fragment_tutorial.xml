@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true" android:tag="layout/fragment_tutorial_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:id="@+id/tutorial_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+
+        <RelativeLayout
+            android:id="@+id/tutorial_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_eighty" android:tag="binding_1">
+
+
+            <LinearLayout
+                android:id="@+id/menu_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sliding_up_panel_height"
+                android:layout_alignParentRight="true"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical"
+                android:paddingRight="22dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/menu_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="27dp"
+                        android:background="@color/transparent"
+                        android:src="@drawable/menu_icon"
+                        android:visibility="invisible" />
+
+
+                    <ImageView
+                        android:id="@+id/arrow_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:rotation="180"
+                        android:src="@drawable/tutorial_leader"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/menu_dsc_text_view"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="22dp"
+                android:gravity="right"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/menu_dsc"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/watch_live_dsc_text_view"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/watch_live_dsc"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                app:customFont="Gibson-Light.otf" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/sensor_dsc_text_view"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/sensor_live_dsc"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                app:customFont="Gibson-Light.otf" />
+
+            <include
+                android:id="@+id/device_tutorial_layout"
+                layout="@layout/layout_device_statatics" />
+
+            <ImageView
+                android:id="@+id/arrow_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tutorial_leader"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/arrow_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/tutorial_leader"
+                android:visibility="invisible" />
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/mode_change_dsc_text_view"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/mode_change_dsc"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                app:customFont="Gibson-Light.otf" />
+
+
+            <is.yranac.canary.ui.views.TextViewPlus
+                android:id="@+id/flex_tutorial_dsc_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="34dp"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/tutorial_flex_stats_text"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                app:customFont="Gibson-Light.otf" />
+
+            <ImageView
+                android:id="@+id/arrow_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:src="@drawable/tutorial_leader"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/avatar_list_container"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="67dp"
+                android:orientation="horizontal" android:tag="binding_2">
+
+                <include
+                    android:id="@+id/tutorial_mode_layout"
+                    layout="@layout/avatar_location_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/avatar_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_above="@+id/avatar_list_container"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="-12dp"
+                android:visibility="invisible" />
+
+            <is.yranac.canary.ui.views.ButtonPlus
+                android:id="@+id/okay_button"
+                style="@style/white_transparent_btn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="70dp"
+                android:capitalize="characters"
+                android:editable="false"
+                android:text="@string/okay"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/setup_one_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    android:id="@+id/lets_start_with_basics"
+                    style="@style/large_text_view"
+                    android:text="@string/lets_start_with_basics"
+                    android:textColor="@color/white" />
+
+                <is.yranac.canary.ui.views.TextViewPlus
+                    style="@style/setup_medium_text_view_black"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center"
+                    android:text="@string/welcome_dsc"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_btns_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="@dimen/standard_margin"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/continue_buttton"
+                    style="@style/white_transparent_rectangle_btn"
+                    android:text="@string/continue_text" />
+
+                <is.yranac.canary.ui.views.ButtonPlus
+                    android:id="@+id/skip_button"
+                    style="@style/transparent_btn"
+                    android:background="@color/transparent"
+                    android:text="@string/or_skip"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+         
